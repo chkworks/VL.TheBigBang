@@ -2,5 +2,5 @@
 
 ## Animation
 
-### ADSR Node
+### ADSR
 https://discourse.vvvv.org/t/adsr-node/19747/2
