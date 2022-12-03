@@ -1,7 +1,7 @@
 # VL.BeginnerTutorials
 
 ## Installation
-*TODO*
+*Todo: Create NuGet and decribe installation here*
 
 ## Content
 0. Introduction
@@ -46,4 +46,4 @@
 
 
 ## Changelog
-*TODO*
+*Todo*
