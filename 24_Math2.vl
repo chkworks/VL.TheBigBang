@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,684,46" ShowValueBox="true" isIOBox="true" Value="23_ Math 2">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,684,46" ShowValueBox="true" isIOBox="true" Value="23_ Math 2: Ranges &amp; Distances">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -683,13 +683,30 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="608,430,91,19" Id="GSXLhP4R9jEPPR513GEo1z">
+          <Node Bounds="608,462,91,19" Id="GSXLhP4R9jEPPR513GEo1z">
             <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FrameDifference" />
             </p:NodeReference>
             <Pin Id="TxeycPgYUv2NLeng09HmxC" Name="Value" Kind="InputPin" />
             <Pin Id="CUg8M3j14seNhjBsWYQekf" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="609,430,55,19" Id="Q2mEMoc48JuOVZc18EHWci">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Distance" />
+            </p:NodeReference>
+            <Pin Id="SgvAOd6Q9R2NkgyQwpC3iO" Name="Input" Kind="InputPin" />
+            <Pin Id="JnOnXlAtfz0LPtUF8UcrxF" Name="Input 2" Kind="InputPin" />
+            <Pin Id="NTmnfstELTQON6z7XmqqKy" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="673,430,69,19" Id="PBBBEA655pjPwTdmGQK3ef">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FrameDelay" />
+            </p:NodeReference>
+            <Pin Id="Ccgzo6C34saO18nqlYVvHv" Name="Value" Kind="InputPin" />
+            <Pin Id="VW7dv2zO7ZGPkeVKdYBC1X" Name="Value" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
