@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="Tfo5w1JLIxyOIogD6qsOJ5" LanguageVersion="2022.5.0-0394-e26395d9e4" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0394-ge26395d9e4" />
+  <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
+    <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="MBZGdaerZJzQARxkAw00x4">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
+        <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,363,31" ShowValueBox="true" isIOBox="true" Value="04_ Conversion">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TT3n8JyJ12pOHsnnfNQonE" Bounds="93,292,201,35" ShowValueBox="true" isIOBox="true" Value="Float -&gt; Integer">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="EsCKNwVqw2xLMBP8ehPCih" Bounds="92,-25,88,14" ShowValueBox="true" isIOBox="true" Value="made by chk - ">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LSUMPVVXDjEMVgcOKsZRTJ" Bounds="162,-25,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,92,263,25" ShowValueBox="true" isIOBox="true" Value="vvvv Beginner Tutorials">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VF5uEJLLwaGOrShxUAKKPm" Bounds="998,-9" />
+          <Pad Id="BTJMPYBb7vJObSQ2hzmFtW" Bounds="998,1372" />
+          <Pad Id="S7W1CqHrp01P8bdHBp6md6" Bounds="499,-9" />
+          <Pad Id="SXIfNo1mbIMOw9xCOnSHMA" Bounds="499,1372" />
+          <Pad Id="Dp6bLOiXmPfN8M8jiA8Eid" Bounds="599,-9" />
+          <Pad Id="MKhAK3Akey2LRsafH8DM4l" Bounds="599,1372" />
+          <Pad Id="JkXL2bRu916MIxdIzOwyUR" Bounds="99,-9" />
+          <Pad Id="EXkO87r1e2WNxLlJjWpWED" Bounds="99,1372" />
+          <Node Bounds="113,717,62,19" Id="S7ktHcCCtTxOyzxhy1mhti">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToFloat32" />
+            </p:NodeReference>
+            <Pin Id="CizdMfT8ThTO004Ux0U4iJ" Name="Input" Kind="InputPin" />
+            <Pin Id="C6TAkm0gE0kNwg3rJHutkp" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="A6C8yHCa5zUOHFykkKA2DD" Comment="" Bounds="115,650,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GSUuSR2KNTIN5jdOUGbD7M" Comment="" Bounds="115,756,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="187,716,52,19" Id="O9fw6ZpQRz9Oz9N9gqZDNB">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToInt32" />
+            </p:NodeReference>
+            <Pin Id="R8bZMBcpwTRLG0yAdujrrW" Name="Input" Kind="InputPin" />
+            <Pin Id="R1DuEAdwOHJLWWso6RlNy7" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="TDEd6E6EbkgLJdc7hyF5Y8" Comment="" Bounds="189,756,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QcGrNIXtOZzNe9CAjR34pu" Bounds="717,534,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector3" />
+              <FullNameCategoryReference ID="3D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="SkOVq2b3Pw0Ms9zmYmk0Np" Bounds="613,534,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
+              <FullNameCategoryReference ID="2D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="715,589,47,19" Id="O9US6rE6LfGQXSA1YL7Zoi">
+            <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+              <CategoryReference Kind="Vector3Type" Name="Vector3" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="U1oy46aAMj2MwfcHPa6l0z" Name="Input" Kind="StateInputPin" />
+            <Pin Id="GZQQHNy3Q7xQCIv7ebsprL" Name="X" Kind="OutputPin" />
+            <Pin Id="P6E4CvAzKAWNxxzTtnTWc8" Name="Y" Kind="OutputPin" />
+            <Pin Id="GCnqM4HjiilLJZV1cGX4XC" Name="Z" Kind="OutputPin" />
+          </Node>
+          <Pad Id="TXpTprbWw2YLkRIZ4unI5W" Comment="X" Bounds="717,681,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BlqIC69IL7HQCyw70JWZYW" Comment="Y" Bounds="738,660,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="URYmS4y4hknOp1ZWbytFF5" Comment="Z" Bounds="759,639,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="611,579,47,19" Id="Jk8217tVP5vNkFdIf1R1pJ">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+              <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="QsdfzMkkj5QPAdVtYOZSIF" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Bx4YrQcRiX5NZq2BQ2fJ24" Name="X" Kind="OutputPin" />
+            <Pin Id="O3fMCPiuczqPTeIBhVdIt9" Name="Y" Kind="OutputPin" />
+          </Node>
+          <Pad Id="DtHZVthqqkCPcMxem5UQBg" Comment="X" Bounds="613,656,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BAm1XHjjCgANF7bH4VyCAD" Comment="Y" Bounds="632,628,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Sx0vCRt0Uo1NVrGlaIRehL" Bounds="114,327,35,15" ShowValueBox="true" isIOBox="true" Value="12.65">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="112,363,52,19" Id="TN8bwlNw0ytNno0ztdzPoW">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToInt32" />
+            </p:NodeReference>
+            <Pin Id="NaUsyhoW8IwQVtrCPer68l" Name="Input" Kind="InputPin" />
+            <Pin Id="IlQQyP8GOcXPnBjXGzJHpy" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="IBVUnKWDIigNDtZFZz5a5r" Comment="" Bounds="114,399,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="GXjZn8OXqPSPTj57eWZAME" Bounds="616,807,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
+              <FullNameCategoryReference ID="2D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="614,840,46,19" Id="Ty94SRuCQYFNVHYQEbIrkg">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+              <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="KRcuT605YpILxAOvU7w6VA" Name="Input" Kind="StateInputPin" />
+            <Pin Id="T7tC1TzvppZPu8j6tt0P74" Name="X" Kind="OutputPin" />
+            <Pin Id="Nl8cmvESi3YN3F2AwkEQfq" Name="Y" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="614,895,46,19" Id="QKcot2tWplGNUOy8MIOQGV">
+            <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
+              <CategoryReference Kind="Vector3Type" Name="Vector3" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="TeuGSXGPCj8Mm00h895yig" Name="X" Kind="InputPin" />
+            <Pin Id="EmiiR8TQxQ5LUcrXPJO10f" Name="Y" Kind="InputPin" />
+            <Pin Id="IHKgX8NC8WAOUiBDuHRvj7" Name="Z" Kind="InputPin" />
+            <Pin Id="Kyq8euvdPBKOfg4rTB3LNd" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="HyG0ms2TEBuNBCVcVa0uRB" Comment="" Bounds="616,939,35,43" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CKkGyrEnL1lNyG9fvlzyDr" Comment="Z" Bounds="668,874,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="608,1160,34,19" Id="OpkgN8Hq9esM93if2vDMw5">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="2D" />
+              <CategoryReference Kind="Vector2Type" Name="Vector2" />
+              <Choice Kind="OperationCallFlag" Name="xYZ" />
+            </p:NodeReference>
+            <Pin Id="P7RYjg7LfHFOcufrVETNcL" Name="X" Kind="InputPin" />
+            <Pin Id="IuoKSMIlGPyMcAyx7ICtqZ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="InjdavzzUBIQGA8vKnYPoG" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="664,1160,33,19" Id="MjhR5BQ6KFdQKVRiZK21AJ">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="2D" />
+              <CategoryReference Kind="Vector2Type" Name="Vector2" />
+              <Choice Kind="OperationCallFlag" Name="XyZ" />
+            </p:NodeReference>
+            <Pin Id="TN9w16Ny5VJO93MMR5aQ3g" Name="Input" Kind="StateInputPin" />
+            <Pin Id="F7rdZlYpQXgQdBjYXLz1mR" Name="Y" Kind="InputPin" />
+            <Pin Id="Izyx6GQgYLBOldehqjIdPM" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="721,1160,34,19" Id="BE1Tf1QmL8qOXdTIjcrlSs">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="XYz" />
+            </p:NodeReference>
+            <Pin Id="P1xhYM2hOwYO4toxR4NsBH" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Ixs2s0lMIsONgZA1XBMNZg" Name="Z" Kind="InputPin" />
+            <Pin Id="O1QBIE03dNnLBoIjKzH7oy" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="KLIrTAJslNcNcGaFm9SEv9" Bounds="92,206,401,63" ShowValueBox="true" isIOBox="true" Value="When dealing with nodes and datatypes in VVVV, you will very often need to convert datatypes. Here are some of the most used nodes.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="113,515,62,19" Id="FgBBRDBTIFgLsvcGyYGp6g">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToFloat32" />
+            </p:NodeReference>
+            <Pin Id="CsimWLv2neDNel2837Z64t" Name="Input" Kind="InputPin" />
+            <Pin Id="PeHTaDN4BnhNhWRkkQniJ4" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="PPtHbJi3NrkNtTqr3RSfJ4" Comment="" Bounds="115,553,40,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="JSypcgHCwn3MLf35TqCGQr" Comment="" Bounds="115,495,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="118,958,25,19" Id="KHrgALhmxdDNqaLrBoNmBa">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="=" />
+            </p:NodeReference>
+            <Pin Id="RuCudqsnK8RMzacWnPPepK" Name="Input" Kind="InputPin" />
+            <Pin Id="Edewkt0iG4TQbKV5SPPTHA" Name="Input 2" Kind="InputPin" />
+            <Pin Id="SAdsAS7tQpZO4rMA324fEe" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="NPpv3AoO4AUMOXlEMeuMuW" Comment="" Bounds="140,938,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="EvhcHtjGDt1LCGiuvFnI9Q" Comment="" Bounds="120,994,35,35" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="209,958,25,19" Id="Izr0PV1VY2JQFmjqzPKvXo">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="=" />
+            </p:NodeReference>
+            <Pin Id="KaypPj2LwChLYkFVgFaTrQ" Name="Input" Kind="InputPin" />
+            <Pin Id="Kgtj5oihuPdNNaqPs6JBNu" Name="Input 2" Kind="InputPin" />
+            <Pin Id="NJGHf6ANnhRMG9PNvb7dVE" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Q7gzWVJr9HHObbZeXvR1mW" Comment="" Bounds="231,938,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="PFc7ESci4vcQZi73CHtvAI" Comment="" Bounds="211,994,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QDiYQs4nBvaNKUrb6yZkST" Bounds="93,842,255,28" ShowValueBox="true" isIOBox="true" Value="Use rounding and comparison nodes.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LsO8ip4cYtJLeE1OsYkBRM" Comment="" Bounds="211,916,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="HD6bPaqIcSYL0n1A8lGAjR" Comment="" Bounds="120,878,35,15" ShowValueBox="true" isIOBox="true" Value="0.39">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="VxQFKjL6Yq7PUzxg0v4gIB" Bounds="592,240,286,19" ShowValueBox="true" isIOBox="true" Value="Convert floats to vectors with Vector (Join).">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HZl8XVwvchzMYDX6KqucV3" Bounds="612,392,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
+              <FullNameCategoryReference ID="2D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="610,340,46,19" Id="NOMm5ChoLNoQPCufCrpWAp">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
+              <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="QseBBxFvZOHPDOdb6Nly0F" Name="X" Kind="InputPin" />
+            <Pin Id="PPquluMcQn6Pv5UvfdVpcW" Name="Y" Kind="InputPin" />
+            <Pin Id="EQTeAbdK96qOcqaXUvxPjC" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="RVzJQcGsSxpQTlMcZ2Lfli" Comment="X" Bounds="612,303,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="FqdKP74RS4WMzmjBQSqyJe" Comment="Y" Bounds="653,324,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="J0SGYgEpLNAMgMht8E99Ev" Bounds="741,385,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector3" />
+              <FullNameCategoryReference ID="3D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="739,341,47,19" Id="DDvGeOYTrtOQaFH46VTk6B">
+            <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
+              <CategoryReference Kind="Vector3Type" Name="Vector3" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="Kg03HkkTFT3PJ42RJgkazv" Name="X" Kind="InputPin" />
+            <Pin Id="URIjkW8tnW6QHCBTnrAkDR" Name="Y" Kind="InputPin" />
+            <Pin Id="TbHWN03uzsSQDvrq0SWXIy" Name="Z" Kind="InputPin" />
+            <Pin Id="GEtK9xJwifJLwZaJvxi7Lo" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="PH7JNxfGp61NJd15EqNl3m" Comment="X" Bounds="741,278,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="AQGAdgoc77tMDtgnVq6rAX" Comment="Y" Bounds="762,299,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Q1yxKT1y2tkPdtq1g8bQBe" Comment="Z" Bounds="783,320,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="UhqYbMIKW3sNuzu6u8EyfO" Bounds="593,499,300,19" ShowValueBox="true" isIOBox="true" Value="Convert vectors to floats with Vector (Split).">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JVuML3ImoanM8tEmAsd3qM" Bounds="593,773,304,19" ShowValueBox="true" isIOBox="true" Value="First split, then join.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IkekL6FvcKSNAhE382IE07" Bounds="593,1010,399,67" ShowValueBox="true" isIOBox="true" Value="Or use one of the shortcut nodes for Vector2 to Vector3 conversion. The lowercase coordinate is the value that gets inserted into the vector.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="760,856,46,19" Id="CJdxXvmRMgdQUmp1pn0j2U">
+            <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
+            </p:NodeReference>
+            <Pin Id="DqvVthd7GGqPdnKdDmNx5Z" Name="Input" Kind="StateInputPin" />
+            <Pin Id="JUI2ZER9WYwPuixnBUh8ri" Name="X" Kind="OutputPin" />
+            <Pin Id="FP2BLPmubKcOR0xwZG4DCl" Name="Y" Kind="OutputPin" />
+            <Pin Id="E67JceBUhSyObK7VpjoUT2" Name="Z" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="760,894,46,19" Id="G6vaD2nQPMwMwJMr3oqkkw">
+            <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4043309057" Name="Vector2" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Vector (Join)" />
+            </p:NodeReference>
+            <Pin Id="LHe5AqYOs68LBv1nLHVRux" Name="X" Kind="InputPin" />
+            <Pin Id="JBHjqBZuG2dLBgRbZ6VEx9" Name="Y" Kind="InputPin" />
+            <Pin Id="QagdY5wtubVNULPOD1QUP0" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="QDfE1fDV67vM9a4mSMltWJ" Comment="" Bounds="762,934,35,28" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OiGAp8MMSP9L60rodaKc4M" Comment="" Bounds="762,809,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BVDu3uBQjZbMQ4IyAYmbNx" Comment="" Bounds="610,1089,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Dfl4BvHs7QLN2IryqRVKv1" Comment="" Bounds="723,1089,35,28" ShowValueBox="true" isIOBox="true" Value="2, 3">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BAzt2nNe8SCMS75sfqQfgW" Comment="" Bounds="610,1199,35,43" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="L3GzYKlfw9kMRB9fHitHvW" Comment="" Bounds="666,1199,35,43" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Lj8v3ioNisDLwjacspxcQE" Comment="" Bounds="723,1199,35,43" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="191,364,46,19" Id="GncjNS6NSqiLcViyX5ovki">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Math" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Floor" />
+            </p:NodeReference>
+            <Pin Id="NXPNr5tHCa5QLOPuEZXrtv" Name="Input" Kind="InputPin" />
+            <Pin Id="IjknXZaNxVUOJ7XEOv6zsF" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="HT5OX6NIjPGQdW6pHsqIzi" Comment="" Bounds="193,399,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Jirgu3WBaHyPH5mR9YCLlv" Bounds="92,1268,400,41" ShowValueBox="true" isIOBox="true" Value="Everything can be converted to Strings with the generic ToString node.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="114,1343,55,19" Id="OMhchT3XSekPWj7jdAzNk7">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="JRXJU0txdSvLo4gZxidfxT" Name="Input" Kind="InputPin" />
+            <Pin Id="RSd9ceGZeapP1OrXNUAsYy" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="S2Qugj9gzAIMxmRSEROSrI" Comment="" Bounds="116,1383,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="T5uR9gJDjnWLE8oTk3buHU" Bounds="218,1323,35,28" ShowValueBox="true" isIOBox="true" Value="1, 0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
+              <CategoryReference Kind="Category" Name="2D" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="216,1359,55,19" Id="BDgQAvp0wSjQJK7uER8FSX">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="EBL0i6leVqqL0wmA2z7xIo" Name="Input" Kind="InputPin" />
+            <Pin Id="JG7MgJ3Q3r2QHNCHko0GI0" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Jh2Z89BZ1BRQJ71KtN0DnZ" Comment="" Bounds="218,1399,41,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="TOgLRnoWKWXN9LxbYSs6wO" Comment="Input" Bounds="116,1322,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="112,1132,48,19" Id="VI4kEvvMBCVOOvFnKprKqg">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToPath" />
+            </p:NodeReference>
+            <Pin Id="QLZP73qwcN1MjCI5iOZt2U" Name="Input" Kind="InputPin" />
+            <Pin Id="PJPaR2MLlLkPOWwR9i2KgS" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="GnzO2xyMK1sMT7vjhm4JDp" Comment="" Bounds="114,1110,35,15" ShowValueBox="true" isIOBox="true" Value="C:/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="KQFrCfHNlWzO1zzRZEUgRQ" Comment="" Bounds="114,1174,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="IM1ZCQqRbDQPSd6eRrpYli" Bounds="93,459,201,35" ShowValueBox="true" isIOBox="true" Value="Integer -&gt; Float">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MPl7eYKG1hNMkR45TDCrgX" Bounds="93,613,272,25" ShowValueBox="true" isIOBox="true" Value="Boolean -&gt; Integer / Float">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="V0HqG8lPvfuN0SVwS1BRVt" Bounds="92,812,272,25" ShowValueBox="true" isIOBox="true" Value="Integer / Float -&gt; Boolean">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="118,897,46,19" Id="NqnClhMTajeLHZvx69K5f8">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Round" />
+            </p:NodeReference>
+            <Pin Id="SLMKsjTePdmN4jUchCQ23e" Name="Input" Kind="InputPin" />
+            <Pin Id="UgM38wV6bopPZsSS8v7AGM" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="IGRdiovtIO5QdBPRIF8EXp" Bounds="92,1071,272,25" ShowValueBox="true" isIOBox="true" Value="String -&gt; Path">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DaoH3M3HGVgPooLgbpmXHq" Bounds="92,1233,272,25" ShowValueBox="true" isIOBox="true" Value="* -&gt; String">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PSpap1w54W2OXHEnp4WXaa" Bounds="592,207,201,35" ShowValueBox="true" isIOBox="true" Value="Float -&gt; Vector">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="O23G3eHD4Q3OND2o9b4tzt" Bounds="592,468,201,35" ShowValueBox="true" isIOBox="true" Value="Vector -&gt; Float">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OhDyjsQM5GTMkHJdBNLo3J" Bounds="592,741,201,35" ShowValueBox="true" isIOBox="true" Value="Vector -&gt; Vector">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
+        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="IPHQP0lE6UWOnvyKAd75bt,AcXvpXsqrZ7NkTilnqWIZX,MYwCUPJINr7PmBGn4G42zH,JDvObDpW5ZXPiAt8Lfxlup" />
+        <ProcessDefinition Id="NuPzoCMsW7GODKuqfTaoGi">
+          <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
+          <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="IPHQP0lE6UWOnvyKAd75bt" Ids="VF5uEJLLwaGOrShxUAKKPm,BTJMPYBb7vJObSQ2hzmFtW" />
+        <Link Id="AcXvpXsqrZ7NkTilnqWIZX" Ids="S7W1CqHrp01P8bdHBp6md6,SXIfNo1mbIMOw9xCOnSHMA" />
+        <Link Id="MYwCUPJINr7PmBGn4G42zH" Ids="Dp6bLOiXmPfN8M8jiA8Eid,MKhAK3Akey2LRsafH8DM4l" />
+        <Link Id="JDvObDpW5ZXPiAt8Lfxlup" Ids="JkXL2bRu916MIxdIzOwyUR,EXkO87r1e2WNxLlJjWpWED" />
+        <Link Id="UKuUj8dq7KuMgsk8vMlJia" Ids="A6C8yHCa5zUOHFykkKA2DD,CizdMfT8ThTO004Ux0U4iJ" />
+        <Link Id="TWjKEi90UUrLeRorRXmZv4" Ids="C6TAkm0gE0kNwg3rJHutkp,GSUuSR2KNTIN5jdOUGbD7M" />
+        <Link Id="PSfv6Tjzsu3N3HnXYV2BWt" Ids="A6C8yHCa5zUOHFykkKA2DD,R8bZMBcpwTRLG0yAdujrrW" />
+        <Link Id="FafhRyHfiXyMpPlgNFIqAe" Ids="R1DuEAdwOHJLWWso6RlNy7,TDEd6E6EbkgLJdc7hyF5Y8" />
+        <Link Id="FK4j6XugEuSOSrCFJNGc9J" Ids="QcGrNIXtOZzNe9CAjR34pu,U1oy46aAMj2MwfcHPa6l0z" />
+        <Link Id="SZlSnVD0y9COqbmVewbTBA" Ids="GZQQHNy3Q7xQCIv7ebsprL,TXpTprbWw2YLkRIZ4unI5W" />
+        <Link Id="MTPMVZbA1bgPDtIykrNzz3" Ids="P6E4CvAzKAWNxxzTtnTWc8,BlqIC69IL7HQCyw70JWZYW" />
+        <Link Id="L0CdDdgResPOj0bOxRb5Su" Ids="GCnqM4HjiilLJZV1cGX4XC,URYmS4y4hknOp1ZWbytFF5" />
+        <Link Id="RnnWx2V0yumMrUM64yQoJO" Ids="Bx4YrQcRiX5NZq2BQ2fJ24,DtHZVthqqkCPcMxem5UQBg" />
+        <Link Id="NdvQSHEOAohON4RrAcKqqB" Ids="O3fMCPiuczqPTeIBhVdIt9,BAm1XHjjCgANF7bH4VyCAD" />
+        <Link Id="QD7KWySm7ZbO03y80YPqJk" Ids="SkOVq2b3Pw0Ms9zmYmk0Np,QsdfzMkkj5QPAdVtYOZSIF" />
+        <Link Id="RNMox8NnfrFQah6NFxicbL" Ids="Sx0vCRt0Uo1NVrGlaIRehL,NaUsyhoW8IwQVtrCPer68l" />
+        <Link Id="DZHXAt4W1sdPMdt48Up3J9" Ids="IlQQyP8GOcXPnBjXGzJHpy,IBVUnKWDIigNDtZFZz5a5r" />
+        <Link Id="CpebaFekab1OvIlEwhKctr" Ids="GXjZn8OXqPSPTj57eWZAME,KRcuT605YpILxAOvU7w6VA" />
+        <Link Id="FJJqHSeqq4FNRjT72ODyHy" Ids="T7tC1TzvppZPu8j6tt0P74,TeuGSXGPCj8Mm00h895yig" />
+        <Link Id="PKVdrSF3aJhMJbC0G3Acr9" Ids="Nl8cmvESi3YN3F2AwkEQfq,EmiiR8TQxQ5LUcrXPJO10f" />
+        <Link Id="JbRSqnauQRgPcql6J4Vo7J" Ids="Kyq8euvdPBKOfg4rTB3LNd,HyG0ms2TEBuNBCVcVa0uRB" />
+        <Link Id="CytxKKQqsuLLsrdnXB33Iw" Ids="CKkGyrEnL1lNyG9fvlzyDr,IHKgX8NC8WAOUiBDuHRvj7" />
+        <Link Id="UIzVzrfw3yELaDnkcWrAfx" Ids="PeHTaDN4BnhNhWRkkQniJ4,PPtHbJi3NrkNtTqr3RSfJ4" />
+        <Link Id="PLqevLxww0GPmFwKXVSBOr" Ids="JSypcgHCwn3MLf35TqCGQr,CsimWLv2neDNel2837Z64t" />
+        <Link Id="Jwf7lMM6XPUNjbPzR07hEY" Ids="NPpv3AoO4AUMOXlEMeuMuW,Edewkt0iG4TQbKV5SPPTHA" />
+        <Link Id="UMy1cLbP9ISNL1sK4nfJry" Ids="SAdsAS7tQpZO4rMA324fEe,EvhcHtjGDt1LCGiuvFnI9Q" />
+        <Link Id="RB931VJkeqaOasn7j8BKqj" Ids="Q7gzWVJr9HHObbZeXvR1mW,Kgtj5oihuPdNNaqPs6JBNu" />
+        <Link Id="FuBgQrZ5YKTO4dIxe7USzZ" Ids="NJGHf6ANnhRMG9PNvb7dVE,PFc7ESci4vcQZi73CHtvAI" />
+        <Link Id="DXojFYamBx6QEkqsnzJlqa" Ids="LsO8ip4cYtJLeE1OsYkBRM,KaypPj2LwChLYkFVgFaTrQ" />
+        <Link Id="NVLGtKZuXDLPoXejUsMoXN" Ids="RVzJQcGsSxpQTlMcZ2Lfli,QseBBxFvZOHPDOdb6Nly0F" />
+        <Link Id="UuaMJ6zbtJHOky589pPZ9M" Ids="FqdKP74RS4WMzmjBQSqyJe,PPquluMcQn6Pv5UvfdVpcW" />
+        <Link Id="UmMDU3Ql6UQLNq3xXCg5ZE" Ids="EQTeAbdK96qOcqaXUvxPjC,HZl8XVwvchzMYDX6KqucV3" />
+        <Link Id="U2NSzI7blQ0ObG0ZcYesjG" Ids="GEtK9xJwifJLwZaJvxi7Lo,J0SGYgEpLNAMgMht8E99Ev" />
+        <Link Id="D5IAkAwX6ItQGoHXpNW7pF" Ids="PH7JNxfGp61NJd15EqNl3m,Kg03HkkTFT3PJ42RJgkazv" />
+        <Link Id="FbMtivzBHs0NOoACHmDavW" Ids="AQGAdgoc77tMDtgnVq6rAX,URIjkW8tnW6QHCBTnrAkDR" />
+        <Link Id="He7SoZnX7DCQaBwu0KFoVg" Ids="Q1yxKT1y2tkPdtq1g8bQBe,TbHWN03uzsSQDvrq0SWXIy" />
+        <Link Id="BNQpF5g7pkeMQGU6DKhN2c" Ids="JUI2ZER9WYwPuixnBUh8ri,LHe5AqYOs68LBv1nLHVRux" />
+        <Link Id="J9gS6jbg7WxQLMVyhR5YTC" Ids="FP2BLPmubKcOR0xwZG4DCl,JBHjqBZuG2dLBgRbZ6VEx9" />
+        <Link Id="K7OJVCFsmyjP8As1uNTxfH" Ids="QagdY5wtubVNULPOD1QUP0,QDfE1fDV67vM9a4mSMltWJ" />
+        <Link Id="PYWklHSuagXMxMT9APIFJe" Ids="OiGAp8MMSP9L60rodaKc4M,DqvVthd7GGqPdnKdDmNx5Z" />
+        <Link Id="JXYaLFg1lZ0O3G7NX5a7tB" Ids="BVDu3uBQjZbMQ4IyAYmbNx,P7RYjg7LfHFOcufrVETNcL" />
+        <Link Id="Ju2IqrYf7f3MjY8B4KTn37" Ids="Dfl4BvHs7QLN2IryqRVKv1,IuoKSMIlGPyMcAyx7ICtqZ" />
+        <Link Id="PRCFTYEy7OGNmIQ47QfhmH" Ids="Dfl4BvHs7QLN2IryqRVKv1,TN9w16Ny5VJO93MMR5aQ3g" />
+        <Link Id="F1Z8OmQcB3XO3R2dhCYjpt" Ids="Dfl4BvHs7QLN2IryqRVKv1,P1xhYM2hOwYO4toxR4NsBH" />
+        <Link Id="P5iExkJHXYEOa2M51FIfqb" Ids="BVDu3uBQjZbMQ4IyAYmbNx,F7rdZlYpQXgQdBjYXLz1mR" />
+        <Link Id="EERmjJRX4zdPx5m5NmGmoS" Ids="BVDu3uBQjZbMQ4IyAYmbNx,Ixs2s0lMIsONgZA1XBMNZg" />
+        <Link Id="AUJwaEhCZUPQZqbBEzLWqk" Ids="InjdavzzUBIQGA8vKnYPoG,BAzt2nNe8SCMS75sfqQfgW" />
+        <Link Id="IKBvm9Z6QxFLzX23vGnweZ" Ids="Izyx6GQgYLBOldehqjIdPM,L3GzYKlfw9kMRB9fHitHvW" />
+        <Link Id="LfInFMFKN9QPlUdoAfOaNy" Ids="O1QBIE03dNnLBoIjKzH7oy,Lj8v3ioNisDLwjacspxcQE" />
+        <Link Id="V00hiCE95FTO0kjz185Ax2" Ids="Sx0vCRt0Uo1NVrGlaIRehL,NXPNr5tHCa5QLOPuEZXrtv" />
+        <Link Id="OgKXPqfLdqINKgSIzbJiIi" Ids="IjknXZaNxVUOJ7XEOv6zsF,HT5OX6NIjPGQdW6pHsqIzi" />
+        <Link Id="TVLiy2qgGgXP8qajwUgjxi" Ids="RSd9ceGZeapP1OrXNUAsYy,S2Qugj9gzAIMxmRSEROSrI" />
+        <Link Id="DwNXnvVC9LJPTgY1UHip2d" Ids="T5uR9gJDjnWLE8oTk3buHU,EBL0i6leVqqL0wmA2z7xIo" />
+        <Link Id="QMCXmxeOejHPFDFbcqNPtR" Ids="JG7MgJ3Q3r2QHNCHko0GI0,Jh2Z89BZ1BRQJ71KtN0DnZ" />
+        <Link Id="KUQTiwU0amSM1Zk38VamrK" Ids="TOgLRnoWKWXN9LxbYSs6wO,JRXJU0txdSvLo4gZxidfxT" />
+        <Link Id="AgTGnwbz5jRMvhRhbiDwvX" Ids="GnzO2xyMK1sMT7vjhm4JDp,QLZP73qwcN1MjCI5iOZt2U" />
+        <Link Id="CfF8ammcbbRM3HmVmS867b" Ids="PJPaR2MLlLkPOWwR9i2KgS,KQFrCfHNlWzO1zzRZEUgRQ" />
+        <Link Id="HCSWbtAvBClPOvQGFmMX8Q" Ids="HD6bPaqIcSYL0n1A8lGAjR,SLMKsjTePdmN4jUchCQ23e" />
+        <Link Id="LuEL97tU9oZOgG4R46SD81" Ids="UgM38wV6bopPZsSS8v7AGM,RuCudqsnK8RMzacWnPPepK" />
+      </Patch>
+    </Node>
+  </Patch>
+</Document>
