@@ -3,3 +3,7 @@
 ## Installation
 *TODO*
 
+## Content
+
+## Changelog
+*TODO*
