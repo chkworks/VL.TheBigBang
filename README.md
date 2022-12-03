@@ -22,10 +22,10 @@
 15. Advanced Datatypes
 16. Render Text
 17. Transformations
-18. Spreads (Todo)
-19. Iteration (Todo)
-20. Spread Generators (Todo)
-21. More About Loops (Todo)
+18. Spreads
+19. Iteration
+20. Spread Generators
+21. More About Loops
 22. *Control 2: Triggering (Todo)*
 23. *Math 2: Ranges (Todo)*
 24. *Animation 2: Counting (Todo)*
