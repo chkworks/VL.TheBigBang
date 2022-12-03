@@ -1,7 +1,7 @@
 # VL.BeginnerTutorials
 
 ## Installation
-*Todo: Create NuGet and decribe installation here*
+*Todo: Create NuGet and describe installation here*
 
 ## Content
 0. Introduction
