@@ -29,24 +29,24 @@
 19. Iteration
 20. Spread Generators
 21. More About Loops
-22. *Control 2: Triggering (Todo)*
-23. *Math 2: Ranges (Todo)*
-24. *Animation 2: Counting (Todo)*
-25. *Time (Todo)*
-26. *Audio Analysis (Todo)*
-27. *Mouse & Keyboard (Todo)*
-28. *Control 3: Logic (Todo)*
-29. *Math 3: Angles (Todo)*
-30. *Animation 3: Transitions (Todo)*
-31. *Advanced Algorithms (Todo)*
-32. *Collision (Todo)*
-33. *Pads (Todo)*
-34. *Processes (Todo)*
-35. *Properties & Operations (Todo)*
-36. *Records (Todo)*
-37. *Classes (Todo)*
-38. *System Nodes (Todo)*
-
+22. Mouse Input
+23. *Control 2: Triggering (Todo)*
+24. *Math 2: Ranges (Todo)*
+25. *Animation 2: Counting (Todo)*
+26. *Time (Todo - not sure yet if necessary)*
+27. *Audio Analysis (Todo)*
+28. *Keyboard Input (Todo)*
+29. *Control 3: Logic (Todo)*
+30. *Math 3: Angles (Todo)*
+31. *Animation 3: Transitions (Todo)*
+32. *Advanced Algorithms (Todo)*
+33. *Collision (Todo)*
+39. *System Nodes (Todo)*
+34. *Pads & Properties (Todo)*
+35. *Processes (Todo)*
+36. *Operations (Todo)*
+37. *Records (Todo)*
+38. *Classes (Todo)*
 
 ## Changelog
 *Todo*
