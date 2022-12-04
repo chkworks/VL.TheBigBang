@@ -3,6 +3,7 @@
 ## Notes
 - Pseudo Grid Lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
 - Set names and positions of all render windows.
+- Maybe Collision right after mouse input?
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
