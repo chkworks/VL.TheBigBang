@@ -2,6 +2,7 @@
 
 ## Notes
 - Pseudo Grid Lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
+- Set names and positions of all render windows.
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
@@ -30,7 +31,7 @@
 20. Spread Generators
 21. More About Loops
 22. Mouse Input
-23. *Control 2: Triggering (Todo)*
+23. Control 2: Triggering
 24. *Math 2: Ranges (Todo)*
 25. *Animation 2: Counting (Todo)*
 26. *Audio Analysis (Todo)*
