@@ -3,7 +3,6 @@
 ## Notes
 - Pseudo grid lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
 - Set names and positions of all render windows.
-- Maybe Collision right after mouse input?
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
@@ -32,16 +31,16 @@
 20. Spread Generators
 21. More About Loops
 22. Mouse Input
-23. Control 2: Triggering
-24. *Math 2: Ranges (Todo)*
-25. *Animation 2: Counting (Todo)*
-26. *Audio Analysis (Todo)*
-27. *Keyboard Input (Todo)*
-28. *Control 3: Logic (Todo)*
-29. *Math 3: Angles (Todo)*
-30. *Animation 3: Transitions (Todo)*
-31. *Advanced Algorithms (Todo)*
-32. *Collision (Todo)*
+23. *Collision (Todo)*
+24. Control 2: Triggering
+25. *Math 2: Ranges (Todo)*
+26. *Animation 2: Counting (Todo)*
+27. *Audio Analysis (Todo)*
+28. *Keyboard Input (Todo)*
+29. *Control 3: Logic (Todo)*
+30. *Math 3: Angles (Todo)*
+31. *Animation 3: Transitions (Todo)*
+32. *Advanced Algorithms (Todo)*
 33. *System Nodes (Todo)*
 
 ### Maybe also
