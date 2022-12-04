@@ -316,7 +316,11 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="M0mQj07gRAPN1KHOG7QRjP" Comment="Phase" Bounds="117,570,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="JfECZt5abrKPrZix3IaifL" Comment="On New Cycle" Bounds="137,527,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="JfECZt5abrKPrZix3IaifL" Comment="On New Cycle" Bounds="137,527,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
           <Pad Id="GlDSy6t8wu5LHAD4hihZG4" Comment="Cycles" Bounds="157,505,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="BdgJkVHxRiEMKCr4h8RWnT" Bounds="92,239,402,97" ShowValueBox="true" isIOBox="true" Value="The LFO generates a continous value rising from 0 to 1 over a given time. It can also be paused and reset. On its output, we get a bang for every new cycle and the total number of cycles it has made since reset. Therefore we can also use it as a trigger for a continous signal or a increasing number.">
             <p:TypeAnnotation>
