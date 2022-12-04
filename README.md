@@ -1,7 +1,9 @@
 # VL.BeginnerTutorials
 
 ## Notes
-- Pseudo Grid Lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
+- Pseudo grid lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
+- Set names and positions of all render windows.
+- Maybe Collision right after mouse input?
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
@@ -30,7 +32,7 @@
 20. Spread Generators
 21. More About Loops
 22. Mouse Input
-23. *Control 2: Triggering (Todo)*
+23. Control 2: Triggering
 24. *Math 2: Ranges (Todo)*
 25. *Animation 2: Counting (Todo)*
 26. *Audio Analysis (Todo)*
@@ -41,11 +43,13 @@
 31. *Advanced Algorithms (Todo)*
 32. *Collision (Todo)*
 33. *System Nodes (Todo)*
-34. *Pads & Properties (Todo)*
-35. *Processes (Todo)*
-36. *Operations (Todo)*
-37. *Records (Todo)*
-38. *Classes (Todo)*
+
+### Maybe also
+35. *Pads & Properties (Todo)*
+36. *Processes (Todo)*
+37. *Operations (Todo)*
+38. *Records (Todo)*
+39. *Classes (Todo)*
 
 ## Changelog
 *Todo*
