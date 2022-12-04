@@ -42,11 +42,13 @@
 31. *Advanced Algorithms (Todo)*
 32. *Collision (Todo)*
 33. *System Nodes (Todo)*
-34. *Pads & Properties (Todo)*
-35. *Processes (Todo)*
-36. *Operations (Todo)*
-37. *Records (Todo)*
-38. *Classes (Todo)*
+
+### Maybe also
+35. *Pads & Properties (Todo)*
+36. *Processes (Todo)*
+37. *Operations (Todo)*
+38. *Records (Todo)*
+39. *Classes (Todo)*
 
 ## Changelog
 *Todo*
