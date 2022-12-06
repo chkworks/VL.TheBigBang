@@ -31,7 +31,7 @@
 20. Spread Generators
 21. More About Loops
 22. Mouse Input
-23. *Collision (Todo)*
+23. Collision
 24. Control 2: Triggering
 25. *Math 2: Ranges (Todo)*
 26. *Animation 2: Counting (Todo)*
