@@ -33,7 +33,7 @@
 22. Mouse Input
 23. Collision
 24. Control 2: Triggering
-25. *Math 2: Ranges (Todo)*
+25. Math 2: Ranges
 26. *Animation 2: Counting (Todo)*
 27. *Audio Analysis (Todo)*
 28. *Keyboard Input (Todo)*
