@@ -36,7 +36,7 @@
 24. Control 2: Triggering
 25. Math 2: Ranges
 26. Animation 2: Counting
-27. *Audio Analysis (Todo)*
+27. Audio Analysis
 28. *Keyboard Input (Todo)*
 29. *Control 3: Logic (Todo)*
 30. *Math 3: Angles (Todo)*
