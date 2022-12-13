@@ -3,6 +3,7 @@
 ## Notes
 - Pseudo grid lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
 - Set names and positions of all render windows.
+- Also show in first patch how to create sliders for IOBoxes and make use of the more.
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
@@ -34,7 +35,7 @@
 23. Collision
 24. Control 2: Triggering
 25. Math 2: Ranges
-26. *Animation 2: Counting (Todo)*
+26. Animation 2: Counting
 27. *Audio Analysis (Todo)*
 28. *Keyboard Input (Todo)*
 29. *Control 3: Logic (Todo)*
