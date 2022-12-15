@@ -1,10 +1,5 @@
 # VL.BeginnerTutorials
 
-## Notes
-- Pseudo grid lines drawn with pads and a link between them will be deleted before the patches are published as a NuGet.
-- Set names and positions of all render windows.
-- Also show in first patch how to create sliders for IOBoxes and make use of the more.
-
 ## Installation
 *Todo: Create NuGet and describe installation here*
 
