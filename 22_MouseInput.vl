@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="KfnbN9QUWF1OdIweFJAUGv" LanguageVersion="2022.5.0-0415-9f84c137b4" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0415-g9f84c137b4" />
+<Document xmlns:p="property" Id="KfnbN9QUWF1OdIweFJAUGv" LanguageVersion="2022.5.0-0396-6df0f0fecb" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0396-g6df0f0fecb" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -736,7 +736,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="622,1626,205,19" Id="Cgd1ko0LbrEOdVZkfp6ROg">
+          <Node Bounds="622,1628,225,19" Id="Cgd1ko0LbrEOdVZkfp6ROg">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -757,7 +757,7 @@
             <Pin Id="M0cdDg8cm8INdGmV2KCgKH" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="KeQk06mfyutLVVs22Armso" Name="Input Source" Kind="OutputPin" />
           </Node>
-          <Node Bounds="642,1567,65,19" Id="CRR9ReXfh3AMNHDjllWGX8">
+          <Node Bounds="642,1569,65,19" Id="CRR9ReXfh3AMNHDjllWGX8">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -769,7 +769,7 @@
             <Pin Id="IBfLgO0BbUKMUpcvUluGkX" Name="Enabled" Kind="InputPin" />
             <Pin Id="V37zWKm1fiRQNGVQedngAX" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="662,1484,165,19" Id="NEUAB8nRcI8LT8mWDBFpkH">
+          <Node Bounds="662,1494,165,19" Id="NEUAB8nRcI8LT8mWDBFpkH">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Box" />
@@ -785,7 +785,7 @@
             <Pin Id="Vc1iIDm3G9fNnEZoDPdRzo" Name="Enabled" Kind="InputPin" />
             <Pin Id="Uptde4236sVM9kYvnvmlVR" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="722,1453,85,19" Id="CSC0h3VxXXsLIUp19pThSW">
+          <Node Bounds="722,1458,85,19" Id="CSC0h3VxXXsLIUp19pThSW">
             <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
@@ -797,29 +797,24 @@
             <Pin Id="FPa1gdVZqNQO4dvIVUR154" Name="Cull Mode" Kind="InputPin" />
             <Pin Id="Kb7MMA5igBIPsy6Bj4qJY1" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JmkmODe38leMFSmpIQOdEq" Comment="Color" Bounds="724,1436,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="JmkmODe38leMFSmpIQOdEq" Comment="Color" Bounds="724,1441,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Pt3rLtZPPJnLuCNncxGdPC" Comment="Clear Color" Bounds="724,1603,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="Pt3rLtZPPJnLuCNncxGdPC" Comment="Clear Color" Bounds="724,1605,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="682,1537,185,19" Id="Oe2RgD0EAxxOmkd4lyms1W">
+          <Node Bounds="682,1543,85,19" Id="Oe2RgD0EAxxOmkd4lyms1W">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
+              <Choice Kind="ProcessAppFlag" Name="AmbientLight" />
             </p:NodeReference>
-            <Pin Id="RmHXnR2bCXIMSo90MZQgBL" Name="Position" Kind="InputPin" />
-            <Pin Id="QF1Yo6BNjJpLvpsYlTzVcq" Name="Target" Kind="InputPin" />
             <Pin Id="CUn70todMTGOZkCHz3LQyS" Name="Color" Kind="InputPin" />
             <Pin Id="Q4y2poAoV9nNp9izM7kzFX" Name="Intensity" Kind="InputPin" />
-            <Pin Id="DKDwlbQyV0ONpEJ67qLHb1" Name="Shadow" Kind="InputPin" />
-            <Pin Id="N9Op3dmNJjUOSagIaEvTZO" Name="Enable Default Shadow" Kind="InputPin" />
             <Pin Id="IgzoLNEOjogQUTlAY9k4Rb" Name="Component" Kind="InputPin" />
-            <Pin Id="IUSu1hhwuoyNQnjFKpyB1v" Name="Children" Kind="InputPin" />
             <Pin Id="H48eknGRPY9QLsGLt51PK1" Name="Name" Kind="InputPin" />
             <Pin Id="G2g4y0OxXbQL0RyHBkYXHt" Name="Enabled" Kind="InputPin" />
             <Pin Id="GL6Dgod9sAsLt2VOY9WijU" Name="Entity" Kind="OutputPin" />
@@ -878,7 +873,7 @@
             <Pin Id="CbfWrYRb77YOGSt6qoUPrZ" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="TA4WMosI9cTNAPabPWcLcP" Comment="Mouse Wheel Delta" Bounds="751,1215,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="LWdI2Jeu38MNS8HNZEz0Wh" Bounds="745,1234,230,40" ShowValueBox="true" isIOBox="true" Value="// TODO: USE MOUSE WHEEL ONCE IT IS FIXED... CURRENTLY BROKEN.">
+          <Pad Id="LWdI2Jeu38MNS8HNZEz0Wh" Bounds="731,1245,230,40" ShowValueBox="true" isIOBox="true" Value="// TODO: USE MOUSE WHEEL ONCE IT IS FIXED... CURRENTLY BROKEN.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1022,6 +1017,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0415-g9f84c137b4" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0415-g9f84c137b4" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0396-g6df0f0fecb" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0396-g6df0f0fecb" />
 </Document>
