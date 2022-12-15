@@ -37,8 +37,8 @@
 25. Math 2: Ranges
 26. Animation 2: Counting
 27. Audio Analysis
-28. *Keyboard Input (Todo)*
-29. *Control 3: Logic (Todo)*
+28. Keyboard Input
+29. Control 3: Logic
 30. *Math 3: Angles (Todo)*
 31. *Animation 3: Transitions (Todo)*
 32. *Advanced Algorithms (Todo)*
