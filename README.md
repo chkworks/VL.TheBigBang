@@ -34,17 +34,9 @@
 27. Audio Analysis
 28. Keyboard Input
 29. Control 3: Logic
-30. *Math 3: Angles (Todo)*
+30. Math 3: Angles
 31. *Animation 3: Transitions (Todo)*
-32. *Advanced Algorithms (Todo)*
-33. *System Nodes (Todo)*
-
-### Maybe also
-35. *Pads & Properties (Todo)*
-36. *Processes (Todo)*
-37. *Operations (Todo)*
-38. *Records (Todo)*
-39. *Classes (Todo)*
+32. *System Nodes (Todo)*
 
 ## Changelog
 *Todo*
