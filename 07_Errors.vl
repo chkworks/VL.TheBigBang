@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="S2nODuog75VQGprvemModq" LanguageVersion="2022.5.0-0415-9f84c137b4" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0415-g9f84c137b4" />
+<Document xmlns:p="property" Id="S2nODuog75VQGprvemModq" LanguageVersion="2022.5.0-0418-672dbe1f53" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0418-g672dbe1f53" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -189,42 +189,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="677,614,203,168" Id="FzeTkPW5WkFPeU3WVzl91Z">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
-              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Control" />
-              <Choice Kind="ProcessAppFlag" Name="Comment" />
-            </p:NodeReference>
-            <Patch Id="JkhPh0TfRSpPpoAAtIz4Az" ManuallySortedPins="true">
-              <Patch Id="TTgKUylp18qOCqiXgAtraH" Name="Create" ManuallySortedPins="true" />
-              <Patch Id="MOMyG3iAZVSMNHexPRsJRL" Name="Update" ManuallySortedPins="true" />
-              <Pad Id="NXIMcTPpUjxMbxErufJ9Nv" Bounds="693,642,270,23" ShowValueBox="true" isIOBox="true" Value="What about pink and orange nodes?">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="String" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:fontsize p:Type="Int32">9</p:fontsize>
-                  <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-                </p:ValueBoxSettings>
-              </Pad>
-              <Node Bounds="769,682,80,80" Id="McnyzDmaBJkLOX6d9ZZay0">
-                <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
-                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="Try" />
-                </p:NodeReference>
-                <Patch Id="REJI0CU6cjyPBtguWUn4Xx" ManuallySortedPins="true">
-                  <Patch Id="DePEGf8R73tNMGBjnR0v2w" Name="Create" ManuallySortedPins="true" />
-                  <Patch Id="HKTYxj5H1d0NbKxuuO1MKD" Name="Update" ManuallySortedPins="true" />
-                </Patch>
-                <Pin Id="TBEltUBVtpFMRoz0ESaoU0" Name="Stick To Last Valid Outputs" Kind="InputPin" />
-                <Pin Id="H2a1VcmH4tcN82FnprnrTV" Name="Reset Region On Failure" Kind="InputPin" />
-                <Pin Id="O74Kegsujo8MUgioa4MsCS" Name="Success" Kind="OutputPin" />
-                <Pin Id="Hjp3LCZRZ9cPCjP10LBiTz" Name="Failure" Kind="OutputPin" />
-                <Pin Id="CeeGpYC374oOKZf2CPfJiO" Name="Error Message" Kind="OutputPin" />
-                <Pin Id="QayEkQrRGtkOng5tKlPzh7" Name="Exceptions" Kind="OutputPin" />
-              </Node>
-            </Patch>
-          </Node>
           <Pad Id="HkkpGiMFYGgOBEmvV1e0jj" Bounds="592,207,301,10" ShowValueBox="true" isIOBox="true" Value="Wrong datatype on input">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
@@ -249,6 +213,15 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="NXIMcTPpUjxMbxErufJ9Nv" Bounds="592,486,221,19" ShowValueBox="true" isIOBox="true" Value="What about pink and orange nodes?">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
