@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B1y5m7MUXlyPVnbuJtEF3Y" LanguageVersion="2022.5.0-0415-9f84c137b4" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0415-g9f84c137b4" />
+<Document xmlns:p="property" Id="B1y5m7MUXlyPVnbuJtEF3Y" LanguageVersion="2022.5.0-0418-672dbe1f53" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0418-g672dbe1f53" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -80,7 +80,7 @@
             <Pin Id="ApmjwPxzs79LkWAWLEpXJF" Name="Enabled" Kind="InputPin" />
             <Pin Id="Qb627fPz6IwOwRnpGqhp99" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="646,496,76,19" Id="K5lOoAtXR5bPe1U3TL33pu">
+          <Node Bounds="646,513,76,19" Id="K5lOoAtXR5bPe1U3TL33pu">
             <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Windows.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SkiaRenderer" />
@@ -341,23 +341,23 @@
               <CategoryReference Kind="Category" Name="Graphics" />
               <CategoryReference Kind="Category" Name="Skia" />
               <CategoryReference Kind="Category" Name="Layers" />
-              <Choice Kind="ProcessAppFlag" Name="Star" />
+              <Choice Kind="ProcessAppFlag" Name="Circle" />
             </p:NodeReference>
             <Pin Id="S5TpAyzkj3fOqCmeGphmsb" Name="Position" Kind="InputPin" />
-            <Pin Id="HJGrfNq4rIpNQHBjrOpHKi" Name="Radius 1" Kind="InputPin" />
-            <Pin Id="NUGEJl8JDp0OySMrKwevev" Name="Radius 2" Kind="InputPin" DefaultValue="0.26999998" />
-            <Pin Id="HShCsFLh9V8Owr61K1mDaN" Name="Phase" Kind="InputPin" />
-            <Pin Id="ReqhWKPIGbzNf0tny2VtdR" Name="Spike Count" Kind="InputPin" DefaultValue="5" />
+            <Pin Id="HPh8U4PHACVMc1E99lsHf5" Name="Radius" Kind="InputPin" />
+            <Pin Id="OMTgcnr8zGeLp1iFHBeWuY" Name="Anchor" Kind="InputPin" />
             <Pin Id="BtYtVdLgHy9NXHEbUNSGda" Name="Paint" Kind="InputPin" />
             <Pin Id="GG9rVKrvjIPQUtPfc2GeWu" Name="Enabled" Kind="InputPin" />
             <Pin Id="HinDslpC2Q0MNpx4lM0G3c" Name="Output" Kind="OutputPin" />
+            <Pin Id="NUGEJl8JDp0OySMrKwevev" Name="Radius 2" Kind="InputPin" DefaultValue="0.26999998" />
+            <Pin Id="ReqhWKPIGbzNf0tny2VtdR" Name="Spike Count" Kind="InputPin" DefaultValue="5" />
           </Node>
-          <Pad Id="LqajGUYkjP0LHmYRLvSkz8" Comment="Radius 1" Bounds="668,362,35,15" ShowValueBox="true" isIOBox="true" Value="0.95">
+          <Pad Id="LqajGUYkjP0LHmYRLvSkz8" Comment="Radius 1" Bounds="672,435,35,15" ShowValueBox="true" isIOBox="true" Value="0.75">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DlUYtYwGVcVO5qwlvFDW4p" Comment="Stroke Width" Bounds="810,368,35,15" ShowValueBox="true" isIOBox="true" Value="0.03">
+          <Pad Id="DlUYtYwGVcVO5qwlvFDW4p" Comment="Stroke Width" Bounds="810,368,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -365,11 +365,6 @@
           <Pad Id="BvWnFL5quQVPdFmZ079V5H" Comment="Join" Bounds="830,388,58,15" ShowValueBox="true" isIOBox="true" Value="Round">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKStrokeJoin" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="PEwXneXCuCyNUidFAF9ktN" Comment="Radius 2" Bounds="688,385,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="863,572,165,19" Id="NzNYMby18JSN3eFPIjV4Vf">
@@ -413,9 +408,11 @@
           <Node Bounds="923,536,77,19" Id="KaDpGK1iREJQWZx8BYM712">
             <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ColorMaterial" />
+              <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
             <Pin Id="EZ49sJySXEDOFcd5g43XIB" Name="Color" Kind="InputPin" />
+            <Pin Id="NVn9Au48heaQWsSZm7qFOj" Name="Metalness" Kind="InputPin" />
+            <Pin Id="VuBessmPl7IPnHOuMKqJ0Q" Name="Roughness" Kind="InputPin" />
             <Pin Id="MerLqJrI755P6UkQzQM47a" Name="Transparency" Kind="InputPin" />
             <Pin Id="FHTA37xAZF9OL1N0YOask1" Name="Cull Mode" Kind="InputPin" />
             <Pin Id="PfHgT9oxPYpM2GuFKEwHAI" Name="Output" Kind="OutputPin" />
@@ -590,10 +587,8 @@
         <Link Id="QzNf80J8r1UL4bOGU7K9iN" Ids="VKQ6hqzGsCWL97WrRlUf3V,NRVzuvuj2KVPGWZC92x7mU" />
         <Link Id="TuRml3reDEgNuGeKEHqNku" Ids="HinDslpC2Q0MNpx4lM0G3c,RAKGAvQOw5PMsdw73atBWC" />
         <Link Id="TkQQURUZPXoNj4sDZxT2Zj" Ids="Vr6kZpgz1clLmLRfzVkWeK,BtYtVdLgHy9NXHEbUNSGda" />
-        <Link Id="PVoOuCCSqw0Md9GC7DcOnR" Ids="LqajGUYkjP0LHmYRLvSkz8,HJGrfNq4rIpNQHBjrOpHKi" />
         <Link Id="PnLpON0lcu6LXSHFxcqqFB" Ids="DlUYtYwGVcVO5qwlvFDW4p,PMT66wLPF3qO6SHpMwlu4Q" />
         <Link Id="KxcYrqHQgeYNMdomacLTAd" Ids="BvWnFL5quQVPdFmZ079V5H,A2uzsMYXQNSP2y4fGoKK5Y" />
-        <Link Id="CrV46KuwrD9OZmkdCSr4TX" Ids="PEwXneXCuCyNUidFAF9ktN,NUGEJl8JDp0OySMrKwevev" />
         <Link Id="UndYCPETXbhM4nS3UG8UHX" Ids="TwKMnJXUbrIOlau2uDK8pN,Kwc9m5EY6c2Oe4sZ8whJa9" />
         <Link Id="D2XKi36gD1fLmUcR0FAzXs" Ids="Ekq0zM7GXZaMfEmPisKYyc,DkhiT3ibNtLN1hdtbytaBq" />
         <Link Id="IpcJdGa1HmDQB5LRJn0gxv" Ids="RPizTqvnOibQFG3EkJCPIc,At37oqtoV2LOEuei2XBiRh" />
@@ -615,10 +610,11 @@
         <Link Id="DIPEX5NATfPMwfv95QBZts" Ids="OWIoez47woMNTmkTQ58Tz8,OZELnpaB0b2M5xGI8qSvVi" />
         <Link Id="IsDXsBNRUaGPFKLKnGc2pO" Ids="OZELnpaB0b2M5xGI8qSvVi,D4p3b8yHqEEN0kqJqOwU7L" />
         <Link Id="P5lCmJsfOkwPAtRI0BtRwh" Ids="IdgnuN2xajnOfp4dSdNTVY,PjIXiMLdO9IOIYRWsDW5gI" />
+        <Link Id="PKq2uPbDeGmMmDI5iuamOn" Ids="LqajGUYkjP0LHmYRLvSkz8,HPh8U4PHACVMc1E99lsHf5" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0415-g9f84c137b4" />
-  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0415-g9f84c137b4" />
+  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0418-g672dbe1f53" />
+  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0418-g672dbe1f53" />
   <DocumentDependency Id="KyKbK0XZkjQLoPbSJjtPJn" Location="./Include/Nodes.vl" />
 </Document>
