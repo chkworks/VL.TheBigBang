@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="PHe2BKlTIvLLKwESjiFKa6" LanguageVersion="2022.5.0-0418-672dbe1f53" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0418-g672dbe1f53" />
+<Document xmlns:p="property" Id="PHe2BKlTIvLLKwESjiFKa6" LanguageVersion="2022.5.0-0429-778c95037a" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0429-g778c95037a" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -79,7 +79,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MA1doExhhTbM3IkHUyqA2y" Bounds="115,1076,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="MA1doExhhTbM3IkHUyqA2y" Bounds="115,1032,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
               <FullNameCategoryReference ID="Primitive" />
@@ -220,7 +220,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JpRfpYmmEV3LtCoLwxmcxc" Bounds="92,1048,312,19" ShowValueBox="true" isIOBox="true" Value="A Float32 represents a floating point number. ">
+          <Pad Id="JpRfpYmmEV3LtCoLwxmcxc" Bounds="92,1004,312,19" ShowValueBox="true" isIOBox="true" Value="A Float32 represents a floating point number. ">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -310,7 +310,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Uss9aRDPUqxMpz2y6eGIV9" Bounds="92,1011,174,-3" ShowValueBox="true" isIOBox="true" Value="Float32">
+          <Pad Id="Uss9aRDPUqxMpz2y6eGIV9" Bounds="92,967,174,31" ShowValueBox="true" isIOBox="true" Value="Float32">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -336,32 +336,11 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NaIihy9eDN3O7LlGDAElyE" Bounds="171,895,32,81" ShowValueBox="true" isIOBox="true" Value="59">
-            <p:TypeAnnotation>
-              <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
-              <FullNameCategoryReference ID="Primitive" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:maximum p:Type="Int32">100</p:maximum>
-              <p:minimum p:Type="Int32">0</p:minimum>
-              <p:showslider p:Type="Boolean">true</p:showslider>
-            </p:ValueBoxSettings>
-          </Pad>
           <Pad Id="Luco0eSQLFKOmaQGoDfLeM" Bounds="617,449,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Vector3" />
               <CategoryReference Kind="Category" Name="3D" />
             </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="JHyHaZ3VDCWPL6XZnC38t6" Bounds="171,1076,33,82" ShowValueBox="true" isIOBox="true" Value="0.45999998">
-            <p:TypeAnnotation>
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:maximum p:Type="Single">1</p:maximum>
-              <p:minimum p:Type="Single">0</p:minimum>
-              <p:showslider p:Type="Boolean">true</p:showslider>
-            </p:ValueBoxSettings>
           </Pad>
           <Pad Id="LG6TyeaUefIN881UqN00R2" Bounds="673,271,66,82" ShowValueBox="true" isIOBox="true" Value="0.22000004, 0.53000003">
             <p:TypeAnnotation>
@@ -372,6 +351,7 @@
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
               <p:showslider p:Type="Boolean">true</p:showslider>
+              <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Vertical</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="HnV22orL5OpN5QwaX1WERr" Bounds="674,449,99,82" ShowValueBox="true" isIOBox="true" Value="0.52000004, 0.22, 0.82000005">
@@ -394,6 +374,28 @@
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
               <p:showslider p:Type="Boolean">true</p:showslider>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IY5Y8cN3tIEPvUXRkLNwx8" Comment="Period" Bounds="178,1032,86,21" ShowValueBox="true" isIOBox="true" Value="2.1799996">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maximum p:Type="Single">5</p:maximum>
+              <p:minimum p:Type="Single">0.5</p:minimum>
+              <p:showslider p:Type="Boolean">true</p:showslider>
+              <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Horizontal</p:sliderdirection>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HmMvesDIFPoO389wjh9ZuK" Comment="Period" Bounds="178,895,86,21" ShowValueBox="true" isIOBox="true" Value="32">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maximum p:Type="Int32">100</p:maximum>
+              <p:minimum p:Type="Single">0.5</p:minimum>
+              <p:showslider p:Type="Boolean">true</p:showslider>
+              <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Horizontal</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
