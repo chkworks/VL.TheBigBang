@@ -29,9 +29,9 @@
 23. Mouse Input
 24. Collision
 25. Control 2: Triggers & Flops
-26. Math 2: Ranges
-27. Animation 2: Counting
-28. Audio Analysis
+26. Audio Analysis
+27. Math 2: Ranges
+28. Animation 2: Counting
 29. Keyboard Input
 30. Control 3: Boolean Logic
 31. Math 3: Angles
