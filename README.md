@@ -4,10 +4,9 @@
 *Todo: Create NuGet and describe installation here*
 
 ## Content
-0. Introduction
 1. Datatypes & IOBoxes
 2. Nodes & Generics
-3. Math 1
+3. Math 1: Basics
 4. Conversion
 5. Colors
 6. Strings
@@ -26,17 +25,17 @@
 19. Iteration
 20. Spread Generators
 21. More About Loops
-22. Mouse Input
-23. Collision
-24. Control 2: Triggering
-25. Math 2: Ranges
-26. Animation 2: Counting
-27. Audio Analysis
-28. Keyboard Input
-29. Control 3: Logic
-30. Math 3: Angles
-31. *Animation 3: Transitions (Todo)*
-32. *System Nodes (Todo)*
+22. Pads & Operations
+23. Mouse Input
+24. Collision
+25. Control 2: Triggers & Flops
+26. Math 2: Ranges
+27. Animation 2: Counting
+28. Audio Analysis
+29. Keyboard Input
+30. Control 3: Boolean Logic
+31. Math 3: Angles
+32. Animation 3: Transitions
 
 ## Changelog
 *Todo*
