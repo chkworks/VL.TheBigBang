@@ -18,24 +18,26 @@
 12. Mixing Skia & Stride
 13. Control 1: Basics
 14. Animation 1: Basics
-15. Advanced Datatypes
-16. Render Text
-17. Transformations
+15. More About Datatypes
+16. Transformations
+17. Render Text
 18. Spreads
 19. Iteration
 20. Spread Generators
 21. More About Loops
 22. Pads & Operations
-23. Mouse Input
-24. Collision
-25. Control 2: Triggers & Flops
-26. Audio Analysis
-27. Math 2: Ranges
+23. Creating Nodes
+24. Mouse Input
+25. Collision
+26. Control 2: Triggers & Flops
+27. Audio Analysis
 28. Animation 2: Counting
-29. Keyboard Input
-30. Control 3: Boolean Logic
-31. Math 3: Angles
-32. Animation 3: Transitions
+29. Math 2: Ranges
+30. Math 3: Angles
+31. Keyboard Input
+32. Control 3: Boolean Logic
+33. Animation 3: Transitions
+34. Math 4: Algorithms
 
 ## Changelog
 *Todo*
