@@ -126,19 +126,14 @@
             <Pin Id="EWSV5ZWyhR6OvdMHFZyzhk" Name="Center" Kind="InputPin" />
             <Pin Id="E3Q555Et0tbL4FUOfKDqyh" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VleP1C5hLAZO6eAILbUAmz" Comment="Translation" Bounds="200,848,35,28" ShowValueBox="true" isIOBox="true" Value="-0.4, 0">
+          <Pad Id="VleP1C5hLAZO6eAILbUAmz" Comment="Translation" Bounds="200,846,35,28" ShowValueBox="true" isIOBox="true" Value="-0.4, 0">
             <p:TypeAnnotation LastCategoryFullName="2D">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JjA2a1K9k6NOMF1dYssVut" Comment="Translation" Bounds="361,848,35,28" ShowValueBox="true" isIOBox="true" Value="0.4, 0">
+          <Pad Id="JjA2a1K9k6NOMF1dYssVut" Comment="Translation" Bounds="361,846,35,28" ShowValueBox="true" isIOBox="true" Value="0.4, 0">
             <p:TypeAnnotation LastCategoryFullName="2D">
               <Choice Kind="TypeFlag" Name="Vector2" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="PcT55AeiU7dOfl6UnHI5Rz" Comment="Rotation" Bounds="180,823,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="178,470,105,19" Id="KqEF0F0x5LbN4Q2xlAV7FZ">
@@ -583,7 +578,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="EZJ7KyfDnU3MlkYbUohTT9" Name="Bounds" Kind="InputPin" DefaultValue="1705, 1233, 313, 162" />
+            <Pin Id="EZJ7KyfDnU3MlkYbUohTT9" Name="Bounds" Kind="InputPin" DefaultValue="1375, 70, 564, 611" />
             <Pin Id="AraOjiQWNyuLUGOipkLvif" Name="Input" Kind="InputPin" />
             <Pin Id="K5R1OTqhQT9O3xK4pWc4qh" Name="Color" Kind="InputPin" />
             <Pin Id="PljbIXNf59nOKVzJ26bmlV" Name="Clear" Kind="InputPin" />
@@ -614,7 +609,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="SUsWkFgDcfLM9geJbYHVII" Name="Bounds" Kind="InputPin" DefaultValue="2008, 6, 283, 197" />
+            <Pin Id="SUsWkFgDcfLM9geJbYHVII" Name="Bounds" Kind="InputPin" DefaultValue="1789, 21, 819, 576" />
             <Pin Id="DnDhe9f0aNDO5RhMZnEo5o" Name="Input" Kind="InputPin" />
             <Pin Id="Rwa8gL4swcFPhQG7MYsLW5" Name="Color" Kind="InputPin" />
             <Pin Id="Gn1Uhg5njl1QcS3oBX6RTd" Name="Clear" Kind="InputPin" />
@@ -695,7 +690,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="GCFRKUaz0YnQKahmxkFe51" Name="Bounds" Kind="InputPin" DefaultValue="2004, 901, 292, 171" />
+            <Pin Id="GCFRKUaz0YnQKahmxkFe51" Name="Bounds" Kind="InputPin" DefaultValue="1792, 596, 766, 553" />
             <Pin Id="IIc87WNZUMMLusflh2hCoD" Name="Input" Kind="InputPin" />
             <Pin Id="AB2S2AEV0BaM5OILtPwzcx" Name="Color" Kind="InputPin" />
             <Pin Id="AptfZQ9QmXSNYRIl5mZ6B6" Name="Clear" Kind="InputPin" />
@@ -849,6 +844,17 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="JyKqWFOqyQ0NYLyXiMQYJB" Comment="Rotation" Bounds="149,814,86,21" ShowValueBox="true" isIOBox="true" Value="0.49">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maximum p:Type="Single">1</p:maximum>
+              <p:minimum p:Type="Single">0</p:minimum>
+              <p:showslider p:Type="Boolean">true</p:showslider>
+              <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Horizontal</p:sliderdirection>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="IPHQP0lE6UWOnvyKAd75bt,AcXvpXsqrZ7NkTilnqWIZX,MYwCUPJINr7PmBGn4G42zH,JDvObDpW5ZXPiAt8Lfxlup,Mxdrum5xviLOppi5xHYZUw,N8EpdC1w0hnLBnNUQ0aHpl" />
@@ -860,11 +866,9 @@
         <Link Id="AcXvpXsqrZ7NkTilnqWIZX" Ids="S7W1CqHrp01P8bdHBp6md6,SXIfNo1mbIMOw9xCOnSHMA" />
         <Link Id="MYwCUPJINr7PmBGn4G42zH" Ids="Dp6bLOiXmPfN8M8jiA8Eid,MKhAK3Akey2LRsafH8DM4l" />
         <Link Id="JDvObDpW5ZXPiAt8Lfxlup" Ids="JkXL2bRu916MIxdIzOwyUR,EXkO87r1e2WNxLlJjWpWED" />
-        <Link Id="VFbRgOmvWZ4MpYvqTK7BwB" Ids="VleP1C5hLAZO6eAILbUAmz,JEb0Lt5A3brLVTSqZTZRwQ" />
         <Link Id="PtHRc68z5MXOX6ADgyzNPU" Ids="JjA2a1K9k6NOMF1dYssVut,B84SyGYpJVTLMt8SduzV0a" />
         <Link Id="HAilKhJHcGzLZLfMk82wj0" Ids="Th3wq6IBN3HOoMZv8DUMaj,BatrI659BaKNHQmDRSFhZ4" />
         <Link Id="GNBhdwLa3gQMhF2ZbK9LM6" Ids="GKt0LHiNRafOBj0yTMJ0kg,GOxLpzYmbZXLAYE23QqVJm" />
-        <Link Id="SljF6KdFomNNiDGQMKjgtp" Ids="PcT55AeiU7dOfl6UnHI5Rz,BuMqihSSrCoOsxbOZJmv9r" />
         <Link Id="M8Kmoj6yj56MbiRUaQBMIM" Ids="UBx2tBsG5PUPwhmhWoZq7Q,RTEPFtKtxp3OD8zFMMXQ3v" />
         <Link Id="GqOS0N37t0JPQsz5MsigYZ" Ids="RA7kzQ4yF3sMXRtzWI6PLk,BPYid0nCewWLmr2MLt18Lw" />
         <Link Id="BMDtNIT6HlWPCC1rXByJKh" Ids="E78XSMwzZlENTbLBN0tbi7,FrK98HxuwmUPUXsxClA8qM" />
@@ -923,6 +927,8 @@
         <Link Id="TBQN4EtWhr3PNi8ExBa2QA" Ids="ARDMVbXeCgjMGQlfDFF7Ad,AraOjiQWNyuLUGOipkLvif" />
         <Link Id="HRT2XCuao6FMJhDqm06RFJ" Ids="M03hsDbTia9PooJuA8KEVC,Rj2VyOBPmkkNwkSpXaC4Oc" />
         <Link Id="NffP40Gfvt8OEEElaPNcJy" Ids="DWdqzEtsa6mMH3dD658W7l,JkFVradBFF8L2HNNcjgZAs" />
+        <Link Id="MeTuWPBHCDTPnsOtcZT3JJ" Ids="JyKqWFOqyQ0NYLyXiMQYJB,BuMqihSSrCoOsxbOZJmv9r" />
+        <Link Id="RYeXJzrkE2xNlJ6lFpv3PS" Ids="VleP1C5hLAZO6eAILbUAmz,JEb0Lt5A3brLVTSqZTZRwQ" />
       </Patch>
     </Node>
   </Patch>
