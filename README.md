@@ -16,9 +16,9 @@
 10. Video & Camera
 11. Texture Sources & Effects
 12. Mixing Skia & Stride
-13. Control 1: Basics
-14. Animation 1: Basics
-15. More About Datatypes
+13. More Datatypes
+14. Control 1: Basics
+15. Animation 1: Basics
 16. Transformations
 17. Render Text
 18. Spreads
