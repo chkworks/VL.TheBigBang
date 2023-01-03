@@ -370,19 +370,22 @@
           <Node Bounds="711,556,45,19" Id="HAwACfqBDEQPdwqfBZEDQh">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Fill" />
+              <Choice Kind="ProcessAppFlag" Name="Stroke" />
             </p:NodeReference>
             <Pin Id="PMyGCJstsw4NGqqYfsPkBE" Name="Input" Kind="InputPin" />
             <Pin Id="IcCuZQOHmHbPc8tg8XrEEp" Name="Color" Kind="InputPin" />
-            <Pin Id="DU3630V0UY5L3LMcOYfle7" Name="Shader" Kind="InputPin" />
+            <Pin Id="BHrZXHhaDjnQbpcZmjGIa0" Name="Stroke Width" Kind="InputPin" />
+            <Pin Id="GM1ttNj7VrKLOIjx4MmtFq" Name="Join" Kind="InputPin" />
+            <Pin Id="EIULuEIZbTNLXskNB3hec3" Name="Cap" Kind="InputPin" />
+            <Pin Id="Io1HULZ1VxKPCi1WvecIZk" Name="Miter" Kind="InputPin" />
             <Pin Id="CLcMK5ayJ0cPhWN1EVfxRB" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="SrZIZ8RUSoYNbVVHzrHjmJ" Comment="Color" Bounds="663,514,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="SrZIZ8RUSoYNbVVHzrHjmJ" Comment="Color" Bounds="663,491,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FFq5ZOYMteqN2xpJfa94LX" Comment="Color" Bounds="733,536,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="FFq5ZOYMteqN2xpJfa94LX" Comment="Color" Bounds="733,513,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -589,6 +592,11 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="MaOILODHtntLKRQoxFm8cC" Comment="Stroke Width" Bounds="753,535,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="K43dY35ajNuPklO0jmZIpZ,AF1hrwd0bJ6LkStG94mcey,Czpb1zdeZrzPWnZ3RJ4Myq,MLsTfZ2IDYkOTLvDDULQel" />
@@ -629,6 +637,7 @@
         <Link Id="U56Gdcapxm4MS17OtRECfH" Ids="EwAPVAgocBgOqslOoAIMfN,JBaKQ95nYE7OSfgVqIKqcu" />
         <Link Id="OZBIrrwf3xsM5s4z7mLmJM" Ids="GlMtWMiZREyLrOB4qw41Dn,SiBYx83AaG9NSvP1pPr94V" />
         <Link Id="Q3bRFEtIsb4NW1ky6nHZWY" Ids="EnTxR1zs5B2QPy8dgZN85A,Ck6rHBG9ISvLUdahK33bTx" />
+        <Link Id="KEu4aMvefPlObCfdPCPHPR" Ids="MaOILODHtntLKRQoxFm8cC,BHrZXHhaDjnQbpcZmjGIa0" />
       </Patch>
     </Node>
   </Patch>
