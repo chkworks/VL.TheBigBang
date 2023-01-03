@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="MrgZh76fS1iLdf5NBuNwWo" LanguageVersion="2022.5.0-0429-778c95037a" Version="0.128">
+<Document xmlns:p="property" Id="PhqbqWCIr7wM3ICTfHREcB" LanguageVersion="2022.5.0-0429-778c95037a" Version="0.128">
   <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0429-g778c95037a" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -64,7 +64,7 @@
           <Pad Id="DxHyfhhpwZPMPylQiGVuk8" Bounds="1099,2136" />
           <Pad Id="GwHwh6gJ4TOPK8RxeQCzOy" Bounds="1499,-9" />
           <Pad Id="BI7GfN6RDAGPgUbKSGUBIa" Bounds="1099,-9" />
-          <Pad Id="GMPS4TDWaoON90m78MWUZp" Bounds="92,207,102,31" ShowValueBox="true" isIOBox="true" Value="Noise">
+          <Pad Id="GMPS4TDWaoON90m78MWUZp" Bounds="92,207,195,15" ShowValueBox="true" isIOBox="true" Value="SimplexNoise">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -73,7 +73,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BARD8Pliz8bO9ItCnO4dLG" Bounds="592,207,176,19" ShowValueBox="true" isIOBox="true" Value="ConnectAll">
+          <Pad Id="BARD8Pliz8bO9ItCnO4dLG" Bounds="592,207,152,23" ShowValueBox="true" isIOBox="true" Value="ConnectAll">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HLiZ7mkIMCcObm5HFoLPtN" Bounds="1092,207,186,31" ShowValueBox="true" isIOBox="true" Value="Attractor">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
