@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B1y5m7MUXlyPVnbuJtEF3Y" LanguageVersion="2022.5.0-0429-778c95037a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0429-g778c95037a" />
+<Document xmlns:p="property" Id="B1y5m7MUXlyPVnbuJtEF3Y" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -65,7 +65,7 @@
           <Pad Id="EkaMf8LbcgBPgNR25LYU8B" Bounds="1499,-8" />
           <Pad Id="JOciEO0ktuIMOjkVoREcnO" Bounds="1499,2311" />
           <Node Bounds="626,642,165,19" Id="OagRF9uRohsMguV1Ic1tVu">
-            <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RenderEntity" />
             </p:NodeReference>
@@ -95,7 +95,7 @@
               <Choice Kind="ProcessAppFlag" Name="SkiaTexture" />
             </p:NodeReference>
             <Pin Id="BeDvBXUnbcwPVIzlFtxPxY" Name="Input" Kind="InputPin" />
-            <Pin Id="RyVk1guqAvXPHWVlT3bBQB" Name="Size" Kind="InputPin" />
+            <Pin Id="RyVk1guqAvXPHWVlT3bBQB" Name="Size" Kind="InputPin" DefaultValue="1200, 750" />
             <Pin Id="JZHol4Ia8ahOZD9sBjWXTt" Name="Space" Kind="InputPin" />
             <Pin Id="PloMD1X1sXdLMrK4znfD4z" Name="Clear" Kind="InputPin" />
             <Pin Id="SzpTAOAKn2gMZ3ukspucyZ" Name="Clear Color" Kind="InputPin" />
@@ -286,15 +286,15 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="606,795,225,19" Id="JrES4a3bHP3OyAInZtOaDJ">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="KS8dm5GrbQWMh6xyn8TRq8" Name="Bounds" Kind="InputPin" />
+            <Pin Id="KS8dm5GrbQWMh6xyn8TRq8" Name="Bounds" Kind="InputPin" DefaultValue="16, 409.33334, 533.3333, 333.33334" />
             <Pin Id="KdOgz7haaqQPxMDi0rbfV6" Name="Input" Kind="InputPin" />
             <Pin Id="SUdNJ3iYAtiOvMMJyKiFzS" Name="Camera" Kind="InputPin" />
             <Pin Id="SYWghimYKzmL3LBDrbrMOt" Name="Enable Default Camera" Kind="InputPin" />
-            <Pin Id="P3A0CQiuNLzOH9S2ewwai4" Name="Title" Kind="InputPin" />
+            <Pin Id="P3A0CQiuNLzOH9S2ewwai4" Name="Title" Kind="InputPin" DefaultValue="SkiaRenderer" />
             <Pin Id="At37oqtoV2LOEuei2XBiRh" Name="Clear Color" Kind="InputPin" />
             <Pin Id="GAh8brW9z0FLTcjuDegkic" Name="Clear" Kind="InputPin" />
             <Pin Id="DtesEBgMtphPDqxbrp80gk" Name="Post Effects" Kind="InputPin" />
@@ -307,7 +307,7 @@
             <Pin Id="R8adHyn1cInQVd844BPtOt" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="626,751,65,19" Id="Sb31KF0VRIgODvB2sAOB2k">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
             </p:NodeReference>
@@ -366,7 +366,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="863,642,165,19" Id="NzNYMby18JSN3eFPIjV4Vf">
-            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Box" />
             </p:NodeReference>
@@ -382,7 +382,7 @@
             <Pin Id="TwKMnJXUbrIOlau2uDK8pN" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="666,723,85,19" Id="VrLIlKALm15PE2ow9Kh4w4">
-            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AmbientLight" />
             </p:NodeReference>
@@ -404,7 +404,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="923,606,85,19" Id="KaDpGK1iREJQWZx8BYM712">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
@@ -434,7 +434,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="734,1087,185,19" Id="IkSRXBLuUrvOzsO2B97WXt">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneTexture" />
             </p:NodeReference>
@@ -452,7 +452,7 @@
             <Pin Id="STpSd0uZS2ZK9ovJLlnm32" Name="Depth" Kind="OutputPin" />
           </Node>
           <Node Bounds="774,1056,285,19" Id="LbBIhepVaSbM6mv2IDN5D2">
-            <p:NodeReference LastCategoryFullName="Stride.Cameras" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Cameras" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
             </p:NodeReference>
@@ -478,7 +478,7 @@
             <Pin Id="QFD0o0rnMEoLr5Y7u8ZzIR" Name="Camera Component" Kind="OutputPin" />
           </Node>
           <Node Bounds="863,570,80,19" Id="SfaggNdd8dJPKzC7flKDhL">
-            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -497,7 +497,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="734,1269,91,19" Id="AlUsxu4r3f8PYckCABUaHg">
-            <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Rendering.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureToImage" />
             </p:NodeReference>
@@ -554,13 +554,13 @@
           <Pad Id="OZELnpaB0b2M5xGI8qSvVi" Comment="" Bounds="158,739,190,132" ShowValueBox="true" isIOBox="true" />
           <Pad Id="PjIXiMLdO9IOIYRWsDW5gI" Comment="" Bounds="158,1002,190,132" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="136,1155,205,19" Id="PpkGLgXBVDVOFoUtHIh0an">
-            <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
-            <Pin Id="NuhSjJ4ZyI0OjIHncpP4yU" Name="Bounds" Kind="InputPin" />
+            <Pin Id="NuhSjJ4ZyI0OjIHncpP4yU" Name="Bounds" Kind="InputPin" DefaultValue="15.333333, 40.666668, 533.3333, 333.33334" />
             <Pin Id="Q8wBFmratftO0GmM0CQ58d" Name="Input" Kind="InputPin" />
-            <Pin Id="Qr0xRLqRmyWMIxc2jszpkt" Name="Title" Kind="InputPin" />
+            <Pin Id="Qr0xRLqRmyWMIxc2jszpkt" Name="Title" Kind="InputPin" DefaultValue="SkiaTexture" />
             <Pin Id="OAq2EVbJcEeMd9slxJbiJQ" Name="Clear Color" Kind="InputPin" />
             <Pin Id="Qx8a8G32SxnPaZBDvPqg8g" Name="Clear" Kind="InputPin" />
             <Pin Id="ApiPGuwOEJ7PA6wpT6NoXM" Name="Is Premultiplied Alpha" Kind="InputPin" />
@@ -639,7 +639,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0429-g778c95037a" />
-  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0429-g778c95037a" />
+  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
   <DocumentDependency Id="KyKbK0XZkjQLoPbSJjtPJn" Location="./Include/Nodes.vl" />
 </Document>
