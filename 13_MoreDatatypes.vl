@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EdDZ7oYqNfpMg4nhcNcuDa" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
+<Document xmlns:p="property" Id="EdDZ7oYqNfpMg4nhcNcuDa" LanguageVersion="2021.4.12.1374" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2021.4.12" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -344,7 +344,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="621,704,-12,19" Id="NRmGGUo2JBYPXSOgc8CHf6">
+          <Node Bounds="621,704,17,19" Id="NRmGGUo2JBYPXSOgc8CHf6">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -353,7 +353,6 @@
             <Pin Id="AiMxjcYSl92OLDPNMJEZoV" Name="Input" Kind="InputPin" />
             <Pin Id="EWiST4gLN0YNaycMbMwfrm" Name="Input 2" Kind="InputPin" />
             <Pin Id="Go71ffmvnFtPqv8b1TMt7H" Name="Input 3" Kind="InputPin" />
-            <Pin Id="BgrMp8VxMrgQKI7aD48eVS" Name="Input 4" Kind="InputPin" />
             <Pin Id="OHdiaybepTHN3W00oJjic2" Name="Debug" Kind="InputPin" />
             <Pin Id="Cglp82BKNOxP8P0jwXGj3G" Name="Enabled" Kind="InputPin" />
             <Pin Id="T6T5jXRdkybLd7fbIcehao" Name="Output" Kind="OutputPin" />
@@ -526,11 +525,11 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EwGYuJasVBbMtiyVHVnJaU" Name="Bounds" Kind="InputPin" DefaultValue="18.666666, 405.33334, 533.3333, 332.66666" />
+            <Pin Id="EwGYuJasVBbMtiyVHVnJaU" Name="Bounds" Kind="InputPin" DefaultValue="16, 407.3333, 533.3333, 332.6667" />
             <Pin Id="LvZ1WJr964uOkhIBUVuozf" Name="Input" Kind="InputPin" />
             <Pin Id="VRwz0Z38KRMNa9rviCLCr5" Name="Camera" Kind="InputPin" />
             <Pin Id="QjDpjctAhRbLIwYPZYS0Xr" Name="Enable Default Camera" Kind="InputPin" />
-            <Pin Id="KAbQ0H4mf7PLeYjyvYVtsW" Name="Title" Kind="InputPin" />
+            <Pin Id="KAbQ0H4mf7PLeYjyvYVtsW" Name="Title" Kind="InputPin" DefaultValue="Matrix" />
             <Pin Id="SiBYx83AaG9NSvP1pPr94V" Name="Clear Color" Kind="InputPin" />
             <Pin Id="CVdFMqnEOrZMZjggetX2gU" Name="Clear" Kind="InputPin" />
             <Pin Id="NLjIN2lVj4CPV61W8G49uT" Name="Post Effects" Kind="InputPin" />
@@ -642,7 +641,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VnGmcsV8I6mMnCZr31wctB" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
-  <NugetDependency Id="AWLxJbvqK6NLDHvAtOO8CK" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="VnGmcsV8I6mMnCZr31wctB" Location="VL.Stride" Version="2021.4.12" />
+  <NugetDependency Id="AWLxJbvqK6NLDHvAtOO8CK" Location="VL.Skia" Version="2021.4.12" />
   <DocumentDependency Id="N77hCSS2RDcQEde7kzf524" Location="./Include/Nodes.vl" />
 </Document>
