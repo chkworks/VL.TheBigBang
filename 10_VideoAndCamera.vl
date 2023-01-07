@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="ErpEpBX1hswOA11KJty0MH" LanguageVersion="2022.5.0-0429-778c95037a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0429-g778c95037a" />
+<Document xmlns:p="property" Id="ErpEpBX1hswOA11KJty0MH" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -309,7 +309,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="Qd7BXxqREtUMbPxT7uf3cO" Name="Bounds" Kind="InputPin" DefaultValue="2280, 378, 284, 178" />
+            <Pin Id="Qd7BXxqREtUMbPxT7uf3cO" Name="Bounds" Kind="InputPin" DefaultValue="7, 10, 548, 370" />
             <Pin Id="TnO9ugcTs7fLp5t7PUIBxV" Name="Input" Kind="InputPin" />
             <Pin Id="NubLsTl2GeyOoTAp8L6yIf" Name="Color" Kind="InputPin" />
             <Pin Id="UJhm8S4s6WlMLNG7NZ4xWw" Name="Clear" Kind="InputPin" />
@@ -345,6 +345,7 @@
             <Pin Id="Uj4y0yC02uQPaJGeXLKF3g" Name="Input" Kind="InputPin" />
             <Pin Id="QN6xUm9yO6GMEckNvpx9Jz" Name="Input 2" Kind="InputPin" />
             <Pin Id="KpxrcLlDoBMLLpXTNL7dAk" Name="Input 3" Kind="InputPin" />
+            <Pin Id="G9rJPTfg7fQPrAvz1EgMDG" Name="Input 4" Kind="InputPin" />
             <Pin Id="O7krUGV9hbSMmxiikraPL1" Name="Debug" Kind="InputPin" />
             <Pin Id="P71p8KfYTjWPhcUcBECevI" Name="Enabled" Kind="InputPin" />
             <Pin Id="DOJCPFkIPUSOy1VUwSv3lG" Name="Output" Kind="OutputPin" />
@@ -384,7 +385,7 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FZpuZQvWrM4OCtbL2UySTn" Bounds="92,890,231,31" ShowValueBox="true" isIOBox="true" Value="Draw Video in Skia">
+          <Pad Id="FZpuZQvWrM4OCtbL2UySTn" Bounds="92,890,231,31" ShowValueBox="true" isIOBox="true" Value="Render Video in Skia">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -573,8 +574,8 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
-            <Pin Id="BgjmkPgRttQLBV9sR1qz6s" Name="Headline" Kind="InputPin" DefaultValue="Draw Video in Skia" />
-            <Pin Id="EHIXZbSmXO7OvN8Ouesbat" Name="Description" Kind="InputPin" DefaultValue="Draw the SKImage from video and camera feeds like a static picture." />
+            <Pin Id="BgjmkPgRttQLBV9sR1qz6s" Name="Headline" Kind="InputPin" DefaultValue="Render Video in Skia" />
+            <Pin Id="EHIXZbSmXO7OvN8Ouesbat" Name="Description" Kind="InputPin" DefaultValue="Render the SKImage from video and camera feeds like a static picture." />
             <Pin Id="JpF7MYJjYxNMg7NJssh1om" Name="Text Color" Kind="InputPin" />
             <Pin Id="OtzS6SPScA0Lo3qPnCrUfA" Name="Line Color" Kind="InputPin" />
             <Pin Id="ANxt41ecyr5P9Dw8FXilA1" Name="Layer" Kind="OutputPin" />
@@ -673,7 +674,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="Fr9PBHS8AZTQE0Ii1l7h4S" Location="VL.Video.MediaFoundation" Version="1.0.12" />
-  <NugetDependency Id="VKWPpmg8r3lP3jn5xdcmp9" Location="VL.Stride" Version="2022.5.0-0429-g778c95037a" />
-  <NugetDependency Id="Pe8Wmu0imXpN6HnEj5BGqO" Location="VL.Skia" Version="2022.5.0-0429-g778c95037a" />
+  <NugetDependency Id="VKWPpmg8r3lP3jn5xdcmp9" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="Pe8Wmu0imXpN6HnEj5BGqO" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
   <DocumentDependency Id="BzwiS3EoCwDMI6VUZ6lRAI" Location="./Include/Nodes.vl" />
 </Document>
