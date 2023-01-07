@@ -25,8 +25,8 @@
 19. Iteration
 20. Spread Generators
 21. More About Loops
-22. Pads & Operations
-23. Creating Nodes
+22. Process Nodes
+23. Pads & Operations
 24. Mouse Input
 25. Collision
 26. Control 2: Triggers & Flops
