@@ -1,7 +1,5 @@
 # VL.BeginnerTutorials
 
-Only runs properly in latest 22.5. preview!
-
 ## Installation
 *Todo: Create NuGet and describe installation here*
 
