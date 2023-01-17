@@ -54,7 +54,6 @@
 34. Keyboard Input
 35. Control 3: Boolean Logic
 36. Animation 3: Transitions
-37. Math 4: Algorithms
 
 ## Changelog
 *Todo*
