@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EyVEtb9X5m3PuWzl4hsEWi" LanguageVersion="2021.4.12.1374" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2021.4.12" />
+<Document xmlns:p="property" Id="EyVEtb9X5m3PuWzl4hsEWi" LanguageVersion="2022.5.0-0472-8beb690f8b" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0472-g8beb690f8b" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -53,7 +53,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="727,640,25,19" Id="MZOuH8GkeeKM8MrHpmHVAb">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -74,7 +74,7 @@
           </Pad>
           <Pad Id="TQZvsibLDKzOErkGcktajc" Comment="" Bounds="729,680,62,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="855,640,25,19" Id="AdMKTs4F2HnNkqqEZfVfRj">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -95,7 +95,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="727,769,25,19" Id="VzPLSjLsLI4N3LwAFXG8oC">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
             </p:NodeReference>
@@ -116,7 +116,7 @@
           </Pad>
           <Pad Id="TKbCfqwFsmSLVURpXqExMV" Comment="" Bounds="729,815,35,35" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="843,769,25,19" Id="EwXPE84EBYTM0LJgF4d3yl">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
             </p:NodeReference>
@@ -146,7 +146,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="124,295,45,19" Id="FxO5ghasBK2LUZtSF4Ot9b">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -175,8 +175,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="237,918,45,19" Id="N1aqm2eLIcdNBNouMvtis4">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+          <Node Bounds="275,918,45,19" Id="N1aqm2eLIcdNBNouMvtis4">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -187,12 +187,12 @@
             <Pin Id="TBPkKraNuFDLLLJqEricMs" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="GsUUWuFXwVYLY1dlUwLpzw" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="Rtq1tcMeeXqQOa8uxsbers" Comment="Period" Bounds="239,823,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Rtq1tcMeeXqQOa8uxsbers" Comment="Period" Bounds="277,823,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Lovd306cspmPPQk9nCdwpB" Comment="Pause" Bounds="259,845,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="Lovd306cspmPPQk9nCdwpB" Comment="Pause" Bounds="297,845,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -201,7 +201,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="J0yaedc4533PMh6Veqa7nG" Comment="Reset" Bounds="313,864,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="J0yaedc4533PMh6Veqa7nG" Comment="Reset" Bounds="351,864,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -210,9 +210,13 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GjWK65B0ubwLrF7Zugey9F" Comment="Phase" Bounds="239,1034,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="TVWfILgbXO8QcObOqMOKZ7" Comment="On New Cycle" Bounds="259,988,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Q0vJBNvMxkjPO9lKilNkPk" Comment="Cycles" Bounds="279,964,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="GjWK65B0ubwLrF7Zugey9F" Comment="Phase" Bounds="277,1034,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="TVWfILgbXO8QcObOqMOKZ7" Comment="On New Cycle" Bounds="297,988,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Q0vJBNvMxkjPO9lKilNkPk" Comment="Cycles" Bounds="317,964,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="KtpVP0tb34lPiIdovhql1s" Bounds="92,1079,402,232" ShowValueBox="true" isIOBox="true" Value="When exposing the input Boolean for &quot;Pause&quot; and &quot;Reset&quot;, you might have noticed that VVVV asked you, which type of a Boolean IOBox you want to create. &#xD;&#xA;&#xD;&#xA;In this case a Toggle for &quot;Pause&quot; and a Bang for &quot;Reset&quot; would be good choices, because we would want to turn on or off the whole node, but reset with a short trigger.&#xD;&#xA;&#xD;&#xA;When getting more experienced you will find out, which nodes work best with which Boolean IOBoxes. You can always change the type of a Boolean IOBox in its configuration menu (Rightclick &gt; Configure).">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
@@ -232,7 +236,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="624,293,45,19" Id="HdUayrSZmRTL6RH16YcksC">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -244,7 +248,7 @@
             <Pin Id="JcyEmAvqhGoPsdEnLs0P5k" Name="Cycles" Kind="OutputPin" />
           </Node>
           <Node Bounds="685,293,25,19" Id="DyDS0BZ6SqxNhUfIOYFjfK">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -262,7 +266,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="624,640,25,19" Id="Uo8TtMMyhWFMvA8ZA0tWMc">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -271,7 +275,7 @@
             <Pin Id="SgrrvRKF2P8PteaHu5zXhX" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="624,769,25,19" Id="VWDUaGE2MkTMS3zYb9MmH7">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
             </p:NodeReference>
@@ -287,8 +291,8 @@
           <Pad Id="G8rBVxAWEVvNhUSiMOGT2Z" Bounds="599,1596" />
           <Pad Id="Ertq571mWMDLQxTo2Winkc" Bounds="99,-8" />
           <Pad Id="GFteK5j1jT9QZgTLdQrWQ0" Bounds="99,1596" />
-          <Node Bounds="124,918,45,19" Id="R53aYoXDAtFNRsfowXuaCB">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+          <Node Bounds="148,918,45,19" Id="R53aYoXDAtFNRsfowXuaCB">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -345,7 +349,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="734,1100,65,19" Id="OX32ybEItKKMGMnYUP09Ma">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -377,7 +381,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="624,1100,25,19" Id="QF5YGol2ZoWLs7cCULlqNM">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
             </p:NodeReference>
@@ -386,7 +390,7 @@
             <Pin Id="EOQWQdOyOu4MU1uUsfGAzZ" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="734,1238,65,19" Id="C6LWN4FQDI9QLpr58kwOjE">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -419,7 +423,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="624,1238,45,19" Id="Gj41FjgLvzpNrkLEBoTC9W">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -439,7 +443,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="184,622,45,19" Id="M12kDtXaOytPVGkdq1G3Z9">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -451,7 +455,7 @@
             <Pin Id="D5GizKoZyqYPt8ks1f51wu" Name="Cycles" Kind="OutputPin" />
           </Node>
           <Node Bounds="124,622,45,19" Id="GRTTfY91gzDPNgsXCSVArn">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -472,7 +476,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="624,1436,45,19" Id="DZprs7YUTlLOpcSWL9wPhS">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
