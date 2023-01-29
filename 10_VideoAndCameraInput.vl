@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="ErpEpBX1hswOA11KJty0MH" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
+<Document xmlns:p="property" Id="ErpEpBX1hswOA11KJty0MH" LanguageVersion="2021.4.12.1374" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2021.4.12" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -117,11 +117,6 @@
             <Pin Id="DPtCJbuUxJ5M7XOrPpjFpK" Name="Focus" Kind="InputPin" />
             <Pin Id="VCeZGPt62y0PRvRk3XRVgS" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="OJGzbhZHDkFPLEGyd9Xo41" Comment="Exposure" Bounds="965,417,35,15" ShowValueBox="true" isIOBox="true" Value="0.67">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="86,635,165,19" Id="K4Thp7lRFZFQXbrjdpPc9J">
             <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -309,7 +304,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="Qd7BXxqREtUMbPxT7uf3cO" Name="Bounds" Kind="InputPin" DefaultValue="6, 10, 548, 370" />
+            <Pin Id="Qd7BXxqREtUMbPxT7uf3cO" Name="Bounds" Kind="InputPin" DefaultValue="5, 9, 548, 369" />
             <Pin Id="TnO9ugcTs7fLp5t7PUIBxV" Name="Input" Kind="InputPin" />
             <Pin Id="NubLsTl2GeyOoTAp8L6yIf" Name="Color" Kind="InputPin" />
             <Pin Id="UJhm8S4s6WlMLNG7NZ4xWw" Name="Clear" Kind="InputPin" />
@@ -609,7 +604,6 @@
         <Link Id="MYwCUPJINr7PmBGn4G42zH" Ids="Dp6bLOiXmPfN8M8jiA8Eid,MKhAK3Akey2LRsafH8DM4l" />
         <Link Id="JDvObDpW5ZXPiAt8Lfxlup" Ids="JkXL2bRu916MIxdIzOwyUR,EXkO87r1e2WNxLlJjWpWED" />
         <Link Id="PCo64O3SzNuQA7gSEWjfj6" Ids="VCeZGPt62y0PRvRk3XRVgS,AdiL4kSzEC4MNkRfAW2I1G" />
-        <Link Id="DLVAsKHHbP9O9Rr7klTHkW" Ids="OJGzbhZHDkFPLEGyd9Xo41,L0Gh4J1kSm1PExgU2DyoVA" />
         <Link Id="QES6N3z1KReNOwH8h2ngqP" Ids="DJgASRj1NZlLfSFxg6BujW,Rb9dPVlCZtiOA7aVAIUBhi" />
         <Link Id="LfGClYAqY95OeUptgVotSd" Ids="F5rfBc0Etd1QHuik6yHTNl,PUuJVtAvh6KO9rKxnrotjK" />
         <Link Id="VcmClhkPM6rP1wbc0Vh7QW" Ids="Kwv3dVaPqFaOPR48nPZXzg,C6sdl8DSHVyMmoa7Shsbi7" />
@@ -673,7 +667,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="Fr9PBHS8AZTQE0Ii1l7h4S" Location="VL.Video.MediaFoundation" Version="1.0.12" />
-  <NugetDependency Id="VKWPpmg8r3lP3jn5xdcmp9" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
-  <NugetDependency Id="Pe8Wmu0imXpN6HnEj5BGqO" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="VKWPpmg8r3lP3jn5xdcmp9" Location="VL.Stride" Version="2021.4.12" />
+  <NugetDependency Id="Pe8Wmu0imXpN6HnEj5BGqO" Location="VL.Skia" Version="2021.4.12" />
   <DocumentDependency Id="BzwiS3EoCwDMI6VUZ6lRAI" Location="./Include/Nodes.vl" />
 </Document>
