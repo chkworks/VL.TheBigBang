@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EMLu24FlPOAQENNHxDPYiT" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
+<Document xmlns:p="property" Id="EMLu24FlPOAQENNHxDPYiT" LanguageVersion="2021.4.12.1374" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2021.4.12" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -403,7 +403,7 @@
             <Pin Id="POg97bQTWn0QWqjOw1mCfZ" Name="Acceleration" Kind="OutputPin" />
             <Pin Id="VxfBWD4SUOIOecd7M0Uyts" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Pad Id="DmvfvHLVh7MMZtCPGEfuY8" Comment="" Bounds="258,974,83,15" ShowValueBox="true" isIOBox="true" Value="Plus">
+          <Pad Id="DmvfvHLVh7MMZtCPGEfuY8" Comment="" Bounds="258,974,83,15" ShowValueBox="true" isIOBox="true" Value="Src">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKBlendMode" />
             </p:TypeAnnotation>
@@ -432,7 +432,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="VBOqglBIvWDQbue56d4Scp" Name="Bounds" Kind="InputPin" DefaultValue="10, 382, 548, 370" />
+            <Pin Id="VBOqglBIvWDQbue56d4Scp" Name="Bounds" Kind="InputPin" DefaultValue="9, 381, 548, 369" />
             <Pin Id="AY623qFf1fYO4EzSRBe2q2" Name="Input" Kind="InputPin" />
             <Pin Id="Vf2eNIYiVylMzVhdBNCy8T" Name="Color" Kind="InputPin" />
             <Pin Id="IQDzGxpsLAJQWdXUWycRBH" Name="Clear" Kind="InputPin" />
@@ -997,6 +997,11 @@
             <Pin Id="E7rmbBIaODHP3FZqJXDsD1" Name="Layer" Kind="OutputPin" />
             <Pin Id="FV6TSMJBDl3QCn48FgEKWc" Name="Entity" Kind="OutputPin" />
           </Node>
+          <Pad Id="UDXWhJ97iK1MvngJnzni43" Comment="" Bounds="457,982,83,15" ShowValueBox="true" isIOBox="true" Value="Plus">
+            <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="TypeFlag" Name="SKBlendMode" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" ParticipatingElements="M0nlO8wMfCoLpMKJdMTwUE" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="IPHQP0lE6UWOnvyKAd75bt,AcXvpXsqrZ7NkTilnqWIZX,JDvObDpW5ZXPiAt8Lfxlup,A7BrscZcdZZNn0pSOLG9rN" />
@@ -1038,7 +1043,6 @@
         <Link Id="MHHMgRsqTPRMhlOOh1CuGj" Ids="CnNfDAeGBeOOAb9MPzNHNx,Pj9olH74K44O0FKLota21v" />
         <Link Id="Opw6UxES5HlNIg003dORBh" Ids="GB59Ts43ceGNYj1xjuNvdr,PtP7fp7ESFaMpv2EYqcUGA" />
         <Link Id="KF4QZzqjavOMAtFmFv0zI7" Ids="DmvfvHLVh7MMZtCPGEfuY8,LqFj2iBkgAVOnEnSbxcmUt" />
-        <Link Id="ANOuV6trxlRLTxYEy1aozr" Ids="DmvfvHLVh7MMZtCPGEfuY8,Ti1vfLHdmyvQH30as28uSm" />
         <Link Id="VUaTWsRXbpSLWVjMFu1thB" Ids="Ec54R3bvTmyLsrKgoG81ZL,K8TRf1ugaWJNcrHBCrtOw8" />
         <Link Id="NulI5pDwMJgLkutdfz0LCO" Ids="FtZCGeAA3G8QIwqEKFdLoU,AY623qFf1fYO4EzSRBe2q2" />
         <Link Id="UdST3u6dgrrLW4ctfbSkSW" Ids="Dk5smhsNct9MnRYjcwzSKI,TYqOPhIpGaTM4mT2KoJWvy" />
@@ -1129,10 +1133,11 @@
         <Link Id="NIizEXcXpMbNmchKLoQrFG" Ids="IWTUxUeSSYaNi5kKt40kAp,Alq40osPhvhNS9D5Zro0IE" />
         <Link Id="MYQFksLAts4OzNRKz6l1vp" Ids="VErZY5JMqlfLg5HRJmolVH,RP9qo9GVAI5QRbDzjALrGN" />
         <Link Id="DCtlKiE5BIVOUXRShC16nI" Ids="E7rmbBIaODHP3FZqJXDsD1,Qh8DZSoDpPdLjbqJKWB7UF" />
+        <Link Id="PwkPp12KW8wONOwL2iCy8a" Ids="UDXWhJ97iK1MvngJnzni43,Ti1vfLHdmyvQH30as28uSm" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2021.4.12" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2021.4.12" />
   <DocumentDependency Id="HV6k4WUn7IeNu9MyY38aIR" Location="./Include/Nodes.vl" />
 </Document>
