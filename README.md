@@ -3,6 +3,8 @@
 ## Installation
 *Todo: Create NuGet and describe installation here*
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
+
 ## Content
 
 ### Block I
