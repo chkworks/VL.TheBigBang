@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="K0FKWnIsErOP8YC12jY0U2" LanguageVersion="2022.5.0-0441-4f9bdb940b" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0441-g4f9bdb940b" />
+<Document xmlns:p="property" Id="K0FKWnIsErOP8YC12jY0U2" LanguageVersion="2022.5.0-0517-g0939ba652d" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0517-g0939ba652d" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -65,7 +65,7 @@
           <Pad Id="GwHwh6gJ4TOPK8RxeQCzOy" Bounds="1499,-9" />
           <Pad Id="BI7GfN6RDAGPgUbKSGUBIa" Bounds="1099,-9" />
           <Node Bounds="156,1477,65,19" Id="CiZiWO9M86cMM1aq3mIx24">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MonoFlop" />
             </p:NodeReference>
@@ -128,7 +128,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="140,459,85,19" Id="C9MnnCoIk3nLXgmmF9e9h3">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Trigger" />
             </p:NodeReference>
@@ -167,7 +167,7 @@
           </Pad>
           <Pad Id="B7m44kfnbwKNjOmZPJArbF" Comment="Next Bang Countdown" Bounds="182,497,35,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="141,675,65,19" Id="LHe8MwLM613MC8UtTCl0cC">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Queue" />
             </p:NodeReference>
@@ -178,7 +178,7 @@
             <Pin Id="IE63s0SnzXFLWKmFsWtdvH" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="128,1092,225,19" Id="OVVmgaS8QpWMryiluaeNW3">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
@@ -199,7 +199,7 @@
             <Pin Id="Pb7wNhWSagzMva3xYZ5jT0" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="148,1035,63,19" Id="PcwF8Bzq9IpMXqMljscCnp">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -211,7 +211,7 @@
             <Pin Id="AwVQUkAqvy5P3d3OBREUdf" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="300,560,45,19" Id="EbZXpVJ99KZPOk7gIxdVlG">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -233,7 +233,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="156,734,265,144" Id="Dcbro66ROf0Lq4rwV826UX">
-            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin" LastDependency="VL.CoreLib.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -246,7 +246,7 @@
               <Patch Id="CqIfGczJsqBOliSk6fqjr4" Name="Update" ManuallySortedPins="true" />
               <Patch Id="RK09IUeLGr6ONheo2L32Pm" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="168,838,165,19" Id="SOpsJth1ZHuPLG25afZ7vC">
-                <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+                <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Sphere" />
                 </p:NodeReference>
@@ -262,7 +262,7 @@
                 <Pin Id="KUvUBoctPnJN0xMJfFt63g" Name="Entity" Kind="OutputPin" />
               </Node>
               <Node Bounds="168,758,58,19" Id="FQaopwxap2MM9WQJqEkyIm">
-                <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+                <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                     <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -279,7 +279,7 @@
                 </p:TypeAnnotation>
               </Pad>
               <Node Bounds="252,784,77,19" Id="S1q6TtyjL1iLLM3uybw6Re">
-                <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl" LastDependency="VL.Stride.vl">
+                <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
                 </p:NodeReference>
@@ -298,7 +298,7 @@
             </Patch>
           </Node>
           <Node Bounds="141,645,58,19" Id="ATnz2OinJYuOEmUUPYMe5j">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Random" />
             </p:NodeReference>
@@ -318,7 +318,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="148,906,65,19" Id="V5OBMWWvbNSQHqFOErT4HH">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
@@ -330,7 +330,7 @@
             <Pin Id="DYKE43ovSs2QHBQPKzC9Yf" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="168,955,85,19" Id="IyWDiqHUluGN6cFbc1GJsn">
-            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AmbientLight" />
             </p:NodeReference>
@@ -448,7 +448,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="200,1667,56,19" Id="NIrQwgNCAKWQDAlArLukxA">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Color.RGBA" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531856" Name="RGBA" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="SetAlpha" />
@@ -463,7 +463,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="156,1577,65,19" Id="PWhpdTz73C1OmVenzq5cnH">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.Animation.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
@@ -477,7 +477,7 @@
             <Pin Id="SqZcF3T7JWfOUEa7WKellV" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Node Bounds="156,1375,85,19" Id="MjoyECv1ecBNY1LJxQXCoW">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Trigger" />
@@ -531,7 +531,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="689,362,56,19" Id="QAQmAG89QQWQHZH8wXaMGB">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
             </p:NodeReference>
@@ -540,7 +540,7 @@
             <Pin Id="Ad98OvyEyLyLxTrwtO9Wp8" Name="Down Edge" Kind="OutputPin" />
           </Node>
           <Node Bounds="669,423,65,19" Id="LdozJtLiNutQZOfAwVHdXI">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MonoFlop" />
             </p:NodeReference>
@@ -575,7 +575,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="601,1673,145,19" Id="MbzHsQq6Qb1Pn67uIOlTBB">
+          <Node Bounds="601,1702,145,19" Id="MbzHsQq6Qb1Pn67uIOlTBB">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -593,12 +593,12 @@
             <Pin Id="BRUjul0z6NxQTvTZAbbRXX" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="Etbo77qD6BzNa3ZLoPOnY5" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="L98XKrbUAKtM4aOJryx9y9" Comment="" Bounds="643,1654,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="L98XKrbUAKtM4aOJryx9y9" Comment="" Bounds="643,1683,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="772,1501,85,19" Id="IGfSwvXGanJOaLLusESOHn">
+          <Node Bounds="772,1530,85,19" Id="IGfSwvXGanJOaLLusESOHn">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true">
@@ -613,7 +613,7 @@
             <Pin Id="D5sAYzOlfi0LiMLSFtXxKj" Name="Enabled" Kind="InputPin" />
             <Pin Id="DzIac31i6ELOcUo66kFpNr" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="832,1474,105,19" Id="OZzDJygkP8pN2wlYgarzRd">
+          <Node Bounds="832,1503,105,19" Id="OZzDJygkP8pN2wlYgarzRd">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
@@ -626,7 +626,7 @@
             <Pin Id="UUkDMlg4aoSNgie40ShmQQ" Name="Miter" Kind="InputPin" />
             <Pin Id="MB8a6p0RnGbL20ji1bgFXR" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="641,1501,85,19" Id="JC1UMGA3kqGMXgQDUj4GNM">
+          <Node Bounds="641,1530,85,19" Id="JC1UMGA3kqGMXgQDUj4GNM">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true">
@@ -641,7 +641,7 @@
             <Pin Id="A8x1W9DiI4UMT76b9Jw6YP" Name="Enabled" Kind="InputPin" />
             <Pin Id="RJZhgCHKQn5OVWwsx7JOyM" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="701,1474,45,19" Id="CNwhNSdDXLFP3sJnJLWGwF">
+          <Node Bounds="701,1503,45,19" Id="CNwhNSdDXLFP3sJnJLWGwF">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Paint" NeedsToBeDirectParent="true">
@@ -654,13 +654,13 @@
             <Pin Id="UVlISu2A6udMJkT55QfPXs" Name="Shader" Kind="InputPin" />
             <Pin Id="LjxsQgUohkJLTluPhzIntS" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="UFAQphcKvINNh8aUDekkPw" Comment="" Bounds="854,1242,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="UFAQphcKvINNh8aUDekkPw" Comment="" Bounds="854,1271,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="747,1430,56,19" Id="MojuU3CfQ40MmiCuo7qHEm">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="747,1459,56,19" Id="MojuU3CfQ40MmiCuo7qHEm">
+            <p:NodeReference LastCategoryFullName="Color.RGBA" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4026531856" Name="RGBA" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="SetAlpha" />
@@ -669,7 +669,7 @@
             <Pin Id="B6vVHmSxTcgNnK1hzAuknX" Name="Alpha" Kind="InputPin" DefaultValue="0.22" />
             <Pin Id="Rfj5iJcBsYsOPY4jJ8Ckqo" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="621,1597,-29,19" Id="JTZXSvqqA9LLD67YqM9lF6">
+          <Node Bounds="621,1626,105,19" Id="JTZXSvqqA9LLD67YqM9lF6">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -697,10 +697,10 @@
             <Pin Id="BL5FrOcVRizN2OspZHu2gq" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="Vvqylac1CM9OU0o2C2IFXU" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="FKqY5Tj0H4lLlwBrs1rlU3" Name="Right Pressed" Kind="OutputPin" />
-            <Pin Id="ND4dWmqs0MWOya9csnhLBS" Name="WheelDelta" Kind="OutputPin" />
+            <Pin Id="ND4dWmqs0MWOya9csnhLBS" Name="Wheel State" Kind="OutputPin" />
           </Node>
-          <Node Bounds="681,1201,65,19" Id="DxdaHu8MJDPNNfbJ1bBTMF">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="725,1221,65,19" Id="DxdaHu8MJDPNNfbJ1bBTMF">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MonoFlop" />
             </p:NodeReference>
@@ -711,14 +711,14 @@
             <Pin Id="VTIMRBZjutONczmFs9bB4A" Name="Value" Kind="OutputPin" />
             <Pin Id="Di0oxgFx2OLPaU4gDiuTm8" Name="Inverse Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="UwZIL65NnlUP3UUU00AfIZ" Comment="" Bounds="683,1234,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="NAPQs4bXnPPOWoKYVo7bqK" Comment="Time" Bounds="703,1189,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+          <Pad Id="UwZIL65NnlUP3UUU00AfIZ" Comment="" Bounds="727,1254,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="NAPQs4bXnPPOWoKYVo7bqK" Comment="Time" Bounds="747,1209,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="798,1400,65,19" Id="OjTXQgvli3iPp0JoiVxCKy">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.Animation.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="798,1429,65,19" Id="OjTXQgvli3iPp0JoiVxCKy">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
@@ -731,17 +731,17 @@
             <Pin Id="SCfY79Ck76zNWFsKQSlf9W" Name="Acceleration" Kind="OutputPin" />
             <Pin Id="PKCC6FTlDy7MPI0tNStn3i" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Pad Id="HOMFFctG8vYNvG6Voc0E8o" Comment="Filter Time" Bounds="820,1382,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="HOMFFctG8vYNvG6Voc0E8o" Comment="Filter Time" Bounds="820,1411,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="609,865,225,19" Id="Fabt0I3cg0cNHeqs7lbzyF">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="QxaadCTOYAtL1hLvluRT53" Name="Bounds" Kind="InputPin" DefaultValue="555.3333, 46.66667, 533.3333, 333.3333" />
+            <Pin Id="QxaadCTOYAtL1hLvluRT53" Name="Bounds" Kind="InputPin" DefaultValue="555.3333, 46.666668, 533.3333, 332.66666" />
             <Pin Id="H9LfayNvj0IN6mv0ThALku" Name="Input" Kind="InputPin" />
             <Pin Id="AlIfpahO72uMzQEDDcUI0q" Name="Camera" Kind="InputPin" />
             <Pin Id="O8roYPWEuRYQMuipPINwua" Name="Enable Default Camera" Kind="InputPin" />
@@ -758,7 +758,7 @@
             <Pin Id="OuCrQAZMUaANapfGL1oit3" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="629,804,85,19" Id="O6hYPfdfG3kNPWs1aRU6Dc">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -771,7 +771,7 @@
             <Pin Id="BseQgYBlGJaM5PBs6rZTxs" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="669,727,185,19" Id="K0gIu2NXzO5NNwf7y0meZH">
-            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
             </p:NodeReference>
@@ -788,7 +788,7 @@
             <Pin Id="EeyaAfYbHOAO9pgt2FeCES" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="649,683,165,19" Id="VXvbKG0POxnOujI0S56Kxb">
-            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Sphere" />
             </p:NodeReference>
@@ -804,7 +804,7 @@
             <Pin Id="IohstkwHgh7LdYfKi12jM8" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="769,627,85,19" Id="B0AUmFhKKa1NA0FxvZyZ1K">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
@@ -816,7 +816,7 @@
             <Pin Id="RWUTzZubd0YLOrZ1CcJnI6" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="629,334,125,19" Id="Aj4dnFLdWjMM8TDlHp3X4b">
-            <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Input" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -833,7 +833,7 @@
             <Pin Id="RoAGJnX1XHXNtoY6ZmZePs" Name="Mouse Wheel Delta" Kind="OutputPin" />
           </Node>
           <Node Bounds="669,543,45,19" Id="VllIEXdYtinQOqAy8S3gW9">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -870,7 +870,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="669,598,65,19" Id="RHu4HDogCzIM3m3kWZ0sAv">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.Animation.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
@@ -883,8 +883,8 @@
             <Pin Id="CfQh35BiSDfQcHX0fy2oA5" Name="Acceleration" Kind="OutputPin" />
             <Pin Id="GgsYlegYPNiL7VV772dJDr" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Node Bounds="641,1104,57,19" Id="C6eJlhHt0wtQWSr2iKw515">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="725,1177,57,19" Id="C6eJlhHt0wtQWSr2iKw515">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Changed" />
             </p:NodeReference>
@@ -911,7 +911,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="1089,1831,225,19" Id="URRc72WiwFGMSXZeWqi5aJ">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
@@ -932,7 +932,7 @@
             <Pin Id="VeE6tjXfQHALxSby7UJiUT" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="1149,1443,305,19" Id="QF3AI0dtetEQcUKK0taQyo">
-            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Cylinder" />
             </p:NodeReference>
@@ -955,7 +955,7 @@
             <Pin Id="B8kgNWz5lDUOljNnjouWMi" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="1109,1797,63,19" Id="MwKAYtILYq5Oyzvg236B4o">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
             </p:NodeReference>
@@ -966,7 +966,7 @@
             <Pin Id="QHUxP0XwOaUNParbnFSWSK" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1129,1719,185,19" Id="JQTQXoZWh6WP5t5uCVL4Lw">
-            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
             </p:NodeReference>
@@ -998,7 +998,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1349,1413,77,19" Id="CnDI34Sd3B5MnbWORIynWW">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ColorMaterial" />
             </p:NodeReference>
@@ -1013,7 +1013,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1169,1640,305,19" Id="A165lEcHXVKLBPp9MvA05W">
-            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Cylinder" />
             </p:NodeReference>
@@ -1051,7 +1051,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1369,1612,77,19" Id="TuWSFjv3n0CMAUzFYsiv56">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ColorMaterial" />
             </p:NodeReference>
@@ -1066,7 +1066,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1109,1686,105,19" Id="EHaQAWv7GHsO2CVAXMwYpM">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -1090,7 +1090,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1149,1358,58,19" Id="JkVFrckx050LOWDPm4zjs9">
-            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -1102,7 +1102,7 @@
             <Pin Id="Drmkf1cg67yNzNkv5Y50yt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1170,1553,58,19" Id="AOoQhIHl2ozOrqwX65Mckg">
-            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -1114,7 +1114,7 @@
             <Pin Id="E8aIzsZDchlL28X9wVaHZ0" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1227,1253,45,19" Id="TGvKzaz7dg6QCHFWp1pXgA">
-            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -1131,7 +1131,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1267,1196,45,19" Id="EZXVEAVADiwOMMF1zqmFQ5">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -1147,7 +1147,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1267,1224,65,19" Id="PckKMnSQZErMWN6Nk8DTXf">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.Animation.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper (3D)" />
             </p:NodeReference>
@@ -1161,7 +1161,7 @@
             <Pin Id="QxMVscdQLwyPOTKLxoCxLr" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Node Bounds="1129,972,125,19" Id="KgE1BonZu2TPAsUyq9paU8">
-            <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Engine.vl" LastDependency="VL.Stride.vl">
+            <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Runtime.vl" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Input" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -1178,7 +1178,7 @@
             <Pin Id="MsKclVO3VJAPm0Gzoqujb4" Name="Mouse Wheel Delta" Kind="OutputPin" />
           </Node>
           <Node Bounds="1189,1061,52,19" Id="JleZw8hVNbfNN7fFx6XgZG">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" />
               <Choice Kind="ProcessAppFlag" Name="FlipFlop" />
@@ -1189,7 +1189,7 @@
           </Node>
           <Pad Id="QmTnNVLm3YDN6X2Me52P7M" Comment="State" Bounds="1191,1098,35,35" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1189,1015,56,19" Id="SbAkOKINMHOPEDTx01hTuy">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
             </p:NodeReference>
@@ -1198,7 +1198,7 @@
             <Pin Id="FhfyX5TQIs2QIk3QqgxOXK" Name="Down Edge" Kind="OutputPin" />
           </Node>
           <Node Bounds="1254,1015,56,19" Id="DZAuNtFfxCNLds0HYo5MdF">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
             </p:NodeReference>
@@ -1207,7 +1207,7 @@
             <Pin Id="A7Xcqrq9TyJLhYq3dUM7on" Name="Down Edge" Kind="OutputPin" />
           </Node>
           <Node Bounds="1801,1181,85,19" Id="EtKLB1DcnFFOQcYr8xlv32">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" />
               <Choice Kind="ProcessAppFlag" Name="MultiFlipFlop" />
@@ -1239,7 +1239,7 @@
           </Pad>
           <Pad Id="NYKCPxeVVyGL0d7uXb2Dxe" Comment="" Bounds="1803,1216,35,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1729,1395,45,19" Id="IXBGVZpdno0PgYJSqoVkTx">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
@@ -1256,7 +1256,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1754,1232,52,19" Id="HLHdXWDv2JPLTE0f116ubM">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="GetSlice" />
@@ -1346,7 +1346,7 @@
             <Pin Id="IqLD2RAJDbgQARZ3OVfSKL" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="CCXPGhJ8sALL9IV8cVC7Jo" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="KTNcjO79UVbNRmHmhhvZMW" Name="Right Pressed" Kind="OutputPin" />
-            <Pin Id="QUc9KtC1xG9Msvx5m3ADbs" Name="WheelDelta" Kind="OutputPin" />
+            <Pin Id="QUc9KtC1xG9Msvx5m3ADbs" Name="Wheel State" Kind="OutputPin" />
           </Node>
           <Node Bounds="1639,1562,-20,19" Id="KjlkxsQEBTRQWq6nlYO2yR">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -1397,7 +1397,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1805,425,56,19" Id="LzRn5F1T6fBPte2CKEwwMP">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
             </p:NodeReference>
@@ -1407,7 +1407,7 @@
           </Node>
           <Pad Id="VTKIImyosrNPqis8SWNnkz" Comment="" Bounds="1807,388,35,35" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1659,593,85,19" Id="PbtMLjui3qUNuIwYPmas5y">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RandomSpread (2d)" />
             </p:NodeReference>
@@ -1418,7 +1418,7 @@
             <Pin Id="GSh5nX3KrM4LgfYq6nImM6" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1647,663,293,226" Id="UyheVqPIQmoOizJmXFxiSp">
-            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin" LastDependency="VL.CoreLib.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -1447,7 +1447,7 @@
                 <Pin Id="IWNRPxzgxqJQTcYYoNB1Gd" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1801,788,42,19" Id="KjT1FtFfieGOS4TXx0WhFb">
-                <p:NodeReference LastCategoryFullName="2D.Circle" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+                <p:NodeReference LastCategoryFullName="2D.Circle" LastSymbolSource="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Circle (Join)" />
                 </p:NodeReference>
@@ -1456,7 +1456,7 @@
                 <Pin Id="EoJsD4qroGsNHmEGFcTf8Q" Name="Output" Kind="StateOutputPin" />
               </Node>
               <Node Bounds="1801,814,105,19" Id="CvPLCyvrsuZO7YjUgGTfQq">
-                <p:NodeReference LastCategoryFullName="2D.Collision" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+                <p:NodeReference LastCategoryFullName="2D.Collision" LastSymbolSource="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="CircleContainsPoint" />
                 </p:NodeReference>
@@ -1483,7 +1483,7 @@
                 <Pin Id="GqEzYe8zINeNng0XdNijcI" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1801,847,56,19" Id="JfGaToJIf0kMqqfvUePHpF">
-                <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+                <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="TogEdge" />
                 </p:NodeReference>
@@ -1515,7 +1515,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1774,484,54,19" Id="Ox5kacCzBC8QdkDEoQhxjG">
-            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Random" />
             </p:NodeReference>
@@ -1529,7 +1529,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1774,512,36,19" Id="HynVp1l1i9tM433F0bzywh">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="S+H" />
@@ -1539,7 +1539,7 @@
             <Pin Id="IGipKLeXRuULH3WJpD0lhZ" Name="Value" Kind="OutputPin" />
           </Node>
           <Node Bounds="1801,946,85,19" Id="InLn4f5F6FaLn05NjCerkJ">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Decons" />
@@ -1589,7 +1589,7 @@
             <Pin Id="FcY4zNUMo4cPyIWZWor5EI" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="1231,461,45,19" Id="FOSlqde8YCIMNhw0oNCX9E">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Swap" />
             </p:NodeReference>
@@ -1652,7 +1652,7 @@
             <Pin Id="DKRPDxMVvFXQRxVAlK6LLK" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="IM5q8W00roKMaHvbYBKtbR" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="EFnjuIT7ezgM0PGbRWqQBz" Name="Right Pressed" Kind="OutputPin" />
-            <Pin Id="LHtLb9paWCXNQKNjTonMG1" Name="WheelDelta" Kind="OutputPin" />
+            <Pin Id="LHtLb9paWCXNQKNjTonMG1" Name="Wheel State" Kind="OutputPin" />
           </Node>
           <Node Bounds="1131,605,-127,19" Id="OHJwjE6gxfeMQ8zOF6B0tH">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -1668,7 +1668,7 @@
             <Pin Id="CzTVU27ZVaGLeNnLMSBOs0" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1191,366,48,19" Id="C2zkbb0h5HVOpyjcyQcFzN">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Toggle" />
             </p:NodeReference>
@@ -1677,7 +1677,7 @@
             <Pin Id="E8VgMvT0jMiPosSh9NVx4w" Name="Value" Kind="OutputPin" />
           </Node>
           <Node Bounds="1191,339,56,19" Id="R3engwA0m9MOkFbhFlTLz7">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <FullNameCategoryReference ID="Control" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
@@ -1782,8 +1782,8 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="661,1336,45,19" Id="PD95dyz0ljpPRX4TJAPIjg">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="661,1365,45,19" Id="PD95dyz0ljpPRX4TJAPIjg">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -1793,19 +1793,19 @@
             <Pin Id="Gujc4ls59xeMUW6ScLREUp" Name="Input 2" Kind="InputPin" />
             <Pin Id="Kkrb4hbbO1FNLC9tXwccWD" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Bu5VFiIw21XNAcgV7oPVfB" Comment="Input" Bounds="683,1300,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="Bu5VFiIw21XNAcgV7oPVfB" Comment="Input" Bounds="683,1329,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="QnYHOosYxrWNroc8A4hNnj" Comment="" Bounds="703,1320,35,15" ShowValueBox="true" isIOBox="true" Value="0.8">
+          <Pad Id="QnYHOosYxrWNroc8A4hNnj" Comment="" Bounds="703,1349,35,15" ShowValueBox="true" isIOBox="true" Value="0.4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="661,1400,65,19" Id="PrOYG1XFrzYOH1xsTnFd88">
-            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.Animation.vl" LastDependency="VL.CoreLib.vl">
+          <Node Bounds="661,1429,65,19" Id="PrOYG1XFrzYOH1xsTnFd88">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
@@ -1818,17 +1818,17 @@
             <Pin Id="JduuBBn28CBPkrAMRkI12w" Name="Acceleration" Kind="OutputPin" />
             <Pin Id="GjBJAqeTgmKOSUSGqxQo89" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Pad Id="EAvaztST9j5Pi74EwYE03n" Comment="Filter Time" Bounds="683,1382,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="EAvaztST9j5Pi74EwYE03n" Comment="Filter Time" Bounds="683,1411,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VZLFBCICwfRN7j232n4rvz" Comment="Stroke Width" Bounds="874,1456,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+          <Pad Id="VZLFBCICwfRN7j232n4rvz" Comment="Stroke Width" Bounds="874,1485,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="681,1563,65,19" Id="OfIvISI6cxPP9JLtzEFj7v">
+          <Node Bounds="681,1592,65,19" Id="OfIvISI6cxPP9JLtzEFj7v">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -1852,6 +1852,7 @@
             <Pin Id="RwZk0NlnFThLuPcTqOlI3f" Name="Layer" Kind="OutputPin" />
             <Pin Id="B546Jnxsp4HP4BeoHQZgNK" Name="Entity" Kind="OutputPin" />
           </Node>
+          <Pad Id="QFJU4HUTuDJPDGfzwjhKUH" Comment="" Bounds="643,1115,35,28" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="IPHQP0lE6UWOnvyKAd75bt,AcXvpXsqrZ7NkTilnqWIZX,MYwCUPJINr7PmBGn4G42zH,JDvObDpW5ZXPiAt8Lfxlup,JxJWaZCIzqLPTljHeXBSZ2,H2I4teelQwsOSe6AbcDSXn,B52BZCaIuLDLgjld6Lqs9r,CJp2yYzJZrKPy5UIlo7eR1" />
@@ -1940,7 +1941,7 @@
         <Link Id="KQVXFlZA3kANsvmhKyyWaj" Ids="TDLCUTAR2BZMuFxOlywXUp,HezmztGRQMuPsAMFB3swbD" />
         <Link Id="DqXKp1BX6J7MhSzStXrLCk" Ids="PPic0WuS1QFOP9yTg3B53H,MwH6UT5aRPGPxpVYE2XfqE" />
         <Link Id="RZuR5BYXgFtP4m4gmp8hUo" Ids="Cp4MOymhcZyMzbBWf4I7Su,PrKGAHwqGFpMWUZrTi2gkh" />
-        <Link Id="OZ0cTbq9YcINBMa1XWG6SM" Ids="OxMP3wAMjHiLTXn7amQFC0,Fu6no88cnDZOgN7atC1wX5" />
+        <Link Id="OZ0cTbq9YcINBMa1XWG6SM" Ids="OxMP3wAMjHiLTXn7amQFC0,QFJU4HUTuDJPDGfzwjhKUH" />
         <Link Id="OIBGSBH5gwhQC3g00L9Ero" Ids="EYfdZgCx8ELO5qG6Hcvyqw,I9ljkB1PuaTLkkaMqBpzOX" />
         <Link Id="LiYnpa71oI3PDmwehGsJb5" Ids="QHUxP0XwOaUNParbnFSWSK,CnN0F7gubrGLfpkzc0Y4Kw" />
         <Link Id="Q1cqAZ6gpRANJpD3cxU7fe" Ids="OG8gPviysuIM94sZz65i0N,UIPcjz0DiZrMUFzUq5QHWx" />
@@ -2059,10 +2060,13 @@
         <Link Id="LVx7Y8BHTp0M8CGQaJhLif" Ids="J5pVdcvkmr6OjxhTwib0Ak,AxX58LtO9cSPzYOhZd5Gf8" />
         <Link Id="CUHM0WQKWYrP4lVQibI9q1" Ids="SGFoj6viOLBMH4CXgbrBni,RDBoMmjU932LwlSBBxSvqG" />
         <Link Id="MSPyesirCCCMRlqfM2zOVv" Ids="B546Jnxsp4HP4BeoHQZgNK,R9PS0lRv97KNxJPiuorHcu" />
+        <Link Id="Vder7XTkbvQPltfhVbcFef" Ids="QFJU4HUTuDJPDGfzwjhKUH,Fu6no88cnDZOgN7atC1wX5" />
+        <Link Id="Ktj5GH3o8QnMfTaZ7Px0fT" Ids="QFJU4HUTuDJPDGfzwjhKUH,NyzwLvVE6Z7Or6K4eWOR6b" />
+        <Link Id="NtYmiqzTTddOEuCKRXQMZX" Ids="QFJU4HUTuDJPDGfzwjhKUH,U8rWMnXL12sQMBM4zkQh7A" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2022.5.0-0441-g4f9bdb940b" />
-  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2022.5.0-0441-g4f9bdb940b" />
+  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2022.5.0-0517-g0939ba652d" />
+  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2022.5.0-0517-g0939ba652d" />
   <DocumentDependency Id="LnbuhGUqSrqPdf9wXbBKX0" Location="./Include/Nodes.vl" />
 </Document>
