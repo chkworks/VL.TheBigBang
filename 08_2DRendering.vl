@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="F88UCnOUJJVMfUrLlxILC3" LanguageVersion="2022.5.0-0546-ga89794b889" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0546-ga89794b889" />
+<Document xmlns:p="property" Id="F88UCnOUJJVMfUrLlxILC3" LanguageVersion="2022.5.0-0545-gedd0cac281" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0545-gedd0cac281" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -528,9 +528,9 @@
           <Node Bounds="669,749,59,19" Id="F7Rwe3kGSy0Lwjym8l4CYN">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="DrawSVG" />
+              <Choice Kind="ProcessAppFlag" Name="DrawPicture" />
             </p:NodeReference>
-            <Pin Id="B78bKlajhknMoNG8aP6Iyk" Name="SVG" Kind="InputPin" />
+            <Pin Id="H9Fa5Haov9BNsSdGLviNMd" Name="Picture" Kind="InputPin" />
             <Pin Id="TRvmkAbn7DkMX6NJvPqRio" Name="Position" Kind="InputPin" />
             <Pin Id="LqNWtPZEThmNKUqq9IS99N" Name="Size" Kind="InputPin" />
             <Pin Id="QATFt0BDW8zLwQEn5EXTid" Name="Size Mode" Kind="InputPin" />
@@ -637,7 +637,7 @@
           </Pad>
           <Overlay Id="EmMKbi4882rMijjOIFC43O" Name="" Bounds="651,506,349,280" />
           <Overlay Id="ExeKPRui4pLML6lyvoMMjb" Name="" Bounds="621,305,236,170" />
-          <Pad Id="OLkMh5Zy1BSN9iNXWF2xgm" Bounds="92,1543,400,55" ShowValueBox="true" isIOBox="true" Value="Use blend modes between the paint and the primitives to blend your layers into each other. Check all available blend modes on the dropdown enum input.">
+          <Pad Id="OLkMh5Zy1BSN9iNXWF2xgm" Bounds="92,1543,400,55" ShowValueBox="true" isIOBox="true" Value="Use blend modes between the paint and the primitives to define how a layer will be blended over previously drawn layers. Check all available blend modes on the dropdown enum input.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -957,12 +957,12 @@
         <Link Id="MeTuWPBHCDTPnsOtcZT3JJ" Ids="JyKqWFOqyQ0NYLyXiMQYJB,BuMqihSSrCoOsxbOZJmv9r" />
         <Link Id="RYeXJzrkE2xNlJ6lFpv3PS" Ids="VleP1C5hLAZO6eAILbUAmz,JEb0Lt5A3brLVTSqZTZRwQ" />
         <Link Id="HTfRqRJoUPoOqmPIIcDNo8" Ids="AsxFpnGI3OCNDZJDNeyOFL,JQ7gAJgwk3KPGAd4adrAvL" />
-        <Link Id="NzyTfojIJQXLJGuQ32qAAr" Ids="TBa8nJcC4x1Nf0WCqo63pZ,B78bKlajhknMoNG8aP6Iyk" />
         <Link Id="Bbqo0wykufNOUPq1MG1uTM" Ids="Sg5nvETYsF4PKNYzkvCIxO,TX86LYzuphfLEhaOufsOKI" />
+        <Link Id="VOrOLuTmFA1LARzmdBnOGa" Ids="TBa8nJcC4x1Nf0WCqo63pZ,H9Fa5Haov9BNsSdGLviNMd" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0546-ga89794b889" />
+  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0545-gedd0cac281" />
   <DocumentDependency Id="IWWAPZsRcIPL3kiqw019Go" Location="./Include/Nodes.vl" />
-  <NugetDependency Id="G2axy3Z0lfbQHRawIzF8eE" Location="VL.CoreLib.Windows" Version="2022.5.0-0546-ga89794b889" />
+  <NugetDependency Id="G2axy3Z0lfbQHRawIzF8eE" Location="VL.CoreLib.Windows" Version="2022.5.0-0545-gedd0cac281" />
 </Document>
