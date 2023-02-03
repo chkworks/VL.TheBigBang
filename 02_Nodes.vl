@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GKW1venJYRdLn7PBnEEEkQ" LanguageVersion="2022.5.0-0546-ga89794b889" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0546-ga89794b889" />
+<Document xmlns:p="property" Id="GKW1venJYRdLn7PBnEEEkQ" LanguageVersion="2022.5.0-0545-gedd0cac281" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0545-gedd0cac281" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -199,7 +199,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="Q0vJBNvMxkjPO9lKilNkPk" Comment="Cycles" Bounds="317,964,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KtpVP0tb34lPiIdovhql1s" Bounds="92,1079,402,232" ShowValueBox="true" isIOBox="true" Value="When exposing the input Boolean for &quot;Pause&quot; and &quot;Reset&quot;, you might have noticed that VVVV asked you, which type of a Boolean IOBox you want to create. &#xD;&#xA;&#xD;&#xA;In this case a Toggle for &quot;Pause&quot; and a Bang for &quot;Reset&quot; would be good choices, because we would want to turn on or off the whole node, but reset with a short trigger.&#xD;&#xA;&#xD;&#xA;When getting more experienced you will find out, which nodes work best with which Boolean IOBoxes. You can always change the type of a Boolean IOBox in its configuration menu (Rightclick &gt; Configure).">
+          <Pad Id="KtpVP0tb34lPiIdovhql1s" Bounds="92,1079,402,232" ShowValueBox="true" isIOBox="true" Value="When exposing the input Boolean for &quot;Pause&quot; and &quot;Reset&quot;, you might have noticed that VVVV asked you, which type of a Boolean IOBox you want to create. &#xD;&#xA;&#xD;&#xA;In this case a Toggle for &quot;Pause&quot; and a Bang for &quot;Reset&quot; would be good choices, because we would want to turn on or off the whole node, but reset with a short trigger.&#xD;&#xA;&#xD;&#xA;When getting more experienced you will find out, which nodes work best with which Boolean IOBoxes. You can always change the type of a Boolean IOBox in its configuration menu (middle click on the IOBox, then change the &quot;Button mode&quot;).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -285,7 +285,7 @@
             <Pin Id="NzlSfhCVcoTN2HY2cFtfCL" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="MtceRHhDYGYLOu8LIRn2A2" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="JcN7INUR69FQOm0bxlo4Mj" Bounds="92,742,400,62" ShowValueBox="true" isIOBox="true" Value="When you start a link from a pin and middle-click somewhere in the blank area, an IOBox is exposed. Try this with the unconnected LFO below.">
+          <Pad Id="JcN7INUR69FQOm0bxlo4Mj" Bounds="92,742,400,62" ShowValueBox="true" isIOBox="true" Value="When you start a link from a pin and middle-click somewhere in the blank area, an IOBox is exposed. Try this with any pin from the unconnected LFO below.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -424,7 +424,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="184,622,45,19" Id="M12kDtXaOytPVGkdq1G3Z9">
+          <Node Bounds="189,648,45,19" Id="M12kDtXaOytPVGkdq1G3Z9">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -436,7 +436,7 @@
             <Pin Id="FoaDawW0bIwPA66u7zgRXv" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="D5GizKoZyqYPt8ks1f51wu" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Node Bounds="124,622,45,19" Id="GRTTfY91gzDPNgsXCSVArn">
+          <Node Bounds="129,648,45,19" Id="GRTTfY91gzDPNgsXCSVArn">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -503,6 +503,15 @@
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">7</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AKIbkxNbsd6Mel8UVWg8uz" Bounds="179,630,20,19" ShowValueBox="true" isIOBox="true" Value="v">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
