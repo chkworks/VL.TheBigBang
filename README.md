@@ -42,20 +42,22 @@
 24. Create & Update
 25. Process Nodes
 26. Member Operations
+27. Static Operations
 
 ### Block VI
-27. Mouse Input
-28. Collision
-29. Control 2: Triggers & Flops
-30. Audio Analysis
-31. Animation 2: Counting
-32. Math 2: Ranges
+28. Mouse Input
+29. Collision
+30. Control 2: Triggers & Flops
+31. Audio Analysis
+32. Animation 2: Counting
+33. Math 2: Ranges
 
 ### Block VII
-33. Math 3: Angles
-34. Keyboard Input
-35. Control 3: Boolean Logic
-36. Animation 3: Transitions
+34. Math 3: Angles
+35. Keyboard Input
+36. Control 3: Boolean Logic
+37. Animation 3: Transitions
+38. Math 4: Algorithms
 
 ## Changelog
 *Todo*
