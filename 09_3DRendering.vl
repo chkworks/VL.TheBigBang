@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="N4wyeFcVAWANayV7ePXHI1" LanguageVersion="2022.5.0-0546-ga89794b889" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0546-ga89794b889" />
+<Document xmlns:p="property" Id="N4wyeFcVAWANayV7ePXHI1" LanguageVersion="2022.5.0-0545-gedd0cac281" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0545-gedd0cac281" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -167,7 +167,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AwsxsideprePyWJueZuJsF" Bounds="92,243,401,57" ShowValueBox="true" isIOBox="true" Value="Stride is the built-in 3D render engine. It features a system of entities of primitives, shaders, lights and much more, which are collected and renderer in a SceneWindow.">
+          <Pad Id="AwsxsideprePyWJueZuJsF" Bounds="92,243,401,57" ShowValueBox="true" isIOBox="true" Value="Stride is the built-in 3D render engine. It features a system of entities of primitives, shaders, lights and much more, which are collected and rendered in a SceneWindow.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -257,7 +257,7 @@
             <Pin Id="MHowWbfzcifM1FeQilhfM0" Name="Inverse View" Kind="OutputPin" />
             <Pin Id="RnDblzaipbsQESfJ6yxwts" Name="Camera Component" Kind="OutputPin" />
           </Node>
-          <Pad Id="UpGWbrQyigzNIg2QdqUqiK" Bounds="1092,243,401,167" ShowValueBox="true" isIOBox="true" Value="When no camera is connected to the SceneWindow it assumes that you want to use the default camera. Use an orbit camera if you want to manipulate the camera settings or want to control its position from the patch.&#xD;&#xA;&#xD;&#xA;Make sure that it is both connected to the SceneWindow as well the RootScene, because then the helper is also displayed in debug mode. Value changes on the input pins only take effect after the camera has been reset.">
+          <Pad Id="UpGWbrQyigzNIg2QdqUqiK" Bounds="1092,243,399,189" ShowValueBox="true" isIOBox="true" Value="When no camera is connected to the SceneWindow it assumes that you want to use the default camera. Use an orbit camera if you want to manipulate the camera settings or want to control its position from the patch.&#xD;&#xA;&#xD;&#xA;Make sure that it is both connected to the SceneWindow as well the RootScene, because then the helper is also displayed in debug mode. Value changes on the input pins only take effect after the camera has been reset (by baning the reset pin OR when you hold the &quot;R&quot; key for 0.5 seconds when the SceneWindow is in focus).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -453,7 +453,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="BKlWQhH9cm2QBxDTAMTKgl" Name="Bounds" Kind="InputPin" DefaultValue="14.666667, 42, 533.3333, 332.66666" />
+            <Pin Id="BKlWQhH9cm2QBxDTAMTKgl" Name="Bounds" Kind="InputPin" DefaultValue="14, 42, 533, 332" />
             <Pin Id="LUIF46AZN8NOovyChDvjNx" Name="Input" Kind="InputPin" />
             <Pin Id="Vc9KmnDQPb2Nn5Cl6txVam" Name="Camera" Kind="InputPin" />
             <Pin Id="DPN2JQib3grLJZW1UY8TW9" Name="Enable Default Camera" Kind="InputPin" />
@@ -1811,7 +1811,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
-            <Pin Id="Pca2ZLGHTclOreCytgmxfi" Name="Bounds" Kind="InputPin" DefaultValue="1092.6666, 42.666668, 279.33334, 158.66667" />
+            <Pin Id="Pca2ZLGHTclOreCytgmxfi" Name="Bounds" Kind="InputPin" DefaultValue="1092, 42, 279, 158" />
             <Pin Id="AS2NRgCQuNINnDX7cinGAe" Name="Input" Kind="InputPin" />
             <Pin Id="D5edVNylO9xLlJ2IC740kK" Name="Title" Kind="InputPin" DefaultValue="TextureWindow" />
             <Pin Id="L2FXh36fLjTLpVaHqJbFjo" Name="Clear Color" Kind="InputPin" />
@@ -1878,6 +1878,15 @@
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">7</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="N1C3sYVvkedOy7llOve1cA" Comment="Reset" Bounds="1440,575,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
@@ -2038,10 +2047,11 @@
         <Link Id="HrHHjR9sCTVODCZqJLhkjl" Ids="Lh06gz4NdU8Lvmc99L0KGN,G69x7DUUvMePEbNgmmSRZR" />
         <Link Id="PbgVY2Uhc9fNP7D8mCcLjs" Ids="FxI9PHQzDOILsQU9FdcqEr,BVlEwMR7E3qLVthriYm2Gi" />
         <Link Id="KaE3M6e6AQZOWVxfDGNSSE" Ids="RHRua4skCheMKRvsYnbM7e,AS2NRgCQuNINnDX7cinGAe" />
+        <Link Id="N9b4RegKODjLrxkSFY6qNV" Ids="N1C3sYVvkedOy7llOve1cA,Ka99dqvDoiONh3qNXYIdcr" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0546-ga89794b889" />
-  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0546-ga89794b889" />
+  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0545-gedd0cac281" />
+  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0545-gedd0cac281" />
   <DocumentDependency Id="CWkz6wtNwdZOuYeyk66AY4" Location="./Include/Nodes.vl" />
 </Document>
