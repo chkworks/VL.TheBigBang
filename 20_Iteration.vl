@@ -34,14 +34,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DRelGGhdxdWLXszLXIh7YL" Bounds="998,-8" />
-          <Pad Id="Rbn7ZkYJOnrM7Lvy5aesaO" Bounds="998,2328" />
-          <Pad Id="DvaVkabPulaLlpqwRJfJbE" Bounds="499,-8" />
-          <Pad Id="CRBIjEwTnUoM1E9z2clC21" Bounds="499,2328" />
-          <Pad Id="U03CyYBMviZLU7WNidQ2Ak" Bounds="599,-8" />
-          <Pad Id="BSZ9UzzJ8WCOxz4gJCVvsZ" Bounds="599,2328" />
-          <Pad Id="CsEAvt5hws0P3lh43I8N7H" Bounds="99,-8" />
-          <Pad Id="GiuggHSrE27NZjCVMGi2UK" Bounds="99,2328" />
           <Pad Id="KKRcacYV2bVNe666xC5t07" Bounds="92,206,400,82" ShowValueBox="true" isIOBox="true" Value="When talking about spreads in VVVV, it is necessary to also talk about loops, because we need them in order to do something with the data inside a spread. To iterate over the slices of a spread, we use a so-called region with the label ForEach.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -936,17 +928,43 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Overlay Id="EH6GroJrtr0MNRcxMlm0En" Bounds="100,1588,366,108">
+            <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
+          </Overlay>
+          <Pad Id="BHB9FngHrxOLHRUnth7SAU" Bounds="101,1606,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="QUVZkS9QJ8GMcxsJBZyvus" Bounds="101,1637,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VNgjmmbe0KJMXZcunVOxFb" Bounds="101,1656,344,16" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/loops">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
-        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="N7O7I04pumpMNfC3ccIwVb,QBkUVZNU06XNDdJTXp3p9Z,DTJDmy3eaXPNYRWQfP3Rnh,Po6UoCY5BLfOqRqsaoEMwa" />
+        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
         <ProcessDefinition Id="NuPzoCMsW7GODKuqfTaoGi">
           <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
           <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="N7O7I04pumpMNfC3ccIwVb" Ids="DRelGGhdxdWLXszLXIh7YL,Rbn7ZkYJOnrM7Lvy5aesaO" />
-        <Link Id="QBkUVZNU06XNDdJTXp3p9Z" Ids="DvaVkabPulaLlpqwRJfJbE,CRBIjEwTnUoM1E9z2clC21" />
-        <Link Id="DTJDmy3eaXPNYRWQfP3Rnh" Ids="U03CyYBMviZLU7WNidQ2Ak,BSZ9UzzJ8WCOxz4gJCVvsZ" />
-        <Link Id="Po6UoCY5BLfOqRqsaoEMwa" Ids="CsEAvt5hws0P3lh43I8N7H,GiuggHSrE27NZjCVMGi2UK" />
         <Link Id="D4GUeJVO7tzLOLf3OSb9SQ" Ids="FnukF4VqlnGN4W4OdK3BWW,CkIVbWFoQnLQLkgtow84vL" />
         <Link Id="DIMOplBeMJlN81r6NnwaqT" Ids="KIh6VWtYNOZOtBE1FX9oHv,BUKrXBFxcpELs0FLdUrRkf" />
         <Link Id="OFsAHI8GSPJPsIPEaGtYeZ" Ids="TrBF4cXbD4OLQjjAHEm4mF,FHlLCHt3A6JMnjfnkPykJx" />
