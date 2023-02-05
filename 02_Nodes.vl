@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,684,46" ShowValueBox="true" isIOBox="true" Value="02_ Nodes">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,178,-34" ShowValueBox="true" isIOBox="true" Value="02_ Nodes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -199,7 +199,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="Q0vJBNvMxkjPO9lKilNkPk" Comment="Cycles" Bounds="317,964,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KtpVP0tb34lPiIdovhql1s" Bounds="92,1079,402,232" ShowValueBox="true" isIOBox="true" Value="When exposing the input Boolean for &quot;Pause&quot; and &quot;Reset&quot;, you might have noticed that VVVV asked you, which type of a Boolean IOBox you want to create. &#xD;&#xA;&#xD;&#xA;In this case a Toggle for &quot;Pause&quot; and a Bang for &quot;Reset&quot; would be good choices, because we would want to turn on or off the whole node, but reset with a short trigger.&#xD;&#xA;&#xD;&#xA;When getting more experienced you will find out, which nodes work best with which Boolean IOBoxes. You can always change the type of a Boolean IOBox in its configuration menu (middle click on the IOBox, then change the &quot;Button mode&quot;).">
+          <Pad Id="KtpVP0tb34lPiIdovhql1s" Bounds="92,1079,402,232" ShowValueBox="true" isIOBox="true" Value="When exposing the input Boolean for &quot;Pause&quot; and &quot;Reset&quot;, you might have noticed that VVVV asked you, which type of a Boolean IOBox you want to create. &#xD;&#xA;&#xD;&#xA;In this case a Toggle for &quot;Pause&quot; and a Bang for &quot;Reset&quot; would be good choices, because we would want to turn on or off the whole node, but reset with a short trigger.&#xD;&#xA;&#xD;&#xA;When getting more experienced you will find out, which nodes work best with which Boolean IOBoxes. You can always change the type of a Boolean IOBox in its configuration menu (Rightclick &gt; Configure &gt; Button Mode).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -265,14 +265,6 @@
             <Pin Id="UDtDm3uJa2OLs9BGkNVqrr" Name="Input 2" Kind="InputPin" />
             <Pin Id="BhtCVZqm9LbLksyCs2cm55" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="HGiytTncFPjO0hyej7yvcG" Bounds="998,-8" />
-          <Pad Id="O12JqeRnYoiM3Za2ZzuFYr" Bounds="998,1596" />
-          <Pad Id="LyoEXTTkdu7Ok8vQ7xwTCJ" Bounds="499,-8" />
-          <Pad Id="MHuLuM2N5YbPEWNwec0VMX" Bounds="499,1596" />
-          <Pad Id="TNE1R0SZmIoQSnBGqCCymF" Bounds="599,-8" />
-          <Pad Id="G8rBVxAWEVvNhUSiMOGT2Z" Bounds="599,1596" />
-          <Pad Id="Ertq571mWMDLQxTo2Winkc" Bounds="99,-8" />
-          <Pad Id="GFteK5j1jT9QZgTLdQrWQ0" Bounds="99,1596" />
           <Node Bounds="148,918,45,19" Id="R53aYoXDAtFNRsfowXuaCB">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -505,7 +497,19 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="AKIbkxNbsd6Mel8UVWg8uz" Bounds="179,630,20,19" ShowValueBox="true" isIOBox="true" Value="v">
+          <Overlay Id="HikmJmuuA3BN4dSXYAtiGj" Bounds="600,1496,366,108">
+            <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
+          </Overlay>
+          <Pad Id="M38qYkqKgMSLLeszsxDDYm" Bounds="601,1514,216,25" ShowValueBox="true" isIOBox="true" Value="More Resources &gt;&gt;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="V8htz8ZcJTSMMVIgSpHSMa" Bounds="601,1545,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -514,9 +518,18 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="QIuYkg2YpIUL7tAz9xq3S1" Bounds="601,1564,346,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/nodes">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
-        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="F7yFm6tgfmAMHljbPpNq4G,NI5WOhK6QPvPPardljIrsH,KHZYVZDfnJfPa0PQKPbcco,Hw8KjDR5EvtQQUT1TCEf2C" />
+        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
         <ProcessDefinition Id="NuPzoCMsW7GODKuqfTaoGi">
           <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
           <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
@@ -539,10 +552,6 @@
         <Link Id="B6e6N8VUV3sP9UuRDp02JU" Ids="TBPkKraNuFDLLLJqEricMs,TVWfILgbXO8QcObOqMOKZ7" />
         <Link Id="LLNhomQigZENofGF7rrA1o" Ids="GsUUWuFXwVYLY1dlUwLpzw,Q0vJBNvMxkjPO9lKilNkPk" />
         <Link Id="IRikkNsNw9DPTgrEct4iuQ" Ids="JhYcJbnYu92NySPv3dXrIX,E31y2DtFIJ0P6z1Es87psy" />
-        <Link Id="F7yFm6tgfmAMHljbPpNq4G" Ids="HGiytTncFPjO0hyej7yvcG,O12JqeRnYoiM3Za2ZzuFYr" />
-        <Link Id="NI5WOhK6QPvPPardljIrsH" Ids="LyoEXTTkdu7Ok8vQ7xwTCJ,MHuLuM2N5YbPEWNwec0VMX" />
-        <Link Id="KHZYVZDfnJfPa0PQKPbcco" Ids="TNE1R0SZmIoQSnBGqCCymF,G8rBVxAWEVvNhUSiMOGT2Z" />
-        <Link Id="Hw8KjDR5EvtQQUT1TCEf2C" Ids="Ertq571mWMDLQxTo2Winkc,GFteK5j1jT9QZgTLdQrWQ0" />
         <Link Id="Hl2byDOgnyMOaE7lR4EtPx" Ids="IzNn0OmfbC3Lc3UokHBy2y,BqbXZuIEvRHPPOjrFNnMRa" />
         <Link Id="HAgLePcdCiQLGzpBLH3WlM" Ids="IoUVEWuaaAUOTsibF9XwUh,GrQKZFPzpXSNu1n26j8hvw" />
         <Link Id="PThA5bmvNBMPfhaAwCZXn1" Ids="BvaZcXzvWS8Mwg3aCtLtVq,AT9d6m8lRdlMpC0T5zjth6" />
