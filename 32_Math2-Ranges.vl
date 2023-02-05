@@ -1305,7 +1305,7 @@
             <Pin Id="Dp39EgS6KV4PAhVCtHi6uk" Name="Input 2" Kind="InputPin" />
             <Pin Id="Oy6GMZaGL42LU5zfURmxOz" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="KTq7V1LesLPPkFJe67Fv13" Bounds="1092,243,399,61" ShowValueBox="true" isIOBox="true" Value="Lerp is a highly flexible node that allows to make a smooth linear transition between two other values. As it is generic we can use it for any basic data types VVVV offers.">
+          <Pad Id="KTq7V1LesLPPkFJe67Fv13" Bounds="1092,243,399,61" ShowValueBox="true" isIOBox="true" Value="Lerp is a highly flexible node that allows to make a smooth linear transition between two other values. As it is adaptive, we can use it for any basic data types VVVV offers.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2405,6 +2405,23 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="1207,1233,30,19" Id="GTVtn7PMSSuLUfGT5toBUv">
+            <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="OR" />
+            </p:NodeReference>
+            <Pin Id="EmxdxN3v3R5LBwmb3x7rFq" Name="Input" Kind="StateInputPin" />
+            <Pin Id="RYaMjU9WtVdPUfcy8VNCC7" Name="Input 2" Kind="InputPin" />
+            <Pin Id="PEenkyTZPSJMGjBxiZG8uF" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1295,1155" Id="PykwDtmFF9PL4nAVtrcWHV">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+            </p:NodeReference>
+            <Pin Id="CcYSwdQaMjQNwf4v1iBnNi" Name="Simulate" Kind="InputPin" />
+            <Pin Id="Fbbwy1utsVmOotNFU9zCBO" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
@@ -2547,7 +2564,7 @@
         <Link Id="TFW0ZntDEVKNZDdNOaYZUw" Ids="KV2wUswlaztQSee4x803Uy,UXHveWUKr7mPzaKGiotszs" />
         <Link Id="VQ9VSIyQFjWOqQVcggE9lf" Ids="AT45nH37GA5Nfm7h7EUKvy,MZelyH4me7TLrQOGc51jD8" />
         <Link Id="VI2QEDm25hPNpzd6Yfvhem" Ids="IQa0qwoBAJaPjcteID2Le8,UlieuVQpIGiPPOACOGaD7f" />
-        <Link Id="Tax908H0JJrMfn3xNxQZUW" Ids="PdfV9h6HNQkQOtFwPnRS6j,Sm2I4XPYC5hMi6KhDIfOQn" />
+        <Link Id="Tax908H0JJrMfn3xNxQZUW" Ids="PdfV9h6HNQkQOtFwPnRS6j,EmxdxN3v3R5LBwmb3x7rFq" />
         <Link Id="KIzvBhGrLnINzbvVBBXLts" Ids="Oy6GMZaGL42LU5zfURmxOz,QnJQFTyL8G7OQBQwIhoqK1" />
         <Link Id="SOOqv8EHP9FL0CKPhzNofQ" Ids="QnJQFTyL8G7OQBQwIhoqK1,HOLOAO4Ggh9QG7k85whMGy" />
         <Link Id="D8tKNb0pQNPN8Jom2YRfjp" Ids="SHhTCthLi8kQKs2btLzZbU,T7s6tL9Q7JEMk8byGalj4D" />
@@ -2705,6 +2722,8 @@
         <Link Id="Bmvim8AxpNKLxiEkeRdsYv" Ids="BJmndF3CpElPs9inLeP3qh,Gf3ZuchFHwqQDpXKLtXvNr" />
         <Link Id="QZ4VZ6FPvNGOl5a6LyUtht" Ids="HOGX6nj8YSXQWcVSgdWkbB,EW42p6FxhxiLqMUw9Cfezz" />
         <Link Id="UASjJawJ16zN96PuhKR44m" Ids="FkjC2OPUbLeMyq8nD5lwcl,Hb8L2eqcr4FOBjZd6AcPiw" />
+        <Link Id="FD44t2wpHUVN0kCocY6bYQ" Ids="PEenkyTZPSJMGjBxiZG8uF,Sm2I4XPYC5hMi6KhDIfOQn" />
+        <Link Id="J2I9Zv9ytalLUdDwj4MsVR" Ids="Fbbwy1utsVmOotNFU9zCBO,RYaMjU9WtVdPUfcy8VNCC7" />
       </Patch>
     </Node>
   </Patch>
