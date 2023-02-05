@@ -43,14 +43,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VF5uEJLLwaGOrShxUAKKPm" Bounds="999,-9" />
-          <Pad Id="BTJMPYBb7vJObSQ2hzmFtW" Bounds="999,1991" />
-          <Pad Id="S7W1CqHrp01P8bdHBp6md6" Bounds="499,-9" />
-          <Pad Id="SXIfNo1mbIMOw9xCOnSHMA" Bounds="499,1991" />
-          <Pad Id="Dp6bLOiXmPfN8M8jiA8Eid" Bounds="599,-9" />
-          <Pad Id="MKhAK3Akey2LRsafH8DM4l" Bounds="599,1991" />
-          <Pad Id="JkXL2bRu916MIxdIzOwyUR" Bounds="99,-9" />
-          <Pad Id="EXkO87r1e2WNxLlJjWpWED" Bounds="99,1991" />
           <Pad Id="BY4buXA9jnVOpLJZk8fhEa" Bounds="92,243,401,93" ShowValueBox="true" isIOBox="true" Value="Video playback capabilities both for Stride and Skia are offered with the MediaFoundation pack. For this purpose reference the pack VL.Video.MediaFoundation and use these nodes to generate either a Texture or an SKImage, depending on your final render engine.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -196,7 +188,7 @@
             <Pin Id="TZHzXWv8GTBLucN5koZqmE" Name="Error Code" Kind="OutputPin" />
           </Node>
           <Pad Id="HsnFpbsAkS1PmANdsYUrUs" Comment="" Bounds="102,690,190,132" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="PsNLCnOmxfvOxbQ2TQIUe8" Bounds="592,245,400,98" ShowValueBox="true" isIOBox="true" Value="Also there are nodes that will deliver you the image of a webcam both for Skia and Stride. Set the source under the dropdown input. Using the CameraControls node, the webcam settings can be manipulated through vvvv. Note that for each camera source only one feed can be active.">
+          <Pad Id="PsNLCnOmxfvOxbQ2TQIUe8" Bounds="592,245,400,98" ShowValueBox="true" isIOBox="true" Value="Also there are nodes that will deliver you the image of a webcam both for Skia and Stride. Set the source under the dropdown input. Using the CameraControls node, the webcam settings can be manipulated through vvvv. ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -610,7 +602,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RQ0LBo1Wh3ZPWDz41fMGil" Bounds="1021,555,219,55" ShowValueBox="true" isIOBox="true" Value="(hint: a camera can be used only once. Only one of these VideoIn nodes can be used at a time)">
+          <Pad Id="RQ0LBo1Wh3ZPWDz41fMGil" Bounds="592,479,219,55" ShowValueBox="true" isIOBox="true" Value="Beware: For each camera source only one feed can be active.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -621,15 +613,11 @@
           </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
-        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="IPHQP0lE6UWOnvyKAd75bt,AcXvpXsqrZ7NkTilnqWIZX,MYwCUPJINr7PmBGn4G42zH,JDvObDpW5ZXPiAt8Lfxlup" />
+        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
         <ProcessDefinition Id="NuPzoCMsW7GODKuqfTaoGi">
           <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
           <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="IPHQP0lE6UWOnvyKAd75bt" Ids="VF5uEJLLwaGOrShxUAKKPm,BTJMPYBb7vJObSQ2hzmFtW" />
-        <Link Id="AcXvpXsqrZ7NkTilnqWIZX" Ids="S7W1CqHrp01P8bdHBp6md6,SXIfNo1mbIMOw9xCOnSHMA" />
-        <Link Id="MYwCUPJINr7PmBGn4G42zH" Ids="Dp6bLOiXmPfN8M8jiA8Eid,MKhAK3Akey2LRsafH8DM4l" />
-        <Link Id="JDvObDpW5ZXPiAt8Lfxlup" Ids="JkXL2bRu916MIxdIzOwyUR,EXkO87r1e2WNxLlJjWpWED" />
         <Link Id="PCo64O3SzNuQA7gSEWjfj6" Ids="VCeZGPt62y0PRvRk3XRVgS,AdiL4kSzEC4MNkRfAW2I1G" />
         <Link Id="QES6N3z1KReNOwH8h2ngqP" Ids="DJgASRj1NZlLfSFxg6BujW,Rb9dPVlCZtiOA7aVAIUBhi" />
         <Link Id="LfGClYAqY95OeUptgVotSd" Ids="F5rfBc0Etd1QHuik6yHTNl,PUuJVtAvh6KO9rKxnrotjK" />
