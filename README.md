@@ -49,12 +49,12 @@
 29. Control 3: Triggers & Flops
 30. Audio Analysis
 31. Animation 2: Counting
-32. Math 2: Ranges
+32. Keyboard Input
+33. Math 2: Ranges
 
 ### Block VII
-33. Math 3: Angles
-34. Keyboard Input
-35. Control 4: Boolean Logic
+34. Control 4: Boolean Logic
+35. Math 3: Angles
 36. Animation 3: Transitions
 37. Math 4: Algorithms
 
