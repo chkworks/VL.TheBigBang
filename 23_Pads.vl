@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2022.5.0-0558-g23e76e599d" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0558-g23e76e599d" />
+<Document xmlns:p="property" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -295,7 +295,7 @@
           </Pad>
           <Pad Id="TJxbokCICmvLE9zeFUkq3u" SlotId="NN3aPdW1DirP2gbg5A0Boc" Bounds="414,687" />
           <Pad Id="DoCuQF8Pf6WP1Ihywy7Xo1" Comment="" Bounds="414,711,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="UfYFbPN3ceiPTC9pocg4Hj" Bounds="93,799,399,115" ShowValueBox="true" isIOBox="true" Value="A pad can be placed multiple times in the patch and will make the data inside available in the next frame. Using pads like this requires caution, as everything that is going in and out of a pad will have a delay of 1 frame as the value is delivered back in the next frame. So keep this in mind when you are dealing with real-time input.">
+          <Pad Id="UfYFbPN3ceiPTC9pocg4Hj" Bounds="93,799,399,115" ShowValueBox="true" isIOBox="true" Value="A pad can be placed multiple times in the patch and will make the data inside available in the next frame. Using pads like this requires caution - everything that is going in and out of a pad will have a delay of 1 frame as the value is delivered back in the next frame. So keep this in mind when you are dealing with real-time input.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -304,8 +304,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="I1oh5DVsZKtP3a0OPEBibA" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="187,1017" />
-          <Node Bounds="185,935,45,19" Id="FlOq3m5Rh4qPi9o2QOnnCj">
+          <Pad Id="I1oh5DVsZKtP3a0OPEBibA" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="187,958" />
+          <Node Bounds="185,909,45,19" Id="FlOq3m5Rh4qPi9o2QOnnCj">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -317,9 +317,9 @@
             <Pin Id="AtyKK14SKqdNN2YA5IQ8Fe" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="GqIDJQU8QozOjddSivIJV8" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="UcQed1SXFl4LiOwNQwO0y8" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="310,942" />
-          <Pad Id="CCQa2Pd9IfXPcb5CqJOwkN" Comment="Pad 5" Bounds="310,966,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="207,995,268,57" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right which is fed with the output of the pad is 1 frame delayed compared to the actual output of the LFO.">
+          <Pad Id="UcQed1SXFl4LiOwNQwO0y8" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="297,923" />
+          <Pad Id="CCQa2Pd9IfXPcb5CqJOwkN" Comment="Pad 5" Bounds="297,1031,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="156,1062,343,83" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right (which is fed with the output of the pad) is one frame delayed compared to the actual output of the LFO. Otherwise the substraction would be exactly 0.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -539,10 +539,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="NQCnn2eZM76L4GTM3UoLfW" Bounds="100,1122,390,108">
+          <Overlay Id="NQCnn2eZM76L4GTM3UoLfW" Bounds="100,1163,390,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="101,1140,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
+          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="101,1181,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -551,7 +551,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VQ25VPrwwShLz1Gly7lxJv" Bounds="101,1171,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+          <Pad Id="VQ25VPrwwShLz1Gly7lxJv" Bounds="101,1212,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -560,7 +560,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PUjAgiQKNG3MQuWNi17RIM" Bounds="101,1190,373,14" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/properties">
+          <Pad Id="PUjAgiQKNG3MQuWNi17RIM" Bounds="101,1231,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/properties">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -569,6 +569,17 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="UbKj5hcgHDUOjYPtPLKOHl" Comment="Variable 5" Bounds="187,1031,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="398,994,25,19" Id="L0kzdD6VWroMuAci7QWNrh">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="-" />
+            </p:NodeReference>
+            <Pin Id="QGBokQZOTkdMOCyfuGU056" Name="Input" Kind="InputPin" />
+            <Pin Id="MT3z10ZuNXkMFO47oXV8D4" Name="Input 2" Kind="InputPin" />
+            <Pin Id="EakwWyaV6RNNOlOFQ54kXH" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Fhv0fmBAR1gNjHL72t0Zb1" Comment="" Bounds="400,1031,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
@@ -644,10 +655,14 @@
         <Link Id="OGrGwVP19wJPXQlTQHcE2Z" Ids="LGD2O1Y2QiXMFkjDkp3S5T,FsjkoMMP1XYQZZKBQ718lV" />
         <Slot Id="NWcAxm0b5i9LTl0w6AgziD" Name="Variable 5" />
         <Slot Id="SabqOfuz1a5QUerNMr2pgd" Name="Variable 6" />
+        <Link Id="HVIS8TJTEfWObYTpNgW8id" Ids="I1oh5DVsZKtP3a0OPEBibA,UbKj5hcgHDUOjYPtPLKOHl" />
+        <Link Id="JQWqv3Ts483ODSxa9cVE6y" Ids="I1oh5DVsZKtP3a0OPEBibA,QGBokQZOTkdMOCyfuGU056" />
+        <Link Id="Cj3fWlgs3enNXtIPEfhx3x" Ids="UcQed1SXFl4LiOwNQwO0y8,MT3z10ZuNXkMFO47oXV8D4" />
+        <Link Id="DwE67czERLPPL4HST26NSR" Ids="EakwWyaV6RNNOlOFQ54kXH,Fhv0fmBAR1gNjHL72t0Zb1" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0558-g23e76e599d" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0558-g23e76e599d" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
   <DocumentDependency Id="HZTq2GEwaFxQSJkgxjh1Qb" Location="./Include/Nodes.vl" />
 </Document>
