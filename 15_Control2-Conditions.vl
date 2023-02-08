@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="G7mkDC32pvCLrOxJoqff7W" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
+<Document xmlns:p="property" Id="O9imb780kVgPsqKHNdU6eR" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
   <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
@@ -46,7 +46,7 @@
             <Pin Id="D2WCPOHoZ4nLHatWbqwWV5" Name="Output" Kind="OutputPin" />
             <Pin Id="V4zhYlodryEL8j4w4ssxcU" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Pad Id="EyYOdRluwW4MbzwpUTuUdB" Bounds="92,243,401,96" ShowValueBox="true" isIOBox="true" Value="With a switch we can control the signal flow in our patch. The index pin specifies which input will be delivered on the output. When the value on the index pin exceeds the number of switchable inputs, it starts again from the beginning. We can increase and decrease inputs by pressing Ctrl+ and Ctrl-.">
+          <Pad Id="EyYOdRluwW4MbzwpUTuUdB" Bounds="92,243,401,96" ShowValueBox="true" isIOBox="true" Value="With a Switch we can control the signal flow in our patch. The index pin specifies which input will be delivered on the output. When the value on the index pin exceeds the number of switchable inputs, it starts again from the beginning. We can increase and decrease inputs by pressing Ctrl and +/-.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -90,7 +90,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NxP3LvHSRLdOMj1anjRAZ7" Bounds="592,247,401,148" ShowValueBox="true" isIOBox="true" Value="The If-region allows to execute parts of your patch when a condition is met. Otherwise the region will be bypassed and the input will be directly forwarded to its corresponding output. &#xD;&#xA;&#xD;&#xA;Many things can both be expressed using either a Switch or an If-region. The only difference is that a Switch will still evaluate all inputs that are exluded from your patch while the If-region won't evaluate the nodes inside at all, when the condition is False.">
+          <Pad Id="NxP3LvHSRLdOMj1anjRAZ7" Bounds="592,247,401,148" ShowValueBox="true" isIOBox="true" Value="The If region allows to execute parts of your patch when a condition is met. Otherwise the region will be bypassed and the input will be directly forwarded to its corresponding output. &#xD;&#xA;&#xD;&#xA;Many things can both be expressed using either a Switch or an If region. The only difference is that a Switch will still evaluate all inputs that are exluded from your patch while the If region won't evaluate the nodes inside at all, when the condition is False.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -813,15 +813,6 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="KiJvLKGsi0nOeLB4QCrGLK" Bounds="593,436,497,19" ShowValueBox="true" isIOBox="true" Value="">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
