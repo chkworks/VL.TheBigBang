@@ -1,4 +1,4 @@
-# VL.BeginnerTutorials
+# VL.BeginnerTutorial
 
 ## Installation
 *Todo: Create NuGet and describe installation here*
