@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="S2nODuog75VQGprvemModq" LanguageVersion="2022.5.0-0558-g23e76e599d" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0558-g23e76e599d" />
+<Document xmlns:p="property" Id="S2nODuog75VQGprvemModq" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -100,7 +100,7 @@
             <Pin Id="UydwImZhTJFQM3SW1ScE10" Name="Level" Kind="OutputPin" />
             <Pin Id="E8ueyZ2HJfdL8i2YLvhGrQ" Name="Level dBFS" Kind="OutputPin" />
           </Node>
-          <Pad Id="KkCQ1dcwlDcMHDCoywVPtJ" Bounds="92,206,400,79" ShowValueBox="true" isIOBox="true" Value="First of all - if there is an error in your patch, indicated by a red outline or link, always check the tooltips. Like the ones for a nodes pin, they will give you hints on what might be going wrong in your patch. Let's see some examples.">
+          <Pad Id="KkCQ1dcwlDcMHDCoywVPtJ" Bounds="92,206,400,79" ShowValueBox="true" isIOBox="true" Value="First of all - if there is an error in your patch, indicated by a red outline or link, always check the tooltips. Like the ones for a pin for a node, they will give you hints on what might be going wrong in your patch. Let's see some examples.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -118,7 +118,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Mdoc7h0BW6NNgcOWITd4bR" Bounds="93,392,399,85" ShowValueBox="true" isIOBox="true" Value="Most likely a node from a dependency that is not referenced in your patch. The tooltip will tell you from which package the node is coming from. In this case, VL.Audio is missing, which you can enable in the dependency menu or from the node browser.">
+          <Pad Id="Mdoc7h0BW6NNgcOWITd4bR" Bounds="93,392,399,85" ShowValueBox="true" isIOBox="true" Value="Most likely a node from a package that is not referenced in your patch. The tooltip will tell you from which package the node is coming from. In this case, VL.Audio is missing, which you can enable in the dependency menu or from the node browser.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -172,7 +172,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FU93j2WDsHYM6usoirSVs0" Bounds="92,313,354,31" ShowValueBox="true" isIOBox="true" Value="Dependency reference missing">
+          <Pad Id="FU93j2WDsHYM6usoirSVs0" Bounds="92,313,354,31" ShowValueBox="true" isIOBox="true" Value="Package reference missing">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -181,7 +181,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GniGdX0juc8QGky7yY5RVW" Bounds="92,508,354,31" ShowValueBox="true" isIOBox="true" Value="Wrong data type for adaptive node">
+          <Pad Id="GniGdX0juc8QGky7yY5RVW" Bounds="92,508,382,29" ShowValueBox="true" isIOBox="true" Value="Wrong data type for adaptive node">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
