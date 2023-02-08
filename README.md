@@ -37,7 +37,7 @@
 25. Process Nodes
 26. Custom Operations
 
-### Block III: The Primordial Om
+### Block III: The Primordial Soup
 27. Mouse Input
 28. Collision
 29. Control 3: Triggers & Flops
