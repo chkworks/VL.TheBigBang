@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="N4wyeFcVAWANayV7ePXHI1" LanguageVersion="2022.5.0-0558-g23e76e599d" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0558-g23e76e599d" />
+<Document xmlns:p="property" Id="N4wyeFcVAWANayV7ePXHI1" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -155,7 +155,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AwsxsideprePyWJueZuJsF" Bounds="92,243,401,82" ShowValueBox="true" isIOBox="true" Value="Stride is the built-in 3D render engine. It features a system of entities of primitives, shaders, lights and much more, which are collected and rendered in a SceneWindow. Before you can use the nodes from the Stride pack, you need to reference its dependency.">
+          <Pad Id="AwsxsideprePyWJueZuJsF" Bounds="92,243,425,81" ShowValueBox="true" isIOBox="true" Value="Stride is the built-in 3D render engine. It features a system of entities of primitives, shaders, lights and much more, which are collected and rendered in a SceneWindow. Before you can use the nodes from the Stride pack, you need to set a reference to the package.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -225,7 +225,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="1178,668,285,19" Id="LPXgfsWgOrDNA9tLApf0TB">
+          <Node Bounds="1178,675,285,19" Id="LPXgfsWgOrDNA9tLApf0TB">
             <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
@@ -251,7 +251,7 @@
             <Pin Id="MHowWbfzcifM1FeQilhfM0" Name="Inverse View" Kind="OutputPin" />
             <Pin Id="RnDblzaipbsQESfJ6yxwts" Name="Camera Component" Kind="OutputPin" />
           </Node>
-          <Pad Id="UpGWbrQyigzNIg2QdqUqiK" Bounds="1092,243,399,189" ShowValueBox="true" isIOBox="true" Value="When no camera is connected to the SceneWindow it assumes that you want to use the default camera. Use an orbit camera if you want to manipulate the camera settings or want to control its position from the patch.&#xD;&#xA;&#xD;&#xA;Make sure that it is both connected to the SceneWindow as well the RootScene, because then the helper is also displayed in debug mode. Value changes on the input pins only take effect after the camera has been reset (by baning the reset pin OR when you hold the &quot;R&quot; key for 0.5 seconds when the SceneWindow is in focus).">
+          <Pad Id="UpGWbrQyigzNIg2QdqUqiK" Bounds="1092,243,399,189" ShowValueBox="true" isIOBox="true" Value="When no camera is connected to the SceneWindow it assumes that you want to use the default camera. Use an OrbitCamera if you want to manipulate the camera settings or want to control its position from the patch.&#xD;&#xA;&#xD;&#xA;Make sure that it is both connected to the SceneWindow as well the RootScene, because then the helper is also displayed in debug mode. Value changes on the input pins only take effect after the camera has been reset (by banging the reset pin or when you hold the &quot;R&quot; key for 0.5 seconds while the SceneWindow is in focus).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -305,7 +305,7 @@
             <Pin Id="UqonQdpvOMpOFM5KyU2szo" Name="Enabled" Kind="InputPin" />
             <Pin Id="AKrKB43sIcXNJiujqBW5tq" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="Alf1yEpcwFlMtE77fj0PAl" Bounds="1592,243,401,96" ShowValueBox="true" isIOBox="true" Value="Stride works with Textures when dealing with 2D image data. Textures can be loaded from your drive and applied as a material to the primitives. There are also lots of other texture sources, which will be introduced in the next patches. Textures can be displayed as IOBoxes in the patch.">
+          <Pad Id="Alf1yEpcwFlMtE77fj0PAl" Bounds="1592,243,401,96" ShowValueBox="true" isIOBox="true" Value="Stride works with textures when dealing with 2D image data. Textures can be loaded from your drive and applied as a material to the primitives. There are also lots of other texture sources, which will be introduced in the next patches. Textures can be displayed as IOBoxes in the patch.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -897,7 +897,7 @@
           <Overlay Id="QeGQOmtvvnHOhLaG8hiQjM" Name="" Bounds="135,551,377,164">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Pad Id="GKaPe782MWNNqRHlXofddB" Bounds="592,1167,400,129" ShowValueBox="true" isIOBox="true" Value="As described above, realistic shadows will only be rendered when a PBRMaterial is set into the primitives. Try playing around with the positions of the primitives and the settings of the lights. It is also possible to keep the lighting of your scene but completely disable the shadow casting for individual primitives with the &quot;Is Shadow Caster&quot; input.&#xD;&#xA;">
+          <Pad Id="GKaPe782MWNNqRHlXofddB" Bounds="592,1167,388,129" ShowValueBox="true" isIOBox="true" Value="As described above, realistic shadows will only be rendered when a PBRMaterial is set into the primitives. Try playing around with the positions of the primitives and the settings of the lights. It is also possible to keep the lighting of your scene but completely disable the shadow casting for individual primitives with the &quot;Is Shadow Caster&quot; input.&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1138,7 +1138,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="1118,791,225,19" Id="RtXc9YzEN83MDkbLdGbVjR">
+          <Node Bounds="1118,798,225,19" Id="RtXc9YzEN83MDkbLdGbVjR">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -1159,7 +1159,7 @@
             <Pin Id="QzEkTbcriD7LySvS5DxK2c" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="FZtS5NHNPSCLpn1RFkugrM" Name="Input Source" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1138,755,65,19" Id="Va4rVZl24uBN6U5ol8ytgI">
+          <Node Bounds="1138,762,85,19" Id="Va4rVZl24uBN6U5ol8ytgI">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -1171,7 +1171,7 @@
             <Pin Id="DPoresJS8gQNviMQ3krpyl" Name="Enabled" Kind="InputPin" />
             <Pin Id="N2J5W6Dwbq4NJJiwtSgXCT" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1158,521,185,19" Id="VjmGAn4qm3VPeJsv5XYKMx">
+          <Node Bounds="1158,528,185,19" Id="VjmGAn4qm3VPeJsv5XYKMx">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <FullNameCategoryReference ID="Stride.Lights" />
@@ -1189,7 +1189,7 @@
             <Pin Id="MVgQu5P0JOTOWsmY9ZfZeZ" Name="Enabled" Kind="InputPin" />
             <Pin Id="EqTlo9c9ZyVND8yA3n5W77" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1138,485,165,19" Id="KR5aj3B6OUdL3iN3IlDxXD">
+          <Node Bounds="1138,492,165,19" Id="KR5aj3B6OUdL3iN3IlDxXD">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Box" />
@@ -1205,7 +1205,7 @@
             <Pin Id="G1iFnedEYj7PTts2yVUpCk" Name="Enabled" Kind="InputPin" />
             <Pin Id="Dv3GbJgSgHKPHaXEpSU1iD" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1198,454,85,19" Id="CGLhbZ2p66UQRY8fgJP34a">
+          <Node Bounds="1198,461,85,19" Id="CGLhbZ2p66UQRY8fgJP34a">
             <p:NodeReference LastCategoryFullName="Stride.Materials" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
@@ -1217,37 +1217,37 @@
             <Pin Id="VhO5lOxsw08Pos6MigywSu" Name="Cull Mode" Kind="InputPin" />
             <Pin Id="SMLDCGWMjrLLCMjkGnWq1A" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="BFjJTU38bCSLS5b4aKgnDj" Comment="" Bounds="1200,437,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="BFjJTU38bCSLS5b4aKgnDj" Comment="" Bounds="1200,444,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RrrX7AAJqbaOJkvR8OyPDR" Comment="" Bounds="1220,775,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="RrrX7AAJqbaOJkvR8OyPDR" Comment="" Bounds="1220,782,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MhTOY9twTNnPKUTFOP8HLr" Comment="Initial Yaw" Bounds="1240,577,35,15" ShowValueBox="true" isIOBox="true" Value="1.89">
+          <Pad Id="MhTOY9twTNnPKUTFOP8HLr" Comment="Initial Yaw" Bounds="1240,584,35,15" ShowValueBox="true" isIOBox="true" Value="1.89">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="TmKnwtUkzvaLSDyhaKkUOY" Comment="Initial Pitch" Bounds="1260,596,35,15" ShowValueBox="true" isIOBox="true" Value="-0.08">
+          <Pad Id="TmKnwtUkzvaLSDyhaKkUOY" Comment="Initial Pitch" Bounds="1260,603,35,15" ShowValueBox="true" isIOBox="true" Value="-0.08">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RViDALb2J1sNGBHsKB7tIU" Comment="Initial Vertical Field Of View" Bounds="1300,634,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
+          <Pad Id="RViDALb2J1sNGBHsKB7tIU" Comment="Initial Vertical Field Of View" Bounds="1300,641,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AxeELbLA8ykMtntTRSG6bt" Comment="Initial Distance" Bounds="1280,615,35,15" ShowValueBox="true" isIOBox="true" Value="-1.4">
+          <Pad Id="AxeELbLA8ykMtntTRSG6bt" Comment="Initial Distance" Bounds="1280,622,35,15" ShowValueBox="true" isIOBox="true" Value="-1.4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1190,715,65,19" Id="ICispeOEU8xMz3v48Axlbi">
+          <Node Bounds="1190,722,65,19" Id="ICispeOEU8xMz3v48Axlbi">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -1831,7 +1831,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Pb6kR5KXDuMO5JQA4nmbK6" Bounds="1593,1895,401,75" ShowValueBox="true" isIOBox="true" Value="If you simply want render a texture to a window, it is possible to use a TextureWindow instead of a SceneWindow. In this case the whole shading, lighting and camera pipeline is skipped as it is not needed for simple flat 2D texture rendering.">
+          <Pad Id="Pb6kR5KXDuMO5JQA4nmbK6" Bounds="1593,1895,401,75" ShowValueBox="true" isIOBox="true" Value="If you simply want to render a texture to a window, it is possible to use a TextureWindow instead of a SceneWindow. In this case the whole shading, lighting and camera pipeline is skipped as it is not needed for simple flat 2D texture rendering.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1876,7 +1876,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="N1C3sYVvkedOy7llOve1cA" Comment="Reset" Bounds="1440,575,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="N1C3sYVvkedOy7llOve1cA" Comment="Reset" Bounds="1440,582,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -2096,7 +2096,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0558-g23e76e599d" />
-  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0558-g23e76e599d" />
+  <NugetDependency Id="NeDMqcIWGFlLlqBBXBkfKT" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="CvC0ppDng0aOvwj5fnrtGo" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
   <DocumentDependency Id="CWkz6wtNwdZOuYeyk66AY4" Location="./Include/Nodes.vl" />
 </Document>
