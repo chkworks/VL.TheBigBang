@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="KdEMuQVr5MDLl8JaH39zFz" LanguageVersion="2022.5.0-0558-g23e76e599d" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0558-g23e76e599d" />
+<Document xmlns:p="property" Id="KdEMuQVr5MDLl8JaH39zFz" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -461,7 +461,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Dm8MrDEdTiJOVnhlEnWeMP" Bounds="592,904,400,165" ShowValueBox="true" isIOBox="true" Value="Get the current amplitude of the audio signal. We can use it as a continously changing value for a real-time animation. Combine it with a Damper to smoothen the signal. &#xD;&#xA;&#xD;&#xA;Also it is possible to use it as a trigger for a distinct event, in this case inverting the colors, once the meter hits a certain threshold. The MonoFlop filters out very short double bangs which can occur in this situation.">
+          <Pad Id="Dm8MrDEdTiJOVnhlEnWeMP" Bounds="592,904,400,165" ShowValueBox="true" isIOBox="true" Value="Get the current amplitude of the audio signal. We can use it as a continuously changing value for a real-time animation. Combine it with a Damper to smoothen the signal. &#xD;&#xA;&#xD;&#xA;Also it is possible to use it as a trigger for a distinct event, in this case inverting the colors, once the meter hits a certain threshold. The MonoFlop filters out very short double bangs which can occur in this situation.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -892,7 +892,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GbUILPZkmehP7qtyKnVDtw" Bounds="1092,239,402,193" ShowValueBox="true" isIOBox="true" Value="With the FFT node it is possible to analyse the spectral bands in your audio signal. It will deliver the amplitudes for all audible frequencies. As the lower frequencies deliver a much higher amplitude it is common to remove them from the spread with a SplitAt node.&#xD;&#xA;&#xD;&#xA;In this example it is also shown how to seperate a certain frequency band out of the spread and calculate the average amplitude of only these frequencies. This is then applied to the alpha of the polygon.">
+          <Pad Id="GbUILPZkmehP7qtyKnVDtw" Bounds="1092,239,402,193" ShowValueBox="true" isIOBox="true" Value="With the FFT node it is possible to analyse the spectral bands in your audio signal. It will deliver the amplitudes for all audible frequencies. As the lower frequencies deliver a much higher amplitude it is common to remove them from the spread with a SplitAt node.&#xD;&#xA;&#xD;&#xA;In this example it is also shown how to separate a certain frequency band out of the spread and calculate the average amplitude of only these frequencies. This is then applied to the alpha of the polygon.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1487,8 +1487,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0558-g23e76e599d" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0558-g23e76e599d" />
-  <NugetDependency Id="NMwbrhiQkD3MVsRoBXkEKk" Location="VL.Audio" Version="1.1.0-preview" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="NMwbrhiQkD3MVsRoBXkEKk" Location="VL.Audio" Version="1.1.1-preview" />
   <DocumentDependency Id="VXPDHxApgtKPtqwRi1mcNw" Location="./Include/Nodes.vl" />
 </Document>
