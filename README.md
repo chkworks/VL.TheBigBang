@@ -7,7 +7,7 @@
 
 ## Content
 
-### Block I: The Big Bang
+### Part I: The Big Bang
 1. Datatypes & IOBoxes
 2. Nodes & Generics
 3. Math 1: Basics
@@ -27,7 +27,7 @@
 17. Transformations
 18. Render Text
 
-### Block II: The Spreading Universe
+### Part II: The Spreading Universe
 19. Spreads
 20. Iteration
 21. Spread Generators
@@ -37,7 +37,7 @@
 25. Process Nodes
 26. Custom Operations
 
-### Block III: The Primordial Soup
+### Part III: The Primordial Soup
 27. Mouse Input
 28. Collision
 29. Control 3: Triggers & Flops
