@@ -6,7 +6,7 @@ If you find this material helpful, please consider supporting its development.
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
 ## Installation
-If you are new to VVVV, go over to www.visualprogramming.net to download it. These patches are optimized for the upcoming 5.0 release, so make sure you are installing the latest preview version.
+If you are new to VVVV, download it over at www.visualprogramming.net. These patches are optimized for the upcoming 5.0 release, so make sure you are installing the latest preview version.
 
 Afterwards, click on the little gray icon in the top left corner (the so-called Quad Menu), navigate to "Manage Nugets > Commandline" and type the following:
 
