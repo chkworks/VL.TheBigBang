@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="DyMvzMW966aPIer5IIeA6L" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
+<Document xmlns:p="property" Id="DyMvzMW966aPIer5IIeA6L" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -61,7 +61,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="JwOjpMq3VgHLHjVYyGdKLM" Comment="" Bounds="158,1521,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="IGNzR382GykPYz1fgg52vo" Bounds="92,1213,400,65" ShowValueBox="true" isIOBox="true" Value="A MonoFlop sets the output to True for a specified time. In this example every 2 to 4 seconds a trigger generates a boolean that is True for 500 ms.">
+          <Pad Id="IGNzR382GykPYz1fgg52vo" Bounds="92,1213,400,65" ShowValueBox="true" isIOBox="true" Value="A MonoFlop sets the output to true for a specified time. In this example every 2 to 4 seconds a trigger generates a boolean that is true for 500 ms.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -70,7 +70,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PuTYk3hTR7eMnt35YrqOwo" Bounds="592,243,422,83" ShowValueBox="true" isIOBox="true" Value="Especially when dealing with input devices like a mouse which we want to use as a trigger for certain processes we need to know the TogEdge node. It detects a boolean input change from 0 to 1, and vice-versa and will output an corresponding bang for each direction.">
+          <Pad Id="PuTYk3hTR7eMnt35YrqOwo" Bounds="592,243,422,83" ShowValueBox="true" isIOBox="true" Value="Especially when dealing with input devices like a mouse which we want to use as a trigger for certain processes we need to know the TogEdge node. It detects a boolean input change from 0 to 1, and vice-versa and will output an corresponding Bang for each direction.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -88,7 +88,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KRLi5CPm6O9N1Xns0uTcyM" Bounds="92,243,401,112" ShowValueBox="true" isIOBox="true" Value="While the LFO outputs a signal that repeats in the same interval, the Trigger repeats a signal within a specified time frame. So we can use this node to generate bangs, that are randomly timed. &#xD;&#xA;&#xD;&#xA;In this example, every 20 to 500 Milliseconds, an new Sphere is generated, while the whole spread is cleared every 5 seconds.">
+          <Pad Id="KRLi5CPm6O9N1Xns0uTcyM" Bounds="92,243,401,112" ShowValueBox="true" isIOBox="true" Value="While the LFO outputs a signal that repeats in the same interval, the Trigger repeats a signal within a specified time frame. So we can use this node to generate Bangs, that are randomly timed. &#xD;&#xA;&#xD;&#xA;In this example, every 20 to 500 Milliseconds, an new Sphere is generated, while the whole spread is cleared every 5 seconds.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -536,7 +536,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Sp82Q9IoJe5Nh9pvkQHprR" Bounds="592,983,401,78" ShowValueBox="true" isIOBox="true" Value="This node sets the output to True, when the input value changes. As it is adaptive, the input can be of any type. In this example we watch the mouse position if it changed. So every time we move the mouse, the circle gets a Fill color for 200 Milliseconds.">
+          <Pad Id="Sp82Q9IoJe5Nh9pvkQHprR" Bounds="592,983,401,78" ShowValueBox="true" isIOBox="true" Value="This node sets the output to true, when the input value changes. As it is adaptive, the input can be of any type. In this example we watch the mouse position if it changed. So every time we move the mouse, the circle gets a Fill color for 200 Milliseconds.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -862,7 +862,7 @@
             <Pin Id="SGFoj6viOLBMH4CXgbrBni" Name="Result" Kind="OutputPin" />
             <Pin Id="RKvyEBxRvt6NENbOCxOKEO" Name="Unchanged" Kind="OutputPin" />
           </Node>
-          <Pad Id="EvmRubuqqSZNSypAiXzNU6" Bounds="1092,790,401,166" ShowValueBox="true" isIOBox="true" Value="While the Toggle node switches between True and False on its output on every bang, the FlipFlop will turn True when it is banged on the left input, and false, when it is banged on the right input.&#xD;&#xA;&#xD;&#xA;In this example we flip a coin with two colors on each side when pressing the left and right mouse buttons. Note how this behavior is different to the Toggle node which will invert the boolean with every bang on the left input.">
+          <Pad Id="EvmRubuqqSZNSypAiXzNU6" Bounds="1092,790,401,166" ShowValueBox="true" isIOBox="true" Value="While the Toggle node switches between true and false on its output on every Bang, the FlipFlop will turn true when it is triggered on the left input, and false on the right input.&#xD;&#xA;&#xD;&#xA;In this example we flip a coin with two colors on each side when pressing the left and right mouse buttons. Note how this behavior is different to the Toggle node which will invert the boolean with every Bang on the left input.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1198,7 +1198,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VHwSWC0XzwOMS8MhCZ80lH" Bounds="1592,243,399,66" ShowValueBox="true" isIOBox="true" Value="Use this node when you need to cover more than 2 cases, as the MultiFlopFlop outputs the index of the input that has been banged.">
+          <Pad Id="VHwSWC0XzwOMS8MhCZ80lH" Bounds="1592,243,399,66" ShowValueBox="true" isIOBox="true" Value="Use this node when you need to cover more than 2 cases, as the MultiFlipFlop outputs the index of the input that has been triggered.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1864,7 +1864,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IY9MSXcmw7RMBSp7iXpQRL" Bounds="592,1823,401,78" ShowValueBox="true" isIOBox="true" Value="Using this node we can generate a bang when the patch is opened or restarted. It will be used sometime in the next patches, therefore it should be included here as well.">
+          <Pad Id="IY9MSXcmw7RMBSp7iXpQRL" Bounds="592,1823,401,78" ShowValueBox="true" isIOBox="true" Value="Using this node we can generate a Bang when the patch is opened or restarted. It will be used sometime in the next patches, therefore it should be included here as well.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2078,7 +2078,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
-  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2022.5.0-0582-g69e6cbc026" />
+  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2022.5.0-0582-g69e6cbc026" />
   <DocumentDependency Id="Cy8wpZc5N5wLIdMkMu6kUg" Location="../../include/Nodes.vl" />
 </Document>

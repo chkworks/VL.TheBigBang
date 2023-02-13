@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="KdEMuQVr5MDLl8JaH39zFz" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
+<Document xmlns:p="property" Id="KdEMuQVr5MDLl8JaH39zFz" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -34,7 +34,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="614,575,165,19" Id="MjGF3dh6Bq6OIGSQqJD7ol">
+          <Node Bounds="614,468,165,19" Id="MjGF3dh6Bq6OIGSQqJD7ol">
             <p:NodeReference LastCategoryFullName="Audio.Source" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioPlayer" />
@@ -56,7 +56,7 @@
             <Pin Id="E9XgMfzVFGePCyxQ0OA5qV" Name="Sample Rate" Kind="OutputPin" />
             <Pin Id="QpQ5ePrfY1yNKQEeOUBHs2" Name="Original Format" Kind="OutputPin" />
           </Node>
-          <Node Bounds="718,1069,42,19" Id="TbUpSicAbmvQBI9wgZBLKw">
+          <Node Bounds="718,962,42,19" Id="TbUpSicAbmvQBI9wgZBLKw">
             <p:NodeReference LastCategoryFullName="Audio.Analysis" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Audio" />
@@ -91,12 +91,12 @@
             <Pin Id="N7nVg39PySwMqSYMSvgQeT" Name="Input" Kind="InputPin" />
             <Pin Id="BUKhSyiaTUTN2FmAGWxVZg" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="PvPm5xnErRRPaTqbZF7OCb" Comment="Filename" Bounds="616,480,343,15" ShowValueBox="true" isIOBox="true" Value="C:\Users\Christoph\SynologyDrive\Assets\Audio\FuserrrrLoop.wav">
+          <Pad Id="PvPm5xnErRRPaTqbZF7OCb" Comment="Filename" Bounds="616,373,348,15" ShowValueBox="true" isIOBox="true" Value="..\..\assets\FuserrrrLoop.mp3">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OjzoqElJf0zLItICnkjx3F" Comment="Loop" Bounds="636,516,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="OjzoqElJf0zLItICnkjx3F" Comment="Loop" Bounds="636,409,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -105,7 +105,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UtW9RYUcJUlLBthEuiH8b0" Comment="Play" Bounds="776,536,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="UtW9RYUcJUlLBthEuiH8b0" Comment="Play" Bounds="776,429,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -114,7 +114,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="613,793,60,19" Id="LUU9sv1wxAaNZ27n49kMAt">
+          <Node Bounds="613,686,60,19" Id="LUU9sv1wxAaNZ27n49kMAt">
             <p:NodeReference LastCategoryFullName="Audio.Sink" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioOut" />
@@ -241,7 +241,7 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="743,636,53,19" Id="K0z2BS8wrWOMRjikH3Q34S">
+          <Node Bounds="743,529,53,19" Id="K0z2BS8wrWOMRjikH3Q34S">
             <p:NodeReference LastCategoryFullName="Audio.Utils" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToMono" />
@@ -250,7 +250,7 @@
             <Pin Id="BYbRvTPs1pWMJnGNRjWQQ9" Name="Gain" Kind="InputPin" />
             <Pin Id="Ao4AibOVIYGOXOuJkpHvH3" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="UvpyrcjLv7rN8ixIanb61d" Comment="Level" Bounds="720,1106,30,118" ShowValueBox="true" isIOBox="true">
+          <Pad Id="UvpyrcjLv7rN8ixIanb61d" Comment="Level" Bounds="720,999,30,118" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
@@ -315,7 +315,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Co27BiCogq3LQJTTcfUen1" Bounds="92,1537,284,31" ShowValueBox="true" isIOBox="true" Value="AudioOut">
+          <Pad Id="Co27BiCogq3LQJTTcfUen1" Bounds="92,1422,284,31" ShowValueBox="true" isIOBox="true" Value="AudioOut">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -324,12 +324,12 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FskQkembqT3LTTxTcph4kf" Comment="Filename" Bounds="127,638,272,15" ShowValueBox="true" isIOBox="true" Value="Assets\FuserrrrLoop.mp3">
+          <Pad Id="FskQkembqT3LTTxTcph4kf" Comment="Filename" Bounds="127,520,272,15" ShowValueBox="true" isIOBox="true" Value="..\..\assets\FuserrrrLoop.mp3">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="PyZPkd5i5UqMY5C6UwyGaR" Comment="Loop" Bounds="147,662,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="PyZPkd5i5UqMY5C6UwyGaR" Comment="Loop" Bounds="147,547,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -338,7 +338,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LpJzhiOv3CGMwUhGzpzerY" Comment="Play the audio file here" Bounds="287,775,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="LpJzhiOv3CGMwUhGzpzerY" Comment="Play the audio file here" Bounds="287,660,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -347,7 +347,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LTEfrxzYC4bM2LLgmqvcPL" Comment="Do Seek" Bounds="227,685,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="LTEfrxzYC4bM2LLgmqvcPL" Comment="Do Seek" Bounds="227,570,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -356,17 +356,17 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EEMLJ3PQ5Q2LiQaj3ekVTF" Comment="Speed" Bounds="267,749,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="EEMLJ3PQ5Q2LiQaj3ekVTF" Comment="Speed" Bounds="267,634,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="TEqOriZAnCfMPvYkwSy9vi" Comment="Volume" Bounds="247,728,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="TEqOriZAnCfMPvYkwSy9vi" Comment="Volume" Bounds="247,613,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="125,1647,60,19" Id="JR5JCIjThyQPrFNC1JQoIe">
+          <Node Bounds="125,1532,60,19" Id="JR5JCIjThyQPrFNC1JQoIe">
             <p:NodeReference LastCategoryFullName="Audio.Sink" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioOut" />
@@ -374,14 +374,14 @@
             <Pin Id="OEH8YFqprxDO3KOTxEfAdl" Name="Input" Kind="InputPin" />
             <Pin Id="NGJc0NV7t4pOw688z6cjaf" Name="Channel Offset" Kind="InputPin" />
           </Node>
-          <Node Bounds="342,833,52,19" Id="GFUoXqoTbByO9tsWZUrX0H">
+          <Node Bounds="342,718,52,19" Id="GFUoXqoTbByO9tsWZUrX0H">
             <p:NodeReference LastCategoryFullName="Audio.Source" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioIn" />
             </p:NodeReference>
             <Pin Id="DKeaFpfabGiOqFa77vudVv" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JT7CpXB8DbgOz3TW1XLCnj" Bounds="92,1569,401,57" ShowValueBox="true" isIOBox="true" Value="Send your signal to the output of your audio driver. It receives a spread of audio signals in which each slice will be sent to one channel of the audio driver.">
+          <Pad Id="JT7CpXB8DbgOz3TW1XLCnj" Bounds="92,1454,401,57" ShowValueBox="true" isIOBox="true" Value="Send your signal to the output of your audio driver. It receives a spread of audio signals in which each slice will be sent to one channel of the audio driver.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -390,7 +390,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="125,833,165,19" Id="LSi2IncjOiHQIy2m1qyuEX">
+          <Node Bounds="125,718,165,19" Id="LSi2IncjOiHQIy2m1qyuEX">
             <p:NodeReference LastCategoryFullName="Audio.Source" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioPlayer" />
@@ -412,13 +412,13 @@
             <Pin Id="B5ahV71IuhcQAGGG1uFD7e" Name="Sample Rate" Kind="OutputPin" />
             <Pin Id="VqlGC4NF8A2L7Bf5uXGdJ5" Name="Original Format" Kind="OutputPin" />
           </Node>
-          <Pad Id="JHZ4T9n5uoTOWWxPEbmOPO" Comment="" Bounds="127,873,199,130" ShowValueBox="true" isIOBox="true">
+          <Pad Id="JHZ4T9n5uoTOWWxPEbmOPO" Comment="" Bounds="127,758,199,130" ShowValueBox="true" isIOBox="true">
             <p:Value />
           </Pad>
-          <Pad Id="TmIhawxMlIULcvkCDElfrb" Comment="" Bounds="344,873,133,112" ShowValueBox="true" isIOBox="true">
+          <Pad Id="TmIhawxMlIULcvkCDElfrb" Comment="" Bounds="344,758,133,112" ShowValueBox="true" isIOBox="true">
             <p:Value />
           </Pad>
-          <Pad Id="Ntz2f5xwS9JPeIf6jkfTk2" Bounds="287,815,145,19" ShowValueBox="true" isIOBox="true" Value="">
+          <Pad Id="Ntz2f5xwS9JPeIf6jkfTk2" Bounds="287,700,145,19" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -445,14 +445,14 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QWvYAKPYrbgPj7nVhxcPZE" Comment="" Bounds="745,676,110,103" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Kx6GrVupdhlQR8JgKMbItM" Comment="Volume" Bounds="736,516,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="QWvYAKPYrbgPj7nVhxcPZE" Comment="" Bounds="745,569,110,103" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Kx6GrVupdhlQR8JgKMbItM" Comment="Volume" Bounds="736,409,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="IKWM9FxFhVkNy4SN4goFsl" Comment="" Bounds="615,676,110,103" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="OPoUkEDVYDhLxQCF3hskKg" Bounds="592,870,163,31" ShowValueBox="true" isIOBox="true" Value="Meter">
+          <Pad Id="IKWM9FxFhVkNy4SN4goFsl" Comment="" Bounds="615,569,110,103" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OPoUkEDVYDhLxQCF3hskKg" Bounds="592,763,163,31" ShowValueBox="true" isIOBox="true" Value="Meter">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -461,7 +461,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Dm8MrDEdTiJOVnhlEnWeMP" Bounds="592,904,400,165" ShowValueBox="true" isIOBox="true" Value="Get the current amplitude of the audio signal. We can use it as a continuously changing value for a real-time animation. Combine it with a Damper to smoothen the signal. &#xD;&#xA;&#xD;&#xA;Also it is possible to use it as a trigger for a distinct event, in this case inverting the colors, once the meter hits a certain threshold. The MonoFlop filters out very short double bangs which can occur in this situation.">
+          <Pad Id="Dm8MrDEdTiJOVnhlEnWeMP" Bounds="592,797,400,165" ShowValueBox="true" isIOBox="true" Value="Get the current amplitude of the audio signal. We can use it as a continuously changing value for a real-time animation. Combine it with a Damper to smoothen the signal. &#xD;&#xA;&#xD;&#xA;Also it is possible to use it as a trigger for a distinct event, in this case inverting the colors, once the meter hits a certain threshold. We can use a MonoFlop to filter out Bangs with very short distances which can occur in this situation.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -493,7 +493,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="638,1729,225,19" Id="IEoAQ2MzW35PkqeZNzVSc3">
+          <Node Bounds="638,1622,225,19" Id="IEoAQ2MzW35PkqeZNzVSc3">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -514,7 +514,7 @@
             <Pin Id="Cgrc5yyuxomMrnaue0UHHK" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="JHoye8MnkE4QQ6N74e0Kq2" Name="Input Source" Kind="OutputPin" />
           </Node>
-          <Node Bounds="617,1557,165,19" Id="MFQ6ugTRfCtOs3JEepm9eC">
+          <Node Bounds="617,1450,165,19" Id="MFQ6ugTRfCtOs3JEepm9eC">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Box" />
@@ -530,7 +530,7 @@
             <Pin Id="Cg9lDmCJxEuLdbcVwfHAg1" Name="Enabled" Kind="InputPin" />
             <Pin Id="MtSNxk6VM5NMJmwbpDe7Wt" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="617,1682,65,19" Id="KgQJK0SZn5DOZn2QeBlqWv">
+          <Node Bounds="617,1575,65,19" Id="KgQJK0SZn5DOZn2QeBlqWv">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <FullNameCategoryReference ID="Stride" />
@@ -542,7 +542,7 @@
             <Pin Id="K7TV7jq87f5NQJTX7tmLdy" Name="Enabled" Kind="InputPin" />
             <Pin Id="VCr6KwaDVQONnDXsfEKuZ2" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="637,1607,185,19" Id="Od7yI98blq9N97TNUrDUbD">
+          <Node Bounds="637,1500,185,19" Id="Od7yI98blq9N97TNUrDUbD">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
@@ -559,7 +559,7 @@
             <Pin Id="OJHVWSSUueELka9K69K6qH" Name="Enabled" Kind="InputPin" />
             <Pin Id="ASOzpQUE3jTNpMy44b3Et0" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="617,1250,45,19" Id="J4T0foKifrNP9wfEZyJYIv">
+          <Node Bounds="617,1143,45,19" Id="J4T0foKifrNP9wfEZyJYIv">
             <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -571,7 +571,7 @@
             <Pin Id="OLE1MaFVtHBM3Noq0NFeCo" Name="Rotation" Kind="InputPin" />
             <Pin Id="ESrjID2K5RWPKnXbBeTSjv" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="618,1105,45,19" Id="B7PjCaCCOyiMMud11iQWGi">
+          <Node Bounds="618,998,45,19" Id="B7PjCaCCOyiMMud11iQWGi">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Animation" NeedsToBeDirectParent="true" />
@@ -584,7 +584,7 @@
             <Pin Id="GYLJM1dOJkzM6KFiOKwm6t" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="EEhgfB0pC0JLwsA3MJWnEs" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Node Bounds="618,1150,46,19" Id="CT7UWDS6XWuLqewZNzaCi7">
+          <Node Bounds="618,1043,46,19" Id="CT7UWDS6XWuLqewZNzaCi7">
             <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -595,12 +595,12 @@
             <Pin Id="DdKmpwCNWk6OjkYzORqCmr" Name="Z" Kind="InputPin" />
             <Pin Id="K61W8jzg1PIO7rVwTyWpJA" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="PIkxUdu34iiN5Fkl4DX4WF" Comment="Period" Bounds="620,1081,35,15" ShowValueBox="true" isIOBox="true" Value="10">
+          <Pad Id="PIkxUdu34iiN5Fkl4DX4WF" Comment="Period" Bounds="620,974,35,15" ShowValueBox="true" isIOBox="true" Value="10">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="677,1530,85,19" Id="Jk5OUC91wnsOtWqjH2NClM">
+          <Node Bounds="677,1423,85,19" Id="Jk5OUC91wnsOtWqjH2NClM">
             <p:NodeReference LastCategoryFullName="Stride.Materials" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
@@ -612,17 +612,17 @@
             <Pin Id="UoSvKmejq8SQC81pYiFxAW" Name="Cull Mode" Kind="InputPin" />
             <Pin Id="I1jzov2sgEyPxMJsjEa4u4" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="HaEGBsOP42zOUgES055tFB" Comment="" Bounds="885,1408,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="HaEGBsOP42zOUgES055tFB" Comment="" Bounds="885,1301,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FZMe0Z1bazmOhgRq1KhOfq" Comment="" Bounds="865,1433,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="FZMe0Z1bazmOhgRq1KhOfq" Comment="" Bounds="865,1326,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="617,1421,76,19" Id="FvaSFrXGH55PX66NIc5dYX">
+          <Node Bounds="617,1314,76,19" Id="FvaSFrXGH55PX66NIc5dYX">
             <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -634,7 +634,7 @@
             <Pin Id="RcUMNWu4h2IPJIJ34h0mJb" Name="Scaling" Kind="InputPin" />
             <Pin Id="FuGFONiFSLFMBgaCmH56JU" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="651,1311,25,19" Id="FiQYqjclKOAOqkvyYRrEQQ">
+          <Node Bounds="651,1204,25,19" Id="FiQYqjclKOAOqkvyYRrEQQ">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="*" />
@@ -643,13 +643,13 @@
             <Pin Id="M7x2vwrFYXQPN6IniF1qbR" Name="Input 2" Kind="InputPin" />
             <Pin Id="IZ5tQI8NTdkQYw0M3bcnyS" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="RleyEqRq6kjMMDPo5mYbxE" Comment="" Bounds="673,1295,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+          <Pad Id="RleyEqRq6kjMMDPo5mYbxE" Comment="" Bounds="673,1188,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="QJQsiRaDexDPNrafVG5Vtd" Comment="" Bounds="620,1182,35,43" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="651,1363,65,19" Id="OMHcoQkFyWUQBL0PFHBEid">
+          <Pad Id="QJQsiRaDexDPNrafVG5Vtd" Comment="" Bounds="620,1075,35,43" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="651,1256,65,19" Id="OMHcoQkFyWUQBL0PFHBEid">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
@@ -663,12 +663,12 @@
             <Pin Id="F8JNyRiwObNNxree2orPwO" Name="Acceleration" Kind="OutputPin" />
             <Pin Id="NcSs6LyHbsyMp0O9tryAHK" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Pad Id="D2O8cDs1uLrP8v8ZvgZAZs" Comment="Filter Time" Bounds="673,1350,35,15" ShowValueBox="true" isIOBox="true" Value="0.4">
+          <Pad Id="D2O8cDs1uLrP8v8ZvgZAZs" Comment="Filter Time" Bounds="673,1243,35,15" ShowValueBox="true" isIOBox="true" Value="0.4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="M1gBQ0JVLZpPJpS76eIkTT" Bounds="92,1046,284,31" ShowValueBox="true" isIOBox="true" Value="Filter">
+          <Pad Id="M1gBQ0JVLZpPJpS76eIkTT" Bounds="92,931,284,31" ShowValueBox="true" isIOBox="true" Value="Filter">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -677,7 +677,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Bm1jagMUIxwLzqIqwtqnrb" Bounds="92,1078,401,131" ShowValueBox="true" isIOBox="true" Value="Use a Filter node to apply a lowpass, bandpass or highpass filter to the audio signal. A filter can only be applied to mono signals, so it is necessary to use the filter node in a ForEach loop, when working with a stereo source.&#xD;&#xA;&#xD;&#xA;Also note that this example uses a Lin2Freq node which translates a float into a frequency value around a center frequency.">
+          <Pad Id="Bm1jagMUIxwLzqIqwtqnrb" Bounds="92,963,401,131" ShowValueBox="true" isIOBox="true" Value="Use a Filter node to apply a lowpass, bandpass or highpass filter to the audio signal. A filter can only be applied to mono signals, so it is necessary to use the filter node in a ForEach loop, when working with a stereo source.&#xD;&#xA;&#xD;&#xA;Also note that this example uses a Lin2Freq node which translates a float into a frequency value around a center frequency.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -686,32 +686,32 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="118,1276,371,200" Id="NuXwq6cGRA2OlUuSPGWhqc">
+          <Node Bounds="118,1161,371,200" Id="NuXwq6cGRA2OlUuSPGWhqc">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
             </p:NodeReference>
             <Pin Id="Ge2HH3yNyJ1OC0S7niQ4vc" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="RzXRJfbLvmgMPfgOHA0gaX" Bounds="184,1282" Alignment="Top" />
-            <ControlPoint Id="HxjAbp33yyLO8nylI4vRRM" Bounds="184,1470" Alignment="Bottom" />
+            <ControlPoint Id="RzXRJfbLvmgMPfgOHA0gaX" Bounds="184,1167" Alignment="Top" />
+            <ControlPoint Id="HxjAbp33yyLO8nylI4vRRM" Bounds="184,1355" Alignment="Bottom" />
             <Patch Id="JBp7rtMHElXN8aGK3Fmhvn" ManuallySortedPins="true">
               <Patch Id="BhhsjUpj6blOcNBVWYnFNG" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Dk2GgvLCcInLXAZ8JHsGVA" Name="Then" ManuallySortedPins="true" />
-              <Node Bounds="170,1296,307,158" Id="M8VOCGJyhpSOLalGSlR5SR">
+              <Node Bounds="170,1181,307,158" Id="M8VOCGJyhpSOLalGSlR5SR">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                   <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 </p:NodeReference>
                 <Pin Id="CL6CcjDqzQXPNzwAAwlAMd" Name="Break" Kind="OutputPin" />
-                <ControlPoint Id="I2gcVGyB1LsMVXKi3tNm7m" Bounds="184,1302" Alignment="Top" />
-                <ControlPoint Id="QhoPs3WTmFUMSsIIHULIWu" Bounds="184,1448" Alignment="Bottom" />
+                <ControlPoint Id="I2gcVGyB1LsMVXKi3tNm7m" Bounds="184,1187" Alignment="Top" />
+                <ControlPoint Id="QhoPs3WTmFUMSsIIHULIWu" Bounds="184,1333" Alignment="Bottom" />
                 <Patch Id="SwlH3ZhEGhaNqVMBuDEHVF" ManuallySortedPins="true">
                   <Patch Id="E6flozbGISnLWgUGASgcxU" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="SuzLQ6OXRnvPtZ64t6qLo9" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="U5ju3DR1TJJQV0Bzmu7ESO" Name="Dispose" ManuallySortedPins="true" />
-                  <Node Bounds="182,1407,145,19" Id="MAbLzAHY7rCOGcHjlv7nnw">
+                  <Node Bounds="182,1292,145,19" Id="MAbLzAHY7rCOGcHjlv7nnw">
                     <p:NodeReference LastCategoryFullName="Audio.Filter" LastDependency="VL.Audio.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="Category" Name="Audio" />
@@ -728,12 +728,12 @@
                     <Pin Id="UZOZ4jDcydGPc3nTSeWwyV" Name="Filter Type" Kind="InputPin" />
                     <Pin Id="DQD40vgGQM2NXPvuLmqQcb" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="SAOBIOIcXngLkhmi9Si0WF" Comment="Filter Type" Bounds="324,1358,71,15" ShowValueBox="true" isIOBox="true" Value="LowPass">
+                  <Pad Id="SAOBIOIcXngLkhmi9Si0WF" Comment="Filter Type" Bounds="324,1243,71,15" ShowValueBox="true" isIOBox="true" Value="LowPass">
                     <p:TypeAnnotation LastCategoryFullName="Audio" LastDependency="VL.Audio.vl">
                       <Choice Kind="TypeFlag" Name="AnalogModelingFilterType" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Node Bounds="242,1341,56,19" Id="FVtbOvEIHxrPjFAXlhItAk">
+                  <Node Bounds="242,1226,56,19" Id="FVtbOvEIHxrPjFAXlhItAk">
                     <p:NodeReference LastCategoryFullName="Audio.Utils" LastDependency="VL.Audio.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="Lin2Freq" />
@@ -743,22 +743,22 @@
                     <Pin Id="DKBeZlzujeZNn3tHruI2Df" Name="Output" Kind="OutputPin" />
                     <Pin Id="Aq0CuP3NUeNM9KPXMt8nJ1" Name="Output Normalized" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="SDfBMotVXyjLXLlVlMRQJH" Comment="" Bounds="244,1326,35,15" ShowValueBox="true" isIOBox="true" Value="1.04">
+                  <Pad Id="SDfBMotVXyjLXLlVlMRQJH" Comment="" Bounds="244,1211,35,15" ShowValueBox="true" isIOBox="true" Value="1.04">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="Float32" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="FZpRibB7UyHNzNVMaAveJs" Comment="Center" Bounds="295,1326,41,15" ShowValueBox="true" isIOBox="true" Value="440">
+                  <Pad Id="FZpRibB7UyHNzNVMaAveJs" Comment="Center" Bounds="295,1211,41,15" ShowValueBox="true" isIOBox="true" Value="440">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="Float32" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="LP8cnVqSJ1jOYMhEB9cJSi" Comment="" Bounds="244,1382,59,15" ShowValueBox="true" isIOBox="true" />
+                  <Pad Id="LP8cnVqSJ1jOYMhEB9cJSi" Comment="" Bounds="244,1267,59,15" ShowValueBox="true" isIOBox="true" />
                 </Patch>
               </Node>
             </Patch>
           </Node>
-          <Pad Id="LgEqxsFLGvTPgpOCTRZxdV" Comment="Turn on the filter here" Bounds="120,1231,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="LgEqxsFLGvTPgpOCTRZxdV" Comment="Turn on the filter here" Bounds="120,1116,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -767,7 +767,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="791,1139,145,19" Id="IuraVh5HXGGQbAtuPLmJQo">
+          <Node Bounds="791,1032,145,19" Id="IuraVh5HXGGQbAtuPLmJQo">
             <p:NodeReference LastCategoryFullName="Audio.Filter" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Filter" NeedsToBeDirectParent="true">
@@ -785,7 +785,7 @@
             <Pin Id="EREQegCFFLZPfauPWx0jgL" Name="Filter Type" Kind="InputPin" />
             <Pin Id="PuWBTeMCia9QSe2oS1m1OF" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="791,1169,42,19" Id="Tdx3Nwn7QsHPI0ivILiKgF">
+          <Node Bounds="791,1062,42,19" Id="Tdx3Nwn7QsHPI0ivILiKgF">
             <p:NodeReference LastCategoryFullName="Audio.Analysis" LastDependency="VL.Audio.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Meter" />
@@ -794,7 +794,7 @@
             <Pin Id="FyOpXJOMxouMm5iHtE2XIb" Name="Level" Kind="OutputPin" />
             <Pin Id="Pm8lAebrCp3NCAg8FB67qP" Name="Level dBFS" Kind="OutputPin" />
           </Node>
-          <Node Bounds="791,1213,25,19" Id="Jjul2tbyKO9NeoXgsA3335">
+          <Node Bounds="791,1106,25,19" Id="Jjul2tbyKO9NeoXgsA3335">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="&gt;" />
@@ -803,7 +803,7 @@
             <Pin Id="Tyje08bRo5yLDavTkd2Smi" Name="Input 2" Kind="InputPin" />
             <Pin Id="DZnFW6l0H4qMxXnVAhzFej" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="DIZ8zlpnXB5OnZwOLPd5Rn" Comment="" Bounds="845,1176,100,25" ShowValueBox="true" isIOBox="true" Value="0.54">
+          <Pad Id="DIZ8zlpnXB5OnZwOLPd5Rn" Comment="" Bounds="845,1069,100,25" ShowValueBox="true" isIOBox="true" Value="0.54">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -814,17 +814,17 @@
               <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Horizontal</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Vr6rXaygkjcLnTNad5sCZy" Comment="" Bounds="933,1126,71,15" ShowValueBox="true" isIOBox="true" Value="LowPass">
+          <Pad Id="Vr6rXaygkjcLnTNad5sCZy" Comment="" Bounds="933,1019,71,15" ShowValueBox="true" isIOBox="true" Value="LowPass">
             <p:TypeAnnotation LastCategoryFullName="Audio" LastDependency="VL.Audio.vl">
               <Choice Kind="TypeFlag" Name="AnalogModelingFilterType" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="TclmmS4we8KN2WLTeCcD7P" Comment="Cutoff Offset" Bounds="853,1102,50,15" ShowValueBox="true" isIOBox="true" Value="400">
+          <Pad Id="TclmmS4we8KN2WLTeCcD7P" Comment="Cutoff Offset" Bounds="853,995,50,15" ShowValueBox="true" isIOBox="true" Value="400">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="791,1306,65,19" Id="A7Hkq2JxYQ4MeosUImqixh">
+          <Node Bounds="791,1199,65,19" Id="A7Hkq2JxYQ4MeosUImqixh">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MonoFlop" />
@@ -836,12 +836,12 @@
             <Pin Id="K4vQIs78vVsMhM7mvK2JuH" Name="Value" Kind="OutputPin" />
             <Pin Id="NCjrL0WZ6IfLEScmFblU3k" Name="Inverse Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="DkmaxYxnz3UMqnxIVNVSBZ" Comment="Time" Bounds="813,1292,35,15" ShowValueBox="true" isIOBox="true" Value="0.15">
+          <Pad Id="DkmaxYxnz3UMqnxIVNVSBZ" Comment="Time" Bounds="813,1185,35,15" ShowValueBox="true" isIOBox="true" Value="0.15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="791,1334,56,19" Id="TnBHZ5FA1WsLmcCErjWbhR">
+          <Node Bounds="791,1227,56,19" Id="TnBHZ5FA1WsLmcCErjWbhR">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TogEdge" />
@@ -850,7 +850,7 @@
             <Pin Id="QvfqzmiNn1fNB64EiDPOb2" Name="Up Edge" Kind="OutputPin" />
             <Pin Id="QZHVTvuIK6SMmeATQgSQCl" Name="Down Edge" Kind="OutputPin" />
           </Node>
-          <Node Bounds="791,1362,48,19" Id="UJ42qIDLwA0P9yEtmhJj9f">
+          <Node Bounds="791,1255,48,19" Id="UJ42qIDLwA0P9yEtmhJj9f">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Toggle" />
@@ -859,8 +859,8 @@
             <Pin Id="G7bwTaQBrEmLxhIV986dDr" Name="Reset" Kind="ApplyPin" />
             <Pin Id="IeSsIOH56etP4YuE21PKdW" Name="Value" Kind="OutputPin" />
           </Node>
-          <Pad Id="JV2XwFsTiLTLnol6nrXpef" Comment="" Bounds="793,1398,35,35" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="843,1474,45,19" Id="Rd5RWwKCjuHMDtSB2H8nmp">
+          <Pad Id="JV2XwFsTiLTLnol6nrXpef" Comment="" Bounds="793,1291,35,35" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="843,1367,45,19" Id="Rd5RWwKCjuHMDtSB2H8nmp">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -871,7 +871,7 @@
             <Pin Id="T7iEKW8KtBqMU4d7GE04gF" Name="Input 2" Kind="InputPin" />
             <Pin Id="H7QDfWjPMkqOgQuTq0O4XJ" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="791,1474,45,19" Id="MClw09LOGjQNU3xSw9V6qw">
+          <Node Bounds="791,1367,45,19" Id="MClw09LOGjQNU3xSw9V6qw">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -882,7 +882,7 @@
             <Pin Id="PzEA70Su0fJPXofWsJMQmA" Name="Input 2" Kind="InputPin" />
             <Pin Id="Q6r3YrmJKxRPWs2JaDW8QU" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JTaW85cDaN4OnW3mmm4TR2" Comment="" Bounds="793,1245,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="JTaW85cDaN4OnW3mmm4TR2" Comment="" Bounds="793,1138,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="GJHcJL92FE1PQlMuFvAK9t" Bounds="1092,206,163,31" ShowValueBox="true" isIOBox="true" Value="FFT">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -1159,65 +1159,7 @@
               <p:stepsize p:Type="Single">0.01</p:stepsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="125,519,87,19" Id="QFX17IOiAJKM4xb4vU3Ecx">
-            <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
-            </p:NodeReference>
-            <Pin Id="N2jCDZMSLNmOIFUgjWBGuj" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="125,563,25,19" Id="OY0KAKpMiLpPn9GXbi5ynX">
-            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="+" />
-            </p:NodeReference>
-            <Pin Id="Qzd8NJMaT9gOEETC00rDKB" Name="Input" Kind="InputPin" />
-            <Pin Id="UmXCwlgxYY7MhHkj3oVGV9" Name="Input 2" Kind="InputPin" />
-            <Pin Id="VtF62FTGVMtQLqWBi1ttEq" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Pad Id="HbfxDP1UOUjOETVCMsjvWb" Comment="" Bounds="147,553,142,15" ShowValueBox="true" isIOBox="true" Value="Assets\FuserrrrLoop.mp3">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="125,593,48,19" Id="DMaWl1MLMdCNlqcQja8e51">
-            <p:NodeReference LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToPath" />
-            </p:NodeReference>
-            <Pin Id="QItKZW36onQO6MilSgX1ev" Name="Input" Kind="InputPin" />
-            <Pin Id="IMu6MbIZTsDMqhT6CwB7zh" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="614,368,87,19" Id="QhDtYmC9MM2Pi0zoZA9E9y">
-            <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
-            </p:NodeReference>
-            <Pin Id="UZRtGpBmSA9Mzn9HOfjYFk" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="614,412,25,19" Id="ANlwQXSouCSOWPpXwNcUzX">
-            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="+" />
-            </p:NodeReference>
-            <Pin Id="KMjnOOxQdUqLqC90XRNExl" Name="Input" Kind="InputPin" />
-            <Pin Id="UmiasM9BIL1NQJRAmwao5A" Name="Input 2" Kind="InputPin" />
-            <Pin Id="ArpV4Mra1bEPlDrUhWVBkn" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Pad Id="Pi3yKjLdJNbLYCecDRJ0U9" Comment="" Bounds="636,402,142,15" ShowValueBox="true" isIOBox="true" Value="Assets\FuserrrrLoop.mp3">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="614,442,48,19" Id="Jg3xbZ8ffYVMHC9jMnS55e">
-            <p:NodeReference LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToPath" />
-            </p:NodeReference>
-            <Pin Id="STNJElGHEuJO4uLja0HVei" Name="Input" Kind="InputPin" />
-            <Pin Id="FNhVqLRUqGWNULeRAm7Bkw" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="650,1640,65,19" Id="Sd7ydYObYjnPRL63MkedGY">
+          <Node Bounds="650,1533,65,19" Id="Sd7ydYObYjnPRL63MkedGY">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -1313,10 +1255,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="EtPBTAMGrcFMHLxz966fwt" Bounds="100,1725,383,108">
+          <Overlay Id="EtPBTAMGrcFMHLxz966fwt" Bounds="100,1610,383,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="BZyQSIMMjgaN2s3DJW8Ifo" Bounds="101,1743,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
+          <Pad Id="BZyQSIMMjgaN2s3DJW8Ifo" Bounds="101,1628,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1325,7 +1267,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VbHUmcywDfZMBCWkLXgKBF" Bounds="101,1774,197,19" ShowValueBox="true" isIOBox="true" Value="Workshop from Node20">
+          <Pad Id="VbHUmcywDfZMBCWkLXgKBF" Bounds="101,1659,197,19" ShowValueBox="true" isIOBox="true" Value="Workshop from Node20">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1334,7 +1276,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ma3bLRhuBjDLBRBFGF7AwV" Bounds="101,1793,359,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467735427">
+          <Pad Id="Ma3bLRhuBjDLBRBFGF7AwV" Bounds="101,1678,359,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467735427">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1471,14 +1413,6 @@
         <Link Id="H9ovOu83tmVM9fQQyVouFj" Ids="SdoZo5YqOzsORMPTOx7HQd,UWh3Dcl3N4lLfyEftAnaDL" />
         <Link Id="LGtn2KAHIjhOKhmZGLJpyo" Ids="KFPiyxtCjO9MrRRIPAfnVh,S3EGzYJEDxvNven2Jh40qy" />
         <Link Id="PBnWQ7Zl0esLNNPXEwMtI7" Ids="TW7SQDi5lgCLUgo88JLo2R,MacFAtLmLbrP5B7dxXP79q" />
-        <Link Id="P6yY2XwD2QEMS6SbNuApH8" Ids="N2jCDZMSLNmOIFUgjWBGuj,Qzd8NJMaT9gOEETC00rDKB" />
-        <Link Id="Tj4sxpo2UtgND11FCi0SLK" Ids="HbfxDP1UOUjOETVCMsjvWb,UmXCwlgxYY7MhHkj3oVGV9" />
-        <Link Id="PcftFbt7EQFPWAHnfLFjWJ" Ids="VtF62FTGVMtQLqWBi1ttEq,QItKZW36onQO6MilSgX1ev" />
-        <Link Id="BK9HcrTkKIHMtMnn2Eb3CL" Ids="IMu6MbIZTsDMqhT6CwB7zh,FskQkembqT3LTTxTcph4kf" />
-        <Link Id="KTcAFNO3ISAMSw3BuTd3uo" Ids="UZRtGpBmSA9Mzn9HOfjYFk,KMjnOOxQdUqLqC90XRNExl" />
-        <Link Id="Vo8GM1rnFFrM6qI4qEzaJO" Ids="Pi3yKjLdJNbLYCecDRJ0U9,UmiasM9BIL1NQJRAmwao5A" />
-        <Link Id="MqVQMUr3CX9MAiXJy1gxEm" Ids="ArpV4Mra1bEPlDrUhWVBkn,STNJElGHEuJO4uLja0HVei" />
-        <Link Id="Cp5yujMDBfAM8IcG7fsIgy" Ids="FNhVqLRUqGWNULeRAm7Bkw,PvPm5xnErRRPaTqbZF7OCb" />
         <Link Id="AxlFGdW3j0UNbAHhmQiIZp" Ids="Iz5rhbi0JukMAm6yoO51SS,B0Bo45nCTwWLOMYou4zYJs" />
         <Link Id="Eaf513wvGX3N0TvtyCgcOL" Ids="ATZ6TW66kktLMU8ObjPbAL,TO1AAZSQ01hOHoC0JPfB7U" />
         <Link Id="EOUU2f1THP4LtaDTJPnvx3" Ids="SUolhqy2NdgOFOpGxCFLqt,TyfFSabo3mALWPgMSz3LuI" />
@@ -1487,8 +1421,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0582-g69e6cbc026" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0582-g69e6cbc026" />
   <NugetDependency Id="NMwbrhiQkD3MVsRoBXkEKk" Location="VL.Audio" Version="1.1.1-preview" />
   <DocumentDependency Id="HNuDHS6prFNOlDyeO0ojO3" Location="../../include/Nodes.vl" />
 </Document>
