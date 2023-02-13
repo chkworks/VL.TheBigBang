@@ -8,6 +8,7 @@
 ## Content
 
 ### Part I: The Big Bang
+0. Introduction
 1. Datatypes and IOBoxes
 2. Nodes
 3. Math Basics
