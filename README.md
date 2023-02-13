@@ -1,9 +1,20 @@
 # VL.BeginnerTutorials
+A tutorial series of 37 patches for beginners, covering all nodes and techniques to get you started with the visual programming environment VVVV and its language VL.
 
-## Installation
-*Todo: Create NuGet and describe installation here*
+If you find this material helpful, please consider supporting its development.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
+
+## Installation
+If you are new to VVVV, go over to www.visualprogramming.net to download it. These patches are optimized for the upcoming 5.0 release, so make sure you are installing the latest preview version.
+
+Afterwards, click on the little gray icon in the top left corner (the so-called Quad Menu), navigate to "Manage Nugets > Commandline" and type the following:
+
+```
+nuget install VL.BeginnerTutorials
+```
+
+Afterwards hit F1 to open the Help Browser, scroll to the section called "BeginnerTutorials" and start patching. 
 
 ## Content
 
