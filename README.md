@@ -14,7 +14,7 @@ Afterwards, click on the little gray icon in the top left corner (the so-called 
 nuget install VL.BeginnerTutorials
 ```
 
-Afterwards hit F1 to open the Help Browser, scroll to the section called "BeginnerTutorials" and start patching. 
+When the package is successfully installed, hit F1 to open the Help Browser and scroll to the section called "BeginnerTutorials". Have fun and let me know if there are questions or problems by opening an issue on GitHub!
 
 ## Content
 
