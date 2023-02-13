@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BjjCQPji7haMCmY0BcWpLW" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
+<Document xmlns:p="property" Id="BjjCQPji7haMCmY0BcWpLW" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -81,7 +81,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="GlDSy6t8wu5LHAD4hihZG4" Comment="Cycles" Bounds="163,515,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="BdgJkVHxRiEMKCr4h8RWnT" Bounds="92,239,402,97" ShowValueBox="true" isIOBox="true" Value="An LFO generates a continous value rising from 0 to 1 over a given time. It can also be paused and reset. On its output, we get a bang for every new cycle and the total number of cycles it has made since reset. Therefore we can also use it as a trigger for a continuous signal or an increasing number.">
+          <Pad Id="BdgJkVHxRiEMKCr4h8RWnT" Bounds="92,239,402,97" ShowValueBox="true" isIOBox="true" Value="An LFO generates a continous value rising from 0.0 to 1.0 over a given time. It can also be paused and reset. On its output, we get a Bang for every new cycle and the total number of cycles it has made since reset. Therefore we can also use it as a trigger for a continuous signal or an increasing number.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -108,7 +108,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HpyPpj2lD4XMxgULMjQqhk" Bounds="592,243,400,63" ShowValueBox="true" isIOBox="true" Value="S+H stands for &quot;sample and hold&quot;. It will keep the value going into the left input pin while the right input Boolean is True. In this example set the Sample pin manually via an IOBox.">
+          <Pad Id="HpyPpj2lD4XMxgULMjQqhk" Bounds="592,243,400,63" ShowValueBox="true" isIOBox="true" Value="S+H stands for &quot;sample and hold&quot;. It will keep the value going into the left input pin while the right input boolean is true. In this example set the Sample pin manually via an IOBox.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -278,7 +278,7 @@
             <Pin Id="TUqXzlFyWndMoPRVtnqKnC" Name="Value" Kind="OutputPin" />
           </Node>
           <Pad Id="MbHT0bulXllLNRrvRJ8uh4" Comment="" Bounds="172,1461,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="FGhaFITgpAuLpvQBi3cgkI" Bounds="92,1245,401,65" ShowValueBox="true" isIOBox="true" Value="Use a Toggle to invert a boolean with every bang that is received on the input. Reset the Toggle with a bang on the right input. In combination with an LFO we get a repeatedly inverting boolean.">
+          <Pad Id="FGhaFITgpAuLpvQBi3cgkI" Bounds="92,1245,401,65" ShowValueBox="true" isIOBox="true" Value="Use a Toggle to invert a boolean with every Bang that is received on the input. Reset the Toggle with a Bang on the right input. In combination with an LFO we get a repeatedly inverting boolean.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1147,7 +1147,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GRD7kl98bAOL30ZrOxr2dw" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
-  <NugetDependency Id="GwYnhXTka1YN0LoblcF9Qd" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="GRD7kl98bAOL30ZrOxr2dw" Location="VL.Skia" Version="2022.5.0-0582-g69e6cbc026" />
+  <NugetDependency Id="GwYnhXTka1YN0LoblcF9Qd" Location="VL.Stride" Version="2022.5.0-0582-g69e6cbc026" />
   <DocumentDependency Id="AFgDW4Bqx9CMUcnDeHocCO" Location="../../include/Nodes.vl" />
 </Document>
