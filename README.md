@@ -15,6 +15,8 @@
 5. Colors
 6. Strings
 7. Errors
+
+### Part II: The Fundamental Particles
 8. 2D Rendering
 9. 3D Rendering
 10. Video and Camera
@@ -27,7 +29,7 @@
 17. Transformations
 18. Render Text
 
-### Part II: The Spreading Universe
+### Part III: The Spreading Universe
 19. Spreads
 20. Iteration
 21. Spread Generators
@@ -37,7 +39,7 @@
 25. Process Nodes
 26. Custom Operations
 
-### Part III: The Primordial Soup
+### Part IV: The Primordial Soup
 27. Mouse Input
 28. Collision
 29. Triggers and Flops
