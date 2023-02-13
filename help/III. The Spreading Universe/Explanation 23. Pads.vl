@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
+<Document xmlns:p="property" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -226,7 +226,7 @@
             <Pin Id="CXKbfVlIoxaMqiI65Vrkxi" Name="Miter" Kind="InputPin" />
             <Pin Id="LTVAHsIKcemMrEmRKpSOvo" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="B5TEpkKYxYPOrtF8AonME4" Bounds="92,206,401,205" ShowValueBox="true" isIOBox="true" Value="Pads can be used to store data and use or modify this data in the next iteration. Basically it functions like a variable in other programming environments. Pads can be placed from the node browser and should have a distinct name. &#xD;&#xA;&#xD;&#xA;Pads can used them to store any data type, and in their default state they are simply grayed out, indicating that their data type is yet undefined. Once a pad knows which data type it should be holding, it will turn grey. To specify the data type of a pad, either connect a link from somewhere, or specify the data type in the configuration menu (right-click &gt; Configure).">
+          <Pad Id="B5TEpkKYxYPOrtF8AonME4" Bounds="92,206,401,205" ShowValueBox="true" isIOBox="true" Value="Pads can be used to store data and use or modify this data in the next iteration. Basically it functions like a variable in other programming environments. Pads can be created from the Node Browser and should have a distinct name. &#xD;&#xA;&#xD;&#xA;Pads can used them to store any data type, and in their default state they are simply grayed out, indicating that their data type is yet undefined. Once a pad knows which data type it should be holding, it will turn dark gray. To specify the data type of a pad, either connect a link from somewhere, or specify the data type in the configuration menu (right-click &gt; Configure).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -319,7 +319,7 @@
           </Node>
           <Pad Id="UcQed1SXFl4LiOwNQwO0y8" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="297,923" />
           <Pad Id="CCQa2Pd9IfXPcb5CqJOwkN" Comment="Pad 5" Bounds="297,1031,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="156,1062,343,83" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right (which is fed with the output of the pad) is one frame delayed compared to the actual output of the LFO. Otherwise the subtraction would be exactly 0.">
+          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="156,1062,343,83" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right (which is fed with the output of the pad) is 1 frame delayed compared to the actual output of the LFO. Otherwise the subtraction would be exactly 0.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -328,7 +328,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Vn9XSciawTXLQbigCK49Hc" Bounds="592,206,400,77" ShowValueBox="true" isIOBox="true" Value="Pads are a great way to modify data from one frame to the next by combining them with If regions, as the inside of the If only triggers when the Condition input is set to True. Make sure that in the end, the modified value gets stored back into the pad.">
+          <Pad Id="Vn9XSciawTXLQbigCK49Hc" Bounds="592,206,400,77" ShowValueBox="true" isIOBox="true" Value="Pads are a great way to modify data from one frame to the next by combining them with If regions, as the inside of the If only triggers when the Condition input is set to true. Make sure that in the end, the modified value gets stored back into the pad.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -542,7 +542,7 @@
           <Overlay Id="NQCnn2eZM76L4GTM3UoLfW" Bounds="100,1163,390,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="101,1181,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
+          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="101,1181,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -662,7 +662,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0582-g69e6cbc026" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0582-g69e6cbc026" />
   <DocumentDependency Id="VX79H3Sxq8dOjQr6rzxW3a" Location="../../include/Nodes.vl" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="IyYpyoVEd8bK9ys3irBpWc" LanguageVersion="2022.5.0-0570-g77c905300e" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0570-g77c905300e" />
+<Document xmlns:p="property" Id="IyYpyoVEd8bK9ys3irBpWc" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" CanvasType="FullCategory">
       <Pad Id="BENL3RCtcpZO9zXXqcB3wT" Bounds="92,143,401,203" ShowValueBox="true" isIOBox="true" Value="This is the place where any document should contain all definitions that you created for your project. You can start tidying up by cutting the ColoredCircle definition from the Application side of the patch and pasting it right here. ">
@@ -227,7 +227,7 @@
               <Link Id="PdKJpCabfazLTCC3AuRa74" Ids="Tl1u3gp9w6POKDV7ztYXr3,TS8uoPBFlCvLuVf1oJvfQn" IsHidden="true" />
             </Patch>
           </Node>
-          <Pad Id="BmFDdYOqXKvOEbDDWOwIdP" Bounds="92,206,400,204" ShowValueBox="true" isIOBox="true" Value="Most node based environments offer methods to create subpatches which abstract certain functionality and avoid duplicated code all over the place. This is also possible in VVVV using so-called Process Nodes. In fact, every node that is in the node browser and that we have used so far, is a Process in the background and it is open to the user to create as many nodes as desired.&#xD;&#xA;&#xD;&#xA;Let's assume we patched along and the result is something like this - three red circles, each with random positions and sizes which are computed on the Create operation and saved into pads.&#xD;&#xA;">
+          <Pad Id="BmFDdYOqXKvOEbDDWOwIdP" Bounds="92,206,400,204" ShowValueBox="true" isIOBox="true" Value="Most node based environments offer methods to create subpatches which abstract certain functionality and avoid duplicated code all over the place. This is also possible in VVVV using so-called Process Nodes. In fact, every node that is in the Node Browser and that we have used so far, is a Process Node in the background and it is open to the user to create as many of these as desired.&#xD;&#xA;&#xD;&#xA;Let's assume we patched along and the result is something like this - three red circles, each with random positions and sizes which are computed on the Create operation and saved into pads.&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -486,7 +486,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="LwVXZzYY8VaNw4aonRgGcI" Bounds="592,207,401,93" ShowValueBox="true" isIOBox="true" Value="I hope that you can see the value of defining a process node here. This way we can get rid of some of these redundant nodes and bundle them into a little module. You can create a Process from the node browser and should give it a meaningful name, for example ColoredCircle.&#xD;&#xA;&#xD;&#xA;">
+          <Pad Id="LwVXZzYY8VaNw4aonRgGcI" Bounds="592,207,401,93" ShowValueBox="true" isIOBox="true" Value="I hope that you can see the value of defining a process node here. This way we can get rid of some of these redundant nodes and bundle them into a little module. You can create a Process from the Node Browser and should give it a meaningful name, for example ColoredCircle.&#xD;&#xA;&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -495,7 +495,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VUCvoIjjECoOlsJB7FmMo6" Bounds="592,383,401,316" ShowValueBox="true" isIOBox="true" Value="What we just created was the so-called definition of a process. All definitions are indicated by an arrow to the right, showing that it is something which can be opened and edited. After creating the definition, the node will show up in the node browser and can be used just like any other node. &#xD;&#xA;&#xD;&#xA;Note that it has two input pins which we can use to set the color and stroke width from outside, and an output pin from which the layer can be connected to the final Renderer. Also the process nodes have a random position and size when the patch is loaded or restarted, exactly like before. This is because a Process node can also contain pads and have their individual implementations of the Create and Update operations. &#xD;&#xA;&#xD;&#xA;Please right-click and select &quot;Open&quot; on one of the ColoredCircles underneath or the definition to find out more about creating pads and pins inside Process nodes.">
+          <Pad Id="VUCvoIjjECoOlsJB7FmMo6" Bounds="592,383,401,316" ShowValueBox="true" isIOBox="true" Value="What we have just created was the so-called definition of a process. All definitions are indicated by an arrow to the right, showing that it is something which can be opened and edited. After creating the definition, the node will show up in the Node Browser and can be used just like any other node. &#xD;&#xA;&#xD;&#xA;Note that it has two input pins which we can use to set the color and stroke width from outside, and an output pin from which the layer can be connected to the final Renderer. Also the process nodes have a random position and size when the patch is loaded or restarted, exactly like before. This is because a Process node can also contain pads and have their individual implementations of the Create and Update operations. &#xD;&#xA;&#xD;&#xA;Please right-click and select &quot;Open&quot; on one of the ColoredCircles underneath or the definition to find out more about creating pads and pins inside Process nodes.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -668,7 +668,7 @@
             <Pin Id="NmhxIwzkJGgQPcVbPdTfMQ" Name="Stroke Width" Kind="InputPin" />
             <Pin Id="B5qWj4Gh1JsL4kSFVU4w6K" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="MjXLQ7RQSFSP8GC4hOVB2D" Bounds="1092,243,400,363" ShowValueBox="true" isIOBox="true" Value="It would be a good opportunity to draw your attention to the definitions of a VL document. You can imagine this like the front and back side of your patch - the application is the patch itself and the back is where you store your custom data types, processes and operations. Go to your documents definitions by clicking on the &quot;Definitions&quot; entry in the document menu - this is where the ColoredCircle definition should actually be.&#xD;&#xA;&#xD;&#xA;By the way - when you type something in the node browser and select the entry &quot;Node&quot; in there, it automatically creates the Process node with the name AND the definition of the Process on the backside of your document. A nice little handy shortcut!&#xD;&#xA;&#xD;&#xA;Another side note here, as it is often a cause for trouble - when you are making your way though the help browser and copy something nice over to your project, it can happen that some of the nodes are red. Besides referencing the needed libraries you should also check, if the help patch contains custom definitions that you must also copy over to your document. ">
+          <Pad Id="MjXLQ7RQSFSP8GC4hOVB2D" Bounds="1092,243,400,363" ShowValueBox="true" isIOBox="true" Value="It would be a good opportunity to draw your attention to the definitions of a VL document. You can imagine this like the front and back side of your patch - the application is the patch itself and the back is where you store your custom data types, processes and operations. Go to your documents definitions by clicking on the &quot;Definitions&quot; entry in the document menu - this is where the ColoredCircle definition should actually be.&#xD;&#xA;&#xD;&#xA;By the way - when you type something in the Node Browser and select the entry &quot;Node&quot; in there, it automatically creates the Process Node with the name AND the definition of the Process on the backside of your document. A nice little handy shortcut!&#xD;&#xA;&#xD;&#xA;Another side note here, as it is often a cause for trouble - when you are making your way though the Help Browser and copy something nice over to your project, it can happen that some of the nodes are red. Besides referencing the needed libraries you should also check, if the help patch contains custom definitions that you must also copy over to your document. ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -686,7 +686,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HQMzETRYT30OUeGTF0wVW1" Bounds="1092,670,401,463" ShowValueBox="true" isIOBox="true" Value="There it is, it is spoken out. So far it was easily avoidable to confront you with this term, but now there is no way around it anymore: VL is a object-oriented programming language and by defining a custom Process node, we have just implemented our very first custom object.&#xD;&#xA;&#xD;&#xA;The Process basically just starts living in the moment in which it is placed in the patch or when the patch is loaded or re-started. With every other instance of a node that you defined yourself, you are just creating more objects, each one with their own lifetime including their Create and Update operations. In the next chapter, we will look into how to deal with custom operations which you can define for any Process node.&#xD;&#xA;&#xD;&#xA;You might have already heard about the terms Record and Class, which are other types of objects that you can create in VL. These work a bit differently and are used when you need to create instances of a custom data type during the runtime of your application. But that is another story and shall be told another time.&#xD;&#xA;&#xD;&#xA;Nonetheless - if you want to go deeper into the topic of object-oriented programming in VL and get started with defining your own custom Records and Classes, I want to point you to this workshop from Node20:">
+          <Pad Id="HQMzETRYT30OUeGTF0wVW1" Bounds="1092,670,401,370" ShowValueBox="true" isIOBox="true" Value="There it is, it is spoken out. So far it was easily avoidable to confront you with this term, but now there is no way around it anymore: VL is an object-oriented programming language and by defining a custom Process node, we have just implemented our very first custom object.&#xD;&#xA;&#xD;&#xA;The Process basically comes to life in the moment in which it is placed in the patch or when the patch is loaded or re-started. With every other instance of a node that you put in the patch you are just creating more objects, each one with their own lifetime including their Create and Update operations. In the next chapter, we will look into how to deal with custom operations which you can define for any Process node.&#xD;&#xA;&#xD;&#xA;You might have already heard about the terms Record and Class, which are other types of objects that you can create in VL. These work a bit differently and are used when you need to create, change and destroy instances of a custom data type during the runtime of your application. But that is another story and shall be told another time.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -702,15 +702,6 @@
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">15</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="MIjHF7y5BSxM4AQDOmWP8A" Bounds="1092,1141,217,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467436333">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="261,1119,65,19" Id="BgZnzXeuEWWOSWvHEsOeN3">
@@ -761,10 +752,10 @@
             <Pin Id="F0nwq82f0toPa4Bu2IlyEk" Name="Enabled" Kind="InputPin" />
             <Pin Id="SueLWUhFhBdMfDvNjydCMs" Name="Output" Kind="OutputPin" />
           </Node>
-          <Overlay Id="NF8BMUlKpGuO5upsdBQTV3" Bounds="1100,1213,486,108">
+          <Overlay Id="NF8BMUlKpGuO5upsdBQTV3" Bounds="1100,1068,486,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="IfyP2zrE5hwNmsNQeuhvlz" Bounds="1101,1231,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources &gt;&gt;&gt;">
+          <Pad Id="IfyP2zrE5hwNmsNQeuhvlz" Bounds="1101,1086,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -773,7 +764,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OclYnsFb2DANPLva9EedbM" Bounds="1101,1262,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+          <Pad Id="OclYnsFb2DANPLva9EedbM" Bounds="1101,1117,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -782,7 +773,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BRV2GXyybPRMpgSKDXSI8A" Bounds="1101,1281,471,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/nodes.html#process-nodes">
+          <Pad Id="BRV2GXyybPRMpgSKDXSI8A" Bounds="1101,1136,471,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/nodes.html#process-nodes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -870,7 +861,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0570-g77c905300e" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0570-g77c905300e" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2022.5.0-0582-g69e6cbc026" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2022.5.0-0582-g69e6cbc026" />
   <DocumentDependency Id="HXa4F7DWzEhPj6PbOkLgTQ" Location="../../include/Nodes.vl" />
 </Document>
