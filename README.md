@@ -28,7 +28,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 6. Strings
 7. Errors
 
-### Part II: The Fundamental Particles
+### Part II: The Subatomic Particles
 8. 2D Rendering
 9. 3D Rendering
 10. Video and Camera
@@ -41,7 +41,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 17. Transformations
 18. Render Text
 
-### Part III: The Spreading Universe
+### Part III: The Expansion of the Universe
 19. Spreads
 20. Iteration
 21. Spread Generators
