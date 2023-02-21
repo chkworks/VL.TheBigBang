@@ -20,7 +20,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 
 ### Part I: The Big Bang
 0. Introduction
-1. Datatypes and IOBoxes
+1. Data Types and IOBoxes
 2. Nodes
 3. Math Basics
 4. Conversion
@@ -34,7 +34,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 10. Video and Camera
 11. Texture Sources and Effects
 12. Mixing Skia and Stride
-13. More About Datatypes
+13. More About Data Types
 14. Control Basics
 15. Conditions
 16. Animation Basics
@@ -49,7 +49,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 23. Pads
 24. Create and Update
 25. Process Nodes
-26. Custom Operations
+26. Member Operations
 
 ### Part IV: The Primordial Soup
 27. Mouse Input
