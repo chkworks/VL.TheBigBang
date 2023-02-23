@@ -11,10 +11,10 @@ If you are new to VVVV, download it over at www.visualprogramming.net. These pat
 Afterwards, click on the little gray icon in the top left corner (the so-called Quad Menu), navigate to "Manage Nugets > Commandline" and type the following:
 
 ```
-nuget install VL.BeginnerTutorials
+nuget install VL.ThePatchersGuide
 ```
 
-When the package is successfully installed, hit F1 to open the Help Browser and scroll to the section called "BeginnerTutorials". Have fun and let me know if there are questions or problems by opening an issue on GitHub!
+When the package is successfully installed, hit F1 to open the Help Browser and scroll to the section called "ThePatchersGuide". Have fun and let me know if there are questions or problems by opening an issue on GitHub!
 
 ## Content
 
