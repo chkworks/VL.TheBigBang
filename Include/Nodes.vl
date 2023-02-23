@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="KaKaKBXgCOGNNGNrg1Zjuo" LanguageVersion="2022.5.0-0594-gdd5359b47d" Version="0.128">
-  <NugetDependency Id="NHXNWr0ZR5ZLxvGwVSJIt4" Location="VL.CoreLib" Version="2022.5.0-0594-gdd5359b47d" />
+<Document xmlns:p="property" Id="KaKaKBXgCOGNNGNrg1Zjuo" LanguageVersion="2022.5.0-0599-gfdde5b4665" Version="0.128">
+  <NugetDependency Id="NHXNWr0ZR5ZLxvGwVSJIt4" Location="VL.CoreLib" Version="2022.5.0-0599-gfdde5b4665" />
   <Patch Id="NM1CZvIaLAKMB8uiocBr2u">
     <Canvas Id="InF4iDJaNyYQBFPKS9aDnT" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1484,124 +1484,16 @@
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
       <Patch Id="GbdoEbrXihqPNfHQEmMTls">
-        <Canvas Id="A5rXrvvcut1OpSJHPqUN7g" CanvasType="Group">
-          <Node Bounds="139,90,409,418" Id="DJ6Lsu9dw1GMN8GtHcvJMu">
-            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Control" />
-              <Choice Kind="ProcessAppFlag" Name="Comment" />
-            </p:NodeReference>
-            <Patch Id="Tp1pcE9otUzOy5R4YgugNJ" ManuallySortedPins="true">
-              <Patch Id="RFo23cMZ5qFOR1lg7l8tja" Name="Create" ManuallySortedPins="true" />
-              <Patch Id="C1Ogs86t3PLNC4i14dSadk" Name="Update" ManuallySortedPins="true" />
-              <Node Bounds="153,321,165,19" Id="VV2K7Fc407MPW6k47zQfh8">
-                <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="Category" Name="Main" NeedsToBeDirectParent="true" />
-                  <Choice Kind="ProcessAppFlag" Name="Writer" />
-                </p:NodeReference>
-                <Pin Id="Qga4foa09jVPgkLfcEob9r" Name="Skia / Stride" Kind="InputPin" DefaultValue="True" />
-                <Pin Id="SbQWTilfbY7OJwkKJRGnQD" Name="Scene" Kind="InputPin" />
-                <Pin Id="POUfjNTSC99PGJUo5uMTQu" Name="Size" Kind="InputPin" />
-                <Pin Id="OhDGAV7DFybQD25ejEHau9" Name="Camera" Kind="InputPin" />
-                <Pin Id="Pi9QYDAsCMaMvk9qw7xEtr" Name="Clear Color" Kind="InputPin" />
-                <Pin Id="BNAW9pQGwCUNWkpvC64K9L" Name="Post Effects" Kind="InputPin" />
-                <Pin Id="P8ePCuxpHZbQCZtR87h9oa" Name="Image" Kind="InputPin" />
-                <Pin Id="GOHyZnphUhQLyvVcczvsls" Name="Folder" Kind="InputPin" />
-                <Pin Id="T6Sve9wW2TnPJgKAjws1kt" Name="Write" Kind="InputPin" />
-                <Pin Id="J381TG3F2feM2fR6rdFQgB" Name="Preview" Kind="OutputPin" />
-              </Node>
-              <Pad Id="IqeEVeZ6cKwOwB7R47MTUA" Comment="Size" Bounds="195,164,35,28" ShowValueBox="true" isIOBox="true" Value="1800, 1200">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Int2" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="LCMgnFN1wZxO27zpyBHPcB" Comment="Write" Bounds="315,273,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-                  <CategoryReference Kind="Category" Name="Primitive" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-                </p:ValueBoxSettings>
-              </Pad>
-              <Pad Id="T2wfGB4UMu5Op1S1u94L8J" Comment="Folder" Bounds="295,253,35,15" ShowValueBox="true" isIOBox="true" Value="C:\">
-                <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Path" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">Directory</p:pathtype>
-                </p:ValueBoxSettings>
-              </Pad>
-              <Pad Id="VnryFdL9BDaPbI0UbXW7D1" Comment="Preview" Bounds="155,364,190,132" ShowValueBox="true" isIOBox="true" />
-              <Pad Id="MKgh5rmoj2nPwTJZPW7ZHm" Comment="Skia / Stride" Bounds="155,118,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-                  <CategoryReference Kind="Category" Name="Primitive" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
-                </p:ValueBoxSettings>
-              </Pad>
-              <Node Bounds="213,196,285,19" Id="K01Fqha3gEOO3ddeabdzZt">
-                <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
-                </p:NodeReference>
-                <Pin Id="JgtEjI5kU49Lx11BDDv7Ib" Name="Components" Kind="InputPin" />
-                <Pin Id="C1sg1Y76Ts0MQaXR7iSJqX" Name="Children" Kind="InputPin" />
-                <Pin Id="I9QDMuD5EdJNwlB73WJmTf" Name="Initial Interest" Kind="InputPin" />
-                <Pin Id="GJdUn1Tr5zUMEtwngYg4Cf" Name="Initial Yaw" Kind="InputPin" />
-                <Pin Id="LpQHFHKdrhFNpvprzstYff" Name="Initial Pitch" Kind="InputPin" />
-                <Pin Id="BTWuKNGUupDLhLrI3lTfo4" Name="Initial Distance" Kind="InputPin" />
-                <Pin Id="VsEwL2ZoNHSOtybe3wD2FU" Name="Initial Vertical Field Of View" Kind="InputPin" />
-                <Pin Id="VAlvD9SVuGEMJEnOjZgn3Y" Name="Projection" Kind="InputPin" />
-                <Pin Id="ULCOxaxc5JKPw6WD8loKCR" Name="Near Clip Plane" Kind="InputPin" />
-                <Pin Id="OaORbYj7SzPPBnUxFEdIU8" Name="Far Clip Plane" Kind="InputPin" />
-                <Pin Id="F50UJGVe14AN2HLHdqzPfq" Name="Aspect Ratio" Kind="InputPin" />
-                <Pin Id="BXs2h34eVpdNcXUietZm3J" Name="Use Custom Aspect Ratio" Kind="InputPin" />
-                <Pin Id="F250cnR5s6fQY5AhYm4lJt" Name="Show Helper" Kind="InputPin" />
-                <Pin Id="M5DP6NF4m9AMm73f29FZAk" Name="Reset" Kind="InputPin" />
-                <Pin Id="U2vomqmhp1xOUT3Rsjq0DT" Name="Enabled" Kind="InputPin" />
-                <Pin Id="DqyuLUeTPSvQM7RqhKs4ZI" Name="Output" Kind="OutputPin" />
-                <Pin Id="EmPczmYVy8dLC81yN7UYci" Name="Position" Kind="OutputPin" />
-                <Pin Id="UpFUJWdMC21LWaR4VhmcUO" Name="Frustum" Kind="OutputPin" />
-                <Pin Id="NJ1SQdNvEOZMpwzhVsbyla" Name="Inverse View" Kind="OutputPin" />
-                <Pin Id="RuYhi1SgDTgMQfdWx9lrFb" Name="Camera Component" Kind="OutputPin" />
-              </Node>
-              <Pad Id="SNxI2qJROb8OC4JNMutCMc" Comment="Clear Color" Bounds="235,230,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 0, 1">
-                <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="RGBA" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="NPGKpQ00IBMLafvFJmL9at" Bounds="282,118,247,19" ShowValueBox="true" isIOBox="true" Value="A boilerplate for reandering screenshots">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="String" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:fontsize p:Type="Int32">9</p:fontsize>
-                  <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-                </p:ValueBoxSettings>
-              </Pad>
-            </Patch>
-          </Node>
-        </Canvas>
+        <Canvas Id="A5rXrvvcut1OpSJHPqUN7g" CanvasType="Group" />
         <Patch Id="NOcHJb3FnIZP8cWGIdqdi9" Name="Create" />
         <Patch Id="KqJOLlQIc1eNqyXFKZBXRj" Name="Update" />
         <ProcessDefinition Id="LiiecWPh4Z5Px3laKLjdNa">
           <Fragment Id="Nv7ytqgFqgGO1AwwG1lM21" Patch="NOcHJb3FnIZP8cWGIdqdi9" Enabled="true" />
           <Fragment Id="BN6jkZOFTxKPaweIKjrgDL" Patch="KqJOLlQIc1eNqyXFKZBXRj" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="ICDzV5YB7ufOLmcR8v1gwM" Ids="IqeEVeZ6cKwOwB7R47MTUA,POUfjNTSC99PGJUo5uMTQu" />
-        <Link Id="OQapztA0cgQMYE3yIbYdSL" Ids="LCMgnFN1wZxO27zpyBHPcB,T6Sve9wW2TnPJgKAjws1kt" />
-        <Link Id="SlMJ0AdGPUUPkbXuDAnZEz" Ids="T2wfGB4UMu5Op1S1u94L8J,GOHyZnphUhQLyvVcczvsls" />
-        <Link Id="IevHh5NLcLPP64XH6Qxdix" Ids="J381TG3F2feM2fR6rdFQgB,VnryFdL9BDaPbI0UbXW7D1" />
-        <Link Id="U8HyeCqYNYmPcNVgv5EF5V" Ids="MKgh5rmoj2nPwTJZPW7ZHm,Qga4foa09jVPgkLfcEob9r" />
-        <Link Id="Jj59QGIWDLEOFFvtpOUaP6" Ids="DqyuLUeTPSvQM7RqhKs4ZI,OhDGAV7DFybQD25ejEHau9" />
-        <Link Id="SGr2uOIgoerM5zK6KNkVBd" Ids="SNxI2qJROb8OC4JNMutCMc,Pi9QYDAsCMaMvk9qw7xEtr" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="BCCNUvOpDYyOJnXrrwmKDw" Location="VL.Skia" Version="2022.5.0-0594-gdd5359b47d" />
-  <NugetDependency Id="MP2YDb6PpImNgd6pU0m5RL" Location="VL.Stride" Version="2022.5.0-0594-gdd5359b47d" />
+  <NugetDependency Id="BCCNUvOpDYyOJnXrrwmKDw" Location="VL.Skia" Version="2022.5.0-0599-gfdde5b4665" />
+  <NugetDependency Id="MP2YDb6PpImNgd6pU0m5RL" Location="VL.Stride" Version="2022.5.0-0599-gfdde5b4665" />
 </Document>
