@@ -19,12 +19,11 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ## Content
 
 ### Part I: The Big Bang
-0. Introduction
-1. Data Types and IOBoxes
-2. Nodes
-3. Math Basics
-4. Conversion
-5. Colors
+1. Introduction
+2. Data Types and IOBoxes
+3. Nodes
+4. Math Basics
+5. Conversion
 6. Strings
 7. Errors
 
