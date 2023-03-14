@@ -22,8 +22,8 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 1. Introduction
 2. Data Types and IOBoxes
 3. Nodes
-4. Math Basics
-5. Conversion
+4. Simple Math
+5. Type Conversion
 6. Strings
 7. Errors
 
