@@ -67,7 +67,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ## Supporters
 
 ### Backed by
-cheheart, brunotti, sunep
+cheheart, brunotti, sunep, michaelias
 
 Thanks a lot to remony4, mhusinsky, Ilina and Julian for proof-reading!
 
