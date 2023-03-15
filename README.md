@@ -19,13 +19,14 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ## Content
 
 ### Part I: The Big Bang
-1. Introduction
-2. Data Types and IOBoxes
-3. Nodes
-4. Simple Math
-5. Type Conversion
+0. Introduction
+1. Data Types and IOBoxes
+2. Nodes
+3. Simple Math
+4. Type Conversion
+5. Colors
 6. Strings
-7. Errors
+7. Error Handling
 
 ### Part II: The Subatomic Particles
 8. 2D Rendering
