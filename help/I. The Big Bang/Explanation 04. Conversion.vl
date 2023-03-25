@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Tfo5w1JLIxyOIogD6qsOJ5" LanguageVersion="2022.5.0-0694-g806dae434d" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0694-g806dae434d" />
+<Document xmlns:p="property" Id="Tfo5w1JLIxyOIogD6qsOJ5" LanguageVersion="2022.5.0-0629-g49369f19a6" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0629-g49369f19a6" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,270,46" ShowValueBox="true" isIOBox="true" Value="05. Conversion">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,270,33" ShowValueBox="true" isIOBox="true" Value="04. Conversion">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -33,7 +33,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,92,420,25" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,92,420,-8" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to VVVV">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -207,7 +207,7 @@
             <Pin Id="Ixs2s0lMIsONgZA1XBMNZg" Name="Z" Kind="InputPin" />
             <Pin Id="O1QBIE03dNnLBoIjKzH7oy" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="KLIrTAJslNcNcGaFm9SEv9" Bounds="92,206,401,63" ShowValueBox="true" isIOBox="true" Value="When dealing with nodes and data types in vvvv, you will very often need to convert data types. Here are some of the most used nodes.">
+          <Pad Id="KLIrTAJslNcNcGaFm9SEv9" Bounds="92,206,401,63" ShowValueBox="true" isIOBox="true" Value="When dealing with nodes and data types in VVVV, you will very often need to convert data types. Here are some of the most used nodes.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -502,7 +502,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PSpap1w54W2OXHEnp4WXaa" Bounds="592,207,187,31" ShowValueBox="true" isIOBox="true" Value="Float -&gt; Vector">
+          <Pad Id="PSpap1w54W2OXHEnp4WXaa" Bounds="592,207,187,8" ShowValueBox="true" isIOBox="true" Value="Float -&gt; Vector">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -512,7 +512,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="O23G3eHD4Q3OND2o9b4tzt" Bounds="592,468,165,31" ShowValueBox="true" isIOBox="true" Value="Vector -&gt; Float">
+          <Pad Id="O23G3eHD4Q3OND2o9b4tzt" Bounds="592,468,165,7" ShowValueBox="true" isIOBox="true" Value="Vector -&gt; Float">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -630,272 +630,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="1113,392,65,19" Id="HPGqeNHvz8cM60WXsZgi5X">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromHSV" />
-            </p:NodeReference>
-            <Pin Id="OVPjEy0avkqOT75Gsqu771" Name="Hue" Kind="InputPin" />
-            <Pin Id="Pj4ZO9avJbQLVuoCuVuzVA" Name="Saturation" Kind="InputPin" />
-            <Pin Id="V8T2zKyh7HONRseBV7rRju" Name="Value" Kind="InputPin" />
-            <Pin Id="CNA2ZALwETyMjllYMozh7G" Name="Alpha" Kind="InputPin" />
-            <Pin Id="LobZmlxZNzVQAYQc9zdWor" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1114,673,65,19" Id="GOyMJqJtg0LOKog8OLxOyo">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromHSL" />
-            </p:NodeReference>
-            <Pin Id="JPSDWckvoJyNG0CANgplv1" Name="Hue" Kind="InputPin" />
-            <Pin Id="NvXaVMIcrd3PoTpOM9la6Z" Name="Saturation" Kind="InputPin" />
-            <Pin Id="VNtIo2cdU5LN1OvIyjbpca" Name="Lightness" Kind="InputPin" />
-            <Pin Id="F9ifV5Ct5Y4OsItvQVdQI8" Name="Alpha" Kind="InputPin" />
-            <Pin Id="OhdjX5zE4RWPbcC59pUNjt" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Pad Id="MjCrSacfgiJM4VwzSwnuqx" Comment="Hue" Bounds="1115,296,35,15" ShowValueBox="true" isIOBox="true" Value="0.3333333">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="UsXDvEpCvZ2M7WgUiISeIy" Comment="Saturation" Bounds="1135,318,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="EHrZqJrDdqrOSZSFsuEmu6" Comment="Value" Bounds="1155,340,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="AQk94DNPuprLEg9k84mtVc" Comment="Alpha" Bounds="1175,362,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="T8STizkt1c7MOH4Ky9HqW1" Comment="Hue" Bounds="1116,588,35,15" ShowValueBox="true" isIOBox="true" Value="0.3333333">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="EPG01FmKwDcMJH6BxPKbha" Comment="Saturation" Bounds="1136,609,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="OBeHgUIeMGWL3WWk97rPqO" Comment="Lightness" Bounds="1156,630,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="RFNUc5ls5GYLyV4zrXG8wD" Comment="Alpha" Bounds="1176,651,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="1122,1181,58,19" Id="DBeatnB9pIpLjpUDVBdm0E">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Color" />
-              <CategoryReference Kind="ColorRGBAType" Name="RGBA" />
-              <Choice Kind="OperationCallFlag" Name="FromHex" />
-            </p:NodeReference>
-            <Pin Id="C32NqoN7dsuMYG2QCNG4Lo" Name="Hex" Kind="InputPin" />
-            <Pin Id="QbTPZOemJ3aNmswclfKQp7" Name="Color" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1121,964,65,19" Id="JRDSNm8TH7yP3eLVfwiYg9">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Color" />
-              <CategoryReference Kind="ColorRGBAType" Name="RGBA" />
-              <Choice Kind="OperationCallFlag" Name="RGBA (Join)" />
-            </p:NodeReference>
-            <Pin Id="RjFaOoLbYjYNtEDi1WVFKu" Name="Red" Kind="InputPin" />
-            <Pin Id="PAPlcSllrRYNGy2EJ89buU" Name="Green" Kind="InputPin" />
-            <Pin Id="Vm2wShFRXgBNGjRSQmx5DD" Name="Blue" Kind="InputPin" />
-            <Pin Id="AH46WBF32nMOUwRaDrVpnw" Name="Alpha" Kind="InputPin" />
-            <Pin Id="B3Bgx8p5NKhMUoTGAnOFdR" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1317,1181,46,19" Id="AFNaJNhaeUXOnQxv4NkNWc">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Color" />
-              <CategoryReference Kind="ColorRGBAType" Name="RGBA" />
-              <Choice Kind="OperationCallFlag" Name="ToHex" />
-            </p:NodeReference>
-            <Pin Id="FMCcxOYLV7ILhIOEO5yNic" Name="Color" Kind="InputPin" />
-            <Pin Id="EXETxMIqrEvN21TQ7bUpfU" Name="Hex" Kind="OutputPin" />
-          </Node>
-          <Pad Id="DJzHRI09cwaL6yVcJs0GpF" Comment="" Bounds="1115,437,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="ITBxbEmpmUFOJJ32VIsXOq" Comment="" Bounds="1116,718,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DFVDB5rZnZaLuzkeOM0Tq6" Comment="" Bounds="1305,297,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.8, 0.6666667, 1" />
-          <Pad Id="I41cDhhnkNYPOQmlVjFmcV" Comment="" Bounds="1293,587,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1" />
-          <Node Bounds="1303,323,65,19" Id="LGggyAtpuSrLR9YJei8XmC">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToHSV" />
-            </p:NodeReference>
-            <Pin Id="VFufxJKMYtoMSo7OAnGQQN" Name="Rgb" Kind="InputPin" />
-            <Pin Id="MDQpDfiSDiQP1dGpBWX6zs" Name="Hue" Kind="OutputPin" />
-            <Pin Id="LUp8wLCWJMzLLLtjHj6Hpt" Name="Saturation" Kind="OutputPin" />
-            <Pin Id="Fa87BwLqf4ZLPvfOt3JJXF" Name="Value" Kind="OutputPin" />
-            <Pin Id="JeiWQDromXHOI8AFCeLKeB" Name="Alpha" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1291,614,65,19" Id="AW90BBDuuLFLo7db3Gbd09">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ToHSL" />
-            </p:NodeReference>
-            <Pin Id="EHdueQZcA17OCKwSEJ6LVI" Name="Rgb" Kind="InputPin" />
-            <Pin Id="IHmLn7Gvbx3L6H8N9SOaq2" Name="Hue" Kind="OutputPin" />
-            <Pin Id="T4Hi10LhJbtPItuJtd8uVt" Name="Saturation" Kind="OutputPin" />
-            <Pin Id="UCzI3cPirzoOIRoYVphIMU" Name="Lightness" Kind="OutputPin" />
-            <Pin Id="MEulZKtPDaeM2ysVcOiF3Q" Name="Alpha" Kind="OutputPin" />
-          </Node>
-          <Pad Id="BfYQJ4Cy6rpNwSpTiFiJKV" Bounds="1092,243,334,41" ShowValueBox="true" isIOBox="true" Value="Create a color from floats for hue, saturation, value and alpha, and vice versa.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="LvP5KuhES1AP2fF4LZEUff" Comment="Red" Bounds="1123,879,35,15" ShowValueBox="true" isIOBox="true" Value="0.3333333">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="OVZm47Hh5BaOQhiJ9LtKat" Comment="Blue" Bounds="1143,900,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="DxBFnefysoMNHGtr2SQOlZ" Comment="Green" Bounds="1163,921,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="TK9h9a6pegxLAF1EU5eIfd" Comment="Alpha" Bounds="1183,942,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="TewiskgpuzFP43idl4Rt5A" Comment="" Bounds="1123,1009,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Rzo6X5cSDvLM75tUoBrRWe" Bounds="1101,822,341,44" ShowValueBox="true" isIOBox="true" Value="Create a color from floats for red, green, blue and alpha, and vice versa.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="Nyz4cKzzvRcNKMVwEwg5yC" Bounds="1101,1104,361,38" ShowValueBox="true" isIOBox="true" Value="Create a color from a string representing a hex code, and vice versa.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="OplI1LT8hW7PAV7ghsq4uM" Comment="Hex" Bounds="1124,1160,57,15" ShowValueBox="true" isIOBox="true" Value="FF0000FF">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="T5PLojqd2XBLwseYgNfeQY" Comment="Color" Bounds="1124,1222,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="HEUFHVt7s1pQNSg3nTWIou" Comment="Color" Bounds="1319,1160,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="MKZbH2rBfwEMJHtsAkwmnB" Comment="Hex" Bounds="1319,1222,52,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="LA1L4IwnSXsLWh3dHitrXO" Comment="Hue" Bounds="1305,434,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="OvHiMhhNQazNdw37DcEnYH" Comment="Saturation" Bounds="1325,413,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="SFury3WvnbcQWmfzjKlw9Z" Comment="Value" Bounds="1345,392,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="VvI3DmRRprvLeDMqIBeyil" Comment="Alpha" Bounds="1365,371,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="GNXYMvOu0QAO26pVKGrq4I" Comment="Hue" Bounds="1293,716,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Qp2sGmx84atN4baM3UesbK" Comment="Saturation" Bounds="1313,695,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DzhGqV1un5fP3A9WTwvial" Comment="Lightness" Bounds="1333,674,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DxLCcKshuZCL1RAl8pIarW" Comment="Alpha" Bounds="1353,653,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="1301,899,65,19" Id="Bk1EhiRoBm6N9bohqpEGeG">
-            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="RGBA (Split)" />
-            </p:NodeReference>
-            <Pin Id="UB2ifOpTRdFLTLCqJvQgY9" Name="Input" Kind="StateInputPin" />
-            <Pin Id="JnYoMxagfqnMxLUc6kNsxM" Name="Red" Kind="OutputPin" />
-            <Pin Id="LSxiAxLAnVHMp9HsGFn41X" Name="Green" Kind="OutputPin" />
-            <Pin Id="GXJIQVt3JwSPL4xtXwUlB0" Name="Blue" Kind="OutputPin" />
-            <Pin Id="KcsEt52Hu20LDOXHsruM7f" Name="Alpha" Kind="OutputPin" />
-          </Node>
-          <Pad Id="USm2WKmoUO1MMmnJ0f0Q4I" Bounds="1092,206,235,31" ShowValueBox="true" isIOBox="true" Value="FromHSV &amp; ToHSV">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">15</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="QR1Vxw0vVOHPD7Fm4zypl3" Bounds="1092,533,355,41" ShowValueBox="true" isIOBox="true" Value="Create a color from floats for hue, saturation, lightness and alpha, and vice versa.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="EutKYS2qrX7Nj4FpuSdFDX" Bounds="1092,496,194,31" ShowValueBox="true" isIOBox="true" Value="FromHSL &amp; ToHSL">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">15</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="M90TTDeklMnNgiFGvkzL12" Bounds="1101,785,183,31" ShowValueBox="true" isIOBox="true" Value="RGBA Join &amp; Split">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">15</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="VPugTLcRrg9MdBVQl55vQU" Comment="Red" Bounds="1303,1011,35,15" ShowValueBox="true" isIOBox="true" Value="0.3333333">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="FMJqEPT5YilNn9DlznuGxU" Comment="Blue" Bounds="1323,990,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="DWNy4YccWEVMtiPLmcKJcq" Comment="Green" Bounds="1343,969,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="HnCyiy3g8K6OFxA3ZFMtcu" Comment="Alpha" Bounds="1363,948,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="QdrQ6rBXKTGNvNW9vV9VVH" Comment="" Bounds="1303,878,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.7529412, 0.7960784, 1" />
-          <Pad Id="UoHTIoMyUBCOR9lFkWtc4e" Bounds="1101,1067,196,31" ShowValueBox="true" isIOBox="true" Value="FromHex &amp; ToHex">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">15</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
         <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
@@ -960,40 +694,6 @@
         <Link Id="GA6pFyDsj3VMxOdS5KuVGv" Ids="A9zEp6MD246QYvNMXMMJE0,ODDP6lGmplhLgKKagwKFv2" />
         <Link Id="HPnzwb7E6oEQHmZgaaZkNC" Ids="I203fyRtfp4PBPM0hPmxzM,NcRrN9HOpGTLAbm1632bun" />
         <Link Id="QPpUXPLRUMAO8wkVS42TiM" Ids="UV4mDe2uIdyMlfH0pMS81N,AiCQPZSIYOFOax8pNmCMcM" />
-        <Link Id="VTYIxT22kpzQKh2KzlACZk" Ids="MjCrSacfgiJM4VwzSwnuqx,OVPjEy0avkqOT75Gsqu771" />
-        <Link Id="MSKbCkrtnDpMRr5STf8exR" Ids="UsXDvEpCvZ2M7WgUiISeIy,Pj4ZO9avJbQLVuoCuVuzVA" />
-        <Link Id="TF99a1aQ8HeNaxIsJZIB9T" Ids="EHrZqJrDdqrOSZSFsuEmu6,V8T2zKyh7HONRseBV7rRju" />
-        <Link Id="N5NZbKWIkryPE96rBo0oEe" Ids="AQk94DNPuprLEg9k84mtVc,CNA2ZALwETyMjllYMozh7G" />
-        <Link Id="EzYCo6rgrRLMOibSUZHscu" Ids="LobZmlxZNzVQAYQc9zdWor,DJzHRI09cwaL6yVcJs0GpF" />
-        <Link Id="FQ9I3h9HyynNnhw3eKp81c" Ids="T8STizkt1c7MOH4Ky9HqW1,JPSDWckvoJyNG0CANgplv1" />
-        <Link Id="SEDRKabftVEOaQ3daF2XoU" Ids="EPG01FmKwDcMJH6BxPKbha,NvXaVMIcrd3PoTpOM9la6Z" />
-        <Link Id="NRIA6xGpUObOvZWO0K4p88" Ids="OhdjX5zE4RWPbcC59pUNjt,ITBxbEmpmUFOJJ32VIsXOq" />
-        <Link Id="D7VYGYo3Vn0MvrSWWKvDij" Ids="OBeHgUIeMGWL3WWk97rPqO,VNtIo2cdU5LN1OvIyjbpca" />
-        <Link Id="MqpLxWFsRtwMCIegPJIjvQ" Ids="RFNUc5ls5GYLyV4zrXG8wD,F9ifV5Ct5Y4OsItvQVdQI8" />
-        <Link Id="LsSWd2IIsDWP4plJcn1uw6" Ids="DFVDB5rZnZaLuzkeOM0Tq6,VFufxJKMYtoMSo7OAnGQQN" />
-        <Link Id="D9yx7oNnSyGLDbjR1XF4bj" Ids="I41cDhhnkNYPOQmlVjFmcV,EHdueQZcA17OCKwSEJ6LVI" />
-        <Link Id="KKcL0QpbRgFPsgySvwIVha" Ids="LvP5KuhES1AP2fF4LZEUff,RjFaOoLbYjYNtEDi1WVFKu" />
-        <Link Id="M9CblFYSTgkPhG0nhqunuI" Ids="OVZm47Hh5BaOQhiJ9LtKat,PAPlcSllrRYNGy2EJ89buU" />
-        <Link Id="UXkaMde1pphO5n4BLojVmR" Ids="DxBFnefysoMNHGtr2SQOlZ,Vm2wShFRXgBNGjRSQmx5DD" />
-        <Link Id="GlUcH6mIq5yLku2l81wEAr" Ids="TK9h9a6pegxLAF1EU5eIfd,AH46WBF32nMOUwRaDrVpnw" />
-        <Link Id="AReW8IgnL7DMJxv45DxHp1" Ids="B3Bgx8p5NKhMUoTGAnOFdR,TewiskgpuzFP43idl4Rt5A" />
-        <Link Id="IdXEduy10fFPaY8oU0g4pM" Ids="OplI1LT8hW7PAV7ghsq4uM,C32NqoN7dsuMYG2QCNG4Lo" />
-        <Link Id="M7jRnCzDDluNxNvIl2HQpt" Ids="QbTPZOemJ3aNmswclfKQp7,T5PLojqd2XBLwseYgNfeQY" />
-        <Link Id="Os4hY3QnMC6LA1Mv7C57nM" Ids="HEUFHVt7s1pQNSg3nTWIou,FMCcxOYLV7ILhIOEO5yNic" />
-        <Link Id="AyF9kSqazFzMUejGaEIC9S" Ids="EXETxMIqrEvN21TQ7bUpfU,MKZbH2rBfwEMJHtsAkwmnB" />
-        <Link Id="ApQ06V52I3VO2lqBN9IU2Q" Ids="MDQpDfiSDiQP1dGpBWX6zs,LA1L4IwnSXsLWh3dHitrXO" />
-        <Link Id="PNwj49EsvsoPnjPPb1ZQw2" Ids="LUp8wLCWJMzLLLtjHj6Hpt,OvHiMhhNQazNdw37DcEnYH" />
-        <Link Id="T1bjaN2mUmsQHCLCoGYIBz" Ids="Fa87BwLqf4ZLPvfOt3JJXF,SFury3WvnbcQWmfzjKlw9Z" />
-        <Link Id="O7413XA9N4KLf9AGIMmBSV" Ids="JeiWQDromXHOI8AFCeLKeB,VvI3DmRRprvLeDMqIBeyil" />
-        <Link Id="NWE5Z5MhODDM15bgjrc2dB" Ids="IHmLn7Gvbx3L6H8N9SOaq2,GNXYMvOu0QAO26pVKGrq4I" />
-        <Link Id="G2rKfQkuOKPOWRoaPoQF4o" Ids="T4Hi10LhJbtPItuJtd8uVt,Qp2sGmx84atN4baM3UesbK" />
-        <Link Id="Quiw9FWXO86PTyD7TLfGYr" Ids="UCzI3cPirzoOIRoYVphIMU,DzhGqV1un5fP3A9WTwvial" />
-        <Link Id="N1fEJVIDKx1PUa9omWceZG" Ids="MEulZKtPDaeM2ysVcOiF3Q,DxLCcKshuZCL1RAl8pIarW" />
-        <Link Id="QcIMTbsqkxLNRz4z3o5sYd" Ids="JnYoMxagfqnMxLUc6kNsxM,VPugTLcRrg9MdBVQl55vQU" />
-        <Link Id="EZtHXMmcPDVMwbB0F6YNh4" Ids="LSxiAxLAnVHMp9HsGFn41X,FMJqEPT5YilNn9DlznuGxU" />
-        <Link Id="Cd7je4UMbYvN203QDUg0VF" Ids="GXJIQVt3JwSPL4xtXwUlB0,DWNy4YccWEVMtiPLmcKJcq" />
-        <Link Id="LWGjwuVrViHO3CPbuoY5fq" Ids="KcsEt52Hu20LDOXHsruM7f,HnCyiy3g8K6OFxA3ZFMtcu" />
-        <Link Id="S97Rf3ChXKNQXunXRyzKPe" Ids="QdrQ6rBXKTGNvNW9vV9VVH,UB2ifOpTRdFLTLCqJvQgY9" />
       </Patch>
     </Node>
   </Patch>
