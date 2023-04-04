@@ -65,7 +65,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 37. Algorithms
 
 ## Supporters
-cheheart, brunotti, sunep, michaelias, ceeyaa
+cheheart, brunotti, sunep, michaelias, CeeYaa, amir
 
 Also thanks a lot to Rosi, Matthias, Ilina and Julian for proof-reading!
 
