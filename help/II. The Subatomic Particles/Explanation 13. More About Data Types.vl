@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EdDZ7oYqNfpMg4nhcNcuDa" LanguageVersion="2022.5.0-0629-g49369f19a6" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0629-g49369f19a6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="EdDZ7oYqNfpMg4nhcNcuDa" LanguageVersion="2023.5.0" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.0" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,444,-11" ShowValueBox="true" isIOBox="true" Value="13. More About Data Types">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,444,46" ShowValueBox="true" isIOBox="true" Value="13. More About Data Types">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,92,341,22" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,341,25" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -234,7 +234,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="621,431,42,19" Id="OLMHiw9yk7vObBUptMsQTu">
+          <Node Bounds="621,431,42,26" Id="OLMHiw9yk7vObBUptMsQTu">
             <p:NodeReference LastCategoryFullName="2D.Circle" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Circle (Join)" />
@@ -253,7 +253,7 @@
             <Pin Id="QMD1npXjZisOwptGzJDWV4" Name="Anchor" Kind="InputPin" DefaultValue="Center" />
             <Pin Id="KILikdhSOh1MgljPNyz9vC" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="Q3NIfivT5WxOTErUd7szDG" Bounds="592,206,209,2" ShowValueBox="true" isIOBox="true" Value="Circle &amp; Rectangle">
+          <Pad Id="Q3NIfivT5WxOTErUd7szDG" Bounds="592,206,209,31" ShowValueBox="true" isIOBox="true" Value="Circle &amp; Rectangle">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -318,7 +318,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="621,704,17,19" Id="NRmGGUo2JBYPXSOgc8CHf6">
+          <Node Bounds="621,704,85,19" Id="NRmGGUo2JBYPXSOgc8CHf6">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -341,7 +341,7 @@
             <Pin Id="VDbBIrYgwQFL7EO8nIVeW9" Name="Shader" Kind="InputPin" />
             <Pin Id="HOXEoU0MYW1QbCiFFrm2Sf" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="711,556,45,19" Id="HAwACfqBDEQPdwqfBZEDQh">
+          <Node Bounds="711,556,105,19" Id="HAwACfqBDEQPdwqfBZEDQh">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
@@ -384,7 +384,7 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Nvp4PF2yEudOH3APEXDgQq" Bounds="592,822,145,25" ShowValueBox="true" isIOBox="true" Value="Matrix">
+          <Pad Id="Nvp4PF2yEudOH3APEXDgQq" Bounds="592,822,145,31" ShowValueBox="true" isIOBox="true" Value="Matrix">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -571,7 +571,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KNCWswE3fJRNRdDD4qd9mM" Bounds="92,-19,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="KNCWswE3fJRNRdDD4qd9mM" Bounds="592,106,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -580,7 +580,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="K0cc5tesDyFMnI8KurfNgS" Bounds="157,-19,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
+          <Pad Id="K0cc5tesDyFMnI8KurfNgS" Bounds="657,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -589,7 +589,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="F9tuFHfTOJnOkysyLB7zTx" Bounds="292,-19,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+          <Pad Id="F9tuFHfTOJnOkysyLB7zTx" Bounds="792,106,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -598,7 +598,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NLbSGUXdNOqLn83VlGWGmj" Bounds="660,-19,140,19" ShowValueBox="true" isIOBox="true" Value="www.ko-fi.com/chk">
+          <Pad Id="NLbSGUXdNOqLn83VlGWGmj" Bounds="1160,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.ko-fi.com/chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -647,8 +647,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VnGmcsV8I6mMnCZr31wctB" Location="VL.Stride" Version="2022.5.0-0629-g49369f19a6" />
-  <NugetDependency Id="AWLxJbvqK6NLDHvAtOO8CK" Location="VL.Skia" Version="2022.5.0-0629-g49369f19a6" />
+  <NugetDependency Id="VnGmcsV8I6mMnCZr31wctB" Location="VL.Stride" Version="2023.5.0" />
+  <NugetDependency Id="AWLxJbvqK6NLDHvAtOO8CK" Location="VL.Skia" Version="2023.5.0" />
   <DocumentDependency Id="FszpVcfj4WCMzZfNQpUvmO" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="JA3bN0VrFMVOzm6BVWdbZv" Location="../../VL.ThePatchersGuide.vl" />
 </Document>
