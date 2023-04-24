@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SSTW8S2OzPqMR3n258QwT8" LanguageVersion="2022.5.0-0629-g49369f19a6" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2022.5.0-0629-g49369f19a6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SSTW8S2OzPqMR3n258QwT8" LanguageVersion="2023.5.0" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.0" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="VdZCXszFlSON1HfgcESosE" Bounds="92,206,401,220" ShowValueBox="true" isIOBox="true" Value="Dear patcher - welcome to VVVV, a visual programming environment for creative coders, visualists, interaction designers, software engineers, and the like! &#xD;&#xA;&#xD;&#xA;In this tutorial series, I would like to guide you step by step through the learning process of the basic principles and techniques to create your real-time applications. By the end of it, you will have seen all nodes in action, that I consider most important and you will have a solid base for going deeper into the endless possibilities of this environment. &#xD;&#xA;&#xD;&#xA;To get started, please watch this:&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+          <Pad Id="VdZCXszFlSON1HfgcESosE" Bounds="92,207,401,220" ShowValueBox="true" isIOBox="true" Value="Dear patcher - welcome to VVVV, a visual programming environment for technologists in creative coding, interaction design, software engineering, and the like! &#xD;&#xA;&#xD;&#xA;In this tutorial series, I would like to guide you step by step through the learning process of the basic principles and techniques to create your real-time applications. By the end of it, you will have seen all nodes in action, that I consider most important and you will have a solid base for going deeper into the endless possibilities of this environment. &#xD;&#xA;&#xD;&#xA;To get started, please first watch this official on-boarding video:&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,119,377,23" ShowValueBox="true" isIOBox="true" Value="00. Introduction">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,247,46" ShowValueBox="true" isIOBox="true" Value="00. Introduction">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -33,7 +33,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,92,393,11" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to VVVV">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,243,25" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -43,43 +43,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HYmDviYPowCLsnV08YcFYU" Bounds="92,-19,66,11" ShowValueBox="true" isIOBox="true" Value="Made by chk">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="RqMVjeNsHudNuNOcyZgPe3" Bounds="155,-19,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="LPdiMK2o0ngQdOyrSU9AZW" Bounds="292,-19,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="LZaOZo3u5hjNlCT6hiBAPy" Bounds="659,-19,140,19" ShowValueBox="true" isIOBox="true" Value="www.ko-fi.com/chk">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="OCFY2LwBgsGMs4mmP72QNO" Bounds="92,429,198,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/JkCvVja4YlY">
+          <Pad Id="OCFY2LwBgsGMs4mmP72QNO" Bounds="92,431,198,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/JkCvVja4YlY">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -88,7 +52,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Mp4NN8bCx0TOo5nLFOncsj" Bounds="93,486,208,31" ShowValueBox="true" isIOBox="true" Value="The User Interface">
+          <Pad Id="Mp4NN8bCx0TOo5nLFOncsj" Bounds="92,487,208,31" ShowValueBox="true" isIOBox="true" Value="The User Interface">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -97,7 +61,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DRfSJNceU34ODXasbf6gJi" Bounds="92,523,401,413" ShowValueBox="true" isIOBox="true" Value="As you learned from the video, there are the Quad Menu (for global VVVV controls), the Document Menu (for document specific actions) and the Help Browser. Since the release of this video VVVV also got the menu button to the top right, where you have an easy access to settings, theme selection and information about the licensing model.&#xD;&#xA;&#xD;&#xA;Also I would like to draw your attention to the Node Browser which opens when you are double-clicking anywhere in a blank area of the patch. Here you can dive through the categories of node sets VVVV offers and reference further libraries. In the top left corner, you can enable and disable the filters for showing standard, advanced, experimental and obsolete nodes. During this tutorial you don't have to care about this, as we will only use nodes from the standard set.&#xD;&#xA;&#xD;&#xA;VVVV is a great tool for exploration and it comes with a huge and by now almost overwhelming amount of examples in the Help Browser. The intention of this tutorial is to cluster all this information into concrete topics and give you a clear path that extends the used node set from patch to patch when learning VVVV and its programming language VL.&#xD;&#xA;&#xD;&#xA;">
+          <Pad Id="DRfSJNceU34ODXasbf6gJi" Bounds="92,524,401,413" ShowValueBox="true" isIOBox="true" Value="As you learned from the video, there are the Quad Menu (for global VVVV controls), the Document Menu (for document specific actions) and the Help Browser. Since the release of this video VVVV also got the menu button to the top right, where you have an easy access to settings, theme selection and information about the licensing model.&#xD;&#xA;&#xD;&#xA;Also I would like to draw your attention to the Node Browser which opens when you are double-clicking anywhere in a blank area of the patch. Here you can dive through the categories of node sets VVVV offers and reference further libraries. In the top left corner, you can enable and disable the filters for showing standard, advanced, experimental and obsolete nodes. During this tutorial you don't have to care about this, as we will only use nodes from the standard set.&#xD;&#xA;&#xD;&#xA;VVVV is a great tool for exploration and it comes with a huge and by now almost overwhelming amount of examples in the Help Browser. The intention of this tutorial is to cluster all this information into concrete topics and give you a clear path that extends the used node set from patch to patch when learning VVVV and its programming language VL.&#xD;&#xA;&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -106,7 +70,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="D5aMmZ3meRONJwZCZqNXcl" Bounds="92,1004,401,204" ShowValueBox="true" isIOBox="true" Value="VL is the programming language which is running in the background of VVVV. On its lowest level, VL compiles in real time into C# code and makes programming principles like loops, objects or conditions accessible in a visual programming style. &#xD;&#xA;&#xD;&#xA;You will learn these principles during this tutorial. In fact, when you think you are learning VVVV as a tool to realize your projects, you are actually learning how to program in VL. This means that at some point during this tutorial you will also be able to define your own nodes and extend the environment to your needs.">
+          <Pad Id="D5aMmZ3meRONJwZCZqNXcl" Bounds="92,1005,401,204" ShowValueBox="true" isIOBox="true" Value="VL is the programming language which is running in the background of VVVV. On its lowest level, VL compiles in real time into C# code and makes programming principles like loops, objects or conditions accessible in a visual programming style. &#xD;&#xA;&#xD;&#xA;You will learn these principles during this tutorial. In fact, when you think you are learning VVVV as a tool to realize your projects, you are actually learning how to program in VL. This means that at some point during this tutorial you will also be able to define your own nodes and extend the environment to your needs.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -115,7 +79,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DVBTKVJ1EUdOrcHjnVWB81" Bounds="92,967,209,31" ShowValueBox="true" isIOBox="true" Value="VL - VVVVHAT?">
+          <Pad Id="DVBTKVJ1EUdOrcHjnVWB81" Bounds="92,968,209,31" ShowValueBox="true" isIOBox="true" Value="VL - VVVVHAT?">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -124,7 +88,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ux8SCFMNvieOO3KzKfqIN0" Bounds="592,243,401,390" ShowValueBox="true" isIOBox="true" Value="VVVV comes with a lot of pre-built nodes that are available immediately when starting the program. But as you will learn how to program your own nodes, so did others who made them accessible through VL packages. Some packages are already pre-installed with VVVV, others have to be installed on your own. &#xD;&#xA;&#xD;&#xA;Before you can use the nodes from a package, you have to set a dependency to it in your document. You can do so, by clicking on the package in the Node Browser. Alternatively you can see a list of all dependencies in the Document Menu and set a reference to a package there. So in case you are missing a node in your own project, make sure that you have enabled the package which contains the node.&#xD;&#xA;&#xD;&#xA;These are the most important pre-installed packages in the course of this tutorial:&#xD;&#xA;&#xD;&#xA;- VL.Skia&#xD;&#xA;- VL.Stride&#xD;&#xA;- VL.Video.MediaFoundation&#xD;&#xA;- VL. Audio&#xD;&#xA;">
+          <Pad Id="Ux8SCFMNvieOO3KzKfqIN0" Bounds="592,244,401,390" ShowValueBox="true" isIOBox="true" Value="VVVV comes with a lot of pre-built nodes that are available immediately when starting the program. But as you will learn how to program your own nodes, so did others who made them accessible through VL packages. Some packages are already pre-installed with VVVV, others have to be installed on your own. &#xD;&#xA;&#xD;&#xA;Before you can use the nodes from a package, you have to set a dependency to it in your document. You can do so, by clicking on the package in the Node Browser. Alternatively you can see a list of all dependencies in the Document Menu and set a reference to a package there. So in case you are missing a node in your own project, make sure that you have enabled the package which contains the node.&#xD;&#xA;&#xD;&#xA;These are the most important pre-installed packages in the course of this tutorial:&#xD;&#xA;&#xD;&#xA;- VL.Skia&#xD;&#xA;- VL.Stride&#xD;&#xA;- VL.Video.MediaFoundation&#xD;&#xA;- VL. Audio&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -133,7 +97,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PkCgtVXi5egMdKKYlInHF3" Bounds="592,206,209,31" ShowValueBox="true" isIOBox="true" Value="Using Packages">
+          <Pad Id="PkCgtVXi5egMdKKYlInHF3" Bounds="592,207,209,31" ShowValueBox="true" isIOBox="true" Value="Using Packages">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -142,7 +106,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PxOKTUWZr4sPgQqrN2oPNR" Bounds="592,705,400,465" ShowValueBox="true" isIOBox="true" Value="VVVV is built on top of the .NET ecosystem and makes use of its official package manager NuGet. VL packages can be installed using the commandline, which can be found in the Quad Menu under &quot;Manage Nugets &gt; Commandline&quot;. Packages can provide certain nodes for projects or help patches for the Help Browser. In most cases, packages do both. &#xD;&#xA;&#xD;&#xA;As you are reading this right now, I assume that you already have installed the VL.ThePatchersGuide package using the commandline. However, for the sake of completeness, we can install a package of the contributor bjoern, which is a curated community collection of nodes and explanations. So open the commandline, type the following command and hit Enter.&#xD;&#xA;&#xD;&#xA;nuget install VL.Addons&#xD;&#xA;&#xD;&#xA;When the installation is successful, you will see new help patches in the Help Browser in the section of the package. &#xD;&#xA;&#xD;&#xA;During this tutorial no nodes from external packages are used, expect for VL.Stride.Text3d in chapter 18, which is also contributed by bjoern. But feel free to explore packages from others by yourself and play around with their nodes.">
+          <Pad Id="PxOKTUWZr4sPgQqrN2oPNR" Bounds="592,706,400,465" ShowValueBox="true" isIOBox="true" Value="VVVV is built on top of the .NET ecosystem and makes use of its official package manager NuGet. VL packages can be installed using the commandline, which can be found in the Quad Menu under &quot;Manage Nugets &gt; Commandline&quot;. Packages can provide certain nodes for projects or help patches for the Help Browser. In most cases, packages do both. &#xD;&#xA;&#xD;&#xA;As you are reading this right now, I assume that you already have installed the VL.ThePatchersGuide package using the commandline. However, for the sake of completeness, we can install a package of the contributor bjoern, which is a curated community collection of nodes and explanations. So open the commandline, type the following command and hit Enter.&#xD;&#xA;&#xD;&#xA;nuget install VL.Addons&#xD;&#xA;&#xD;&#xA;When the installation is successful, you will see new help patches in the Help Browser in the section of the package. &#xD;&#xA;&#xD;&#xA;During this tutorial no nodes from external packages are used, expect for VL.Stride.Text3d in chapter 18, which is also contributed by bjoern. But feel free to explore packages from others by yourself and play around with their nodes.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -151,7 +115,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Iyv9PP1lBwgMbjFOQbFhMu" Bounds="592,668,271,31" ShowValueBox="true" isIOBox="true" Value="Installing Packages">
+          <Pad Id="Iyv9PP1lBwgMbjFOQbFhMu" Bounds="592,669,271,31" ShowValueBox="true" isIOBox="true" Value="Installing Packages">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -160,7 +124,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FfFJ9x3eTYQLqRuIQC4iRN" Bounds="1092,243,401,202" ShowValueBox="true" isIOBox="true" Value="This series tries to provide a path for you to learn VVVV and VL, but it is highly advised to also explore the environment on your own and play around! Many of the nodes come with dedicated help patches, which open when you select the node and hit F1. Also you should always check out the same category of the node which you are currently using in the Node Browser.&#xD;&#xA;&#xD;&#xA;The best resources to learn more right now are still the Help Browser, which comes with a huge amount of interactive examples and the Gray Book. This is the official documentation for VVVV and VL and is constantly growing and updated. ">
+          <Pad Id="FfFJ9x3eTYQLqRuIQC4iRN" Bounds="1092,244,401,202" ShowValueBox="true" isIOBox="true" Value="This series tries to provide a path for you to learn VVVV and VL, but it is highly advised to also explore the environment on your own and play around! Many of the nodes come with dedicated help patches, which open when you select the node and hit F1. Also you should always check out the same category of the node which you are currently using in the Node Browser.&#xD;&#xA;&#xD;&#xA;The best resources to learn more right now are still the Help Browser, which comes with a huge amount of interactive examples and the Gray Book. This is the official documentation for VVVV and VL and is constantly growing and updated. ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -169,7 +133,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Cy4QKqwaBDYMmmJArUc2KE" Bounds="1092,206,271,31" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="Cy4QKqwaBDYMmmJArUc2KE" Bounds="1092,207,271,31" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -178,7 +142,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NxE21otk9SCOhSSkD6jFVs" Bounds="1092,464,187,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/">
+          <Pad Id="NxE21otk9SCOhSSkD6jFVs" Bounds="1092,465,187,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -187,7 +151,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RIhpKJRY3RbNocUupSEJAD" Bounds="1092,505,401,151" ShowValueBox="true" isIOBox="true" Value="Besides VL.Addons, I also recommend installing and studying these two packages with more learning material:&#xD;&#xA;&#xD;&#xA;VL.GenerativeGestaltung (by phlegma)&#xD;&#xA;nuget install VL.GenerativeGestaltung&#xD;&#xA;&#xD;&#xA;VL.ExtendedTutorials (by TobyK)&#xD;&#xA;nuget install VL.ExtendedTutorials&#xD;&#xA;">
+          <Pad Id="RIhpKJRY3RbNocUupSEJAD" Bounds="1092,506,401,151" ShowValueBox="true" isIOBox="true" Value="Besides VL.Addons, I also recommend installing and studying these two packages with more learning material:&#xD;&#xA;&#xD;&#xA;VL.GenerativeGestaltung (by phlegma)&#xD;&#xA;nuget install VL.GenerativeGestaltung&#xD;&#xA;&#xD;&#xA;VL.ExtendedTutorials (by TobyK)&#xD;&#xA;nuget install VL.ExtendedTutorials&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -196,7 +160,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UH7jy4LQUHYNcBRmpqhpoQ" Bounds="1092,691,401,53" ShowValueBox="true" isIOBox="true" Value="And now, without further ado, let's jump right in! Have fun with the following 37 patches and if something is not clear enough or not working on your side, let me know on GitHub!">
+          <Pad Id="UH7jy4LQUHYNcBRmpqhpoQ" Bounds="1092,692,401,53" ShowValueBox="true" isIOBox="true" Value="And now, without further ado, let's jump right in! Have fun with the following 37 patches and if something is not clear enough or not working on your side, let me know on GitHub!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -205,12 +169,48 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="L2NFvnC2g1bP8ykXpBWFxm" Bounds="1092,761,316,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/chkworks/VL.ThePatchersGuide">
+          <Pad Id="L2NFvnC2g1bP8ykXpBWFxm" Bounds="1092,762,316,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/chkworks/VL.ThePatchersGuide">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="A3EgsRtwQoiLPGh3eXl8kB" Bounds="592,106,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="QcBW81PxfUmQJtNLDhOynu" Bounds="657,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Hj8wklr7irhOo6SCkdXerl" Bounds="792,106,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JQ2rdGfM6gRQZn1M2kXY4O" Bounds="1160,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
