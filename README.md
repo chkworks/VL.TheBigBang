@@ -1,5 +1,5 @@
 # VL.ThePatchersGuide
-A tutorial series of 38 patches, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
+A tutorial series of 37 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
 
 You can also find a short series of video tutorials based on these patches on Youtube.<br />
 https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p
@@ -9,7 +9,7 @@ If you find this material helpful, please consider supporting its development.
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
 ## Installation
-If you are new to vvvv, download it over at www.visualprogramming.net. These patches are optimized for the upcoming 5.0 release, so make sure you are installing the latest preview version.
+If you are new to vvvv, download it over at www.visualprogramming.net. These patches are optimized for the stable 5.0 release.
 
 Afterwards, click on the little gray icon in the top left corner (the so-called Quad Menu), navigate to "Manage Nugets > Commandline" and type the following:
 
