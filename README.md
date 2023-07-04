@@ -24,7 +24,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ### Part I: The Big Bang
 0. Introduction
 1. Data Types and IOBoxes
-2. Nodes
+2. Nodes and Pins
 3. Simple Math
 4. Type Conversion
 5. Colors
@@ -34,15 +34,15 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ### Part II: The Subatomic Particles
 8. 2D Rendering
 9. 3D Rendering
-10. Video and Camera
-11. Texture Sources and Effects
-12. Mixing Skia and Stride
-13. More About Data Types
-14. Control Basics
+10. Complex Data Types
+11. Video and Camera Input
+12. Texture Sources and Effects
+13. Mixing Skia and Stride
+14. Basic Control
 15. Conditions
-16. Animation Basics
+16. Animation
 17. Transformations
-18. Render Text
+18. Text Rendering
 
 ### Part III: The Expansion of the Universe
 19. Spreads
@@ -58,9 +58,9 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 27. Mouse Input
 28. Collision
 29. Triggers and Flops
-30. Audio Analysis
-31. Counting
-32. Keyboard Input
+30. Counting
+31. Keyboard Input
+32. Audio Input
 33. Ranges
 34. Boolean Logic
 35. Angles
