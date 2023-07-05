@@ -1,5 +1,5 @@
 # VL.ThePatchersGuide
-A tutorial series of 37 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
+A tutorial series of 38 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
 
 You can also find a short series of video tutorials based on these patches on Youtube.<br />
 https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p
