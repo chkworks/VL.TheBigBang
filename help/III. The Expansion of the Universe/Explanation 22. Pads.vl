@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2023.5.0" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2023.5.3-0094-g21c90acee7" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.3-0094-g21c90acee7" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,250,46" ShowValueBox="true" isIOBox="true" Value="23. Pads">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,250,46" ShowValueBox="true" isIOBox="true" Value="22. Pads">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -85,6 +85,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Circle" />
             </p:NodeReference>
+            <Pin Id="RHaAxwRirzFNF02T6XfcrZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="CJrxvvVz1uyLgDvdVspWyb" Name="Position" Kind="InputPin" />
             <Pin Id="Lwvwbrzr6I8MJNlj21NMaG" Name="Radius" Kind="InputPin" DefaultValue="0.2" />
             <Pin Id="RFRSN51HqrFMjKL8lj5jNI" Name="Anchor" Kind="InputPin" />
@@ -196,13 +197,18 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper (2D)" />
             </p:NodeReference>
+            <Pin Id="JQRMyxbYDo5PT2hlhKuxQi" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ti5S78B3Vy7PQ5uy5tl1UR" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ub90GqYr8QUOVjkg4NqAtX" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="QGLhYcYUY99LqPC26LwfCA" Name="Goto Position" Kind="InputPin" />
             <Pin Id="CucdiRzxy5kMqq94qNAIWb" Name="Filter Time" Kind="InputPin" />
             <Pin Id="C5hvQ9Ar3UMQaZ5ij90Gby" Name="Cyclic" Kind="InputPin" />
             <Pin Id="Hx5chOKu9fiNffHRkps8Ri" Name="Jump" Kind="InputPin" />
+            <Pin Id="O8aplYv24iyLr3CJNHsFwn" Name="Force New Func" Kind="InputPin" IsHidden="true" />
             <Pin Id="UbhO5KzxkIdPp8Az1FafOy" Name="Position" Kind="OutputPin" />
             <Pin Id="ND32IiLXBKhOxncsYOm76v" Name="Velocity" Kind="OutputPin" />
             <Pin Id="Vng8vTCPM13QYulHKAD2xu" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="T3Bhluq27ahPbZVzu0dUuZ" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="FEpDibLtH2pMX9T66ayY8a" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Pad Id="KNP7rsCR66DNY6MmI6HqS9" Comment="Filter Time" Bounds="686,1312,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
@@ -218,6 +224,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
             </p:NodeReference>
+            <Pin Id="GRbHU2qLs35Llez0odZ3C6" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="COvhV9RCw7bQPckAKbpQfD" Name="Input" Kind="InputPin" />
             <Pin Id="IhYcxmuMNInMAvUjpPmvTo" Name="Color" Kind="InputPin" />
             <Pin Id="SBvCiPSwsJpQcP8ZRcvuaG" Name="Stroke Width" Kind="InputPin" />
@@ -270,6 +277,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="QRCrgD8BmUEOqlRHYIezk3" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AEUfCLWHepTPgjN3xa6xEf" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JM0MgStRtCUMTzakmWgeVG" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="Va4aZIZ1FtkNBV8iiikHEs" Name="Period" Kind="InputPin" />
             <Pin Id="STKPpMso00hMNmNs7vfkQV" Name="Pause" Kind="InputPin" />
             <Pin Id="PpflVSA1TVUO0VvAxxjgXb" Name="Reset" Kind="ApplyPin" />
@@ -310,6 +320,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="JEnXZVQLEKAL6MHbLmnntk" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="T9D8PTVBY2mMVD1SPTgm37" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SneFcesoXsLNvWfkD109gJ" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="Nsvw3VVTAJ7N4DDkczdwFu" Name="Period" Kind="InputPin" />
             <Pin Id="VsvxDzQVbTJLTvGbLuyia8" Name="Pause" Kind="InputPin" />
             <Pin Id="NXuDENA45uZOeQoGPGCfQ1" Name="Reset" Kind="ApplyPin" />
@@ -452,13 +465,19 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="Jli5ksIVhYWPir4be1Ks6D" Name="Bounds" Kind="InputPin" DefaultValue="0, 6, 550, 374" />
+            <Pin Id="KoZiVaIf15YNZJHxet5P5V" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UQkiEbfZdEQMtiWR724wyB" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NcOJuukVpoYL7IUMPf472Y" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EfLXH0DjzCoP36avpcVA2W" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="BklDNBGIKSELRITJVnNgWA" Name="Input" Kind="InputPin" />
             <Pin Id="IxJ3UB3ozH5Pzlx9mFvJQd" Name="Color" Kind="InputPin" />
             <Pin Id="PowDNnOVZ03LKRJaowWFzO" Name="Clear" Kind="InputPin" />
             <Pin Id="EzgNPMqVhQwMnax9mnKvyQ" Name="Space" Kind="InputPin" />
             <Pin Id="ECtGekqDALdLE1YKo6qqyE" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="TEvNx4GXzdKPvTUJb8rcs1" Name="VSync" Kind="InputPin" />
+            <Pin Id="JdIc2Yuwn5DLKRIzLFCaPE" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="TBNs1Un31pSM0hvk3hokNC" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Srl1ikSe3f3PioZPti760A" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
             <Pin Id="SqT93HtGXxPL5t6Wt2n8fh" Name="Form" Kind="OutputPin" />
             <Pin Id="RQdqf6P9Cf4M6nUArG6kgD" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="CHjLhue91WmO7bW5kb7OXZ" Name="Render Time" Kind="OutputPin" />
@@ -485,6 +504,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="D0sYoCeeNBpPLUQgWvJxqV" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="G5yM9B9UqV3NMg6Fu647Xh" Name="Input" Kind="InputPin" />
             <Pin Id="FsjkoMMP1XYQZZKBQ718lV" Name="Input 2" Kind="InputPin" />
             <Pin Id="VPwY5L8sknMMMytS5h36vN" Name="Debug" Kind="InputPin" />
@@ -496,6 +516,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="JpRNGCDeNdGOZ4H2XlJzIM" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="TEMJvXHpjFENk25iUQs5Az" Name="Headline" Kind="InputPin" DefaultValue="Pads" />
             <Pin Id="FZqDPejBWmMMudyJ89xJEF" Name="Description" Kind="InputPin" DefaultValue="Move the circle by triggering the If regions in the patch." />
             <Pin Id="IRZkjRfMsWOLTJhCD7BNQQ" Name="Text Color" Kind="InputPin" />
@@ -662,8 +683,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2023.5.0" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2023.5.0" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2023.5.3-0094-g21c90acee7" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2023.5.3-0094-g21c90acee7" />
   <DocumentDependency Id="VX79H3Sxq8dOjQr6rzxW3a" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="ESd7jFSUQgjPu9LBMS8Ck7" Location="../../VL.ThePatchersGuide.vl" />
 </Document>
