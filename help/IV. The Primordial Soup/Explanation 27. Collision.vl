@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="FqUiAWyTlQGO1HoLDstBWu" LanguageVersion="2023.5.0" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="FqUiAWyTlQGO1HoLDstBWu" LanguageVersion="2023.5.3-0094-g21c90acee7" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.3-0094-g21c90acee7" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,266,46" ShowValueBox="true" isIOBox="true" Value="28. Collision">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,266,46" ShowValueBox="true" isIOBox="true" Value="27. Collision">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -51,13 +51,19 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="T71nPOaiZ9LNuqMgTSBud4" Name="Bounds" Kind="InputPin" DefaultValue="548, 16, 548, 370" />
+            <Pin Id="DRANqDcrFE5M7qRQ5ErAHu" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SYNbXLNYr4WNTrMbDJHApg" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EEzLXj0EOImMj5mys78xew" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LBoumfglL0GMQIpmLOV5uZ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="QmSnqk4MaBEM14iwMkcPHn" Name="Input" Kind="InputPin" />
             <Pin Id="PeEaYYtXjjnOXdA0vJ0Exo" Name="Color" Kind="InputPin" />
             <Pin Id="RSUErKrTTN5L3qOCaRP9vn" Name="Clear" Kind="InputPin" />
             <Pin Id="Nha2totv1knL16oMUa0mnt" Name="Space" Kind="InputPin" />
             <Pin Id="Mk7lYRHuiq1M6Af5IegOGe" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="HRsctNVpFfNOv0grz9a8EX" Name="VSync" Kind="InputPin" />
+            <Pin Id="JpJlrjkRwUSPADYD36jqWn" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="EWtNEzAur9lLxSfHJlkJXG" Name="Enabled" Kind="InputPin" />
+            <Pin Id="LFRDnBSN6KYN8HYqub58wU" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
             <Pin Id="P0m98illS4DLRnZycrQriD" Name="Form" Kind="OutputPin" />
             <Pin Id="JA2bjyFshHaLwu5TkrBZaC" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="NsMIJOhBcaDNYGuvWxE76j" Name="Render Time" Kind="OutputPin" />
@@ -76,6 +82,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Circle (Circle)" />
             </p:NodeReference>
+            <Pin Id="TSMYnvGEQgpLJrUNdAVVUb" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="VBIWoQUDqKQMQcmQaummny" Name="Circle" Kind="InputPin" />
             <Pin Id="Lu9gV3XadUDN8EYDLaqBFR" Name="Paint" Kind="InputPin" />
             <Pin Id="P7f2PtvpRh7NNqAVhaK6Id" Name="Enabled" Kind="InputPin" />
@@ -95,6 +102,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Circle (Circle)" />
             </p:NodeReference>
+            <Pin Id="KN22Lhltbu0LKy0qu2p6nZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="SGOjf6RYhi2NNofRDjddX0" Name="Circle" Kind="InputPin" />
             <Pin Id="LV8Hbeqsl9wP4jjcLxVAXA" Name="Paint" Kind="InputPin" />
             <Pin Id="Lufl8JpMAf9PWbHS8CMj95" Name="Enabled" Kind="InputPin" />
@@ -106,6 +114,7 @@
               <FullNameCategoryReference ID="Graphics.Skia" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="QhiCJobMc63OTLMCpsc8Fs" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OaG2fdFX5wSLpbLkWEZGcC" Name="Input" Kind="InputPin" />
             <Pin Id="HlHQBUQdsLcOwM2ZLpAQa0" Name="Input 2" Kind="InputPin" />
             <Pin Id="URLHG1iVc54O29dnZ6qOIq" Name="Input 3" Kind="InputPin" />
@@ -133,6 +142,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="LOSdQEcmOa6PoQpz56ixXV" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Qnpl379YlXqO5l9TAcCTTp" Name="Input" Kind="InputPin" />
             <Pin Id="IrDEV5PLJi3PNGSBKrFdls" Name="Color" Kind="InputPin" />
             <Pin Id="P6U0ipA394YPVrhunsOP7Z" Name="Shader" Kind="InputPin" />
@@ -143,6 +153,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
             </p:NodeReference>
+            <Pin Id="AjUKEUr24YRQA5hFRxg8DZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B55QQjdJGMgP3iqgn9ruSd" Name="Input" Kind="InputPin" />
             <Pin Id="AzeYb6ntlI5OXpklI84PbY" Name="Color" Kind="InputPin" />
             <Pin Id="IjZcESZPZALP5AhZjToZSe" Name="Stroke Width" Kind="InputPin" DefaultValue="0.01" />
@@ -157,6 +168,7 @@
               <FullNameCategoryReference ID="Graphics.Skia" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="StTwIqpkjGXNx0CYUmqN2F" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Qin6RRFwsG6PdO9DMm4pNe" Name="Input" Kind="InputPin" />
             <Pin Id="Go3znEskDDiLvwRlitrTPn" Name="Input 2" Kind="InputPin" />
             <Pin Id="AwwkaUbC6HOPLMNVn2cvCe" Name="Debug" Kind="InputPin" />
@@ -181,6 +193,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="VvfpPT5BoiALJHA5xde51I" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NuUsygRaLiiQAZP2P3SSJp" Name="Input" Kind="InputPin" />
             <Pin Id="LwVkuPt4OmtLmFebHFxWPn" Name="Color" Kind="InputPin" />
             <Pin Id="TONGbo80JNXMMxISxCJ4IK" Name="Shader" Kind="InputPin" />
@@ -191,6 +204,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Circle (Circle)" />
             </p:NodeReference>
+            <Pin Id="F83BAZvTGKIPs4GdTVHXDj" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JVlbolAOCDcNN3dtUbBTc7" Name="Circle" Kind="InputPin" />
             <Pin Id="VUebnvcumMTNxh2mKbzuBr" Name="Paint" Kind="InputPin" />
             <Pin Id="QZ2JAFyMWBRPpGnUAxfkzC" Name="Enabled" Kind="InputPin" />
@@ -232,13 +246,18 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
+            <Pin Id="IV9A7O488LUPTpFA35igQN" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LP8hM4CG2pLOcYyNyUfFjp" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="DuqpCP5HZixL7F8JPkTO9u" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="KQoSTIkEU6KOjo5NJvrEwi" Name="Goto Position" Kind="InputPin" />
             <Pin Id="H3q1RRrUyLpNdKUWZ6o2dB" Name="Filter Time" Kind="InputPin" />
             <Pin Id="TIo2NX2BqMAPVVVLHsWGIC" Name="Cyclic" Kind="InputPin" />
             <Pin Id="Da3BjMZwWEmMGklESOidSe" Name="Jump" Kind="InputPin" />
+            <Pin Id="HyyqfcDkvd4LQE4MxvV1nO" Name="Force New Func" Kind="InputPin" IsHidden="true" />
             <Pin Id="PehAj2gEId8OQZjUr2fFOX" Name="Position" Kind="OutputPin" />
             <Pin Id="PUVjbFEDbAMM5yPPh0wjXt" Name="Velocity" Kind="OutputPin" />
             <Pin Id="VPiZkWamymjNeosaywaiZO" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="SYZbt5lZuimN75W3625d4R" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="BnGNFyjH0pLL3iuOfPVRkf" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Node Bounds="233,640,112,19" Id="IRQ64g5AcmWLvUqEXFMSB3">
@@ -258,13 +277,19 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="Iy3obNQVNz8M02fgqTsyOw" Name="Bounds" Kind="InputPin" DefaultValue="10, 16, 548, 370" />
+            <Pin Id="OSwzWLRXmXkNCcEiiemWZK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Sc02JwhgzlxP49sFu74RRs" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="K95gLusw3htMtobg2Tut2p" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="POfbth195qxLRFyUEs4OJE" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OiTnflTg0wNNcoUdJiDeYZ" Name="Input" Kind="InputPin" />
             <Pin Id="Fq3PqZWl9A5Pyq05sdsZWO" Name="Color" Kind="InputPin" />
             <Pin Id="RjIBV44DYDKLQOZ1NAIsDZ" Name="Clear" Kind="InputPin" />
             <Pin Id="BXLDrJ1ywbjOkklIYz0XvM" Name="Space" Kind="InputPin" />
             <Pin Id="P1ldunEdqZaLnigfWeG6Ba" Name="Show Cursor" Kind="InputPin" DefaultValue="False" />
             <Pin Id="NEDGB1pNRuRLlqtld6pSIT" Name="VSync" Kind="InputPin" />
+            <Pin Id="LH2PiVzks2MNFxKTqkZFQf" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="HR0M5dxqWOzPcY7Y4H4F89" Name="Enabled" Kind="InputPin" />
+            <Pin Id="AbN3CwcBzoWK9d3So66wHv" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
             <Pin Id="ENMURqJgBj5PfOwyijESjp" Name="Form" Kind="OutputPin" />
             <Pin Id="B179LQcrCOxNBKWaYdqoxI" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="RIdwLFqfvDENGAQheqR1Fw" Name="Render Time" Kind="OutputPin" />
@@ -283,6 +308,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Circle (Circle)" />
             </p:NodeReference>
+            <Pin Id="Hfeutg8nAKPOkz1AGPd4xP" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="ORd6AR9yN5fPivCWQUyE7l" Name="Circle" Kind="InputPin" />
             <Pin Id="TL4fFotqc0HPiSVLUzPYc9" Name="Paint" Kind="InputPin" />
             <Pin Id="KV3MD6pmhxFNZJgUCWDSmj" Name="Enabled" Kind="InputPin" />
@@ -296,9 +322,12 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Mouse" />
             </p:NodeReference>
+            <Pin Id="JJzoJqBfRgmNKRwXUslEdj" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="QmZxxJZaF5ENM19dahgJgg" Name="Context" Kind="OutputPin" />
             <Pin Id="HGXRvairugMM7rdRYF34Xr" Name="Position In World" Kind="OutputPin" />
             <Pin Id="ScP2F2lpxYpNUUoDd61hyx" Name="Normalized Position" Kind="OutputPin" />
+            <Pin Id="K5TulfWjZ2sN6wRAgZ8Zva" Name="Position In Projection" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="BzQ66CpyTTeLJnjp0qqP0S" Name="Position" Kind="OutputPin" IsHidden="true" />
             <Pin Id="EOm7FOJJf3zP6xbXNHszaH" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="MGGJCRn60xTM7vSTtGOoZg" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="JrGBX9a10gfM3ebpZpIyNV" Name="Right Pressed" Kind="OutputPin" />
@@ -310,6 +339,7 @@
               <FullNameCategoryReference ID="Graphics.Skia" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="LuZBEHGnelNOKFY3Whnmne" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OSi0dl74QOVMm5Fe9Q1bjs" Name="Input" Kind="InputPin" />
             <Pin Id="SVNvoRN2Y7jO2nOVMmdva4" Name="Input 2" Kind="InputPin" />
             <Pin Id="Lhc1izDnoY4L6oy32Qpgp0" Name="Input 3" Kind="InputPin" />
@@ -331,6 +361,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="LXbGYEGOUKiN0FYNM2a1P0" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="L7WBRTkdrQEOhlWNpkGBqA" Name="Input" Kind="InputPin" />
             <Pin Id="N1b9eWHCBGsPvxTV1Iybxl" Name="Color" Kind="InputPin" />
             <Pin Id="O0cdhBxAukpK96rIGLpzWh" Name="Shader" Kind="InputPin" />
@@ -341,6 +372,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
             </p:NodeReference>
+            <Pin Id="AtKUuWpY5cTK9fGYxu9Ywe" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="QId2mwYLDjhMJXNHkB3uOe" Name="Input" Kind="InputPin" />
             <Pin Id="Lgy7GbeXuwuNGdT6GmOkSy" Name="Color" Kind="InputPin" />
             <Pin Id="JS2XEPVQDHhLbFa7dr4Olz" Name="Stroke Width" Kind="InputPin" />
@@ -355,6 +387,7 @@
               <FullNameCategoryReference ID="Graphics.Skia" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="GLkLVzGEMF9PO6VJH1mfq5" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HdaWJBpcTNAMMM9vxqD5j4" Name="Input" Kind="InputPin" />
             <Pin Id="QvEta38eUlKOU4r1KzUXRC" Name="Input 2" Kind="InputPin" />
             <Pin Id="KCMSDS0o4kuNtwXfCUcHtI" Name="Input 3" Kind="InputPin" />
@@ -383,6 +416,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Circle (Circle)" />
             </p:NodeReference>
+            <Pin Id="IgSMT8q4pviNW1bFN6Eoa1" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HefW8UQjzdKNDv5MQautG8" Name="Circle" Kind="InputPin" />
             <Pin Id="U4hzKuzTsf6NT3FUvlG65n" Name="Paint" Kind="InputPin" />
             <Pin Id="DkriCJK4xJPMdjBJtI2Gr2" Name="Enabled" Kind="InputPin" />
@@ -424,13 +458,18 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
+            <Pin Id="Vvyms6IZt6KMO2JohHAkFj" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Edqlu6PObK1LmL9cNkqTgQ" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Nn8NOz5Dy7gOWvve2KzV48" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="IMe06n3zlJUMqKczqiVGU0" Name="Goto Position" Kind="InputPin" />
             <Pin Id="KbDdvcCCPNUPZ0JTEnj5EQ" Name="Filter Time" Kind="InputPin" />
             <Pin Id="TLQctwzYXubPIBPPp9WaIC" Name="Cyclic" Kind="InputPin" />
             <Pin Id="Dl0spFWWmSHOJdMdoDw7Zk" Name="Jump" Kind="InputPin" />
+            <Pin Id="MjjTnvw7yIIMizFzXhQoVb" Name="Force New Func" Kind="InputPin" IsHidden="true" />
             <Pin Id="U5oPnKpTM2KLpbBYGumqct" Name="Position" Kind="OutputPin" />
             <Pin Id="UMFygVb8Y0mMHwBK7VkTUb" Name="Velocity" Kind="OutputPin" />
             <Pin Id="SqpBchQ41cIMCNK2OJg0vG" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="HW6S0ejAiNiLmLVZDwJ67F" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="S0p1afOupt1NYOiryBQ76v" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Pad Id="VEMAuz3Ov3SLSwQALde7O2" Comment="" Bounds="235,898,35,15" ShowValueBox="true" isIOBox="true" />
@@ -449,6 +488,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="FJma7qtEKQXNIAGrYWlj4j" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="P22FKLNUrcJMiWF2bDJExY" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NUCaGlrAjVUOTnULzYKVPP" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="NzvfQ3nAL12LDZ199Zwswf" Name="Period" Kind="InputPin" />
             <Pin Id="Q324jG3fQ32NGG4K86Pulm" Name="Pause" Kind="InputPin" />
             <Pin Id="JyseHCmq1klMRJ2pnD7mxG" Name="Reset" Kind="ApplyPin" />
@@ -486,13 +528,19 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="PJiU69lD3eQOvhPbtubgJn" Name="Bounds" Kind="InputPin" DefaultValue="10, 384, 548, 370" />
+            <Pin Id="NH20QGrgyvpLYiJCxRUjQa" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QVM9qLEDOZyMZB6ut6MaHq" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QPyMhptrf2jLMxL5eYIjOr" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="INhnyn25DKYMngxxlRrALJ" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="B4qA2LuZBZEOnTlME7W5aY" Name="Input" Kind="InputPin" />
             <Pin Id="LZTQFyznv8LPG01ZnhF9zh" Name="Color" Kind="InputPin" />
             <Pin Id="Hn0IXOuZDIyMNebZ858HzN" Name="Clear" Kind="InputPin" />
             <Pin Id="LcaY1UWXLwXMzXdVoaVLCv" Name="Space" Kind="InputPin" />
             <Pin Id="NOG88tbbebRLiXb9vZuYlg" Name="Show Cursor" Kind="InputPin" DefaultValue="False" />
             <Pin Id="BX9AfiBGcCDMMm6jX9jzVR" Name="VSync" Kind="InputPin" />
+            <Pin Id="PuhFqYpLszKLlb5N8ThkUe" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="G9kgRAVeAfoQU7DY8EEUQw" Name="Enabled" Kind="InputPin" />
+            <Pin Id="CIWYYCgu2llNtfK4TF3ZCO" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
             <Pin Id="KUliWLY5w8pQP3IzyOAlZ5" Name="Form" Kind="OutputPin" />
             <Pin Id="P73dej9yhxHOgQw0RWaExV" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="As3cUAvf1OWQYnhDjuRm3p" Name="Render Time" Kind="OutputPin" />
@@ -516,6 +564,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
                 </p:NodeReference>
+                <Pin Id="UGOVdnvs3cxMYvuQU28U58" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="PKuGadW5uAdOb5MVe7o9iz" Name="Bounds" Kind="InputPin" />
                 <Pin Id="B3LnjF5WkBBNghq59meFs7" Name="Paint" Kind="InputPin" />
                 <Pin Id="V8Eam452cB4PYa53mVLKan" Name="Enabled" Kind="InputPin" />
@@ -529,6 +578,7 @@
                   </CategoryReference>
                   <Choice Kind="ProcessAppFlag" Name="Fill" />
                 </p:NodeReference>
+                <Pin Id="AAUNwkSvnlOPeSct6Isv6A" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DZgCePCN4EUNRbB8Ipsur7" Name="Input" Kind="InputPin" />
                 <Pin Id="LSF7dFWWVp9NSIPEcK5OZO" Name="Color" Kind="InputPin" />
                 <Pin Id="NBqdugGqgkANXwNdwYZ2jr" Name="Shader" Kind="InputPin" />
@@ -547,6 +597,7 @@
                   </CategoryReference>
                   <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
                 </p:NodeReference>
+                <Pin Id="OsdvJlTRBveLbfZxBy1STc" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="PfpJQgvyvwTPFTheBpnvmi" Name="Bounds" Kind="InputPin" />
                 <Pin Id="B2agnVga4t2NeqZl56gv0A" Name="Paint" Kind="InputPin" />
                 <Pin Id="TkNm9xAHOEyMVkDfLgs8Bv" Name="Enabled" Kind="InputPin" />
@@ -557,6 +608,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Stroke" />
                 </p:NodeReference>
+                <Pin Id="GdjK1zudzK5NG1N1VlEt1r" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="BxSHMraU47CO2K2ul2GvbY" Name="Input" Kind="InputPin" />
                 <Pin Id="TCDVGKSF8v5MDoMhCOFgmo" Name="Color" Kind="InputPin" />
                 <Pin Id="BnCmQy5QipFLGEyxLSncnr" Name="Stroke Width" Kind="InputPin" DefaultValue="0.02" />
@@ -571,6 +623,7 @@
                   <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
                   <Choice Kind="ProcessAppFlag" Name="Group" />
                 </p:NodeReference>
+                <Pin Id="LO4JXP5apvhOMdPRut8dZf" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Avuo7LJrzYOMIMlnUCaoiX" Name="Input" Kind="InputPin" />
                 <Pin Id="QRJBF2OmSqdM3ExQtARxTZ" Name="Input 2" Kind="InputPin" />
                 <Pin Id="NA6tFFxKRApMFgfFD13YOJ" Name="Debug" Kind="InputPin" />
@@ -624,13 +677,18 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Damper" />
                 </p:NodeReference>
+                <Pin Id="Q2yqdHbabS7LI1i44dgyXa" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="LOscAIos420O1xIAKvJFTR" Name="Clock" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DkYA6vp5oBIMiiQQKfqusY" Name="New Clock" Kind="InputPin" IsHidden="true" />
                 <Pin Id="IzLpGTXPSFrQJ4ge2JpuJ6" Name="Goto Position" Kind="InputPin" />
                 <Pin Id="GXRngVWPZEoMq3jE5td0Wf" Name="Filter Time" Kind="InputPin" />
                 <Pin Id="F6DgLXpHwBLOknYnsTnW7O" Name="Cyclic" Kind="InputPin" />
                 <Pin Id="OprgIjX5U0TPKhB3lGrchr" Name="Jump" Kind="InputPin" />
+                <Pin Id="URWmKIo1PsSLFnlAjNRrqo" Name="Force New Func" Kind="InputPin" IsHidden="true" />
                 <Pin Id="N0VxVyo17xeOx5UbaUbMhS" Name="Position" Kind="OutputPin" />
                 <Pin Id="CfSX5XSZMYSNO1DZApYHgR" Name="Velocity" Kind="OutputPin" />
                 <Pin Id="LV4KEssCL1cPAqyF2N1Fpy" Name="Acceleration" Kind="OutputPin" />
+                <Pin Id="K9aqw3RpxGtP9KmB1YDK8u" Name="Function" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="LGr2MWStqG2NCDPi6HDJc0" Name="Has Changed" Kind="OutputPin" />
               </Node>
               <Node Bounds="152,1627,61,19" Id="DBxGAD42RncNTG4J4thbom">
@@ -660,6 +718,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RandomSpread (2d)" />
             </p:NodeReference>
+            <Pin Id="U1WlVtl8QCCLbq4IHbw6IH" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OeyD448FCdnO7XvpFCi4lL" Name="Center" Kind="InputPin" />
             <Pin Id="EIRG1pRBvN5Mru5Ng2Yy41" Name="Size" Kind="InputPin" />
             <Pin Id="CF2e1Y4kYynNPQIYGwg7F9" Name="Seed" Kind="InputPin" />
@@ -674,9 +733,12 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Mouse" />
             </p:NodeReference>
+            <Pin Id="A3bCAsk3JlrQA64BK4Nkdn" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PkFJRR8r1zSMjbexnjSrhk" Name="Context" Kind="OutputPin" />
             <Pin Id="GAOk0sxGyyHOTqheWiEk8I" Name="Position In World" Kind="OutputPin" />
             <Pin Id="D34lvFH4BpMM0gORuRiU1l" Name="Normalized Position" Kind="OutputPin" />
+            <Pin Id="UpC0PW2egmkNLVl0Mcpxdk" Name="Position In Projection" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="IVQpe1aDMyMQNQy2H0KEaP" Name="Position" Kind="OutputPin" IsHidden="true" />
             <Pin Id="V3coqaMy0lRNWAbJID9Ndv" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="VpmWYitkr6YQTHwpIlhp3H" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="NyZIkaH9v6xPyxZtsgFId0" Name="Right Pressed" Kind="OutputPin" />
@@ -688,6 +750,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="ER79WdvmS1NNb8dv70cxBa" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="DZaoqXOSxCSMYEbE8LbV6H" Name="Input" Kind="InputPin" />
             <Pin Id="LB75sHKBdbKP3yP7KVmkOZ" Name="Input 2" Kind="InputPin" />
             <Pin Id="Uh5xHB6UEZMLkQf89zeKSA" Name="Input 3" Kind="InputPin" />
@@ -703,6 +766,7 @@
               <FullNameCategoryReference ID="Graphics.Skia" />
               <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
             </p:NodeReference>
+            <Pin Id="QEYHPZOJ5PLPfoUZtFBnj4" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B74BUOUSyIZMPbEWm065v2" Name="Input" Kind="InputPin" />
             <Pin Id="NeYQ3uXHD1pO3uEqeiHfAX" Name="Debug" Kind="InputPin" />
             <Pin Id="I0D7Km7KOepOIXWia4D4v6" Name="Enabled" Kind="InputPin" />
@@ -713,6 +777,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RandomSpread" />
             </p:NodeReference>
+            <Pin Id="QaMJFNYOGthP3bpgREJdVJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="RBzD4bquUCtP81lXVnuiJF" Name="Center" Kind="InputPin" />
             <Pin Id="HBvytBAnB3PL3IAdycZ2CF" Name="Width" Kind="InputPin" DefaultValue="-0.42" />
             <Pin Id="QsXnrtApYOlMket4AKV249" Name="Seed" Kind="InputPin" />
@@ -793,6 +858,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Circle" />
             </p:NodeReference>
+            <Pin Id="FcjFHGwa086LUCfbfzaPpW" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Dbu7OnbOKweN46KbXsAWAv" Name="Position" Kind="InputPin" />
             <Pin Id="DQWui0jKcxhN3oEfuHbUL3" Name="Radius" Kind="InputPin" DefaultValue="0.02" />
             <Pin Id="A251zkgaeo3LXEHwdoN1yU" Name="Anchor" Kind="InputPin" />
@@ -813,6 +879,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="PWfRBvy0PfvQSUIHZ1Pc3Y" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="SIz7D34YXkPOTCiOoJdmDa" Name="Input" Kind="InputPin" />
             <Pin Id="MdHEVVS6t0HOTtIykmCvJt" Name="Color" Kind="InputPin" />
             <Pin Id="IqedSI2heWqM625vYAwdrE" Name="Shader" Kind="InputPin" />
@@ -844,13 +911,18 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
+            <Pin Id="OHp1L0YNUVPPgFL87BIKuU" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PX8mbuatsJuLC6DbRmUil4" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KpXoIDm9ySKMdW8ccfzgSA" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="JFKDQXlbP5qPaHOHNRMVOR" Name="Goto Position" Kind="InputPin" />
             <Pin Id="HThnFKmdpCsMoVYcG1Fm4h" Name="Filter Time" Kind="InputPin" />
             <Pin Id="ATbiYAV5VSMQVEpyw1S9uC" Name="Cyclic" Kind="InputPin" />
             <Pin Id="RQbX07tgHVfNMNgQObQbBs" Name="Jump" Kind="InputPin" />
+            <Pin Id="SwKKBqsOa8HMRoq9MRmReC" Name="Force New Func" Kind="InputPin" IsHidden="true" />
             <Pin Id="S9rJXbYNCeFLeNv84Vw8yT" Name="Position" Kind="OutputPin" />
             <Pin Id="D0VdPHpByrxOPHAovsTdxw" Name="Velocity" Kind="OutputPin" />
             <Pin Id="NrpTJSqhzWJNqDYU4d4yPw" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="IpmYHx9zfYkOqtorJRPuZL" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="VvalFBezUldLeYWDNP1Z95" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Pad Id="USFpMKIJE0lLN8molSaesE" Comment="Filter Time" Bounds="405,821,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
@@ -863,6 +935,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="HnIuOV0kTYxLUL2Nkv7Qkz" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="AvT7n8xdGVxNiAnEJrbZRx" Name="Headline" Kind="InputPin" DefaultValue="CircleContainsPoint" />
             <Pin Id="VJMlXp7G9HGPTuXa3Lbc4E" Name="Description" Kind="InputPin" DefaultValue="Hover over the circle." />
             <Pin Id="R4KacBHIasoOPPGhijPGfY" Name="Text Color" Kind="InputPin" />
@@ -875,6 +948,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="J8ZV3K98IqHORqDBDCUJ0I" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JvJ56fmcEfaP7PimGULIcT" Name="Headline" Kind="InputPin" DefaultValue="RectContainsPoint" />
             <Pin Id="JrZZvXTx2q6PuJrXP3daFu" Name="Description" Kind="InputPin" DefaultValue="Hover over the rectangles." />
             <Pin Id="SEDMtgNKtkeMKB1ZiYxl92" Name="Text Color" Kind="InputPin" />
@@ -890,6 +964,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Circle" />
             </p:NodeReference>
+            <Pin Id="Hc9RjZCWXmoOWNzG9iLUvp" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NkFIAvg2iyvPgmhpu63pBZ" Name="Position" Kind="InputPin" />
             <Pin Id="BUIuSI4kDR2O34ZX5Q8Ht1" Name="Radius" Kind="InputPin" />
             <Pin Id="HXXbnkngRssNp7lkX95jeg" Name="Anchor" Kind="InputPin" />
@@ -907,6 +982,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="BWQ0j2IBpVYLGJI4W7MC5v" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="EDq7WNDs6yVNf617jhx9Nn" Name="Input" Kind="InputPin" />
             <Pin Id="Ax1ywPOucmbQT5FAr3sIEU" Name="Color" Kind="InputPin" />
             <Pin Id="UD92t1IbQb2OOiQ1zTjK4I" Name="Shader" Kind="InputPin" />
@@ -931,6 +1007,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="LYfGYYC5ZOjMCs84t1M66e" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ply7LO2NHTWLMqN1gEclZW" Name="Headline" Kind="InputPin" DefaultValue="CircleIntersectsCircle" />
             <Pin Id="KPd3eK9KB93Nnzh85tel76" Name="Description" Kind="InputPin" DefaultValue="Triggers whenever both circles intersect." />
             <Pin Id="NS9AVSYwoGuMICqxlOZ1jw" Name="Text Color" Kind="InputPin" />
@@ -966,6 +1043,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RandomSpread (3d)" />
             </p:NodeReference>
+            <Pin Id="SurBzyerHPJMPtU5uyb5Fs" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="TGrY985MJE0OAvaN65ep2V" Name="Center" Kind="InputPin" />
             <Pin Id="T8FEhUp4ZaCNRkAEumpe4N" Name="Size" Kind="InputPin" />
             <Pin Id="AAg2pEHRDjfNH0Z5MwmDsw" Name="Seed" Kind="InputPin" />
@@ -978,6 +1056,7 @@
               <FullNameCategoryReference ID="Stride" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="JgSBxUuIPdjM8ZVSYFY9Y4" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="I5LvgRpysVkQZg6OZTZdiw" Name="Transformation" Kind="InputPin" />
             <Pin Id="PEZa5V2Ok2UPm5zgesETeK" Name="Child" Kind="InputPin" />
             <Pin Id="PGffa9h4IavO9019HuHBfK" Name="Child 2" Kind="InputPin" />
@@ -992,9 +1071,11 @@
               <FullNameCategoryReference ID="Stride" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
             </p:NodeReference>
+            <Pin Id="TRmmlwzJWT0N1uPFr3EKEM" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JICs8MziYeEMxnomdt609S" Name="Child" Kind="InputPin" />
             <Pin Id="LFAXRYE0SCiOIxQbODyKcO" Name="Child 2" Kind="InputPin" />
             <Pin Id="JrP2E2Pkz3YNqX3eepQdv2" Name="Child 3" Kind="InputPin" />
+            <Pin Id="ULMstfuKHmLLafSA8LDJHe" Name="Child Scenes" Kind="InputPin" IsHidden="true" />
             <Pin Id="Trn1PQt9JIGLVRSUmkhB10" Name="Enabled" Kind="InputPin" />
             <Pin Id="H5ZtbknbCtBNl6aCKfIxAh" Name="Output" Kind="OutputPin" />
           </Node>
@@ -1004,7 +1085,13 @@
               <FullNameCategoryReference ID="Stride" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
+            <Pin Id="Q0wJ41ZiDxBLx6nuouNZgZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JCwjnZJDCTVLiPqL0f0JAP" Name="Bounds" Kind="InputPin" DefaultValue="1094.6666, 412, 533.3333, 332.66666" />
+            <Pin Id="UpVreDhmfR1QRmhDIbrdQH" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GpuiQJPFfM5LYD7ysxLLIX" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CCSMHYGnNlxLYMMjAqtFVD" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Dd7NwizAEDIOXzpI4KqAia" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CDt6rXWT6f9MPc1CpnWyCT" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="VW2hgMiPnEJLoD5dl7L8wM" Name="Input" Kind="InputPin" />
             <Pin Id="A1YDWxZDLbyMgDqWF7eXvF" Name="Camera" Kind="InputPin" />
             <Pin Id="Csp5qF49EJLLUzrVVKZjFb" Name="Enable Default Camera" Kind="InputPin" />
@@ -1013,18 +1100,31 @@
             <Pin Id="UtOMzNvvIfLMBOAkBWeMtA" Name="Clear" Kind="InputPin" />
             <Pin Id="BBmecsP2EesQXTBfnfM48Z" Name="Post Effects" Kind="InputPin" />
             <Pin Id="HLLhe1RJhfYOjNmMFRL0IA" Name="Enable Default Post Effects" Kind="InputPin" />
+            <Pin Id="CtNDsNnx5O6MlEoC1XC8Vx" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
             <Pin Id="EcOL9hkwAgjMzdTivREPpb" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
+            <Pin Id="BrI07MOtP25Nip7qmuXfxP" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
+            <Pin Id="J17Vmhuu56HNPB2iBphryF" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
             <Pin Id="QwxNFJjRZbXM8vg9hxKgef" Name="Enabled" Kind="InputPin" />
             <Pin Id="JH4vGYVqyauP50984A6AJf" Name="Present Interval" Kind="InputPin" />
+            <Pin Id="Thqv87OzzlYPbtfwogcaGa" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KQdbMhDZBvbLnwcbxftx7Y" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CH2P0nXiSxbLHVV4R4WRgk" Name="Light Shafts" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VF30JcAtuubOeMRA6HP3YY" Name="VR Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QMyqlycAIikMnYXUrYSHy0" Name="Viewport Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Q6MsbPtcQ6oORO5XdOXCQk" Name="Subsurface Scattering Blur Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HmbLuG2SFpuQDIOq320bRB" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
             <Pin Id="FFTLBxc1IF5PduAh1MhcC2" Name="Output" Kind="OutputPin" />
             <Pin Id="LeaMehjrIMDQOybSfl85ek" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="QeIvzfdRURsL5h24v4xaly" Name="Input Source" Kind="OutputPin" />
+            <Pin Id="QTUZJIMb80VLcp4pj0600V" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="EKilzsGHQ2EN7qPO3Cowge" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1141,2126,185,19" Id="V7nps8LaM6uPnEjleeztN2">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
             </p:NodeReference>
+            <Pin Id="GSwZ63vyZmrNtYfqz7FGwS" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="UgGEP0mkUB2N4UD4xosQXZ" Name="Position" Kind="InputPin" />
             <Pin Id="BFGW8U2ngVOLBKj3vdgsOp" Name="Target" Kind="InputPin" />
             <Pin Id="G5uTbz6zC7LLHPlYLlA04z" Name="Color" Kind="InputPin" />
@@ -1035,6 +1135,7 @@
             <Pin Id="ILovQNSrcuOL81yRwlBA34" Name="Children" Kind="InputPin" />
             <Pin Id="Ju5Ser3yzvVPUJ9WG0zYir" Name="Name" Kind="InputPin" />
             <Pin Id="Auc5O22ssqoM1YSwKtDuUS" Name="Enabled" Kind="InputPin" />
+            <Pin Id="NR9iDHm9EgjO8yZcYsG2lq" Name="Show Helper" Kind="InputPin" IsHidden="true" />
             <Pin Id="LYeEWYTE41DNSDuLZjinCL" Name="Entity" Kind="OutputPin" />
           </Node>
           <Pad Id="DXnYsSqgPPFOKndem2rmAY" Comment="Count" Bounds="1272,1352,35,15" ShowValueBox="true" isIOBox="true" Value="100">
@@ -1056,6 +1157,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Sphere" />
             </p:NodeReference>
+            <Pin Id="QIpxvY35do0PNsOCHrRfb8" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="VE7snz60w6YMS2KO7Sf1tK" Name="Transformation" Kind="InputPin" />
             <Pin Id="Pwy03yBWpkOMBrTY6IaVuQ" Name="Radius" Kind="InputPin" />
             <Pin Id="OResquiA4nPMsPFA6oumfd" Name="Tessellation" Kind="InputPin" />
@@ -1099,6 +1201,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
+            <Pin Id="IdePFqXa5BKOEn9GBh4QBL" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Q0IH7AYuNcCQUMCjXcDxKg" Name="Color" Kind="InputPin" />
             <Pin Id="R4zz1xVjYARLtQGpYP3W78" Name="Metalness" Kind="InputPin" />
             <Pin Id="JKA7Gveld9wOCnq40Sl7fk" Name="Roughness" Kind="InputPin" />
@@ -1157,6 +1260,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Sphere" />
                 </p:NodeReference>
+                <Pin Id="LqdSiLLDn1aOiAEpDAbZjv" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="MBmn5gsC21xLeyQ37M8cdz" Name="Transformation" Kind="InputPin" />
                 <Pin Id="UtJ3GLZJLuSMjcV7dFlXwi" Name="Radius" Kind="InputPin" />
                 <Pin Id="K4IRHPTEcmwP8oljdzPAXQ" Name="Tessellation" Kind="InputPin" />
@@ -1185,6 +1289,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
                 </p:NodeReference>
+                <Pin Id="IAS5wksIieANbU27W28h0g" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="THDcXZNX6feLGrFEzvDkf1" Name="Color" Kind="InputPin" />
                 <Pin Id="OablQWwzE2DL7JdkRN3mbX" Name="Metalness" Kind="InputPin" />
                 <Pin Id="NFQpYky6HcOQIzGIdrFYJD" Name="Roughness" Kind="InputPin" />
@@ -1265,6 +1370,7 @@
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
             </p:NodeReference>
+            <Pin Id="AIKgKzpxHpbM9R9kGQRcSh" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B5yAvs9yW7mPC2VWeXKgem" Name="Transformation" Kind="InputPin" />
             <Pin Id="IhCyeK8ASAFLIyIozgC5Ie" Name="Children" Kind="InputPin" />
             <Pin Id="N9cLJKxlQbVOMwX22hJBRc" Name="Name" Kind="InputPin" />
@@ -1276,6 +1382,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="QEj7OJWvORoObEdfxWkLbB" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="HhgmGk362LjOlwYFdjmxRu" Name="Headline" Kind="InputPin" DefaultValue="SphereContainsSphere" />
             <Pin Id="JV0Pd98I84qLyjMOzn8OYc" Name="Description" Kind="InputPin" DefaultValue="Each sphere which is inside the bigger sphere will be inverted." />
             <Pin Id="CruUCdPAGmtNIs2DeIIUub" Name="Text Color" Kind="InputPin" />
@@ -1294,6 +1401,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="U4svlZXk0OlNG1KNTpyJ4t" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="I5sQSazl1JENNdZNHrEFTQ" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OMIWZqbx1JkP0H0Q5mg6RV" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="RW6JaAiCCNRQGjQaA4V69W" Name="Period" Kind="InputPin" />
             <Pin Id="UX02tn3e5axOiCfi6GZWcx" Name="Pause" Kind="InputPin" />
             <Pin Id="MopjH8fOxFIPz3b8t9CQa0" Name="Reset" Kind="ApplyPin" />
@@ -1375,6 +1485,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Sphere" />
             </p:NodeReference>
+            <Pin Id="TGvMdsFew3XMg4RVxaathv" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="STXuIf5rfi2NX568twYK5N" Name="Transformation" Kind="InputPin" />
             <Pin Id="TwkfodqM3iLNGfBQix6kPu" Name="Radius" Kind="InputPin" />
             <Pin Id="Naiku4WnF8ENyR0wV6007P" Name="Tessellation" Kind="InputPin" />
@@ -1414,6 +1525,7 @@
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="LyrMVgZgflIN7wi0NEoLXX" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ppb3CPfY0RLLs5EpzjYpyW" Name="Transformation" Kind="InputPin" />
             <Pin Id="U8PrctiVgOLPPg5giIJqUK" Name="Child" Kind="InputPin" />
             <Pin Id="LtzRmkeYeROMcYtg0yuPxT" Name="Child 2" Kind="InputPin" />
@@ -1426,6 +1538,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Sphere" />
             </p:NodeReference>
+            <Pin Id="BTn1xqd8IPSOIOpgU0giVN" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="IPpsw6XFI6OLYcQbmaSkMW" Name="Transformation" Kind="InputPin" />
             <Pin Id="AdwFUtI1ok6PgTfWHCJlRR" Name="Radius" Kind="InputPin" />
             <Pin Id="V6bfaFXx4VRQPbAcKQgSOt" Name="Tessellation" Kind="InputPin" />
@@ -1460,10 +1573,12 @@
               <FullNameCategoryReference ID="Stride" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
             </p:NodeReference>
+            <Pin Id="R7UaCbbnqQqPInqXYwKeQw" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NSEbyBV2NTBMkgkZ9M4zXU" Name="Child" Kind="InputPin" />
             <Pin Id="Q0VcXc3CKCHPgAxW68MVH7" Name="Child 2" Kind="InputPin" />
             <Pin Id="GFFW92ICDJjQQ9LJIVPgkk" Name="Child 3" Kind="InputPin" />
             <Pin Id="NLU9bSoBaFwOQKY0jgNAaW" Name="Child 4" Kind="InputPin" />
+            <Pin Id="HEyNLtTcFFOL2IjC7rob3I" Name="Child Scenes" Kind="InputPin" IsHidden="true" />
             <Pin Id="VMa18yd5qqqOJ3CMtD5WKJ" Name="Enabled" Kind="InputPin" />
             <Pin Id="QoBmQ8VQo29OxB6Gd0qyJC" Name="Output" Kind="OutputPin" />
           </Node>
@@ -1472,7 +1587,13 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
+            <Pin Id="TDKIZwRs1zpNEARvnnNMSC" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="FrTaNzmh4JAPhSpYrZgiuJ" Name="Bounds" Kind="InputPin" DefaultValue="1094.6666, 44.666668, 533.3333, 332.66666" />
+            <Pin Id="IgwSVgUwENXLjxFfnzwha5" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GVzvOOxXp14NlhppV66RWR" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Jj2VCr6F7JZMBqcZtB2kQZ" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HklqsqKlIUYM9eO1SZThq0" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Q5TzVczhELiP9sWHc0Y0Zr" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="VFBUMuHRfG0LSAoL5i4rnh" Name="Input" Kind="InputPin" />
             <Pin Id="RLWJx8cAHJAMdQbjJXaAPV" Name="Camera" Kind="InputPin" />
             <Pin Id="Fzte10Sj5GrM5LF062Ay25" Name="Enable Default Camera" Kind="InputPin" />
@@ -1481,18 +1602,31 @@
             <Pin Id="ABbV8wmrDPLLC0ftywD9W0" Name="Clear" Kind="InputPin" />
             <Pin Id="MarRVsjudcLLCVGsRghFEk" Name="Post Effects" Kind="InputPin" />
             <Pin Id="CgSNURms113MH9vBZ9hNhx" Name="Enable Default Post Effects" Kind="InputPin" />
+            <Pin Id="DytVZRPdFvrOFtYe0OzYyG" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
             <Pin Id="Pzln2updShcMYVD7bLeFgT" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
+            <Pin Id="UNdU07qGP96OV4MiIH0sbs" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EbMA01E5ipBP13nJOSwvu8" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
             <Pin Id="PTq2tq0CsiqOapRX6Af7Pd" Name="Enabled" Kind="InputPin" />
             <Pin Id="K5REfUsSfSEPZ3pcmBV48f" Name="Present Interval" Kind="InputPin" />
+            <Pin Id="TwKzGMe8VB5NRcXQgMPC14" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BgHGROKF3BuPTykd1bkERB" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
+            <Pin Id="C9d2ue6PyXGN8LLcMOw2EW" Name="Light Shafts" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PAIiG3KWH4OP6awBZqTgqa" Name="VR Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QDaUoAR9rGAQMARhXkH6dM" Name="Viewport Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SDv9qRIjmSHMSHXuuQIvyf" Name="Subsurface Scattering Blur Settings" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SQ6khyywPahNFNVydgIIQK" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
             <Pin Id="KVEMind1p5TMyeOMuV743L" Name="Output" Kind="OutputPin" />
             <Pin Id="JWGB5qYj139LpaggShLjde" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="Jm2eh36cTYTLwNESm5FXNV" Name="Input Source" Kind="OutputPin" />
+            <Pin Id="C0KopYqDAWlN1mdvxiHtbf" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="GCQ0l1YNehbOSD3xLHC8kX" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1165,958,185,19" Id="OXHGOGPiRmpMsqk3awI7Zg">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DirectionalLight" />
             </p:NodeReference>
+            <Pin Id="HXViDe0XbiXLsqdZAeNR2f" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="TSVOXFjzx9BLkI6oto50B5" Name="Position" Kind="InputPin" />
             <Pin Id="T79kcrvZilFLObHH0bkV2t" Name="Target" Kind="InputPin" />
             <Pin Id="Sx8Nebm1ObrO8KhwqZwnxt" Name="Color" Kind="InputPin" />
@@ -1503,6 +1637,7 @@
             <Pin Id="RUB8HFtyMkCOzEutgt4XaZ" Name="Children" Kind="InputPin" />
             <Pin Id="I8bZChUAGhVP8y3HfRnPQy" Name="Name" Kind="InputPin" />
             <Pin Id="DrCOJQmrWG7NqB2mmYAbh7" Name="Enabled" Kind="InputPin" />
+            <Pin Id="MN5Ej3OPAIWQPexdb7puIA" Name="Show Helper" Kind="InputPin" IsHidden="true" />
             <Pin Id="CFwakG2nOjvPU8NizfDDUj" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="1184,988,65,19" Id="Sn45MbW8kVIQJpzu5DI06B">
@@ -1510,6 +1645,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="BztLveKgzFeO9UA2gaBsXT" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="GnTo7yn2YfrPqI5tXq9exM" Name="Headline" Kind="InputPin" DefaultValue="SphereContainsPoint" />
             <Pin Id="TJ26M30kdGcOfFP6d891ji" Name="Description" Kind="InputPin" DefaultValue="Move the sphere along the x and y-axis using the mouse." />
             <Pin Id="FFCDAWWqKmjLI2d7nuRoUD" Name="Text Color" Kind="InputPin" />
@@ -1535,14 +1671,22 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Mouse" />
             </p:NodeReference>
+            <Pin Id="KScXscpPM9yN75dYyIBDDM" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="LhVYdkizMsnPl50HDgHzVr" Name="Camera" Kind="InputPin" />
             <Pin Id="SqY0E1r01hLPoFXA0phgGX" Name="Output" Kind="OutputPin" />
             <Pin Id="KbMzlbC9ch7QAmBkQ8US3j" Name="Position in World" Kind="OutputPin" />
             <Pin Id="RvIxMP6vt88LSexMiqiQ0n" Name="Ray" Kind="OutputPin" />
+            <Pin Id="SIwbIz6dalZLZrjPwmxCCi" Name="Position in Projection" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="IwVI2qMXV0bO6TWdepYq1K" Name="Position" Kind="OutputPin" IsHidden="true" />
             <Pin Id="UFV9qHnP3u0QQlrbDlWDfe" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="KkyG1rIGIIGOusx2L5uPXn" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="LmoWmu6oyBmNLDhKKVOvvm" Name="Right Pressed" Kind="OutputPin" />
+            <Pin Id="Ktz3BM8XvNhNkDIKeHrtqE" Name="Extended 1 Pressed" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="HrHaMYznkDNOmyvfqwo8uZ" Name="Extended 2 Pressed" Kind="OutputPin" IsHidden="true" />
             <Pin Id="Ny6OOT4a2GwOys7rcIg87d" Name="Mouse Wheel Delta" Kind="OutputPin" />
+            <Pin Id="ELnmcMxTOljOmwCqrfbbZ1" Name="Surface Size" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="V6Wl0lAVUf6NlQS8hkn8Sz" Name="Surface Aspect Ratio" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="M1uHXPOIKI0M1lxZ2IZeis" Name="Mouse Device" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1399,371,34,19" Id="RMaPCMou1DlNJXZoK5N8Lb">
             <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
@@ -1608,6 +1752,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
+            <Pin Id="IDlvcAcxRZ7OJzZe1QcviV" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="EXrCBdkGdyHPavxAkaPa43" Name="Color" Kind="InputPin" />
             <Pin Id="U3wkqfZkKx1PN1gja4GXmg" Name="Metalness" Kind="InputPin" />
             <Pin Id="R72EoYqFFwhNT9pfrmUyBI" Name="Roughness" Kind="InputPin" />
@@ -1637,6 +1782,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
+            <Pin Id="ETgLNyuyEzOL9jqBE0e65Z" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="RuJ1gvkQQjwQRBcwewWOvi" Name="Color" Kind="InputPin" />
             <Pin Id="BhWT9lIB1xAPmLP3dXQ3WD" Name="Metalness" Kind="InputPin" />
             <Pin Id="V7fl4YV6V5eP7sXfW3aJm4" Name="Roughness" Kind="InputPin" />
@@ -1696,6 +1842,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
             </p:NodeReference>
+            <Pin Id="GytC9IwxdpwOmApxZ5DNKs" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JQihBhma5doL9kEU8bfrxz" Name="Bounds" Kind="InputPin" />
             <Pin Id="UsY9sG26oqoPdco9aIXfC3" Name="Paint" Kind="InputPin" />
             <Pin Id="JK92B1kUyFPNQU55I4xIFk" Name="Enabled" Kind="InputPin" />
@@ -1706,6 +1853,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
             </p:NodeReference>
+            <Pin Id="E9WeyADdvTiMZTYzYIOpjf" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="T2OlWmq7PIPM6btlCPrpLi" Name="Bounds" Kind="InputPin" />
             <Pin Id="Pd0u4ooDD9ONSMmTbjB9rA" Name="Paint" Kind="InputPin" />
             <Pin Id="FdqEcSuBI8BQReQ7Z8misS" Name="Enabled" Kind="InputPin" />
@@ -1722,13 +1870,19 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="Q6yT8Pih8v3Oi6Nmtlwhd7" Name="Bounds" Kind="InputPin" DefaultValue="548, 382, 548, 370" />
+            <Pin Id="EZ01CAoRIVTO9xpDB6sIGB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ETJE6GjakKnQL8QtL1Eo5W" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ARe0lPDPtewMWHYZGjU4gZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="P4foOeH79lFQcg0EEy07z4" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="QIOsg6Tpd6iNmVZdIgf1aV" Name="Input" Kind="InputPin" />
             <Pin Id="KO1nueNaXXeQMvOtzZ53pB" Name="Color" Kind="InputPin" />
             <Pin Id="Urm8gQLRjW6QBy1nioP6OK" Name="Clear" Kind="InputPin" />
             <Pin Id="QIUUIE1UqKEPT4khA31IRj" Name="Space" Kind="InputPin" />
             <Pin Id="DdszyLeOLEWPHGEHJhaWT8" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="G2IfGzaqbcjPKXUyBWC3wg" Name="VSync" Kind="InputPin" />
+            <Pin Id="DpVLh8hSqHpPAYBpXU4YP4" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="Gi1WXftQS5FMBOsVh9iHj5" Name="Enabled" Kind="InputPin" />
+            <Pin Id="UtNwJGsBwqrNghwlxtnCPi" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
             <Pin Id="JnympiLTVUANp6QF6cz9gr" Name="Form" Kind="OutputPin" />
             <Pin Id="P26zZzZRTGbNN9eJPEsTOa" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="OQ57uy1dZPWOR26zzh6mo6" Name="Render Time" Kind="OutputPin" />
@@ -1739,6 +1893,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
+            <Pin Id="JWRfCQQ9RQPQUwiTK1OaIS" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="KiqhhI4xct8MaYGlmNBt45" Name="Input" Kind="InputPin" />
             <Pin Id="JdbpdM54zixOKyOHEXxztK" Name="Input 2" Kind="InputPin" />
             <Pin Id="DHiy14FXS2XPPBzxCISjHd" Name="Input 3" Kind="InputPin" />
@@ -1770,6 +1925,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="B9za5CkXklyLMW3reHxMx6" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="GbAGLSfCbi7PQXE1wW4xhl" Name="Input" Kind="InputPin" />
             <Pin Id="IY7dxoMXCi7P0fwambudvj" Name="Color" Kind="InputPin" />
             <Pin Id="Km2JEca7IN5LeXudgurhTX" Name="Shader" Kind="InputPin" />
@@ -1780,6 +1936,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Stroke" />
             </p:NodeReference>
+            <Pin Id="GVC5rNXNvH0P5wOjbGiL8H" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PLqgyGYV6gNOeszANYsc4P" Name="Input" Kind="InputPin" />
             <Pin Id="JUHZMaCp1mmP29zPjxgEQP" Name="Color" Kind="InputPin" />
             <Pin Id="HxI2lCRSvlOP5m1xsr5OtO" Name="Stroke Width" Kind="InputPin" DefaultValue="0.01" />
@@ -1801,6 +1958,7 @@
               </CategoryReference>
               <Choice Kind="ProcessAppFlag" Name="Fill" />
             </p:NodeReference>
+            <Pin Id="PADdEtSEw8fPjSg8fiMIZ0" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="TgWin2Ts5XHOfQZmeQhxr2" Name="Input" Kind="InputPin" />
             <Pin Id="IscysZf8r8dPrQSZqpk8ZX" Name="Color" Kind="InputPin" />
             <Pin Id="U42Jq0CR2uyQPa8iefYJb3" Name="Shader" Kind="InputPin" />
@@ -1842,13 +2000,18 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper" />
             </p:NodeReference>
+            <Pin Id="Ay0hgXMkGYZMuHhreUBNQR" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Tz9MzWbGaqxNHjr4U0YKPD" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VDVyDSFMqqKOHxTfwoVzQT" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="UMPgC5ORYhzPFF6iss1Vg7" Name="Goto Position" Kind="InputPin" />
             <Pin Id="OjesBvyONtkNs0SP0VvfP8" Name="Filter Time" Kind="InputPin" />
             <Pin Id="CULD3iQCTU6MqS2fYS24xJ" Name="Cyclic" Kind="InputPin" />
             <Pin Id="C1yGAenG6opLTfrUQw57kW" Name="Jump" Kind="InputPin" />
+            <Pin Id="OzZfL2g4EWoOzYaI1SIY3S" Name="Force New Func" Kind="InputPin" IsHidden="true" />
             <Pin Id="E7jtTLyu7obP7OLIfqVAqW" Name="Position" Kind="OutputPin" />
             <Pin Id="SPGdhpPvAZaO3yeR06jDbu" Name="Velocity" Kind="OutputPin" />
             <Pin Id="PlS6lEXvl9uLB9mSNvS2Z3" Name="Acceleration" Kind="OutputPin" />
+            <Pin Id="Rl0eTAkiw0CPvaj7JRrS2c" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="QKyxxY3OWRXOiP6njozhUm" Name="Has Changed" Kind="OutputPin" />
           </Node>
           <Pad Id="Iw14eD41zvoNYsQhjEwcl5" Comment="Stroke Width" Bounds="773,1536,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
@@ -1861,6 +2024,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
             </p:NodeReference>
+            <Pin Id="N2ViW18qEHwLve3j9S1LNY" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="NKRjQJvisWDNyPIQvl7pMk" Name="Bounds" Kind="InputPin" />
             <Pin Id="G50n8aCyJBRNM7N23IjyvL" Name="Paint" Kind="InputPin" />
             <Pin Id="BJVPQWPeVqIMUT0dEqps8R" Name="Enabled" Kind="InputPin" />
@@ -1876,6 +2040,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
             </p:NodeReference>
+            <Pin Id="L7vxLhZOJ9YP7eKnEXf4e7" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="DlTgX6sggKjMyaUEAKmwm9" Name="Headline" Kind="InputPin" DefaultValue="RectIntersectsRect" />
             <Pin Id="FD9YeyLTpBLM3pwuBksftF" Name="Description" Kind="InputPin" DefaultValue="Triggers whenever both rectangles intersect." />
             <Pin Id="JmMXi2GffhiLRHnikm3TJl" Name="Text Color" Kind="InputPin" />
@@ -1902,6 +2067,9 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
+            <Pin Id="MAryvI0J9KtLYfDrkU5VLp" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IflmUnuwEfuPNtkkKC6SSs" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ITpDgD38epvNv2jNsYN1cM" Name="New Clock" Kind="InputPin" IsHidden="true" />
             <Pin Id="FerNSterh9ZPfFnX1aXNMT" Name="Period" Kind="InputPin" />
             <Pin Id="JMDriAlZC8yNonPTUwIKXc" Name="Pause" Kind="InputPin" />
             <Pin Id="M3J3elMsBOcMlefEUxR2WY" Name="Reset" Kind="ApplyPin" />
@@ -2204,8 +2372,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2023.5.0" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2023.5.0" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2023.5.3-0094-g21c90acee7" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2023.5.3-0094-g21c90acee7" />
   <DocumentDependency Id="FJUs1LXyWRKQSbJxrnO15G" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="OVAIHJcufYMP9FYtFZtYBn" Location="../../VL.ThePatchersGuide.vl" />
 </Document>
