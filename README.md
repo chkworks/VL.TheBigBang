@@ -70,7 +70,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ## Supporters
 Many thanks to these people for buying me a Mandelbrot (or more) on Ko-Fi!
 
-cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel
+cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel, Shaul Tzemach
 
 Also thanks a lot to Rosi, Matthias, Ilina and Julian for proof-reading!
 
