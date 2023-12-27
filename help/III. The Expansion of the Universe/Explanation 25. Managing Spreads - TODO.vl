@@ -34,7 +34,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,477,46" ShowValueBox="true" isIOBox="true" Value="25. Managing Spreads - TODO">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,477,46" ShowValueBox="true" isIOBox="true" Value="25. Manipulating Spreads">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -89,7 +89,193 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BmFDdYOqXKvOEbDDWOwIdP" Bounds="92,206,400,204" ShowValueBox="true" isIOBox="true" Value="Lorem Ipsum">
+          <Pad Id="BmFDdYOqXKvOEbDDWOwIdP" Bounds="92,206,389,76" ShowValueBox="true" isIOBox="true" Value="Lorem Ipsum">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="299,1012,63,26" Id="SL0JDuGyxE9O92FsQAprKG">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" />
+              <Choice Kind="OperationCallFlag" Name="InsertSlice" />
+            </p:NodeReference>
+            <Pin Id="R4AsrhJuXuJL0THfLRQ86p" Name="Input" Kind="StateInputPin" />
+            <Pin Id="U0FQSCFKEcrPSRXcVR5Eo8" Name="Index" Kind="InputPin" />
+            <Pin Id="UKhC3KDcQyYLdG2kFbmrbA" Name="Value" Kind="InputPin" />
+            <Pin Id="Gyjnp5KXslbLicUJanN5w5" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="299,1333,82,26" Id="AsvwoPMt3QUL2azvBVmyXc">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" />
+              <Choice Kind="OperationCallFlag" Name="RemoveSliceAt" />
+            </p:NodeReference>
+            <Pin Id="TpSmMfQRE4IL4j7ORAVQeI" Name="Input" Kind="StateInputPin" />
+            <Pin Id="ULGGB3uEdC4OAwVCqDYTRA" Name="Index" Kind="InputPin" />
+            <Pin Id="RXemK5Lt9bcLhGiepf9oee" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="297,676,51,26" Id="SI6bLMSU7haN1NbmOYikjb">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Spread" />
+              <Choice Kind="OperationCallFlag" Name="SetSlice" />
+            </p:NodeReference>
+            <Pin Id="A1YdhJCSR9QNPf9J8u6KYx" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Els2OWsnjzdOP5Nrp7xqjG" Name="Value" Kind="InputPin" />
+            <Pin Id="QIRLvhhOv0uPrVIIRNx3PR" Name="Index" Kind="InputPin" />
+            <Pin Id="HVruMyas4WaLrleZv4Jkho" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="PfKR9f8A7PaP0gcKF0MUoE" Bounds="285,470,278,31" ShowValueBox="true" isIOBox="true" Value="Change values in a Spread">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="BEmTskGNPAVMMBWZupSRQf" Comment="Input" Bounds="299,538,136,95" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:Value>
+              <Item>1, 0, 0, 1</Item>
+              <Item>0, 0, 1, 1</Item>
+              <Item>0.5019608, 0, 0.5019608, 1</Item>
+              <Item>1, 1, 1, 1</Item>
+              <Item>0, 0, 0, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="IKfpwnMXiAQMj28AW6i026" Bounds="285,507,325,19" ShowValueBox="true" isIOBox="true" Value="Set a slice at a specified index.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VOVpjXOwM7ULOsfSiGP5ly" Comment="" Bounds="322,640,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="CIBHdJaljn5LzndQ97Olsa" Comment="Index" Bounds="345,663,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="RbEyPBT27ReNMnrThhIM2F" Comment="" Bounds="299,721,136,95" ShowValueBox="true" isIOBox="true">
+            <p:Value>
+              <Item>1, 1, 1, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="SFUKdd4vU29OhMnLjjhSkk" Bounds="285,838,325,19" ShowValueBox="true" isIOBox="true" Value="Insert a slice at a specified index.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VfnCHaOygUdNbFrGZ4KKdy" Bounds="285,1183,325,19" ShowValueBox="true" isIOBox="true" Value="Remove a slice at a specified index.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="J6sjzlOLKQVOg6tdYfk3GK" Comment="Index" Bounds="378,1318,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="MdWfoiGxsOUQAUlnbxU1fE" Comment="" Bounds="301,1378,136,80" ShowValueBox="true" isIOBox="true">
+            <p:Value>
+              <Item>1, 1, 1, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="KPm7bmHzhKDPbABLfcHzMV" Comment="Index" Bounds="330,970,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="NU9B5CezBOWONisa6g2Ynh" Comment="" Bounds="359,995,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.5019608, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="MpY7KZ6N5RwLDddMynaQjb" Comment="" Bounds="301,1060,136,95" ShowValueBox="true" isIOBox="true">
+            <p:Value>
+              <Item>1, 1, 1, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="CcuGKMm5eduN6ohQ3VZYoe" Comment="Input" Bounds="301,869,136,95" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:Value>
+              <Item>1, 0, 0, 1</Item>
+              <Item>0, 0, 1, 1</Item>
+              <Item>0.5019608, 0, 0.5019608, 1</Item>
+              <Item>1, 1, 1, 1</Item>
+              <Item>0, 0, 0, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="BvtNOQlziQvPahG0fj0vD6" Comment="Input" Bounds="301,1217,136,95" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:Value>
+              <Item>1, 0, 0, 1</Item>
+              <Item>0, 0, 1, 1</Item>
+              <Item>0.5019608, 0, 0.5019608, 1</Item>
+              <Item>1, 1, 1, 1</Item>
+              <Item>0, 0, 0, 1</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="PKNyOVxqUNtMTPVQ5HXoCW" Bounds="943,592,495,105" ShowValueBox="true" isIOBox="true" Value="The create operation as a node for a datatype - problem: There is no Create for a spread, only an Empty">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Ad72DEgyFGSLmSj5cieM5A" Bounds="690,830,152,19" ShowValueBox="true" isIOBox="true" Value="Manage Data with a pad">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DDxKIDdBDT5M9dJYP4uzLV" Bounds="919,1029,193,19" ShowValueBox="true" isIOBox="true" Value="Distinct triggers for operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -105,6 +291,17 @@
           <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
           <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
         </ProcessDefinition>
+        <Link Id="UmsIBua1thaLkHTpwinGrA" Ids="BEmTskGNPAVMMBWZupSRQf,A1YdhJCSR9QNPf9J8u6KYx" />
+        <Link Id="AtijJyD4LAyQRUZnm1xb75" Ids="VOVpjXOwM7ULOsfSiGP5ly,Els2OWsnjzdOP5Nrp7xqjG" />
+        <Link Id="TP1RFBc2m1pNGvpXX2NmUL" Ids="CIBHdJaljn5LzndQ97Olsa,QIRLvhhOv0uPrVIIRNx3PR" />
+        <Link Id="TXNUmcGEOPwQasG6UH4uRo" Ids="HVruMyas4WaLrleZv4Jkho,RbEyPBT27ReNMnrThhIM2F" />
+        <Link Id="E1j1uHZ7ZERLfEM6bMUUxk" Ids="J6sjzlOLKQVOg6tdYfk3GK,ULGGB3uEdC4OAwVCqDYTRA" />
+        <Link Id="NkyuZira435N2W72AT9tIj" Ids="RXemK5Lt9bcLhGiepf9oee,MdWfoiGxsOUQAUlnbxU1fE" />
+        <Link Id="SNOmpBWbvs0M8K1faTql1R" Ids="KPm7bmHzhKDPbABLfcHzMV,U0FQSCFKEcrPSRXcVR5Eo8" />
+        <Link Id="SOdO6wXySO2NGmKzSPZJTg" Ids="NU9B5CezBOWONisa6g2Ynh,UKhC3KDcQyYLdG2kFbmrbA" />
+        <Link Id="D6CzuEDw6qLL9XOQuniM5f" Ids="Gyjnp5KXslbLicUJanN5w5,MpY7KZ6N5RwLDddMynaQjb" />
+        <Link Id="CK29sKZbHNLL4OFYG6dC51" Ids="CcuGKMm5eduN6ohQ3VZYoe,R4AsrhJuXuJL0THfLRQ86p" />
+        <Link Id="QsOJN7xTxn3NylV5gkAEVT" Ids="BvtNOQlziQvPahG0fj0vD6,TpSmMfQRE4IL4j7ORAVQeI" />
       </Patch>
     </Node>
   </Patch>
