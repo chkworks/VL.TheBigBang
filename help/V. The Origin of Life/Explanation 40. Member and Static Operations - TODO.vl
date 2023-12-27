@@ -505,7 +505,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="163,782,84,19" Id="RDgaT2jAMxIONwemhpCweu">
+          <Node Bounds="663,782,84,19" Id="RDgaT2jAMxIONwemhpCweu">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation 40. Member and Static Operations - TODO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ColoredCircle" />
@@ -517,7 +517,7 @@
             <Pin Id="TBAtia1lWETOgn2I5pUBpS" Name="Shrink" Kind="InputPin" />
             <Pin Id="I6E59Yx2BZWPWC8F9fZtQV" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="TiaUw6UoErSNxEbILVyxy6" Bounds="92,206,401,434" ShowValueBox="true" isIOBox="true" Value="After the cliffhanger of the last chapter I want to at least introduce you to the concept of Member Operations which are already an important base to understand in preparation for object-oriented programming.&#xD;&#xA;&#xD;&#xA;You already got to know two operations which are enabled by default in every patch and process node: Update and Create. You can use them anytime to specify if a part of your patch should be executed every frame during runtime or just one frame when the patch or process is initialized. &#xD;&#xA;&#xD;&#xA;Operations like Create and Update which belong to an object in VL, in this case to a Process, are called Member Operation. As a user and designer of your own application you've been given the freedom to define as many Member Operations as you like and assign parts of your Process nodes to them. Once an operation is defined inside of the node, it is available on the outside as a trigger and can be used from there. &#xD;&#xA;&#xD;&#xA;In this example, we have implemented a Grow and Shrink operation - look into the definition of the ColoredCircle for further details - note that this time the definition of the Process lies on the definitions side of the patch, right where it belongs.">
+          <Pad Id="TiaUw6UoErSNxEbILVyxy6" Bounds="592,206,401,434" ShowValueBox="true" isIOBox="true" Value="After the cliffhanger of the last chapter I want to at least introduce you to the concept of Member Operations which are already an important base to understand in preparation for object-oriented programming.&#xD;&#xA;&#xD;&#xA;You already got to know two operations which are enabled by default in every patch and process node: Update and Create. You can use them anytime to specify if a part of your patch should be executed every frame during runtime or just one frame when the patch or process is initialized. &#xD;&#xA;&#xD;&#xA;Operations like Create and Update which belong to an object in VL, in this case to a Process, are called Member Operation. As a user and designer of your own application you've been given the freedom to define as many Member Operations as you like and assign parts of your Process nodes to them. Once an operation is defined inside of the node, it is available on the outside as a trigger and can be used from there. &#xD;&#xA;&#xD;&#xA;In this example, we have implemented a Grow and Shrink operation - look into the definition of the ColoredCircle for further details - note that this time the definition of the Process lies on the definitions side of the patch, right where it belongs.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -526,7 +526,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="143,919,145,19" Id="PuHpclkSmhdO25MCKOhOPz">
+          <Node Bounds="643,919,145,19" Id="PuHpclkSmhdO25MCKOhOPz">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -549,7 +549,7 @@
             <Pin Id="PQSdqeD7MzoOjBfiqKEQrc" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="PXvDatlwpGAO06zIiLQBa5" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="RDSulIH4mXxMmjAWrDRp65" Comment="Grow" Bounds="218,715,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="RDSulIH4mXxMmjAWrDRp65" Comment="Grow" Bounds="718,715,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -558,7 +558,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VblVTy8atbdMd90xnIEdSU" Comment="Shrink" Bounds="272,732,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="VblVTy8atbdMd90xnIEdSU" Comment="Shrink" Bounds="772,732,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -567,22 +567,22 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="I1yhuo1JNUxM56TnJ10VB6" Comment="Stroke Width" Bounds="191,690,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
+          <Pad Id="I1yhuo1JNUxM56TnJ10VB6" Comment="Stroke Width" Bounds="691,690,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JFKdI91IVtbNUoEc4XmaIw" Comment="Color" Bounds="165,667,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="JFKdI91IVtbNUoEc4XmaIw" Comment="Color" Bounds="665,667,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="T4a6Bo1ZArcMTSn2sl67gt" Comment="Color" Bounds="185,896,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="T4a6Bo1ZArcMTSn2sl67gt" Comment="Color" Bounds="685,896,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="BoVFK2iOuTHPlJ6aEhk0s3" Bounds="592,701,401,535" ShowValueBox="true" isIOBox="true" Value="If all of this at this point seems to be an overkill for you to grasp mentally, it is save to say that you could leave this theoretical terrain for now. It is not everybody‘s piece of cake to dive into these concepts and one might also just be interested to simply use the nodes that are available from the start. &#xD;&#xA;&#xD;&#xA;However, this is the way, all of the nodes used in this tutorial series are working in the background. All of them have parts that are running during the runtime of vvvv on Update, something that is running once when initialized on Create and an infinite number of parts that are running on specific operations - each operation represented by an individual color.&#xD;&#xA;&#xD;&#xA;It is good that you have been at least confronted once with these terms. Simply knowing about principles like these, which are more in the realm of programming VL than using vvvv will heavily increase your degree of freedom in expressing what you want to achieve. Also, when you are struggling with something and ask in the chat or forum, you will most likely understand the answer that you are getting from the community. This will save time both for you and the person, who helps you: Win-Win.&#xD;&#xA;&#xD;&#xA;Like mentioned in the last chapter, there are more types of nodes that you can define, most important the Record and the Class. But for the rest of this tutorial they are not that important. Nonetheless - if you want to go deeper into the topic of object-oriented programming in VL and get started with defining your own custom Records and Classes, I want to point you to this workshop from Node20: ">
+          <Pad Id="BoVFK2iOuTHPlJ6aEhk0s3" Bounds="1092,701,401,535" ShowValueBox="true" isIOBox="true" Value="If all of this at this point seems to be an overkill for you to grasp mentally, it is save to say that you could leave this theoretical terrain for now. It is not everybody‘s piece of cake to dive into these concepts and one might also just be interested to simply use the nodes that are available from the start. &#xD;&#xA;&#xD;&#xA;However, this is the way, all of the nodes used in this tutorial series are working in the background. All of them have parts that are running during the runtime of vvvv on Update, something that is running once when initialized on Create and an infinite number of parts that are running on specific operations - each operation represented by an individual color.&#xD;&#xA;&#xD;&#xA;It is good that you have been at least confronted once with these terms. Simply knowing about principles like these, which are more in the realm of programming VL than using vvvv will heavily increase your degree of freedom in expressing what you want to achieve. Also, when you are struggling with something and ask in the chat or forum, you will most likely understand the answer that you are getting from the community. This will save time both for you and the person, who helps you: Win-Win.&#xD;&#xA;&#xD;&#xA;Like mentioned in the last chapter, there are more types of nodes that you can define, most important the Record and the Class. But for the rest of this tutorial they are not that important. Nonetheless - if you want to go deeper into the topic of object-oriented programming in VL and get started with defining your own custom Records and Classes, I want to point you to this workshop from Node20: ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -591,7 +591,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IpALaFvWFXEL8reKWLVRB8" Bounds="592,1242,215,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467436333">
+          <Pad Id="IpALaFvWFXEL8reKWLVRB8" Bounds="1092,1242,215,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467436333">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -600,7 +600,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="I66n1ipf0SEM9yCkjQRgL9" Bounds="592,206,401,112" ShowValueBox="true" isIOBox="true" Value="Here is another example of a Process Node in which multiple operations exist to move and scale a three-dimensional object. This time we also make use of toggles to enable or disable the Grow and Shrink operations, just to show that they actually only evaluate while the input is true. If we use a Bang for this, we just set it to true for one frame.">
+          <Pad Id="I66n1ipf0SEM9yCkjQRgL9" Bounds="1092,206,401,112" ShowValueBox="true" isIOBox="true" Value="Here is another example of a Process Node in which multiple operations exist to move and scale a three-dimensional object. This time we also make use of toggles to enable or disable the Grow and Shrink operations, just to show that they actually only evaluate while the input is true. If we use a Bang for this, we just set it to true for one frame.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -609,7 +609,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="645,483,125,19" Id="UsvwHUCPhcPM1nG9QakzGL">
+          <Node Bounds="1145,483,125,19" Id="UsvwHUCPhcPM1nG9QakzGL">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation 40. Member and Static Operations - TODO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="ColoredSphere" />
@@ -624,7 +624,7 @@
             <Pin Id="R9TChGPwxbMNWIp5zuy0kq" Name="Down" Kind="InputPin" />
             <Pin Id="OLB0LK3mPNhMamIEvPW0sE" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="625,642,225,19" Id="Fzd3aVQfRfZPx7plRPfaCE">
+          <Node Bounds="1125,642,225,19" Id="Fzd3aVQfRfZPx7plRPfaCE">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -663,7 +663,7 @@
             <Pin Id="CxqntNRkUkxOBM2AnDVQGM" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
             <Pin Id="PNgyj3g0nJ2QTOdHUYOKhs" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="645,602,65,19" Id="VdN611YhLEFLCpzsKlLhwl">
+          <Node Bounds="1145,602,65,19" Id="VdN611YhLEFLCpzsKlLhwl">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -676,7 +676,7 @@
             <Pin Id="Oy6GPdpszJFMILgIals15a" Name="Enabled" Kind="InputPin" />
             <Pin Id="O5SyCXeHnFqOpzur6K76cG" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="665,521,85,19" Id="K08m7bK6GMcNkfGkeyxuQc">
+          <Node Bounds="1165,521,85,19" Id="K08m7bK6GMcNkfGkeyxuQc">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AmbientLight" />
@@ -689,12 +689,12 @@
             <Pin Id="DIqsBLrtbfsNN1pii6Kgpc" Name="Enabled" Kind="InputPin" />
             <Pin Id="Q6LJ72f87X9MCQ5kebqEOf" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="FNmi9beStmzLhPHV1YQ5vn" Comment="Color" Bounds="647,466,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="FNmi9beStmzLhPHV1YQ5vn" Comment="Color" Bounds="1147,466,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="QWbEJKDxx1MLM6od9DFXvc" Comment="Left" Bounds="825,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="QWbEJKDxx1MLM6od9DFXvc" Comment="Left" Bounds="1325,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -703,7 +703,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Tg0r0JEFyAHMiBfifftp9V" Comment="Right" Bounds="901,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="Tg0r0JEFyAHMiBfifftp9V" Comment="Right" Bounds="1401,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -712,7 +712,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OX4az5YaB1WMC0YSU37TQd" Comment="Up" Bounds="863,349,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="OX4az5YaB1WMC0YSU37TQd" Comment="Up" Bounds="1363,349,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -721,7 +721,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="LAYgBwBdrRXNrlvykMMHzf" Comment="Down" Bounds="863,425,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="LAYgBwBdrRXNrlvykMMHzf" Comment="Down" Bounds="1363,425,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -730,7 +730,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VUcmxm3SRsCQAo2MSCiR0k" Comment="Grow" Bounds="619,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="VUcmxm3SRsCQAo2MSCiR0k" Comment="Grow" Bounds="1119,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -739,7 +739,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KEPn7olw3WFLAI1Q5Z8uaQ" Comment="Shrink" Bounds="708,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="KEPn7olw3WFLAI1Q5Z8uaQ" Comment="Shrink" Bounds="1208,387,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -748,10 +748,10 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="EA9HplJHhNoLZQWhAlNxrp" Bounds="100,964,390,108">
+          <Overlay Id="EA9HplJHhNoLZQWhAlNxrp" Bounds="600,964,390,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="Mav8aSH8SdxNm9a85VX2ou" Bounds="101,982,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="Mav8aSH8SdxNm9a85VX2ou" Bounds="601,982,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -760,7 +760,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="FrCVrbupr2ILklRZOcl9vE" Bounds="101,1013,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+          <Pad Id="FrCVrbupr2ILklRZOcl9vE" Bounds="601,1013,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -769,7 +769,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OeTnvDUh03VMUHYcbpipvY" Bounds="101,1032,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations">
+          <Pad Id="OeTnvDUh03VMUHYcbpipvY" Bounds="601,1032,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -778,7 +778,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="163,854,65,19" Id="SE57JsXzAAyN2e4LtBSKuG">
+          <Node Bounds="663,854,65,19" Id="SE57JsXzAAyN2e4LtBSKuG">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -791,7 +791,7 @@
             <Pin Id="QzyEIL8XGjQLbJdzQej3hy" Name="Enabled" Kind="InputPin" />
             <Pin Id="VjSAhAfyMakM6uf9Qkf1QY" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="183,829,65,19" Id="FmCNSJUux1AMULnCIiSBro">
+          <Node Bounds="683,829,65,19" Id="FmCNSJUux1AMULnCIiSBro">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -804,7 +804,7 @@
             <Pin Id="TvxZmByoKFsMJ23dAVzAko" Name="Layer" Kind="OutputPin" />
             <Pin Id="Etu297u0EZJL5urRmNhDCw" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="685,559,65,19" Id="HTCT7B4psVrNfdVrkfQBh9">
+          <Node Bounds="1185,559,65,19" Id="HTCT7B4psVrNfdVrkfQBh9">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -817,10 +817,19 @@
             <Pin Id="UNEYFIirtbGPW5FQ1Yroxk" Name="Layer" Kind="OutputPin" />
             <Pin Id="S2qLL1xV13eQBbM8k2cAZk" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="PDPxNojgN6ZNVVNm0MRaba" Comment="Clear Color" Bounds="727,623,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="PDPxNojgN6ZNVVNm0MRaba" Comment="Clear Color" Bounds="1227,623,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="MAD1uexSdlcPqPEBWoN12V" Bounds="85,230,365,19" ShowValueBox="true" isIOBox="true" Value="Making the operations of an object available as single nodes">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
           </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
