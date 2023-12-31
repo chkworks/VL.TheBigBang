@@ -68,7 +68,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 37. Algorithms
 
 ### Part V: The Origin of Life
-More chapters about object-oriented patching are currently in the making.
+More chapters about object-oriented patching are currently in the making.<br />
 Supporting me might speed things up!
 
 ## Supporters
