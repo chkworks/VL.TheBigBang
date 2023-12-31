@@ -1,5 +1,5 @@
 # VL.ThePatchersGuide
-A tutorial series of 42 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
+A tutorial series of 37 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
 
 You can also find a short series of video tutorials based on these patches on Youtube.<br />
 https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p
@@ -23,8 +23,8 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 
 ### Part I: The Big Bang
 0. Introduction
-1. Data Types and IOBoxes
-2. Nodes and Pins
+1. Data Types & IOBoxes
+2. Nodes & Pins
 3. Simple Math
 4. Type Conversion
 5. Colors
@@ -35,44 +35,48 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 8. 2D Rendering
 9. 3D Rendering
 10. Complex Data Types
-11. Video and Camera Input
-12. Texture Sources and Effects
-13. Mixing Skia and Stride
-14. Basic Control
-15. Conditions
+11. Process Nodes
+12. Video and Camera Input
+13. Texture Sources & Effects
+14. Mixing Skia & Stride
+15. Controlling Patches
 16. Animation
-17. Transformations
-18. Text Rendering
+17. Typography
+18. Transformations
 
 ### Part III: The Expansion of the Universe
 19. Spreads
 20. Iteration
 21. Spread Generators
-22. More About Loops
+22. Looping Techniques
 23. Pads
-24. Create and Update
-25. Process Nodes
-26. Member Operations
+24. Update & Create
+25. Managing Spreads
+26. Dictionaries
 
 ### Part IV: The Primordial Soup
 27. Mouse Input
 28. Collision
-29. Triggers and Flops
+29. Triggers & Flops
 30. Counting
 31. Keyboard Input
 32. Audio Input
-33. Ranges
-34. Boolean Logic
+33. Boolean Logic
+34. Ranges
 35. Angles
 36. Transitions
 37. Algorithms
 
+### Part V: The Origin of Life
+More chapters about object-oriented patching are currently in the making.
+Supporting me might speed things up!
+
 ## Supporters
-Many thanks to these people for buying me a Mandelbrot (or more) on Ko-Fi!
+Many thanks to these people for buying me a Mandelbrot on Ko-Fi!
 
 cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel, Shaul Tzemach, m4d, Paul Kimmerl, Manuel Ehrenfeld
 
-Also thanks a lot to Rosi, Matthias, Ilina and Julian for proof-reading!
+Also special thanks to Rosi, Matthias, Ilina and Julian for proof-reading!
 
 ## License
 
