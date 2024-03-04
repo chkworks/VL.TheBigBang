@@ -23,7 +23,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 
 ### Part I: The Initial Singularity
 0. Introduction
-1. Data Types & IOBoxes
+1. Types & IOBoxes
 2. Nodes & Pins
 3. Simple Math
 4. Type Conversion
@@ -34,7 +34,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 ### Part II: The Subatomic Particles
 8. 2D Rendering
 9. 3D Rendering
-10. Complex Data Types
+10. Complex Types
 11. Process Nodes
 12. Video and Camera Input
 13. Texture Sources & Effects
@@ -68,8 +68,11 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 37. Algorithms
 
 ### Part V: The Origin of Life
-More chapters about object-oriented patching are currently in the making.<br />
-Supporting me might speed things up!
+Currently I am working on the last chapter of this tutorial series. It will cover everything related to object-oriented patching, touching topics like records and classes, mutability, design patterns, operations and the dispose operation.
+
+Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
 ## Supporters
 Many thanks to these people for buying me a Mandelbrot on Ko-Fi!
