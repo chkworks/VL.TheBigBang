@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LNhGkf7CGB5Lo1HE4DOf13" LanguageVersion="2023.5.3-0423-gee17475a3a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.3-0423-gee17475a3a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LNhGkf7CGB5Lo1HE4DOf13" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -33,7 +33,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,383,25" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,383,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -422,6 +422,7 @@
             <Pin Id="JpUsnyxrBMhMx5i6Z1w9eE" Name="Post Effects" Kind="InputPin" />
             <Pin Id="Fb63BvWpBiKLFrRJruxaEs" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="TEhiJUt7XZeO6pmckhVSfK" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="U9v0vNUvZ1sPqUZOr5drfy" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="AJdq5EjuohsN74keP6umxa" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="MBYyYLa7gihO4jC6RguPbT" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="H6rVPQlfpc8MSpOCLHR4W1" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -797,6 +798,7 @@
             <Pin Id="EupwopmrfUJMuBYj84vYYZ" Name="Post Effects" Kind="InputPin" />
             <Pin Id="MGwdz9OAYBnOoKD4tlgKPQ" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="CbGJdv54uxIMy1eBLEjFjP" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="DjdayjhCjbQLkluSWvTKC5" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="LZ7J8lto59oNaJNajGrx2O" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="TFZ5vmvAkyoPMDUxpQrY2D" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="KF8u0Lt90cvLPZHvdi0r6e" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -1168,7 +1170,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="SeTwTG55yLMOfP32yxAwuS" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="EDX9g6PSix8Pj4yTLEbFFq" Name="Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EDX9g6PSix8Pj4yTLEbFFq" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432" IsHidden="true" />
             <Pin Id="RqHSrw8pZwTMaO6QQvZZ1J" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="B49eEksnOIbMSVDQ3MbOq5" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="KxtUd822kJWNiSB23qLBTi" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1183,6 +1185,7 @@
             <Pin Id="InS8UvjOOA3LGvzlxbfjd2" Name="Post Effects" Kind="InputPin" />
             <Pin Id="Glmf4GaDnWJMYJEiBza93o" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="I5Xcg1SmkvHMRZ26wSZE6x" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AXIqiqPECqENClYoI5QfkH" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="IcqCcOTy7a0MRoUADUtytq" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="NAHzTKFaaN6Ph09kdUNaKZ" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ky8mX7rF3OkMTOe6kLgqhr" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -1493,8 +1496,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="CpOZFVzGDdXNLFdQ2yXzsi" Location="VL.Stride" Version="2023.5.3-0423-gee17475a3a" />
+  <NugetDependency Id="CpOZFVzGDdXNLFdQ2yXzsi" Location="VL.Stride" Version="2024.6.0-0224-g1141930e4a" />
   <DocumentDependency Id="TJzVhfByxNFNEwlOQt6mwZ" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="OjJYrcRZbR2OlR6Wwo5ZSq" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="JZIGao8pJqBOdOvO5sDLlB" Location="VL.Stride.TextureFX" Version="2023.5.3-0423-gee17475a3a" />
+  <NugetDependency Id="JZIGao8pJqBOdOvO5sDLlB" Location="VL.Stride.TextureFX" Version="2024.6.0-0224-g1141930e4a" />
 </Document>

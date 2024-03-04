@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="DyMvzMW966aPIer5IIeA6L" LanguageVersion="2023.5.3-0423-gee17475a3a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2023.5.3-0423-gee17475a3a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="DyMvzMW966aPIer5IIeA6L" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,315,25" ShowValueBox="true" isIOBox="true" Value="The Patcher's Guide to vvvv">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,315,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,6 +173,7 @@
             <Pin Id="HVUcaRJsP7sNSsNWQRqBVw" Name="Post Effects" Kind="InputPin" />
             <Pin Id="HjXQC8R3yt6PJWsVWlC8HX" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="GbwCpvzpUXlLs66QbYT4CT" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UQhT01S6iSvPoizF21Orja" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="P431uIDsL21NNkJY0fA2fA" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="UAgByIWmqiyQQTSPcNNBb4" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="EP48Rb7SSc4MYs0jtReDdR" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -374,6 +375,7 @@
             <Pin Id="GZJrjzzf9JKQNUKv5AifYX" Name="Space" Kind="InputPin" />
             <Pin Id="SxaXfqQejK4OQMrZGukd8T" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="Tys7tbQz6jcMgVbBSpfVwJ" Name="VSync" Kind="InputPin" />
+            <Pin Id="EQvoxD9RN5eP3r8TENuALe" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="DRGaYA1i0NLPS8HitauQD0" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="SEnKdCjDLUrQJqvykWACGt" Name="Enabled" Kind="InputPin" />
             <Pin Id="MBAUn738EyqP7VyiKRRRDM" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
@@ -615,6 +617,7 @@
             <Pin Id="CtEdextNHcbN8hL5c5tnok" Name="Space" Kind="InputPin" />
             <Pin Id="A9uR7bkSoVDN2r8fF9igDI" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="E32h0INs1CANisRwqSWb9T" Name="VSync" Kind="InputPin" />
+            <Pin Id="FN1alfCIxJbNDRQW7RGwOu" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="NHS8mu3Kv8pMWLzTreJzr3" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="T7bAVgUK9djPZolXpWj5MV" Name="Enabled" Kind="InputPin" />
             <Pin Id="J8qGGKPldoePNt8kacELUL" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
@@ -787,7 +790,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="Q0z3qzlO9T5MoPhRuxpOf3" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="QxaadCTOYAtL1hLvluRT53" Name="Bounds" Kind="InputPin" DefaultValue="555.3333, 46.666668, 533.3333, 332.66666" />
+            <Pin Id="QxaadCTOYAtL1hLvluRT53" Name="Bounds" Kind="InputPin" DefaultValue="555, 46.5, 533, 332.5" />
             <Pin Id="EU0h12DimOmPBJf7TGg8k6" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="ECyk0LOHpaTLNSL4YjlDUy" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="FwMQxtVrC8aOtucJ45xdRS" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -802,6 +805,7 @@
             <Pin Id="KbashoJRsqnMpOpvppYASB" Name="Post Effects" Kind="InputPin" />
             <Pin Id="K9cit7WXV3TNRlOU6ONu5e" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="BL7zsF9XvfYOred3TBwzIu" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LGeKMV5KxL4MvWxOsvpUPV" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="Mf0y3XitN3oNrbmzIGs4nu" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="M1BdrAW7q5HPx6YlMWFcsO" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="TfiLBmrCiuAPyOnKLNiQWG" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -1015,6 +1019,7 @@
             <Pin Id="IEd4dP0Bt93P8fVzjILM5L" Name="Post Effects" Kind="InputPin" />
             <Pin Id="CgXqqr1LnjXPuojQtYyd7F" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="MdCKIpS4B5zPzdo0lQYxNR" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+            <Pin Id="ByRfgXezsbnQU7kXgrhlFi" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="VOQbiXWQoCvMugns8QMxU6" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="B7WOFyI4JFsMA7vnMkPIFU" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
             <Pin Id="KDagKyXFI8cPFox7qSf351" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
@@ -1458,6 +1463,7 @@
             <Pin Id="KzFDRwZbaOJN6vQdKPwUHN" Name="Space" Kind="InputPin" />
             <Pin Id="DxlqKDNDGu5NKp53Ydsku6" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="KZQhOAoyAu0MkY40cr6OhQ" Name="VSync" Kind="InputPin" />
+            <Pin Id="Cg8zUIuY1svOVdOp2AloaX" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="Qk3a7KvY8GsPrv63D78aj1" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="LyB9uvTT5K4MjlqWzNm6jj" Name="Enabled" Kind="InputPin" />
             <Pin Id="PGMzKATnJyTQL4YXypsU46" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
@@ -1734,6 +1740,7 @@
             <Pin Id="THRDIg2YKAFOc4JJa1V8zU" Name="Space" Kind="InputPin" />
             <Pin Id="IxoWd6nGFg2MTWWwboWs1A" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="KZCzNnE19QAOig1C3LPUyS" Name="VSync" Kind="InputPin" />
+            <Pin Id="GNAUsEaHOdgN9qBsMFG3pT" Name="Commands" Kind="InputPin" IsHidden="true" />
             <Pin Id="IhrQVy3UWVROZpo3aDSzcn" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
             <Pin Id="SQTnrrqr8JHPFrJxl8Mksv" Name="Enabled" Kind="InputPin" />
             <Pin Id="Bu6jS8dvgUdLGnFPUh0ihY" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
@@ -2286,9 +2293,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2023.5.3-0423-gee17475a3a" />
-  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2023.5.3-0423-gee17475a3a" />
+  <NugetDependency Id="IcwExKKwOYgLEV4NViST81" Location="VL.Skia" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="GI5qaECtEvlOC255bTTDhb" Location="VL.Stride" Version="2024.6.0-0224-g1141930e4a" />
   <DocumentDependency Id="Cy8wpZc5N5wLIdMkMu6kUg" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="DmkeJpHz1nFLndvPLxxiDv" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="L1hXIqFsqzbLx36taEkSDb" Location="VL.Stride.TextureFX" Version="2023.5.3-0423-gee17475a3a" />
+  <NugetDependency Id="L1hXIqFsqzbLx36taEkSDb" Location="VL.Stride.TextureFX" Version="2024.6.0-0224-g1141930e4a" />
 </Document>
