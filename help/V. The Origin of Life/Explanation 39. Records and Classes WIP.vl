@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MQUe5Oq6UbfQS9klNh4Exn" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LyKaJfw1AnfQIp0VRLf4gZ" LanguageVersion="2024.6.0-0244-ga4b76baedd" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0244-ga4b76baedd" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -450,7 +450,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,377,46" ShowValueBox="true" isIOBox="true" Value="26. Dictionaries">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,589,46" ShowValueBox="true" isIOBox="true" Value="39. Records &amp; Classes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -478,7 +478,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VzU9BKiHhefLWsAR5JCMve" Bounds="657,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.3e8.studio">
+          <Pad Id="VzU9BKiHhefLWsAR5JCMve" Bounds="657,106,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -487,444 +487,37 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Rd872W5iOmVOpHRN3BsYhk" Bounds="792,106,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+          <Pad Id="TiaUw6UoErSNxEbILVyxy6" Bounds="92,206,388,100" ShowValueBox="true" isIOBox="true" Value="This patch is currently under construction. Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up.&#xD;&#xA;&#xD;&#xA;Thanks in advance for your support!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7TcP64OOvgNgfdD6LPhok" Bounds="1160,106,140,19" ShowValueBox="true" isIOBox="true" Value="www.ko-fi.com/chk">
+          <Pad Id="OExEGun5uyRPTNMOhdsWPC" Bounds="92,331,193,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TiaUw6UoErSNxEbILVyxy6" Bounds="92,206,401,349" ShowValueBox="true" isIOBox="true" Value="As mentioned in the chapter about spreads there are also other types of collections, and you should at least get introduced to the concept of a dictionary. It is not super necessary for beginner to know, but it is good to at least have heard and read about it for future reference.&#xD;&#xA;&#xD;&#xA;The basic difference between a spread and a dictionary is that in a dictionary, values are saved by a key. This key is usually a string and can be named anything, so it depends on you how you want to store the data and design the structure of your application.&#xD;&#xA;&#xD;&#xA;Also a Dictionary is a good opportunity to show that it is also possible to set the type of a pad by calling the Create operation of the type as a node, and assign it to the Create operation of the patch. That might sound complicated, but many types make their operations such as Create accessible in the node browser - a concept that you will get to know much more in part V, when you will be introduced to the topic of object-oriented patching.&#xD;&#xA;&#xD;&#xA;">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="908,615,65,26" Id="Mhr6jMHYxbQO6ZYS5wpm19">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Add" />
-            </p:NodeReference>
-            <Pin Id="CCX2q2YJOQ7OGX0Hss697b" Name="Input" Kind="StateInputPin" />
-            <Pin Id="AuDZPgQtIqpPvoNR3VAIrE" Name="Key" Kind="InputPin" />
-            <Pin Id="DhnjHrpXMFlOcgxuevKCuE" Name="Value" Kind="InputPin" />
-            <Pin Id="PQqjUMvnzgLPnvJz7Zl3hV" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="KUM4pgsL5DCPtL7tEhguas" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Node Bounds="908,478,53,26" Id="MVj4BS03v1zOrJv4y4ZGW2">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Clear" />
-            </p:NodeReference>
-            <Pin Id="LgHRU6b4AEZOxNbrNNZHUQ" Name="Input" Kind="StateInputPin" />
-            <Pin Id="GaNJ2ztG4qDOeQqJnG0InR" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="ElVPdCb9JcNNrpqgY5g0rB" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Node Bounds="1223,1276,56,26" Id="DXsy6Nb9KrKOkaGSW9kzRO">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Contains" />
-            </p:NodeReference>
-            <Pin Id="MFCMDFkRwoEN8amvzuQK0E" Name="Input" Kind="StateInputPin" />
-            <Pin Id="PK40KW6axlENaGHsWpa8pb" Name="Key" Kind="InputPin" />
-            <Pin Id="Opj1yN5X9hgMBTsT5fbzLs" Name="Value" Kind="InputPin" />
-            <Pin Id="Bwd7scilHVWP2UZMdykpX5" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1298,1276,73,26" Id="EAo73KosW5IPW1VUi7tSQw">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="ContainsKey" />
-            </p:NodeReference>
-            <Pin Id="KwKY21uK7YXQNmNtNwd6pM" Name="Input" Kind="StateInputPin" />
-            <Pin Id="N91Wo1O5O0GPQSpb9BPgzJ" Name="Key" Kind="InputPin" />
-            <Pin Id="HwAWNIpijUnNqDwTcsf1Ep" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="CP30kHX8ipmMwU9sSDDbaL" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="878,1276,53,26" Id="HEXY6ICatHLO5shPLcUYoT">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Keys" />
-            </p:NodeReference>
-            <Pin Id="S3tM5ih5sqkPydCF16e9XF" Name="Input" Kind="StateInputPin" />
-            <Pin Id="SRyzA9LAYWEO9ZFoCDGQ39" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="UjJF790MIPCOrBiywsNgqz" Name="Keys" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="908,983,53,26" Id="U5ixfkC72vMNz9w7TYFfat">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Remove" />
-            </p:NodeReference>
-            <Pin Id="V1SE7J4jnbWNe7nA09G1nW" Name="Input" Kind="StateInputPin" />
-            <Pin Id="DKIh06pgaU8QZOBsYk8H5d" Name="Key" Kind="InputPin" />
-            <Pin Id="D6EqVNjVBdXMtlcNoq8ERM" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="HiqgU4S1vhWQGQREUR3mAB" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Node Bounds="908,854,65,26" Id="T0V89BebTstLoycdXr5I8Q">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="SetItem" />
-            </p:NodeReference>
-            <Pin Id="QVHTHIIRe8KM4v1RGg4ZRR" Name="Input" Kind="StateInputPin" />
-            <Pin Id="U4KoMdbf7mLMGav6pVg5kZ" Name="Key" Kind="InputPin" />
-            <Pin Id="TOuaIhPr41aQDPcJlYLWM9" Name="Value" Kind="InputPin" />
-            <Pin Id="KJlwssMPH3NM9r6TcVb8O3" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="J7RAX8uKESGMK9dS08LkJf" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Node Bounds="971,1276,53,26" Id="U7Uznnd9JP9LjTN6BPgJd7">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" />
-              <Choice Kind="OperationCallFlag" Name="Values" />
-            </p:NodeReference>
-            <Pin Id="J7gDpeHIX4yQH7gthHGDa9" Name="Input" Kind="StateInputPin" />
-            <Pin Id="AZFW1qZwnCcN0Bt4mpDN4f" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="Rajf01d2DmEQRes1R7Wgiy" Name="Values" Kind="OutputPin" />
-          </Node>
-          <Pad Id="GD07Z06yQ8uNRbvJ2Cj9rL" SlotId="U7VysnDPfYqPIXxOKjDrfL" Bounds="880,433" />
-          <Pad Id="VOTXe0RgSm5MU9IeOfBMIM" Comment="Apply" Bounds="970,579,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="NpXHak8c1ZLNCsxEa8x8ei" Comment="Key" Bounds="930,538,35,15" ShowValueBox="true" isIOBox="true" Value="Test">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="MG5SeINw1wAOJmvuoXJFIm" SlotId="U7VysnDPfYqPIXxOKjDrfL" Bounds="880,1054" />
-          <Pad Id="FvYE3a4gDRcP9yUrItEN9L" Comment="" Bounds="950,558,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="TE4ON1FodAgNkUAiuMs2lZ" Comment="Values" Bounds="973,1338,136,65" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="JWsmKqRovzpNecztZjnAQC" Comment="Keys" Bounds="880,1338,35,65" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="908,735,65,26" Id="VO7sIYVgreKLRhVJ9Uj6EZ">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="Add" />
-            </p:NodeReference>
-            <Pin Id="FcXkPRGIFnAMtYuXRl89Tu" Name="Input" Kind="StateInputPin" />
-            <Pin Id="QESLTZQ0kBAPQJvQia1RRz" Name="Key" Kind="InputPin" />
-            <Pin Id="CYj4dtes0zEO2m01Lm8soL" Name="Value" Kind="InputPin" />
-            <Pin Id="APv3W27r5YBL6MU92f3mbN" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="PdHQWFDBuW3QTP4tebbyIz" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Pad Id="ILFk0PleciXPiXKtNkm6xm" Comment="Key" Bounds="1045,645,35,15" ShowValueBox="true" isIOBox="true" Value="Test2">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="GOUGNN3ZNDSP70zbcbOrAT" Comment="Apply" Bounds="970,699,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="GFrMWFlguioNmkcaI4pUgH" Comment="" Bounds="950,678,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="OQ2UhO6u3PYOdDPlAT7WoN" Comment="" Bounds="1225,1338,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="S7rULLjxLdMMzaf2tjHkR5" Comment="Key" Bounds="1250,1121,35,15" ShowValueBox="true" isIOBox="true" Value="Test2">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="RvEbU1C2XrrPcWGqAPcgNg" Comment="" Bounds="1276,1090,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="1390,1276,81,26" Id="K4SvQ9PziGTLpIa3zEC4Bx">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="ContainsValue" />
-            </p:NodeReference>
-            <Pin Id="DWjh91m0rb2QYEATh1fCsg" Name="Input" Kind="StateInputPin" />
-            <Pin Id="JDEQaPIPWZ5MOxiuRxsBpb" Name="Value" Kind="InputPin" />
-            <Pin Id="DveUkH6Cu9WLCM6p2lA2hT" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="AN6n9rhRfxJPha0uHxoOC8" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Pad Id="B5CFJSPsdgBQGdRkPsctQw" Comment="" Bounds="1392,1338,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="RrQTu0Ctz64MliXgcjsTfr" Comment="" Bounds="1300,1338,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="AwCBfVDKXzOMZhUPcx28Xd" Comment="" Bounds="950,795,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.5019608, 0, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="Hbq9kjsMK0NNhF2dGCGTAI" Comment="Apply" Bounds="970,817,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="BRusAXQglGjPWIbfBtQZqK" Comment="Apply" Bounds="958,439,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="JlMiGzFILk2LWExh9B9YEY" Comment="Apply" Bounds="958,943,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="SAJoOYaozGpNSBFC5HzNkI" Comment="Key" Bounds="934,922,35,15" ShowValueBox="true" isIOBox="true" Value="">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="OoPhVpqXXFxPdX6qxVExHl" SlotId="VNFjA30rvhGNkD087Lzy74" Bounds="366,655" />
-          <Pad Id="TEc0P8dFYADNCDc027waOW" SlotId="VNFjA30rvhGNkD087Lzy74" Bounds="366,750" />
-          <Node Bounds="364,600,53,26" Id="E1FITtZ4tjjLkRe6U3XOGP">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="Create" />
-            </p:NodeReference>
-            <Pin Id="DmsgTX0Vc7PNeQWCI7Hxbn" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Vx7TJpHpNmYQNToUyl84Qd" Name="Result" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="JlGlbPG1sGINZAXdSsCgsq" Comment="Key" Bounds="814,1249,35,15" ShowValueBox="true" isIOBox="true" Value="Test">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="746,1265,71,26" Id="OtWBQ6G8UJEQUcLAWOF6F6">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="TryGetValue" />
-            </p:NodeReference>
-            <Pin Id="GLwdcBA759YNxECTUHTXEQ" Name="Input" Kind="StateInputPin" />
-            <Pin Id="PI7IyoxBQB9PSRwgtV5U4K" Name="Key" Kind="InputPin" />
-            <Pin Id="D8SRC8hibSGLN7WoYK4CKN" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="QTrl7EswVD7ODNI1lSFro7" Name="Result" Kind="OutputPin" />
-            <Pin Id="Tzz4wXTcVzsOHC0OKjQKJw" Name="Value" Kind="OutputPin" />
-          </Node>
-          <Pad Id="G4s0SyLchLKQbxK81hv5T8" Comment="" Bounds="748,1310,35,35" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="674,1265,63,26" Id="RkAxgQDJj7OOyGsmCl4orD">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="TryGetKey" />
-            </p:NodeReference>
-            <Pin Id="DdeGRTYzyXfM2KJmyZj61u" Name="Input" Kind="StateInputPin" />
-            <Pin Id="HAqX2DPEdOAPHETXDGVWDn" Name="Equal Key" Kind="InputPin" />
-            <Pin Id="VQ3vUR5ivG1LWI8ASU54mB" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="ENx4rvyRTzsM7phIUePwvo" Name="Result" Kind="OutputPin" />
-            <Pin Id="HzeiYdzZm5WM8z3VpT1F8h" Name="Actual Key" Kind="OutputPin" />
-          </Node>
-          <Pad Id="Uald9p7OzCaLY5wtS5wPtD" Bounds="92,576,215,227" ShowValueBox="true" isIOBox="true" Value="In this example we are calling the Create operation of an empty dictionary as a node, and assign it to the Create operation of the whole patch. If you hover over the pad, it tells us that it is of type Dictionary&lt;T, T2&gt;. Therefore the whole graph is still adaptive at this point because the dictionary does not know yet which type it should contain of, and which data types Add node should work with.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="DziKDmmuBNmOgonNyLMqJG" SlotId="C2LkN0S5wacPK7pUvTZwfa" Bounds="366,897" />
-          <Pad Id="IF88rg93qcBMWp7MbTYBXp" SlotId="C2LkN0S5wacPK7pUvTZwfa" Bounds="366,1061" />
-          <Node Bounds="364,842,53,26" Id="HmmIfbuTInQO66o4a0CN4V">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="Create" />
-            </p:NodeReference>
-            <Pin Id="Sysp1vH3a63M6rMSHyEZPq" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="O2pCaIvhXa0ON7inEHdHsS" Name="Result" Kind="StateOutputPin" />
-          </Node>
-          <Node Bounds="364,1002,65,26" Id="OXaDZtLiBvgPH3Mil9NY6H">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="Add" />
-            </p:NodeReference>
-            <Pin Id="R9dJrBhDozzPcbN47HOuxG" Name="Input" Kind="StateInputPin" />
-            <Pin Id="FPmkrC4Alf5OmdtEnpcd5a" Name="Key" Kind="InputPin" />
-            <Pin Id="UAnpXBuKZh5LKGVKxeE5cv" Name="Value" Kind="InputPin" />
-            <Pin Id="Q1dszd80IozPkiDqqY9XNB" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="Bu4aE60ZUHGL6MNRDyP2gH" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Pad Id="TyYJaQzJ8nELqQOiWxdbxN" Comment="Apply" Bounds="426,967,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="PqEAA7rIWP8LwD3z1szeUT" Comment="Key" Bounds="386,916,79,15" ShowValueBox="true" isIOBox="true" Value="Color1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="V2O500tgnYLMm9osUrDL3Y" Comment="" Bounds="406,941,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
-            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="CM2mHCXLMnJPlT5kHWYojQ" Bounds="92,821,215,203" ShowValueBox="true" isIOBox="true" Value="Once we expose the &quot;Key&quot; and &quot;Value&quot; pins of the Add node and choose a type for the IOBoxes, we are setting the types of the whole graph. In this example, we specify that our keys should be Strings, and that the values for the keys are of type RGBA. At this point, the tooltip of the pad shows that the type of it is of Dictionary&lt;String, RGBA&gt;.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="364,696,65,26" Id="GY7EMB0VFoILTIunUFycff">
-            <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="4026531840" Name="Dictionary" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="Add" />
-            </p:NodeReference>
-            <Pin Id="AHPm1UrvAVzN6swwrC02zu" Name="Input" Kind="StateInputPin" />
-            <Pin Id="ORI7RQ360lpLw5ZSoH0Hxh" Name="Key" Kind="InputPin" />
-            <Pin Id="GVxEM9MnlTsPqeZXC0QCOV" Name="Value" Kind="InputPin" />
-            <Pin Id="H3YqA6Ci8OhOk90JBKTfZz" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="BnViEVDpI1EPWOCcjULajR" Name="Apply" Kind="InputPin" />
-          </Node>
-          <Pad Id="OvxphIjQXWrLcnOBvXb2fG" Comment="Apply" Bounds="426,663,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="A7AijERlLtTPwCN8VrqbpM" Comment="" Bounds="366,1092,164,122" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DLisqY3miUsNl9hKjVILG0" Bounds="92,1048,210,238" ShowValueBox="true" isIOBox="true" Value="If you then expose the output of the pad, you will see an IOBox that shows all entries inside the Dictionary. This is also a good opportunity to demonstrate that each key can only exist once in a Dictionary. If you trigger Apply multiple times, no additional entries are added until you change the Key to some other value. Try this by changing the Key to Color2, set another color and hit Apply another time.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="Qb371JDCG7gLKIdeGTMbdc" Bounds="92,1312,402,86" ShowValueBox="true" isIOBox="true" Value="Of course it is also possible to specify the type of a Pad explicitely, by right-clicking on the label, opening the configuration menu and typing the same instruction like above:&#xD;&#xA;Dictionary&lt;String, RGBA&gt;">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="IemWMBpfBoZLJlCHkBgtlq" SlotId="PU82axR1PqbOPUuHsBL5yv" Bounds="366,1410" />
         </Canvas>
-        <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" ParticipatingElements="QERM9xAh1qqNNwPFt8NNwb,FfH7MSFt3VvQE01qrftfZj" />
-        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" ParticipatingElements="OFeJ1xvBWSSN4GoTjRiJ1y,LWKmQw21OqwO5XYHsqAdva" />
+        <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
+        <Patch Id="JvItJyNFH1vM1L8J2DpJOa" Name="Update" />
         <ProcessDefinition Id="NuPzoCMsW7GODKuqfTaoGi">
           <Fragment Id="PwNxMqKwkmeM80dBPCxASn" Patch="Ll62F0k4X8rN6Niy2TFjSq" Enabled="true" />
           <Fragment Id="RPDl2B8efEdNf4TLP7hnWv" Patch="JvItJyNFH1vM1L8J2DpJOa" Enabled="true" />
         </ProcessDefinition>
-        <Slot Id="U7VysnDPfYqPIXxOKjDrfL" Name="Dictionary" />
-        <Link Id="IAgwXESw8nKNYqfedGlQqx" Ids="VOTXe0RgSm5MU9IeOfBMIM,KUM4pgsL5DCPtL7tEhguas" />
-        <Link Id="EFK5nwn6bYmL1fGYGNj7pt" Ids="NpXHak8c1ZLNCsxEa8x8ei,AuDZPgQtIqpPvoNR3VAIrE" />
-        <Link Id="EsfXdd8OUzzOqQarmn1AFO" Ids="PQqjUMvnzgLPnvJz7Zl3hV,FcXkPRGIFnAMtYuXRl89Tu" />
-        <Link Id="D8rQ05PmsYsMb6vglmgg31" Ids="FvYE3a4gDRcP9yUrItEN9L,DhnjHrpXMFlOcgxuevKCuE" />
-        <Link Id="BZdb0fqwYZeMvCLtWLbS6B" Ids="MG5SeINw1wAOJmvuoXJFIm,J7gDpeHIX4yQH7gthHGDa9" />
-        <Link Id="RFsBMhc31tmNJGi2KYQ9WI" Ids="Rajf01d2DmEQRes1R7Wgiy,TE4ON1FodAgNkUAiuMs2lZ" />
-        <Link Id="HYgbWjiIn2YNTpKjby6dKT" Ids="MG5SeINw1wAOJmvuoXJFIm,S3tM5ih5sqkPydCF16e9XF" />
-        <Link Id="NLGH0fqglF8Ozo1XdWYwYJ" Ids="UjJF790MIPCOrBiywsNgqz,JWsmKqRovzpNecztZjnAQC" />
-        <Link Id="KHFFhEZIc7AOAI3s85lvJY" Ids="ILFk0PleciXPiXKtNkm6xm,QESLTZQ0kBAPQJvQia1RRz" />
-        <Link Id="SvMYc3F0YlmNrsiszMC8zJ" Ids="GOUGNN3ZNDSP70zbcbOrAT,PdHQWFDBuW3QTP4tebbyIz" />
-        <Link Id="SLTSBFyGSaeQXjlEtIl9Cl" Ids="GFrMWFlguioNmkcaI4pUgH,CYj4dtes0zEO2m01Lm8soL" />
-        <Link Id="Rsg98v2wB89PegH9IszBQs" Ids="MG5SeINw1wAOJmvuoXJFIm,MFCMDFkRwoEN8amvzuQK0E" />
-        <Link Id="J9XtZNpGQOfMgo8Tt8uLie" Ids="Bwd7scilHVWP2UZMdykpX5,OQ2UhO6u3PYOdDPlAT7WoN" />
-        <Link Id="V1wYzChv6NkK9fyKM6YnbV" Ids="S7rULLjxLdMMzaf2tjHkR5,PK40KW6axlENaGHsWpa8pb" />
-        <Link Id="BqpX22S0VyQPMsT8KOKt7c" Ids="RvEbU1C2XrrPcWGqAPcgNg,Opj1yN5X9hgMBTsT5fbzLs" />
-        <Link Id="JHAe2i27z8kQWhV9xM6NTb" Ids="MG5SeINw1wAOJmvuoXJFIm,KwKY21uK7YXQNmNtNwd6pM" />
-        <Link Id="FRJzehuBMSHLQXehVgCFn0" Ids="S7rULLjxLdMMzaf2tjHkR5,N91Wo1O5O0GPQSpb9BPgzJ" />
-        <Link Id="CRgie3yrRfdOxRqHrvb5nV" Ids="MG5SeINw1wAOJmvuoXJFIm,DWjh91m0rb2QYEATh1fCsg" />
-        <Link Id="Ff10qPHMzcIOIZlaS5k0ta" Ids="RvEbU1C2XrrPcWGqAPcgNg,JDEQaPIPWZ5MOxiuRxsBpb" />
-        <Link Id="U9xFcNlidfyLredzHD30qn" Ids="AN6n9rhRfxJPha0uHxoOC8,B5CFJSPsdgBQGdRkPsctQw" />
-        <Link Id="VQuB5u1VMGAQLjMrt6lrV2" Ids="CP30kHX8ipmMwU9sSDDbaL,RrQTu0Ctz64MliXgcjsTfr" />
-        <Link Id="PDHif9AmIJRLKiXsAUdbPY" Ids="APv3W27r5YBL6MU92f3mbN,QVHTHIIRe8KM4v1RGg4ZRR" />
-        <Link Id="IxpVXGKS6stOwQL4HsUu6q" Ids="ILFk0PleciXPiXKtNkm6xm,U4KoMdbf7mLMGav6pVg5kZ" />
-        <Link Id="ClfzScny06QNvWprQ5PTBR" Ids="AwCBfVDKXzOMZhUPcx28Xd,TOuaIhPr41aQDPcJlYLWM9" />
-        <Link Id="Emb5X6AmXZVOwOTekGmodl" Ids="Hbq9kjsMK0NNhF2dGCGTAI,J7RAX8uKESGMK9dS08LkJf" />
-        <Link Id="OittJQKEpJzLYzUzRA4Iz2" Ids="GD07Z06yQ8uNRbvJ2Cj9rL,LgHRU6b4AEZOxNbrNNZHUQ" />
-        <Link Id="LhLXoB4kbAaOV84VlFS2A0" Ids="BRusAXQglGjPWIbfBtQZqK,ElVPdCb9JcNNrpqgY5g0rB" />
-        <Link Id="PpP7XLB8x3jPv2W8ZzqBWY" Ids="GaNJ2ztG4qDOeQqJnG0InR,CCX2q2YJOQ7OGX0Hss697b" />
-        <Link Id="Nlx9i57sW0nPxEbEnCtgWQ" Ids="JlMiGzFILk2LWExh9B9YEY,HiqgU4S1vhWQGQREUR3mAB" />
-        <Link Id="MQiKhC4vMhVMWFIVCA473L" Ids="KJlwssMPH3NM9r6TcVb8O3,V1SE7J4jnbWNe7nA09G1nW" />
-        <Link Id="OaaLTUWEz73LQSSjwnwvzy" Ids="D6EqVNjVBdXMtlcNoq8ERM,MG5SeINw1wAOJmvuoXJFIm" />
-        <Link Id="NCqkJvY03uOO7vMAeRtirg" Ids="SAJoOYaozGpNSBFC5HzNkI,DKIh06pgaU8QZOBsYk8H5d" />
-        <Link Id="OFeJ1xvBWSSN4GoTjRiJ1y" Ids="OoPhVpqXXFxPdX6qxVExHl,AHPm1UrvAVzN6swwrC02zu" />
-        <Link Id="QERM9xAh1qqNNwPFt8NNwb" Ids="Vx7TJpHpNmYQNToUyl84Qd,OoPhVpqXXFxPdX6qxVExHl" />
-        <Link Id="Pc6TQnDddQROf3K2wqNwgx" Ids="JlGlbPG1sGINZAXdSsCgsq,PI7IyoxBQB9PSRwgtV5U4K" />
-        <Link Id="R9vb1oBzzNeMaA2f9Z8NE9" Ids="QTrl7EswVD7ODNI1lSFro7,G4s0SyLchLKQbxK81hv5T8" />
-        <Link Id="LWKmQw21OqwO5XYHsqAdva" Ids="DziKDmmuBNmOgonNyLMqJG,R9dJrBhDozzPcbN47HOuxG" />
-        <Link Id="FfH7MSFt3VvQE01qrftfZj" Ids="O2pCaIvhXa0ON7inEHdHsS,DziKDmmuBNmOgonNyLMqJG" />
-        <Link Id="L0gMB927At5PDQDjpsM6ZJ" Ids="Q1dszd80IozPkiDqqY9XNB,IF88rg93qcBMWp7MbTYBXp" />
-        <Link Id="B9TqTkrKZVrMxIsMbeUtmS" Ids="TyYJaQzJ8nELqQOiWxdbxN,Bu4aE60ZUHGL6MNRDyP2gH" />
-        <Link Id="IHJxuvVnyd9NbJ7NS3Qkkl" Ids="PqEAA7rIWP8LwD3z1szeUT,FPmkrC4Alf5OmdtEnpcd5a" />
-        <Link Id="UekmBriZRoUMurhLuKxZsH" Ids="V2O500tgnYLMm9osUrDL3Y,UAnpXBuKZh5LKGVKxeE5cv" />
-        <Link Id="GmHjciGedExQTBCh0DIdYa" Ids="H3YqA6Ci8OhOk90JBKTfZz,TEc0P8dFYADNCDc027waOW" />
-        <Link Id="OB4KVrHXuQaPWJn8foG3NM" Ids="OvxphIjQXWrLcnOBvXb2fG,BnViEVDpI1EPWOCcjULajR" />
-        <Slot Id="VNFjA30rvhGNkD087Lzy74" Name="Pad 1" />
-        <Slot Id="C2LkN0S5wacPK7pUvTZwfa" Name="Pad 2" />
-        <Link Id="LLbFvJJHEPbMxL02cOnHFZ" Ids="IF88rg93qcBMWp7MbTYBXp,A7AijERlLtTPwCN8VrqbpM" />
-        <Slot Id="PU82axR1PqbOPUuHsBL5yv" Name="Pad 3">
-          <p:TypeAnnotation p:Type="TypeReference">
-            <Choice Kind="TypeFlag" Name="Dictionary" />
-            <p:TypeArguments>
-              <TypeReference>
-                <Choice Kind="TypeFlag" Name="String" />
-              </TypeReference>
-              <TypeReference>
-                <Choice Kind="TypeFlag" Name="RGBA" />
-              </TypeReference>
-            </p:TypeArguments>
-          </p:TypeAnnotation>
-        </Slot>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2024.6.0-0224-g1141930e4a" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2024.6.0-0244-ga4b76baedd" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2024.6.0-0244-ga4b76baedd" />
   <DocumentDependency Id="If488M5MReOPOfe0rQLjvZ" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="UFt6l6KaxXaNe3ggr48rlL" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="HLcfKcwDaexPppQEVNP94P" Location="VL.Stride.TextureFX" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="HEhDbZpf6PAQCFCL3884Oo" Location="VL.Stride.TextureFX" Version="2024.6.0-0244-ga4b76baedd" />
 </Document>
