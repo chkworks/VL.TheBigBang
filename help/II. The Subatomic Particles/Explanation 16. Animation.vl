@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Qg7BE8zb556QDNbG9DiQ0s" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Qg7BE8zb556QDNbG9DiQ0s" LanguageVersion="2024.6.0-0244-ga4b76baedd" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0244-ga4b76baedd" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
@@ -1275,7 +1275,6 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="NLBTQbQylVTO2ASqSbCQ1z" Comment="" Bounds="730,1211,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1" />
           <Pad Id="VfdhQ0pV6ShM2xlCzz8A0W" Comment="" Bounds="716,628,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1" />
           <Pad Id="QbSTnjDhAeBQWlAsjMx2gn" Comment="" Bounds="249,498,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
@@ -1795,7 +1794,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="VnT0oeNoZAXNEK1Ql5tVyM" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="SDurPbfu4pcMpHWtEJIA1l" Name="Bounds" Kind="InputPin" DefaultValue="1094.6666, 409.33334, 533.3333, 332.66666" />
+            <Pin Id="SDurPbfu4pcMpHWtEJIA1l" Name="Bounds" Kind="InputPin" DefaultValue="1094.5, 409, 533, 332.5" />
             <Pin Id="FDE3U6QctdpM8AO0KhWscM" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="DT4fR3L7iIYL2d0fwQJCiP" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="AVR3MiAbAL5MeJOPdEnK2q" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1864,6 +1863,11 @@
               <p:fontsize p:Type="Int32">7</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PWPbOmr4pWiM6UeAtvpkri" Comment="" Bounds="730,1206,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
           </Pad>
         </Canvas>
         <Patch Id="Ll62F0k4X8rN6Niy2TFjSq" Name="Create" />
@@ -1981,7 +1985,6 @@
         <Link Id="K2uv49zpBKLOtkKCCe2paz" Ids="KrDMvQLnHDyONKxbbwX1Dh,EPedA0G1zb1MkN3Jt19Hb9" />
         <Link Id="EK4eadqnw6xNpP2navLLAM" Ids="RZPyTpyGKGXNBEb0unZKgA,Kc463B5uTNPOGAtIrQ2gM3" />
         <Link Id="DDQdGXQPEW0MbXUaeGSIvJ" Ids="RZPyTpyGKGXNBEb0unZKgA,CG9a3IX3UKaLy7ZC0oF7WK" />
-        <Link Id="FYXfw503hcMLsFBbsIv0S9" Ids="NLBTQbQylVTO2ASqSbCQ1z,MxOYTbhnf4AQO2WSduXPSs" />
         <Link Id="HkoHM8I3lUUQITJFYC2yvE" Ids="VfdhQ0pV6ShM2xlCzz8A0W,CPYtP4WoFYHMNHj6UJ84vX" />
         <Link Id="GG86h75hrVhPb1hkuhw5xV" Ids="RZPyTpyGKGXNBEb0unZKgA,PrypRlqn3geOKsU367S0gg" />
         <Link Id="KyJ8ot35UYcOOWKYPSLURW" Ids="RZPyTpyGKGXNBEb0unZKgA,Gjnl87aEt5rMIfDwplzVj9" />
@@ -2050,12 +2053,13 @@
         <Link Id="RjezrF3yTfAQPjuZVgHJ63" Ids="OyK4vVfQ9kIOjiGkNgd42R,NfZdjBTZnQ9OrCxtuk9XaE" />
         <Link Id="Lp80BocI5K7MmB0BoNcfQM" Ids="S0nGLNAESMTPZXM5WCoKnT,I781UGjbcoIQcxgkwXYzem" />
         <Link Id="HhXgzxIYLDENqzCAztqQlw" Ids="BVbG0NHsf7MNecEUVzUnP5,JHjva6vpditOM2Sesw4gBj" />
+        <Link Id="CiOT4gq3gaNMuqW9OkvN88" Ids="PWPbOmr4pWiM6UeAtvpkri,MxOYTbhnf4AQO2WSduXPSs" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Mi9FMGrj7pZP6xyWozSI6B" Location="VL.Skia" Version="2024.6.0-0224-g1141930e4a" />
-  <NugetDependency Id="EzARDX1WegOPLitVtWGoXE" Location="VL.Stride" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="Mi9FMGrj7pZP6xyWozSI6B" Location="VL.Skia" Version="2024.6.0-0244-ga4b76baedd" />
+  <NugetDependency Id="EzARDX1WegOPLitVtWGoXE" Location="VL.Stride" Version="2024.6.0-0244-ga4b76baedd" />
   <DocumentDependency Id="OWbs2xzOvm5L767gABkQfJ" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="BdDJnMRfgxQLlDFfp1mSN4" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="K1kxsl8N8t3NE3yLHAB7li" Location="VL.Stride.TextureFX" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="K1kxsl8N8t3NE3yLHAB7li" Location="VL.Stride.TextureFX" Version="2024.6.0-0244-ga4b76baedd" />
 </Document>
