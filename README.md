@@ -1,5 +1,5 @@
 # VL.TheBigBang
-A tutorial series of 37 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
+A tutorial series of 42 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
 
 You can also find a short series of video tutorials based on these patches on Youtube.<br />
 https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p
@@ -52,7 +52,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 23. Pads
 24. Update & Create
 25. Managing Spreads
-26. Dictionaries
+26. Dictionaries ***WIP***
 
 ### Part IV: The Primordial Soup
 27. Mouse Input
@@ -68,9 +68,13 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 37. Algorithms
 
 ### Part V: The Origin of Life
-Currently I am working on the last chapter of this tutorial series. It will cover everything related to object-oriented patching, touching topics like records and classes, mutability, design patterns, operations and the dispose operation.
+38. Mutability ***WIP***
+39. Records & Classes ***WIP***
+40. Operations ***WIP***
+41. Objects as Process Nodes ***WIP***
+42. The Lifecycle of an Object ***WIP***
 
-Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up!
+Currently I am working on the last bits of this tutorial series. Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
