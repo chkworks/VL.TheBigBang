@@ -52,7 +52,7 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 23. Pads
 24. Update & Create
 25. Managing Spreads
-26. Dictionaries ***WIP***
+26. Dictionaries
 
 ### Part IV: The Primordial Soup
 27. Mouse Input
