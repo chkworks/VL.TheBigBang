@@ -81,7 +81,7 @@ Currently I am working on the last bits of this tutorial series. Please consider
 ## Supporters
 Many thanks to these people for buying me a Mandelbrot on Ko-Fi!
 
-cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel, Shaul Tzemach, m4d, Paul Kimmerl, Manuel Ehrenfeld
+cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel, Shaul Tzemach, m4d, Paul Kimmerl, Manuel Ehrenfeld, efx
 
 Also special thanks to Rosi, Matthias, Ilina and Julian for proof-reading!
 
