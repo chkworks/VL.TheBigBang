@@ -67,6 +67,8 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 36. Transitions
 37. Algorithms
 
+Currently I am working on the last bits of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
+
 ### Part V: The Origin of Life
 38. Operations ***WIP***
 39. Mutability vs. Immutability ***WIP***
@@ -74,12 +76,21 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 41. The Lifecycle of an Object ***WIP***
 
 ### Part VI: The Foundations of Culture
-Still undefined chapters about extended topics like serialization, time, file access, state management and building user interfaces.
+42. Time ***WIP***
+43. File Access ***WIP***
+44. Serialization ***WIP***
+45. Data Structures ***WIP***
+46. Networking ***WIP***
+47. State Management ***WIP***
+48. User Interfaces ***WIP***
 
 ### Part VII: The Search for Extraterrestrial Intelligence
-Still undefined chapters about advanced topics like interfaces, design patterns, reactive programming, mutable collections, writing a library and how to structure your project.
-
-Currently I am working on the last bits of this tutorial series. Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up!
+49. Project Structure ***WIP***
+50. Creating a Library ***WIP***
+51. Mutable Collections ***WIP***
+52. Reactive Programming ***WIP***
+53. Interfaces ***WIP***
+54. Design Patterns ***WIP***
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
@@ -92,4 +103,4 @@ Also special thanks to Rosi, Matthias, Ilina and Julian for proof-reading!
 
 ## License
 
-  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/chkworks/VL.TheBigBang">VL.TheBigBang</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.3e8.studio">chk</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> 
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/chkworks/VL.TheBigBang">VL.TheBigBang</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.3e8.studio">chk</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p> 
