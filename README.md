@@ -72,25 +72,26 @@ Currently I am working on the last bits of this tutorial series. Please consider
 ### Part V: The Origin of Life
 38. Operations ***WIP***
 39. Mutability vs. Immutability ***WIP***
-40. Records & Classes ***WIP***
-41. The Lifecycle of an Object ***WIP***
+40. Object-Oriented Patching ***WIP***
+41. Records & Classes ***WIP***
+42. The Lifecycle of an Object ***WIP***
 
 ### Part VI: The Foundations of Culture
-42. Time ***WIP***
-43. File Access ***WIP***
-44. Serialization ***WIP***
-45. Data Structures ***WIP***
-46. Networking ***WIP***
-47. State Management ***WIP***
-48. User Interfaces ***WIP***
+43. Time ***WIP***
+44. File Access ***WIP***
+45. Serialization ***WIP***
+46. Data Structures ***WIP***
+47. Networking ***WIP***
+48. State Management ***WIP***
+49. User Interfaces ***WIP***
 
 ### Part VII: The Search for Extraterrestrial Intelligence
-49. Project Structure ***WIP***
-50. Creating a Library ***WIP***
-51. Mutable Collections ***WIP***
-52. Reactive Programming ***WIP***
-53. Interfaces ***WIP***
-54. Design Patterns ***WIP***
+50. Project Structure ***WIP***
+51. Creating a Library ***WIP***
+52. Mutable Collections ***WIP***
+53. Reactive Programming ***WIP***
+54. Interfaces ***WIP***
+55. Design Patterns ***WIP***
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
