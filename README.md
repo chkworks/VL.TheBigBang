@@ -1,5 +1,5 @@
 # VL.TheBigBang
-A tutorial series of 42 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
+This is a tutorial series covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL.
 
 You can also find a short series of video tutorials based on these patches on Youtube.<br />
 https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p
@@ -68,11 +68,16 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 37. Algorithms
 
 ### Part V: The Origin of Life
-38. Mutability ***WIP***
-39. Records & Classes ***WIP***
-40. Operations ***WIP***
-41. Objects as Process Nodes ***WIP***
-42. The Lifecycle of an Object ***WIP***
+38. Operations ***WIP***
+39. Mutability vs. Immutability ***WIP***
+40. Records & Classes ***WIP***
+41. The Lifecycle of an Object ***WIP***
+
+### Part VI: The Foundations of Culture
+Still undefined chapters about extended topics like serialization, time, file access, state management and building user interfaces.
+
+### Part VII: The Search for Extraterrestrial Intelligence
+Still undefined chapters about advanced topics like interfaces, design patterns, reactive programming, mutable collections, writing a library and how to structure your project.
 
 Currently I am working on the last bits of this tutorial series. Please consider donating via the following link, if this tutorial has helped you and your practice so far and you want to speed things up!
 
