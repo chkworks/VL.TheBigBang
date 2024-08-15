@@ -82,16 +82,18 @@ Currently I am working on the last bits of this tutorial series. Please consider
 45. Serialization ***WIP***
 46. Data Structures ***WIP***
 47. Networking ***WIP***
-48. State Management ***WIP***
-49. User Interfaces ***WIP***
+48. ImGui ***WIP***
+49. State Management ***WIP***
+50. Useful Libraries ***WIP***
 
 ### Part VII: The Search for Extraterrestrial Intelligence
-50. Project Structure ***WIP***
-51. Creating a Library ***WIP***
-52. Mutable Collections ***WIP***
-53. Reactive Programming ***WIP***
-54. Interfaces ***WIP***
-55. Design Patterns ***WIP***
+51. Project Structure ***WIP***
+52. Reactive Programming ***WIP***
+53. Channels ***WIP***
+54. Mutable Collections ***WIP***
+55. Interfaces ***WIP***
+56. Design Patterns ***WIP***
+57. Creating a Library ***WIP**
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
