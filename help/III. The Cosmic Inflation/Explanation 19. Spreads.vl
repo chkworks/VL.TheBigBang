@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SDlvbch25mNP4p1bSSOF3g" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SDlvbch25mNP4p1bSSOF3g" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -370,7 +370,7 @@
           <Node Bounds="728,585,54,19" Id="AYNvJaxXh5dNXkJu94FxDA">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="Random" />
+              <Choice Kind="OperationNode" Name="Random (FromTo)" />
             </p:NodeReference>
             <Pin Id="KvyKGBu7B09QQNaXX4wfFr" Name="From" Kind="InputPin" />
             <Pin Id="LRefYdcW0W4LPULu0bh6YP" Name="To" Kind="InputPin" />
@@ -673,7 +673,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="H1acjkE2ysOOclBNr9cXIl" Bounds="1592,1473,400,202" ShowValueBox="true" isIOBox="true" Value="Like described above, there are a few more implementations for the idea of a list in VL, and the Spread has been defined as the convenient go-to solution which covers most of all cases. &#xD;&#xA;&#xD;&#xA;However, sometimes you might be confronted with other collection types. In this series of patches this will only happen one time in chapter 30 (Audio Analysis), where you need to convert from a so-called IReadableList. As any collection in VL is in the background also a Sequence, you can use the FromSequence node to convert any collection into a spread and use all the nodes that are described in this tutorial.">
+          <Pad Id="H1acjkE2ysOOclBNr9cXIl" Bounds="1592,1473,400,212" ShowValueBox="true" isIOBox="true" Value="Like described above, there are a few more implementations for the idea of a list in VL, and the Spread has been defined as the convenient go-to solution which covers most of all cases. &#xD;&#xA;&#xD;&#xA;However, sometimes you might be confronted with other collection types. In this series of patches this will only happen one time in chapter 30 (Audio Analysis), where you need to convert from a so-called IReadableList. As any collection in VL is in the background also a Sequence, you can use the FromSequence node to convert any collection into a spread and use all the nodes that are described in this tutorial.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
