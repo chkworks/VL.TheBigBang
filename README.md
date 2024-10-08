@@ -92,7 +92,7 @@ Currently I am working on the last bits of this tutorial series. Please consider
 53. State Management ***WIP***
 54. Important Libraries ***WIP***
 55. Creating a Library ***WIP***
-56. Extending vvvv
+56. Extending vvvv ***WIP***
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
