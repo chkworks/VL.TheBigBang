@@ -84,15 +84,15 @@ Currently I am working on the last bits of this tutorial series. Please consider
 47. Networking ***WIP***
 48. Reactive Programming ***WIP***
 49. Channels ***WIP***
+50. Interfaces ***WIP***
 
 ### Part VII: The Search for Extraterrestrial Intelligence
-50. Project Structure ***WIP***
-51. State Management ***WIP***
+51. Project Structure ***WIP***
 52. Building User Interfaces ***WIP***
-53. Libraries ***WIP***
-54. Interfaces ***WIP***
-55. Design Patterns ***WIP***
-56. Creating a Library ***WIP**
+53. State Management ***WIP***
+54. Important Libraries ***WIP***
+55. Creating a Library ***WIP***
+56. Extending vvvv
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
