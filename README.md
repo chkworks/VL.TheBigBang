@@ -9,7 +9,7 @@ If you find this material helpful, please consider supporting its development.
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
 ## Installation
-If you are new to vvvv, download it over at www.visualprogramming.net.
+If you are new to vvvv, download it over at [vvvv.org](https://vvvv.org).
 
 Afterwards, click on the little gray icon in the top left corner (the so-called Quad Menu), navigate to "Manage Nugets > Commandline" and type the following:
 
